@@ -1,0 +1,473 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#fema.xsd">
+<rdfs:label>fema.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+    
+      
+      
+    
+  
+  
+  <owl:Class rdf:about="#BuildingBasementStructureCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#fema.xsd"/>
+<rdfs:comment>A data type for a kind of basement structure, defined as any level or story which has its floor subgrade on all sides.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>none</rdfs:label>
+<rdf:type rdf:resource="#BuildingBasementStructureCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Finished Basement/Enclosure</rdfs:label>
+<rdf:type rdf:resource="#BuildingBasementStructureCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Unfinished Basement/Enclosure</rdfs:label>
+<rdf:type rdf:resource="#BuildingBasementStructureCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Crawlspace</rdfs:label>
+<rdf:type rdf:resource="#BuildingBasementStructureCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Subgrade Crawlspace</rdfs:label>
+<rdf:type rdf:resource="#BuildingBasementStructureCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#BuildingCommunityRatingSystemDiscountCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#fema.xsd"/>
+<rdfs:comment>A data type for a Community Rating System (CRS) Classification Credit Percentage used to rate the policy. The insurance premium credit is based on whether a property is in or out of the Special Flood Hazard Area (SFHA) as shown on the community's Flood Insurance Rate Map. The premium credit for properties in the SFHA increases according to a community's CRS class. **These percentages are subject to change. Always refer to the Flood Insurance Manual for the latest information.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>SFHA 45% ** Non SFHA 10% **</rdfs:label>
+<rdf:type rdf:resource="#BuildingCommunityRatingSystemDiscountCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>SFHA 0% Non SFHA 0%</rdfs:label>
+<rdf:type rdf:resource="#BuildingCommunityRatingSystemDiscountCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>SFHA 40% ** Non SFHA 10% **</rdfs:label>
+<rdf:type rdf:resource="#BuildingCommunityRatingSystemDiscountCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>SFHA 35% ** Non SFHA 10% **</rdfs:label>
+<rdf:type rdf:resource="#BuildingCommunityRatingSystemDiscountCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>SFHA 30% ** Non SFHA 10% **</rdfs:label>
+<rdf:type rdf:resource="#BuildingCommunityRatingSystemDiscountCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>SFHA 25% ** Non SFHA 10% **</rdfs:label>
+<rdf:type rdf:resource="#BuildingCommunityRatingSystemDiscountCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>SFHA 20% ** Non SFHA10% **</rdfs:label>
+<rdf:type rdf:resource="#BuildingCommunityRatingSystemDiscountCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>SFHA 15% ** Non SFHA 5% **</rdfs:label>
+<rdf:type rdf:resource="#BuildingCommunityRatingSystemDiscountCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>SFHA 10% ** Non SFHA 5% **</rdfs:label>
+<rdf:type rdf:resource="#BuildingCommunityRatingSystemDiscountCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>SFHA 5% Non SFHA 5%</rdfs:label>
+<rdf:type rdf:resource="#BuildingCommunityRatingSystemDiscountCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#BuildingCondominiumCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#fema.xsd"/>
+<rdfs:comment>A data type for a kind of condominium property.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#A">
+<rdfs:label>The entire condominium building owned by the association insuring building common elements as well as building elements (additions and alterations) within all units in the building, not eligible under Condominium Master Policy</rdfs:label>
+<rdf:type rdf:resource="#BuildingCondominiumCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H">
+<rdfs:label>The entire residential condominium building owned by the association eligible under Condominium Master Policy, insuring the entire condominium building common elements as well as building elements (additions and alterations) within all units in the building, for High-Rise</rdfs:label>
+<rdf:type rdf:resource="#BuildingCondominiumCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L">
+<rdfs:label>The entire residential condominium building owned by the association eligible under Condominium Master Policy, insuring the entire condominium building common elements as well as building elements (additions and alterations) within all units in the building, for Low-Rise</rdfs:label>
+<rdf:type rdf:resource="#BuildingCondominiumCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N">
+<rdfs:label>Not a condominium</rdfs:label>
+<rdf:type rdf:resource="#BuildingCondominiumCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#T">
+<rdfs:label>Townhouses</rdfs:label>
+<rdf:type rdf:resource="#BuildingCondominiumCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#U">
+<rdfs:label>An individual condominium unit owned by a unit owner, or by a condominium association</rdfs:label>
+<rdf:type rdf:resource="#BuildingCondominiumCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#BuildingContentsLocationCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#fema.xsd"/>
+<rdfs:comment>A data type for a location within a structure where contents are located.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Basement/Enclosure/Crawlspace/Subgrade Crawlspace only</rdfs:label>
+<rdf:type rdf:resource="#BuildingContentsLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Basement/Enclosure/Crawlspace/Subgrade Crawlspace and above</rdfs:label>
+<rdf:type rdf:resource="#BuildingContentsLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Lowest floor only above ground level (No basement/enclosure/crawlspace/subgrade crawlspace)</rdfs:label>
+<rdf:type rdf:resource="#BuildingContentsLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Lowest floor above ground level and higher floors (No basement/enclosure/crawlspace/subgrade crawlspace)</rdfs:label>
+<rdf:type rdf:resource="#BuildingContentsLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Above ground level more than one full floor</rdfs:label>
+<rdf:type rdf:resource="#BuildingContentsLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Manufactured (mobile) home or travel trailer on foundation</rdfs:label>
+<rdf:type rdf:resource="#BuildingContentsLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#BuildingElevationCertificateCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#fema.xsd"/>
+<rdfs:comment>A data type for what kind of elevation certificate and rating appear on a policy.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>No Elevation Certificate, original effective date prior to October 1, 1982, with no break in insurance coverage or change in insurable interest. Policies will be rated using 'No Base Flood Elevation' +2 to +4 feet rates</rdfs:label>
+<rdf:type rdf:resource="#BuildingElevationCertificateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>No Elevation Certificate, original effective date on or after October 1, 1982, with no break in insurance coverage or change in insurable interest. Policies will be rated using 'No Elevation Certificate' rates</rdfs:label>
+<rdf:type rdf:resource="#BuildingElevationCertificateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Elevation Certificate with BFE. Policies will be rated using 'With Base Flood Elevation' rates</rdfs:label>
+<rdf:type rdf:resource="#BuildingElevationCertificateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Elevation Certificate without BFE. Policies will be rated using 'No Base Flood Elevation' rates</rdfs:label>
+<rdf:type rdf:resource="#BuildingElevationCertificateCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#BuildingFloodZoneSimpleType">
+<rdfs:subClassOf rdf:resource="#fema.xsd"/>
+<rdfs:comment>A data type for a flood zone derived from the Flood Insurance Rate Map (FIRM) used to rate the property. *AHB, AOB, ARE, ARH, ARO, and ARA are not risk zones shown on a map, but are acceptable values for rating purposes</rdfs:comment>
+</owl:Class>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#BuildingFloorQuantityCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#fema.xsd"/>
+<rdfs:comment>A data type for a number of floors in the building.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>One floor</rdfs:label>
+<rdf:type rdf:resource="#BuildingFloorQuantityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Two floors</rdfs:label>
+<rdf:type rdf:resource="#BuildingFloorQuantityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Three or more floors</rdfs:label>
+<rdf:type rdf:resource="#BuildingFloorQuantityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Split-level</rdfs:label>
+<rdf:type rdf:resource="#BuildingFloorQuantityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Manufactured (mobile) home or travel trailer on foundation</rdfs:label>
+<rdf:type rdf:resource="#BuildingFloorQuantityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Townhouse/Rowhouse with three or more floors (RCBAP Low-rise only)</rdfs:label>
+<rdf:type rdf:resource="#BuildingFloorQuantityCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#BuildingObstructionCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#fema.xsd"/>
+<rdfs:comment>A data type for a kind of obstruction in a building or enclosure.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#15">
+<rdfs:label>With obstruction: enclosure/crawlspace with proper openings not used for rating (not applicable in V zones)</rdfs:label>
+<rdf:type rdf:resource="#BuildingObstructionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20">
+<rdfs:label>With obstruction: less than 300 sq. ft. with breakaway walls, but no machinery or equipment attached to building below lowest elevated floor, or elevation of machinery/equipment is at or above Base Flood Elevation</rdfs:label>
+<rdf:type rdf:resource="#BuildingObstructionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24">
+<rdfs:label>With obstruction: less than 300 sq. ft. with breakaway walls or finished enclosure and with machinery or equipment attached to building below lowest elevated floor, and elevation of machinery/equipment is below Base Flood Elevation</rdfs:label>
+<rdf:type rdf:resource="#BuildingObstructionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30">
+<rdfs:label>With obstruction: 300 sq. ft. or more with breakaway walls, but no machinery or equipment attached to building below the Base Flood Elevation</rdfs:label>
+<rdf:type rdf:resource="#BuildingObstructionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34">
+<rdfs:label>With obstruction: 300 sq. ft. or more with breakaway walls or finished enclosure and with machinery or equipment attached to building below the Base Flood Elevation</rdfs:label>
+<rdf:type rdf:resource="#BuildingObstructionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#40">
+<rdfs:label>With obstruction: no walls, but the elevation of machinery or equipment attached to building is below Base Flood Elevation (NOTE: Use Obstruction Type '10' and Without Obstruction Rate Table if the elevation of machinery/equipment is at or above Base Flood Elevation.)</rdfs:label>
+<rdf:type rdf:resource="#BuildingObstructionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#50">
+<rdfs:label>With obstruction: nonbreakaway walls/crawlspace or finished enclosure with no machinery or equipment attached to building below lowest elevated floor</rdfs:label>
+<rdf:type rdf:resource="#BuildingObstructionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#54">
+<rdfs:label>With obstruction: nonbreakaway walls/crawlspace or finished enclosure with machinery or equipment attached to building below lowest elevated floor</rdfs:label>
+<rdf:type rdf:resource="#BuildingObstructionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#60">
+<rdfs:label>With obstruction</rdfs:label>
+<rdf:type rdf:resource="#BuildingObstructionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#70">
+<rdfs:label>With Certification subgrade crawlspace (AE, A01-A30, unnumbered A, AO, AH, AOB, AHB zones)</rdfs:label>
+<rdf:type rdf:resource="#BuildingObstructionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#80">
+<rdfs:label>Without Certification subgrade crawlspace (all zones)</rdfs:label>
+<rdf:type rdf:resource="#BuildingObstructionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#90">
+<rdfs:label>With Enclosure: Elevated buildings with elevator below the BFE in A zones. No other enclosure below the BFE.</rdfs:label>
+<rdf:type rdf:resource="#BuildingObstructionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#94">
+<rdfs:label>With Obstruction: Elevated buildings with elevator below the BFE in V zones. No other obstruction or machinery and equipment (ME) servicing the building located below the BFE.</rdfs:label>
+<rdf:type rdf:resource="#BuildingObstructionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#95">
+<rdfs:label>With Obstruction: Elevated buildings with elevator below the BFE in V zones. Breakaway wall obstruction is unfinished and elevator and obstruction are located below the BFE, but no machinery and equipment servicing the building is located below the BFE.</rdfs:label>
+<rdf:type rdf:resource="#BuildingObstructionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#96">
+<rdfs:label>With Obstruction: Elevated buildings with elevator below the BFE in V zones. Breakaway wall obstruction is finished or is used for other than parking, building access, or storage.</rdfs:label>
+<rdf:type rdf:resource="#BuildingObstructionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#97">
+<rdfs:label>With Obstruction: Elevated buildings with elevator below the BFE in V zones. No other obstruction, but has ME servicing the building located below the BFE.</rdfs:label>
+<rdf:type rdf:resource="#BuildingObstructionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#98">
+<rdfs:label>With Obstruction: Elevated buildings with elevator below the BFE in V zones. Breakaway walls obstruction and ME servicing the building are located below the BFE.</rdfs:label>
+<rdf:type rdf:resource="#BuildingObstructionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#BuildingOccupancyCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#fema.xsd"/>
+<rdfs:comment>A data type for a kind of use and occupancy type of a structure.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>1=single family residence</rdfs:label>
+<rdf:type rdf:resource="#BuildingOccupancyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>2 to 4 unit residential building</rdfs:label>
+<rdf:type rdf:resource="#BuildingOccupancyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>residential building with more than 4 units</rdfs:label>
+<rdf:type rdf:resource="#BuildingOccupancyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Non-residential building</rdfs:label>
+<rdf:type rdf:resource="#BuildingOccupancyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#BuildingPolicyRateMethodCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#fema.xsd"/>
+<rdfs:comment>A data type for a kind of policy rating method.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Manual</rdfs:label>
+<rdf:type rdf:resource="#BuildingPolicyRateMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Specific</rdfs:label>
+<rdf:type rdf:resource="#BuildingPolicyRateMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Alternative</rdfs:label>
+<rdf:type rdf:resource="#BuildingPolicyRateMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>V-Zone Risk Factor Rating Form</rdfs:label>
+<rdf:type rdf:resource="#BuildingPolicyRateMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Underinsured Condominium Master Policy</rdfs:label>
+<rdf:type rdf:resource="#BuildingPolicyRateMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Provisional</rdfs:label>
+<rdf:type rdf:resource="#BuildingPolicyRateMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Preferred Risk Policy (PRPs issued for eligible properties located within a non-Special Flood Hazard Area [non-SFHA])</rdfs:label>
+<rdf:type rdf:resource="#BuildingPolicyRateMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Tentative</rdfs:label>
+<rdf:type rdf:resource="#BuildingPolicyRateMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>MPPP Policy</rdfs:label>
+<rdf:type rdf:resource="#BuildingPolicyRateMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A">
+<rdfs:label>Optional Post-1981 V Zone</rdfs:label>
+<rdf:type rdf:resource="#BuildingPolicyRateMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B">
+<rdfs:label>Pre-FIRM policies with elevation rating - Flood Insurance Manual rate tables</rdfs:label>
+<rdf:type rdf:resource="#BuildingPolicyRateMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E">
+<rdfs:label>FEMA Pre-FIRM Special Rates</rdfs:label>
+<rdf:type rdf:resource="#BuildingPolicyRateMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F">
+<rdfs:label>Leased Federal Property</rdfs:label>
+<rdf:type rdf:resource="#BuildingPolicyRateMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G">
+<rdfs:label>Group Flood Insurance Policy (GFIP)</rdfs:label>
+<rdf:type rdf:resource="#BuildingPolicyRateMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#P">
+<rdfs:label>Preferred Risk Policy (A PRP renewal issued in the first year following a map revision for an eligible property that was newly mapped into the SFHA by the map revision, or new business written for an eligible property that was newly mapped into the SFHA by a map revision effective on or after October 1, 2008 - PRP Eligibility Extension)</rdfs:label>
+<rdf:type rdf:resource="#BuildingPolicyRateMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Q">
+<rdfs:label>Preferred Risk Policy (subsequent PRP renewals where the previous policy year was reported as a 'P' or 'Q')</rdfs:label>
+<rdf:type rdf:resource="#BuildingPolicyRateMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S">
+<rdfs:label>FEMA Special Rates</rdfs:label>
+<rdf:type rdf:resource="#BuildingPolicyRateMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#T">
+<rdfs:label>Severe Repetitive Loss Properties (formerly Target Group Full Risk). Effective October 1, 2013, code will no longer be valid</rdfs:label>
+<rdf:type rdf:resource="#BuildingPolicyRateMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W">
+<rdfs:label>Pre-FIRM policies with elevation rating - Submit-for-Rate procedures</rdfs:label>
+<rdf:type rdf:resource="#BuildingPolicyRateMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+</rdf:RDF>
+

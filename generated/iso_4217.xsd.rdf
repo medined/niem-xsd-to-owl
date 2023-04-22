@@ -1,0 +1,748 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#iso_4217.xsd">
+<rdfs:label>iso_4217.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+  
+  
+  
+  <owl:Class rdf:about="#CurrencyCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#iso_4217.xsd"/>
+<rdfs:comment>A data type for a currency that qualifies a monetary amount.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#AED">
+<rdfs:label>UAE Dirham</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AFN">
+<rdfs:label>Afghani</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALL">
+<rdfs:label>Lek</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AMD">
+<rdfs:label>Armenian Dram</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANG">
+<rdfs:label>Netherlands Antillean Guilder</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AOA">
+<rdfs:label>Kwanza</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ARS">
+<rdfs:label>Argentine Peso</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AUD">
+<rdfs:label>Australian Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AWG">
+<rdfs:label>Aruban Florin</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AZN">
+<rdfs:label>Azerbaijan Manat</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BAM">
+<rdfs:label>Convertible Mark</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BBD">
+<rdfs:label>Barbados Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BDT">
+<rdfs:label>Taka</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BGN">
+<rdfs:label>Bulgarian Lev</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BHD">
+<rdfs:label>Bahraini Dinar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BIF">
+<rdfs:label>Burundi Franc</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BMD">
+<rdfs:label>Bermudian Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BND">
+<rdfs:label>Brunei Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BOB">
+<rdfs:label>Boliviano</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BOV">
+<rdfs:label>Mvdol</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BRL">
+<rdfs:label>Brazilian Real</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BSD">
+<rdfs:label>Bahamian Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BTN">
+<rdfs:label>Ngultrum</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BWP">
+<rdfs:label>Pula</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BYN">
+<rdfs:label>Belarusian Ruble</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BZD">
+<rdfs:label>Belize Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CAD">
+<rdfs:label>Canadian Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CDF">
+<rdfs:label>Congolese Franc</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CHE">
+<rdfs:label>WIR Euro</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CHF">
+<rdfs:label>Swiss Franc</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CHW">
+<rdfs:label>WIR Franc</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CLF">
+<rdfs:label>Unidad de Fomento</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CLP">
+<rdfs:label>Chilean Peso</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CNY">
+<rdfs:label>Yuan Renminbi</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COP">
+<rdfs:label>Colombian Peso</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COU">
+<rdfs:label>Unidad de Valor Real</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CRC">
+<rdfs:label>Costa Rican Colon</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CUC">
+<rdfs:label>Peso Convertible</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CUP">
+<rdfs:label>Cuban Peso</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CVE">
+<rdfs:label>Cabo Verde Escudo</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CZK">
+<rdfs:label>Czech Koruna</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DJF">
+<rdfs:label>Djibouti Franc</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DKK">
+<rdfs:label>Danish Krone</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DOP">
+<rdfs:label>Dominican Peso</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DZD">
+<rdfs:label>Algerian Dinar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EGP">
+<rdfs:label>Egyptian Pound</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ERN">
+<rdfs:label>Nakfa</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ETB">
+<rdfs:label>Ethiopian Birr</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EUR">
+<rdfs:label>Euro</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FJD">
+<rdfs:label>Fiji Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FKP">
+<rdfs:label>Falkland Islands Pound</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GBP">
+<rdfs:label>Pound Sterling</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GEL">
+<rdfs:label>Lari</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GHS">
+<rdfs:label>Ghana Cedi</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GIP">
+<rdfs:label>Gibraltar Pound</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GMD">
+<rdfs:label>Dalasi</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GNF">
+<rdfs:label>Guinean Franc</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GTQ">
+<rdfs:label>Quetzal</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GYD">
+<rdfs:label>Guyana Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HKD">
+<rdfs:label>Hong Kong Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HNL">
+<rdfs:label>Lempira</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HRK">
+<rdfs:label>Kuna</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HTG">
+<rdfs:label>Gourde</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HUF">
+<rdfs:label>Forint</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IDR">
+<rdfs:label>Rupiah</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ILS">
+<rdfs:label>New Israeli Sheqel</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INR">
+<rdfs:label>Indian Rupee</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IQD">
+<rdfs:label>Iraqi Dinar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IRR">
+<rdfs:label>Iranian Rial</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ISK">
+<rdfs:label>Iceland Krona</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#JMD">
+<rdfs:label>Jamaican Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#JOD">
+<rdfs:label>Jordanian Dinar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#JPY">
+<rdfs:label>Yen</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KES">
+<rdfs:label>Kenyan Shilling</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KGS">
+<rdfs:label>Som</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KHR">
+<rdfs:label>Riel</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KMF">
+<rdfs:label>Comorian Franc</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KPW">
+<rdfs:label>North Korean Won</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KRW">
+<rdfs:label>Won</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KWD">
+<rdfs:label>Kuwaiti Dinar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KYD">
+<rdfs:label>Cayman Islands Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KZT">
+<rdfs:label>Tenge</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LAK">
+<rdfs:label>Lao Kip</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LBP">
+<rdfs:label>Lebanese Pound</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LKR">
+<rdfs:label>Sri Lanka Rupee</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LRD">
+<rdfs:label>Liberian Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LSL">
+<rdfs:label>Loti</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LYD">
+<rdfs:label>Libyan Dinar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MAD">
+<rdfs:label>Moroccan Dirham</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MDL">
+<rdfs:label>Moldovan Leu</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MGA">
+<rdfs:label>Malagasy Ariary</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MKD">
+<rdfs:label>Denar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MMK">
+<rdfs:label>Kyat</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MNT">
+<rdfs:label>Tugrik</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MOP">
+<rdfs:label>Pataca</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MRU">
+<rdfs:label>Ouguiya</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MUR">
+<rdfs:label>Mauritius Rupee</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MVR">
+<rdfs:label>Rufiyaa</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MWK">
+<rdfs:label>Malawi Kwacha</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MXN">
+<rdfs:label>Mexican Peso</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MXV">
+<rdfs:label>Mexican Unidad de Inversion (UDI)</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MYR">
+<rdfs:label>Malaysian Ringgit</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MZN">
+<rdfs:label>Mozambique Metical</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NAD">
+<rdfs:label>Namibia Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NGN">
+<rdfs:label>Naira</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NIO">
+<rdfs:label>Cordoba Oro</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NOK">
+<rdfs:label>Norwegian Krone</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NPR">
+<rdfs:label>Nepalese Rupee</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NZD">
+<rdfs:label>New Zealand Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OMR">
+<rdfs:label>Rial Omani</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PAB">
+<rdfs:label>Balboa</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PEN">
+<rdfs:label>Sol</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PGK">
+<rdfs:label>Kina</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PHP">
+<rdfs:label>Philippine Peso</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PKR">
+<rdfs:label>Pakistan Rupee</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PLN">
+<rdfs:label>Zloty</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PYG">
+<rdfs:label>Guarani</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#QAR">
+<rdfs:label>Qatari Rial</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RON">
+<rdfs:label>Romanian Leu</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RSD">
+<rdfs:label>Serbian Dinar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RUB">
+<rdfs:label>Russian Ruble</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RWF">
+<rdfs:label>Rwanda Franc</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SAR">
+<rdfs:label>Saudi Riyal</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SBD">
+<rdfs:label>Solomon Islands Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SCR">
+<rdfs:label>Seychelles Rupee</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SDG">
+<rdfs:label>Sudanese Pound</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SEK">
+<rdfs:label>Swedish Krona</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SGD">
+<rdfs:label>Singapore Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SHP">
+<rdfs:label>Saint Helena Pound</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SLL">
+<rdfs:label>Leone</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SOS">
+<rdfs:label>Somali Shilling</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SRD">
+<rdfs:label>Surinam Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SSP">
+<rdfs:label>South Sudanese Pound</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STN">
+<rdfs:label>Dobra</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SVC">
+<rdfs:label>El Salvador Colon</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SYP">
+<rdfs:label>Syrian Pound</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SZL">
+<rdfs:label>Lilangeni</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#THB">
+<rdfs:label>Baht</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TJS">
+<rdfs:label>Somoni</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TMT">
+<rdfs:label>Turkmenistan New Manat</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TND">
+<rdfs:label>Tunisian Dinar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TOP">
+<rdfs:label>Pa&#8217;anga</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRY">
+<rdfs:label>Turkish Lira</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TTD">
+<rdfs:label>Trinidad and Tobago Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TWD">
+<rdfs:label>New Taiwan Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TZS">
+<rdfs:label>Tanzanian Shilling</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UAH">
+<rdfs:label>Hryvnia</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UGX">
+<rdfs:label>Uganda Shilling</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#USD">
+<rdfs:label>US Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#USN">
+<rdfs:label>US Dollar (Next day)</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UYI">
+<rdfs:label>Uruguay Peso en Unidades Indexadas (UI)</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UYU">
+<rdfs:label>Peso Uruguayo</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UYW">
+<rdfs:label>Unidad Previsional</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UZS">
+<rdfs:label>Uzbekistan Sum</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VES">
+<rdfs:label>Bol&#237;var Soberano</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VND">
+<rdfs:label>Dong</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VUV">
+<rdfs:label>Vatu</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WST">
+<rdfs:label>Tala</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XAF">
+<rdfs:label>CFA Franc BEAC</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XAG">
+<rdfs:label>Silver</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XAU">
+<rdfs:label>Gold</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XBA">
+<rdfs:label>Bond Markets Unit European Composite Unit (EURCO)</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XBB">
+<rdfs:label>Bond Markets Unit European Monetary Unit (E.M.U.-6)</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XBC">
+<rdfs:label>Bond Markets Unit European Unit of Account 9 (E.U.A.-9)</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XBD">
+<rdfs:label>Bond Markets Unit European Unit of Account 17 (E.U.A.-17)</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XCD">
+<rdfs:label>East Caribbean Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XDR">
+<rdfs:label>SDR (Special Drawing Right)</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XOF">
+<rdfs:label>CFA Franc BCEAO</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XPD">
+<rdfs:label>Palladium</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XPF">
+<rdfs:label>CFP Franc</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XPT">
+<rdfs:label>Platinum</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XSU">
+<rdfs:label>Sucre</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XTS">
+<rdfs:label>Codes specifically reserved for testing purposes</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XUA">
+<rdfs:label>ADB Unit of Account</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XXX">
+<rdfs:label>The codes assigned for transactions where no currency is involved</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#YER">
+<rdfs:label>Yemeni Rial</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ZAR">
+<rdfs:label>Rand</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ZMW">
+<rdfs:label>Zambian Kwacha</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ZWL">
+<rdfs:label>Zimbabwe Dollar</rdfs:label>
+<rdf:type rdf:resource="#CurrencyCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+  
+</rdf:RDF>
+

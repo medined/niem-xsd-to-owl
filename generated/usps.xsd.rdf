@@ -1,0 +1,1176 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#usps.xsd">
+<rdfs:label>usps.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+  
+  
+  
+  <owl:Class rdf:about="#StreetDirectionalCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#usps.xsd"/>
+<rdfs:comment>A data type for street directionals.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#E">
+<rdfs:label>EAST</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionalCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N">
+<rdfs:label>NORTH</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionalCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NE">
+<rdfs:label>NORTHEAST</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionalCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NW">
+<rdfs:label>NORTHWEST</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionalCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S">
+<rdfs:label>SOUTH</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionalCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SE">
+<rdfs:label>SOUTHEAST</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionalCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SW">
+<rdfs:label>SOUTHWEST</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionalCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W">
+<rdfs:label>WEST</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionalCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#StreetSuffixCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#usps.xsd"/>
+<rdfs:comment>A data type for suffix forms that are primary street suffix names, common street suffixes or suffix abbreviations, and recommended official Postal Service standard suffix abbreviations.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#ALY">
+<rdfs:label>ALLEY</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANX">
+<rdfs:label>ANEX</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ARC">
+<rdfs:label>ARCADE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AVE">
+<rdfs:label>AVENUE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BCH">
+<rdfs:label>BEACH</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BG">
+<rdfs:label>BURG</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BGS">
+<rdfs:label>BURGS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BLF">
+<rdfs:label>BLUFF</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BLFS">
+<rdfs:label>BLUFFS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BLVD">
+<rdfs:label>BOULEVARD</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BND">
+<rdfs:label>BEND</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BR">
+<rdfs:label>BRANCH</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BRG">
+<rdfs:label>BRIDGE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BRK">
+<rdfs:label>BROOK</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BRKS">
+<rdfs:label>BROOKS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BTM">
+<rdfs:label>BOTTOM</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BYP">
+<rdfs:label>BYPASS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BYU">
+<rdfs:label>BAYOU</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CIR">
+<rdfs:label>CIRCLE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CIRS">
+<rdfs:label>CIRCLES</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CLB">
+<rdfs:label>CLUB</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CLF">
+<rdfs:label>CLIFF</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CLFS">
+<rdfs:label>CLIFFS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CMN">
+<rdfs:label>COMMON</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CMNS">
+<rdfs:label>COMMONS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COR">
+<rdfs:label>CORNER</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CORS">
+<rdfs:label>CORNERS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CP">
+<rdfs:label>CAMP</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CPE">
+<rdfs:label>CAPE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CRES">
+<rdfs:label>CRESCENT</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CRK">
+<rdfs:label>CREEK</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CRSE">
+<rdfs:label>COURSE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CRST">
+<rdfs:label>CREST</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CSWY">
+<rdfs:label>CAUSEWAY</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CT">
+<rdfs:label>COURT</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CTR">
+<rdfs:label>CENTER</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CTRS">
+<rdfs:label>CENTERS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CTS">
+<rdfs:label>COURTS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CURV">
+<rdfs:label>CURVE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CV">
+<rdfs:label>COVE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CVS">
+<rdfs:label>COVES</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CYN">
+<rdfs:label>CANYON</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DL">
+<rdfs:label>DALE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DM">
+<rdfs:label>DAM</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DR">
+<rdfs:label>DRIVE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DRS">
+<rdfs:label>DRIVES</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DV">
+<rdfs:label>DIVIDE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EST">
+<rdfs:label>ESTATE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ESTS">
+<rdfs:label>ESTATES</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EXPY">
+<rdfs:label>EXPRESSWAY</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EXT">
+<rdfs:label>EXTENSION</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EXTS">
+<rdfs:label>EXTENSIONS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FALL">
+<rdfs:label>FALL</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FLD">
+<rdfs:label>FIELD</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FLDS">
+<rdfs:label>FIELDS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FLS">
+<rdfs:label>FALLS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FLT">
+<rdfs:label>FLAT</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FLTS">
+<rdfs:label>FLATS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FRD">
+<rdfs:label>FORD</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FRDS">
+<rdfs:label>FORDS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FRG">
+<rdfs:label>FORGE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FRGS">
+<rdfs:label>FORGES</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FRK">
+<rdfs:label>FORK</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FRKS">
+<rdfs:label>FORKS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FRST">
+<rdfs:label>FOREST</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FRY">
+<rdfs:label>FERRY</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FT">
+<rdfs:label>FORT</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FWY">
+<rdfs:label>FREEWAY</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GDN">
+<rdfs:label>GARDEN</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GDNS">
+<rdfs:label>GARDENS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GLN">
+<rdfs:label>GLEN</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GLNS">
+<rdfs:label>GLENS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GRN">
+<rdfs:label>GREEN</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GRNS">
+<rdfs:label>GREENS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GRV">
+<rdfs:label>GROVE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GRVS">
+<rdfs:label>GROVES</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GTWY">
+<rdfs:label>GATEWAY</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HBR">
+<rdfs:label>HARBOR</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HBRS">
+<rdfs:label>HARBORS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HL">
+<rdfs:label>HILL</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HLS">
+<rdfs:label>HILLS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HOLW">
+<rdfs:label>HOLLOW</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HTS">
+<rdfs:label>HEIGHTS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HVN">
+<rdfs:label>HAVEN</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HWY">
+<rdfs:label>HIGHWAY</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INLT">
+<rdfs:label>INLET</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IS">
+<rdfs:label>ISLAND</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ISLE">
+<rdfs:label>ISLE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ISS">
+<rdfs:label>ISLANDS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#JCT">
+<rdfs:label>JUNCTION</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#JCTS">
+<rdfs:label>JUNCTIONS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KNL">
+<rdfs:label>KNOLL</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KNLS">
+<rdfs:label>KNOLLS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KY">
+<rdfs:label>KEY</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KYS">
+<rdfs:label>KEYS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LAND">
+<rdfs:label>LAND</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LCK">
+<rdfs:label>LOCK</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LCKS">
+<rdfs:label>LOCKS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LDG">
+<rdfs:label>LODGE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LF">
+<rdfs:label>LOAF</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LGT">
+<rdfs:label>LIGHT</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LGTS">
+<rdfs:label>LIGHTS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LK">
+<rdfs:label>LAKE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LKS">
+<rdfs:label>LAKES</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LN">
+<rdfs:label>LANE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LNDG">
+<rdfs:label>LANDING</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LOOP">
+<rdfs:label>LOOP</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MALL">
+<rdfs:label>MALL</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MDW">
+<rdfs:label>MEADOW</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MDWS">
+<rdfs:label>MEADOWS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MEWS">
+<rdfs:label>MEWS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ML">
+<rdfs:label>MILL</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MLS">
+<rdfs:label>MILLS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MNR">
+<rdfs:label>MANOR</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MNRS">
+<rdfs:label>MANORS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MSN">
+<rdfs:label>MISSION</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MT">
+<rdfs:label>MOUNT</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MTN">
+<rdfs:label>MOUNTAIN</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MTNS">
+<rdfs:label>MOUNTAINS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MTWY">
+<rdfs:label>MOTORWAY</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NCK">
+<rdfs:label>NECK</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OPAS">
+<rdfs:label>OVERPASS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ORCH">
+<rdfs:label>ORCHARD</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OVAL">
+<rdfs:label>OVAL</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PARK">
+<rdfs:label>PARK</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PARK">
+<rdfs:label>PARKS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PASS">
+<rdfs:label>PASS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PATH">
+<rdfs:label>PATH</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PIKE">
+<rdfs:label>PIKE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PKWY">
+<rdfs:label>PARKWAY</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PKWY">
+<rdfs:label>PARKWAYS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PL">
+<rdfs:label>PLACE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PLN">
+<rdfs:label>PLAIN</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PLNS">
+<rdfs:label>PLAINS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PLZ">
+<rdfs:label>PLAZA</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PNE">
+<rdfs:label>PINE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PNES">
+<rdfs:label>PINES</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PR">
+<rdfs:label>PRAIRIE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PRT">
+<rdfs:label>PORT</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PRTS">
+<rdfs:label>PORTS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PSGE">
+<rdfs:label>PASSAGE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PT">
+<rdfs:label>POINT</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PTS">
+<rdfs:label>POINTS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RADL">
+<rdfs:label>RADIAL</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RAMP">
+<rdfs:label>RAMP</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RD">
+<rdfs:label>ROAD</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RDG">
+<rdfs:label>RIDGE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RDGS">
+<rdfs:label>RIDGES</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RDS">
+<rdfs:label>ROADS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RIV">
+<rdfs:label>RIVER</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RNCH">
+<rdfs:label>RANCH</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ROW">
+<rdfs:label>ROW</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RPD">
+<rdfs:label>RAPID</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RPDS">
+<rdfs:label>RAPIDS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RST">
+<rdfs:label>REST</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RTE">
+<rdfs:label>ROUTE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RUE">
+<rdfs:label>RUE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RUN">
+<rdfs:label>RUN</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SHL">
+<rdfs:label>SHOAL</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SHLS">
+<rdfs:label>SHOALS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SHR">
+<rdfs:label>SHORE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SHRS">
+<rdfs:label>SHORES</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SKWY">
+<rdfs:label>SKYWAY</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SMT">
+<rdfs:label>SUMMIT</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SPG">
+<rdfs:label>SPRING</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SPGS">
+<rdfs:label>SPRINGS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SPUR">
+<rdfs:label>SPUR</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SPUR">
+<rdfs:label>SPURS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SQ">
+<rdfs:label>SQUARE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SQS">
+<rdfs:label>SQUARES</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ST">
+<rdfs:label>STREET</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STA">
+<rdfs:label>STATION</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STRA">
+<rdfs:label>STRAVENUE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STRM">
+<rdfs:label>STREAM</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STS">
+<rdfs:label>STREETS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TER">
+<rdfs:label>TERRACE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TPKE">
+<rdfs:label>TURNPIKE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRAK">
+<rdfs:label>TRACK</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRCE">
+<rdfs:label>TRACE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRFY">
+<rdfs:label>TRAFFICWAY</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRL">
+<rdfs:label>TRAIL</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRLR">
+<rdfs:label>TRAILER</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRWY">
+<rdfs:label>THROUGHWAY</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TUNL">
+<rdfs:label>TUNNEL</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UN">
+<rdfs:label>UNION</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UNS">
+<rdfs:label>UNIONS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UPAS">
+<rdfs:label>UNDERPASS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VIA">
+<rdfs:label>VIADUCT</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VIS">
+<rdfs:label>VISTA</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VL">
+<rdfs:label>VILLE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VLG">
+<rdfs:label>VILLAGE</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VLGS">
+<rdfs:label>VILLAGES</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VLY">
+<rdfs:label>VALLEY</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VLYS">
+<rdfs:label>VALLEYS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VW">
+<rdfs:label>VIEW</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VWS">
+<rdfs:label>VIEWS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WALK">
+<rdfs:label>WALK</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WALK">
+<rdfs:label>WALKS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WALL">
+<rdfs:label>WALL</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WAY">
+<rdfs:label>WAY</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WAYS">
+<rdfs:label>WAYS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WL">
+<rdfs:label>WELL</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WLS">
+<rdfs:label>WELLS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XING">
+<rdfs:label>CROSSING</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XRD">
+<rdfs:label>CROSSROAD</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XRDS">
+<rdfs:label>CROSSROADS</rdfs:label>
+<rdf:type rdf:resource="#StreetSuffixCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#USStateCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#usps.xsd"/>
+<rdfs:comment>A data type for states.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#AA">
+<rdfs:label>Armed Forces Americas (except Canada)</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AE">
+<rdfs:label>Armed Forces Europe, the Middle East, and Canada</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AK">
+<rdfs:label>Alaska</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AL">
+<rdfs:label>Alabama</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AP">
+<rdfs:label>Armed Forces Pacific</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AR">
+<rdfs:label>Arkansas</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AS">
+<rdfs:label>American Samoa</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AZ">
+<rdfs:label>Arizona</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CA">
+<rdfs:label>California</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CO">
+<rdfs:label>Colorado</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CT">
+<rdfs:label>Connecticut</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DC">
+<rdfs:label>District of Columbia</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DE">
+<rdfs:label>Delaware</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FL">
+<rdfs:label>Florida</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FM">
+<rdfs:label>Federated States of Micronesia</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GA">
+<rdfs:label>Georgia</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GU">
+<rdfs:label>Guam</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HI">
+<rdfs:label>Hawaii</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IA">
+<rdfs:label>Iowa</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ID">
+<rdfs:label>Idaho</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IL">
+<rdfs:label>Illinois</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IN">
+<rdfs:label>Indiana</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KS">
+<rdfs:label>Kansas</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KY">
+<rdfs:label>Kentucky</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LA">
+<rdfs:label>Louisiana</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MA">
+<rdfs:label>Massachusetts</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MD">
+<rdfs:label>Maryland</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ME">
+<rdfs:label>Maine</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MH">
+<rdfs:label>Marshall Islands</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MI">
+<rdfs:label>Michigan</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MN">
+<rdfs:label>Minnesota</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MO">
+<rdfs:label>Missouri</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MP">
+<rdfs:label>Northern Mariana Islands</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MS">
+<rdfs:label>Mississippi</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MT">
+<rdfs:label>Montana</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NC">
+<rdfs:label>North Carolina</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ND">
+<rdfs:label>North Dakota</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NE">
+<rdfs:label>Nebraska</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NH">
+<rdfs:label>New Hampshire</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NJ">
+<rdfs:label>New Jersey</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NM">
+<rdfs:label>New Mexico</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NV">
+<rdfs:label>Nevada</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NY">
+<rdfs:label>New York</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OH">
+<rdfs:label>Ohio</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OK">
+<rdfs:label>Oklahoma</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OR">
+<rdfs:label>Oregon</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PA">
+<rdfs:label>Pennsylvania</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PR">
+<rdfs:label>Puerto Rico</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PW">
+<rdfs:label>Palau</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RI">
+<rdfs:label>Rhode Island</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SC">
+<rdfs:label>South Carolina</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SD">
+<rdfs:label>South Dakota</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TN">
+<rdfs:label>Tennessee</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TX">
+<rdfs:label>Texas</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UT">
+<rdfs:label>Utah</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VA">
+<rdfs:label>Virginia</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VI">
+<rdfs:label>Virgin Islands</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VT">
+<rdfs:label>Vermont</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WA">
+<rdfs:label>Washington</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WI">
+<rdfs:label>Wisconsin</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WV">
+<rdfs:label>West Virginia</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WY">
+<rdfs:label>Wyoming</rdfs:label>
+<rdf:type rdf:resource="#USStateCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+</rdf:RDF>
+

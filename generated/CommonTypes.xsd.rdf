@@ -1,0 +1,88 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#CommonTypes.xsd">
+<rdfs:label>CommonTypes.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+	
+		
+	
+	<owl:Class rdf:about="#String">
+<rdfs:subClassOf rdf:resource="#CommonTypes.xsd"/>
+<rdfs:comment>Normalized and Collapsed String</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#DataQualityTypeList">
+<rdfs:subClassOf rdf:resource="#CommonTypes.xsd"/>
+<rdfs:comment>A list of values to indicate the level of reliability of the data</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Valid">
+<rdfs:label>The data was validated and is considered to be true and correct.</rdfs:label>
+<rdf:type rdf:resource="#DataQualityTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Invalid">
+<rdfs:label>Indicates that at least some part of the content is known to be incorrect.</rdfs:label>
+<rdf:type rdf:resource="#DataQualityTypeList"/>
+</owl:NamedIndividual>
+
+	<owl:Class rdf:about="#StatusList">
+<rdfs:subClassOf rdf:resource="#CommonTypes.xsd"/>
+<rdfs:comment>A list of values to indicate the status of the entity</rdfs:comment>
+</owl:Class>
+
+	
+		
+			
+		
+		
+			
+				
+			
+		
+		
+			
+				
+			
+		
+	
+	
+		
+			
+		
+		
+			
+				
+			
+		
+	
+	
+		
+			
+		
+		
+			
+				
+			
+		
+		
+			
+				
+			
+		
+		
+			
+				
+			
+		
+	
+	
+		
+			
+		
+		
+			
+				
+			
+		
+	
+</rdf:RDF>
+

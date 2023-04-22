@@ -1,0 +1,2284 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#dea.xsd">
+<rdfs:label>dea.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+  
+  
+  
+  <owl:Class rdf:about="#DEAClassScheduleCodeCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#dea.xsd"/>
+<rdfs:comment>A data type for a class to which the Drug Enforcement Agency (DEA) has assigned the product under the Controlled Substances Act of 1970.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#I">
+<rdfs:label>Schedule I Controlled Substances.  Substances in this schedule have no currently accepted medical use in the United States, a lack of accepted safety for use under medical supervision, and a high potential for abuse.</rdfs:label>
+<rdf:type rdf:resource="#DEAClassScheduleCodeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#II">
+<rdfs:label>Schedule II Controlled Substances.  Substances in this schedule have a high potential for abuse which may lead to severe psychological or physical dependence.</rdfs:label>
+<rdf:type rdf:resource="#DEAClassScheduleCodeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#III">
+<rdfs:label>Schedule III Controlled Substances.  Substances in this schedule have a potential for abuse less than substances in Schedules I or II and abuse may lead to moderate or low physical dependence or high psychological dependence.</rdfs:label>
+<rdf:type rdf:resource="#DEAClassScheduleCodeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IV">
+<rdfs:label>Schedule IV Controlled Substances.  Substances in this schedule have a low potential for abuse relative to substances in Schedule III.</rdfs:label>
+<rdf:type rdf:resource="#DEAClassScheduleCodeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#V">
+<rdfs:label>Schedule V Controlled Substances.  Substances in this schedule have a low potential for abuse relative to substances listed in Schedule IV and consist primarily of preparations containing limited quantities of certain narcotics.</rdfs:label>
+<rdf:type rdf:resource="#DEAClassScheduleCodeCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DrugCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#dea.xsd"/>
+<rdfs:comment>A data type for a kind of substance by which a person is intoxicated.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#A1">
+<rdfs:label>Amphetamine (clandestine)</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A2">
+<rdfs:label>Methamphetamine (clandestine)</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A3">
+<rdfs:label>Crystal Methamphetamine ("ice")</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A4">
+<rdfs:label>P2P</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A5">
+<rdfs:label>Methcathinone</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A6">
+<rdfs:label>Other Stimulant (clandestine)</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A7">
+<rdfs:label>Amphetamine or Stimulant Related Chemical</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A8">
+<rdfs:label>Methylphenidate</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B1">
+<rdfs:label>Pseudoephedrine</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B2">
+<rdfs:label>Ephedrine</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B3">
+<rdfs:label>Iodine or Red Phosphorus</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C1">
+<rdfs:label>Cocaine HCL</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C2">
+<rdfs:label>Cocaine Base (excluding crack)</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C3">
+<rdfs:label>Crack Cocaine</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C4">
+<rdfs:label>Cocaine (pharmaceutical)</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C5">
+<rdfs:label>Cocaine Related Chemical</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D1">
+<rdfs:label>Depressant (clandestine)</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D2">
+<rdfs:label>Methaqualone</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D3">
+<rdfs:label>Fentanyl (clandestine)</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D4">
+<rdfs:label>Depressant Related Chemical</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E1">
+<rdfs:label>Chemical Equipment (non drug specific)</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G1">
+<rdfs:label>GHB or GBL or BD (And GHB Analogues)</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G2">
+<rdfs:label>Ketamine (And Its Analogues)</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G3">
+<rdfs:label>Unspecified Analogues</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H1">
+<rdfs:label>Heroin</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H2">
+<rdfs:label>Opium</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H3">
+<rdfs:label>Morphine Base</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H4">
+<rdfs:label>Opium or Heroin or Morphine Related Chemical</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L1">
+<rdfs:label>LSD</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L2">
+<rdfs:label>PCP</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L3">
+<rdfs:label>MDA or MDMA or MDE</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L4">
+<rdfs:label>Other Hallucinogen</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L5">
+<rdfs:label>Hallucinogen Related Chemical</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M1">
+<rdfs:label>Marijuana (foreign origin)</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M2">
+<rdfs:label>Marijuana (domestic origin)</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M3">
+<rdfs:label>Indoor cultivation</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M4">
+<rdfs:label>Hashish</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M5">
+<rdfs:label>Hashish Oil</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N1">
+<rdfs:label>Opioid Treatment Pharmaceuticals</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N2">
+<rdfs:label>Hydromorphone (Dilaudid)</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N3">
+<rdfs:label>Schedule II Pharmaceutical Narcotic</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N4">
+<rdfs:label>Schedule II Pharmaceutical Non Narcotic</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N5">
+<rdfs:label>Schedule III Narcotic</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N6">
+<rdfs:label>Benzodiazepine</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N7">
+<rdfs:label>All Other Pharmaceutical Controlled Substances</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N8">
+<rdfs:label>Oxycodone</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N9">
+<rdfs:label>Hydrocodone</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#R1">
+<rdfs:label>Palladone</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S1">
+<rdfs:label>Steroid (pharmaceutical)</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S2">
+<rdfs:label>Steroid (clandestine)</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Z1">
+<rdfs:label>No Specific Drug</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DrugCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#dea.xsd"/>
+<rdfs:comment>A data type for drug codes.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1100">
+<rdfs:label>Amphetamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1105">
+<rdfs:label>Methamphetamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1205">
+<rdfs:label>Lisdexamfetamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1228">
+<rdfs:label>Benzphetamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1230">
+<rdfs:label>Cathine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1233">
+<rdfs:label>3-Fluoro-N-methylcathinone (3-FMC)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1235">
+<rdfs:label>Cathinone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1237">
+<rdfs:label>Methcathinone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1238">
+<rdfs:label>4-Fluoro-N-methylcathinone (4-FMC)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1246">
+<rdfs:label>Pentedrone (&#945;-methylaminovalerophenone)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1248">
+<rdfs:label>Mephedrone (4-Methyl-N-methylcathinone)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1249">
+<rdfs:label>4-Methyl-N-ethylcathinone (4-MEC)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1258">
+<rdfs:label>Naphyrone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1405">
+<rdfs:label>Stimulant compounds previously excepted</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1475">
+<rdfs:label>N-Ethylamphetamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1480">
+<rdfs:label>N,N-Dimethylamphetamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1485">
+<rdfs:label>Pyrovalerone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1503">
+<rdfs:label>Fenethylline</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1530">
+<rdfs:label>Pemoline</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1575">
+<rdfs:label>Fenproporex</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1580">
+<rdfs:label>Mefenorex</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1585">
+<rdfs:label>Aminorex</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1590">
+<rdfs:label>4-Methylaminorex (cis isomer)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1605">
+<rdfs:label>Mazindol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1610">
+<rdfs:label>Diethylpropion</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1615">
+<rdfs:label>Phendimetrazine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1625">
+<rdfs:label>Lorcaserin</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1631">
+<rdfs:label>Phenmetrazine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1635">
+<rdfs:label>SPA</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1640">
+<rdfs:label>Phentermine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1645">
+<rdfs:label>Chlorphentermine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1647">
+<rdfs:label>Clortermine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1670">
+<rdfs:label>Dexfenfluramine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1670">
+<rdfs:label>Fenfluramine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1675">
+<rdfs:label>Sibutramine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1680">
+<rdfs:label>Modafinil</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1724">
+<rdfs:label>Methylphenidate</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1750">
+<rdfs:label>Pipradrol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1760">
+<rdfs:label>Fencamfamin</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2010">
+<rdfs:label>Gamma Hydroxybutyric Acid</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2012">
+<rdfs:label>Gamma Hydroxybutyric Acid preparations</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2020">
+<rdfs:label>Embutramide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2100">
+<rdfs:label>Aprobarbital</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2100">
+<rdfs:label>Barbituric acid derivative</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2100">
+<rdfs:label>Butabarbital (secbutabarbital)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2100">
+<rdfs:label>Butalbital</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2100">
+<rdfs:label>Butobarbital (butethal)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2100">
+<rdfs:label>Talbutal</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2100">
+<rdfs:label>Thiamylal</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2100">
+<rdfs:label>Thiopental</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2100">
+<rdfs:label>Vinbarbital</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2125">
+<rdfs:label>Amobarbital</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2126">
+<rdfs:label>Amobarbital &amp; noncontrolled active ingred.</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2126">
+<rdfs:label>Amobarbital suppository dosage form</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2138">
+<rdfs:label>Fospropofol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2145">
+<rdfs:label>Barbital</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2223">
+<rdfs:label>Suvorexant</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2250">
+<rdfs:label>Methylphenobarbital (mephobarbital)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2261">
+<rdfs:label>Perampanel</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2264">
+<rdfs:label>Methohexital</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2270">
+<rdfs:label>Pentobarbital</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2271">
+<rdfs:label>Pentobarbital &amp; noncontrolled active ingred.</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2271">
+<rdfs:label>Pentobarbital suppository dosage form</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2285">
+<rdfs:label>Phenobarbital</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2315">
+<rdfs:label>Secobarbital</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2316">
+<rdfs:label>Secobarbital &amp; noncontrolled active ingred</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2316">
+<rdfs:label>Secobarbital suppository dosage form</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2460">
+<rdfs:label>Chloral betaine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2465">
+<rdfs:label>Chloral hydrate</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2467">
+<rdfs:label>Dichloralphenazone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2510">
+<rdfs:label>Chlorhexadol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2540">
+<rdfs:label>Ethchlorvynol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2545">
+<rdfs:label>Ethinamate</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2550">
+<rdfs:label>Glutethimide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2565">
+<rdfs:label>Methaqualone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2572">
+<rdfs:label>Mecloqualone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2575">
+<rdfs:label>Methyprylon</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2585">
+<rdfs:label>Paraldehyde</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2591">
+<rdfs:label>Petrichloral</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2600">
+<rdfs:label>Sulfondiethylmethane</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2605">
+<rdfs:label>Sulfonethylmethane</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2610">
+<rdfs:label>Sulfonmethane</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2710">
+<rdfs:label>Brivaracetam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2731">
+<rdfs:label>Alfaxalone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2737">
+<rdfs:label>Clonazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2744">
+<rdfs:label>Chlordiazepoxide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2746">
+<rdfs:label>Lacosamide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2748">
+<rdfs:label>Bromazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2749">
+<rdfs:label>Camazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2751">
+<rdfs:label>Clobazam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2752">
+<rdfs:label>Clotiazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2753">
+<rdfs:label>Cloxazolam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2754">
+<rdfs:label>Delorazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2756">
+<rdfs:label>Estazolam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2758">
+<rdfs:label>Ethyl loflazepate</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2759">
+<rdfs:label>Fludiazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2762">
+<rdfs:label>Halazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2763">
+<rdfs:label>Flunitrazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2764">
+<rdfs:label>Prazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2765">
+<rdfs:label>Diazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2767">
+<rdfs:label>Flurazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2768">
+<rdfs:label>Clorazepate</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2771">
+<rdfs:label>Haloxazolam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2772">
+<rdfs:label>Ketazolam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2773">
+<rdfs:label>Loprazolam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2774">
+<rdfs:label>Lormetazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2779">
+<rdfs:label>Ezogabine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2781">
+<rdfs:label>Zaleplon</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2782">
+<rdfs:label>Pregabalin</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2783">
+<rdfs:label>Zolpidem</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2784">
+<rdfs:label>Zopiclone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2800">
+<rdfs:label>Mebutamate</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2820">
+<rdfs:label>Meprobamate</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2834">
+<rdfs:label>Nitrazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2835">
+<rdfs:label>Oxazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2836">
+<rdfs:label>Medazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2837">
+<rdfs:label>Nimetazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2838">
+<rdfs:label>Nordiazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2839">
+<rdfs:label>Oxazolam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2881">
+<rdfs:label>Quazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2882">
+<rdfs:label>Alprazolam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2883">
+<rdfs:label>Pinazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2884">
+<rdfs:label>Midazolam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2885">
+<rdfs:label>Lorazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2886">
+<rdfs:label>Tetrazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2887">
+<rdfs:label>Triazolam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2925">
+<rdfs:label>Temazepam</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>[3,2-c]-furazan-5&#945;-androstan-17&#946;-ol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>[3,2-c]pyrazole-androst-4-en-17&#946;-ol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>1-Androstenediol (3beta,17beta-dihydroxy-5alpha-androst-1-ene; 3alpha,17beta-dihydroxy-5alpha-androst-1-ene)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>1-Androstenedione (5alpha-androst-1-en-3,17-dione)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>13Beta-ethyl-17beta-hydroxygon-4-en-3-one</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>17Alpha-methyl-3alpha,17beta-dihydroxy-5alpha-androstane</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>17Alpha-methyl-3beta,17beta-dihydroxy-5alpha-androstane</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>17Alpha-methyl-3beta,17beta-dihydroxyandrost-4-ene</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>17Alpha-methyl-4-hydroxynandrolone (17alpha-methyl-4-hydroxy-17beta-hydroxyestr-4-en-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>17Alpha-methyl-delta1-dihydrotestosterone (17beta-hydroxy-17alpha-methyl-5alpha-androst-1-en-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>17&#945;-Methyl-5&#945;-androstan-17&#946;-ol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>17&#945;-methyl-androst-2-ene-3,17&#946;-diol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>17&#945;-methyl-androsta-1,4-diene-3,17&#946;-diol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>17&#945;-Methyl-androstan-3-hydroxyimine-17&#946;-ol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>17&#946;-Hydroxy-androstano[2,3-d]isoxazole</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>17&#946;-Hydroxy-androstano[3,2-c]isoxazole</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>18a-Homo-3-hydroxy-estra-2,5(10)-dien-17-one</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>19-Nor-4-androstenediol (3beta,17beta-dihydroxyestr-4-ene; 3alpha,17beta-dihydroxyestr-4-ene)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>19-Nor-4-androstenedione (estr-4-en-3,17-dione)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>19-Nor-4,9(10)-androstadienedione</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>19-Nor-5-androstenediol (3beta,17beta-dihydroxyestr-5-ene; 3alpha,17beta-dihydroxyestr-5-ene)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>19-Nor-5-androstenedione (estr-5-en-3,17-dione)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>2&#945;,17&#945;-dimethyl-17&#946;-hydroxy-5&#946;-androstan-3-one</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>2&#945;,3&#945;-epithio-17&#945;-methyl-5&#945;-androstan-17&#946;-ol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>3Alpha,17beta-dihydroxy-5alpha-androstane</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>3Beta,17beta-dihydroxy-5alpha-androstane</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>3&#946;-hydroxy-estra-4,9,11-trien-17-one</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>4-Androstenediol (3beta,17beta-dihydroxy-androst-4-ene)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>4-Androstenedione (androst-4-en-3,17-dione)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>4-chloro-17&#945;-methyl-17&#946;-hydroxy-androst-4-en-3-one</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>4-chloro-17&#945;-methyl-17&#946;-hydroxy-androst-4-ene-3,11&#173;dione</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>4-chloro-17&#945;-methyl-androst-4-ene-3&#946;,17&#946;-diol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>4-chloro-17&#945;-methyl-androsta-1,4-diene-3,17&#946;-diol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>4-Dihydrotestosterone (17beta-hydroxyandrostan-3one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>4-Hydroxy-19-nortestosterone (4,17beta-dihydroxyestr4-en-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>4-Hydroxy-androst-4-ene-3,17-dione</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>4-Hydroxytestosterone (4,17beta-dihydroxyandrost-4en-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>5-Androstenediol (3beta,17beta-dihydroxy-androst-5ene)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>5-Androstenedione (androst-5-en-3,17-dione)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>5&#945;-Androstan-3,6,17-trione</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>6-bromo-androsta-1,4-diene-3,17-dione</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>6-bromo-androstan-3,17-dione</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>6&#945;-Methyl-androst-4-ene-3,17-dione</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Anabolic steroids</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Androstanedione (5alpha-androstan-3,17-dione)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Bolasterone (7alpha,17alpha-dimethyl-17betahydroxyandrost-4-en-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Boldenone (17beta-hydroxyandrost-1,4-diene-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Boldione</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Calusterone (7beta,17alpha-dimethyl-17betahydroxyandrost-4-en-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Clostebol (4-chloro-17beta-hydroxyandrost-4-en-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Dehydrochloromethyltestosterone (4-chloro-17betahydroxy-17alpha-methylandrost-1,4-dien-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Delta1-dihydrotestosterone (17beta-hydroxy-5alphaandrost-1-en-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Desoxymethyltestosterone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Drostanolone (17beta-hydroxy-2alpha-methyl-5alphaandrostan-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Estra-4,9,11-triene-3,17-dione</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Ethylestrenol (17alpha-ethyl-17beta-hydroxyestr-4-ene)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Fluoxymesterone (9-fluoro-17alpha-methyl11beta,17beta-dihydroxyandrost-4-en-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Formebolone (2-formyl-17alpha-methyl11alpha,17beta-dihydroxyandrost-1,4-dien-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Furazabol (17alpha-methyl-17betahydroxyandrostano[2,3-c]-furazan)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Mestanolone (17alpha-methyl-17beta-hydroxy-5alphaandrostan-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Mesterolone (1alpha-methyl-17beta-hydroxy-5alphaandrostan-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Methandienone (17alpha-methyl-17betahydroxyandrost-1,4-dien-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Methandriol (17alpha-methyl-3beta,17betadihydroxyandrost-5-ene)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Methasterone (2alpha,17alpha-dimethyl-5alphaandrostan-17beta-ol-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Methenolone (1-methyl-17beta-hydroxy-5alpha-androst1-en-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Methyldienolone (17alpha-methyl-17beta-hydroxyestra4,9(10)-dien-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Methyltestosterone (17alpha-methyl-17betahydroxyandrost-4-en-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Methyltrienolone (17alpha-methyl-17beta-hydroxyestra4,9,11-trien-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Mibolerone (7alpha,17alpha-dimethyl-17betahydroxyestr-4-en-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Nandrolone (17beta-hydroxyestr-4-en-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Norbolethone (13beta,17alpha-diethyl-17betahydroxygon-4-en-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Norclostebol (4-chloro-17beta-hydroxyestr-4-en-3-one</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Norethandrolone (17alpha-ethyl-17beta-hydroxyestr-4en-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Normethandrolone (17alpha-methyl-17betahydroxyestr-4-en-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Oxandrolone (17alpha-methyl-17beta-hydroxy-2-oxa5alpha-androstan-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Oxymesterone (17alpha-methyl-4,17betadihydroxyandrost-4-en-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Oxymetholone (17alpha-methyl-2-hydroxymethylene17beta-hydroxy-5alpha-androstan-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Prostanozol (17beta-hydroxy-5alpha-androstano[3,2c]pyrazole)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Stanozolol (17alpha-methyl-17beta-hydroxy-5alphaandrost-2-eno[3,2-c]-pyrazole)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Stenbolone (17beta-hydroxy-2-methyl--5alpha-androst1-en-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Testolactone (13-hydroxy-3-oxo-13,17-secoandrosta1,4-dien-17-oic acid lactone)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Testosterone (17beta-hydroxyandrost-4-en-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Tetrahydrogestrinone (13beta,17alpha-diethyl-17betahydroxygon-4,9,11-trien-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4000">
+<rdfs:label>Trenbolone (17beta-hydroxyestr-4,9,11-trien-3-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6250">
+<rdfs:label>JWH-250 (1-Pentyl-3-(2-methoxyphenylacetyl) indole)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7008">
+<rdfs:label>SR-18 (Also known as RCS-8) (1-Cyclohexylethyl-3-(2methoxyphenylacetyl) indole)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7010">
+<rdfs:label>ADB&#8211;FUBINACA (N-(1-amino-3,3-dimethyl-1-oxobutan&#173;2-yl)-1-(4-fluorobenzyl)-1H-indazole-3-carboxamide)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7011">
+<rdfs:label>5-Fluoro-UR-144 and XLR11 [1-(5-Fluoro-pentyl)1Hindol-3-yl](2,2,3,3-tetramethylcyclopropyl)methanone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7012">
+<rdfs:label>AB-FUBINACA (N-(1-amino-3-methyl-1-oxobutan-2-yl)1-(4-fluorobenzyl)-1H-indazole-3-carboxamide)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7014">
+<rdfs:label>(1-(4-Fluorobenzyl)-1H-indol-3-yl)(2,2,3,3tetramethylcyclopropyl)methanone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7019">
+<rdfs:label>JWH-019 (1-Hexyl-3-(1-naphthoyl)indole)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7020">
+<rdfs:label>MDMB&#8211;FUBINACA (Methyl 2-(1-(4-fluorobenzyl)-1H&#173;indazole-3-carboxamido)-3,3-dimethylbutanoate)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7021">
+<rdfs:label>Methyl 2-(1-(4-fluorobenzyl)-1Hindazole-3carboxamido)-3-methylbutanoate</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7023">
+<rdfs:label>AB-PINACA (N-(1-amino-3-methyl1-oxobutan-2-yl)-1-pentyl-1H-indazole3-carboxamide)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7024">
+<rdfs:label>THJ-2201 [1-(5-fluoropentyl)-1H-indazol-3yl](naphthalen-1-yl)methanone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7025">
+<rdfs:label>5F-AB-PINACA (N-(1-amino-3-methyl-1-oxobutan-2yl)-1-(5-fluoropentyl)-1 H-indazole-3-carboxamide)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7031">
+<rdfs:label>AB-CHMINACA (N-(1-amino-3-methyl-1oxobutan-2-yl)-1-(cyclohexylmethyl)1H-indazole-3-carboxamide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7032">
+<rdfs:label>MAB-CHMINACA (N-(1-amino-3,3dimethyl-1oxobutan-2-yl)-1-(cyclohexylmethyl)-1H-indazole-3carboxamide)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7033">
+<rdfs:label>5F&#8211;AMB (Methyl 2-(1-(5-fluoropentyl)-1H-indazole-3&#173;carboxamido)-3-methylbutanoate)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7034">
+<rdfs:label>5F&#8211;ADB; 5F&#8211;MDMB&#8211;PINACA (Methyl 2-(1-(5&#173;fluoropentyl)-1H-indazole-3-carboxamido)-3,3dimethylbutanoate)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7035">
+<rdfs:label>ADB-PINACA (N-(1-amino-3,3-dimethyl-1-oxobutan-2yl)-1-pentyl-1H-indazole-3-carboxamide)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7036">
+<rdfs:label>Ethyl 2-(1-(5-fluoropentyl)-1H-indazole-3-carboxamido)3,3-dimethylbutanoate</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7041">
+<rdfs:label>Methyl 2-(1-(5-fluoropentyl)-1H-indole-3-carboxamido)3,3-dimethylbutanoate</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7042">
+<rdfs:label>MDMB&#8211;CHMICA, MMB&#8211;CHMINACA (Methyl 2-(1&#173;(cyclohexylmethyl)-1H-indole-3-carboxamido)-3,3dimethylbutanoate)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7044">
+<rdfs:label>MMB-CHMICA, AMB-CHMICA (methyl 2-(1(cyclohexylmethyl)-1 H-indole-3-carboxamido)-3methylbutanoate)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7047">
+<rdfs:label>N-(Adamantan-1-yl)-1-(4-fluorobenzyl)-1H-indazole-3carboxamide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7048">
+<rdfs:label>APINACA and AKB48 N-(1-Adamantyl)-1-pentyl-1Hindazole-3-carboxamide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7049">
+<rdfs:label>5F&#8211;APINACA, 5F&#8211;AKB48 (N-(adamantan-1-yl)-1-(5&#173;fluoropentyl)-1H-indazole-3-carboxamide)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7081">
+<rdfs:label>JWH-081 (1-Pentyl-3-(1-(4-methoxynaphthoyl) indole)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7083">
+<rdfs:label>1-(5-Fluoropentyl)-N-(2-phenylpropan-2-yl)-1Hindazole-3-carboxamide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7085">
+<rdfs:label>5F-CUMYL-P7AICA (1-(5-fluoropentyl)-N-(2phenylpropan-2-yl)-1 H-pyrrolo[2,3-b]pyridine-3carboxamide)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7089">
+<rdfs:label>4-CN-CUMYL-BUTINACA (1-(4-cyanobutyl)-N-(2phenylpropan-2-yl)-1 H-indazole-3-carboxamide)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7104">
+<rdfs:label>SR-19 (Also known as RCS-4) (1-Pentyl-3-[(4methoxy)-benzoyl] indole</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7118">
+<rdfs:label>JWH-018 (also known as AM678) (1-Pentyl-3-(1naphthoyl)indole)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7122">
+<rdfs:label>JWH-122 (1-Pentyl-3-(4-methyl-1-naphthoyl) indole)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7144">
+<rdfs:label>UR-144 (1-Pentyl-1H-indol-3-yl)(2,2,3,3tetramethylcyclopropyl)metanone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7173">
+<rdfs:label>JWH-073 (1-Butyl-3-(1-naphthoyl)indole)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7200">
+<rdfs:label>JWH-200 (1-[2-(4-Morpholinyl)ethyl]-3-(1naphthoyl)indole)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7201">
+<rdfs:label>AM2201 (1-(5-Fluoropentyl)-3-(1-naphthoyl) indole)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7203">
+<rdfs:label>JWH-203 (1-Pentyl-3-(2-chlorophenylacetyl) indole)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7221">
+<rdfs:label>NM2201; CBL2201 (Naphthalen-1-yl 1-(5-fluoropentyl)1 H-indole-3-carboxylate)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7222">
+<rdfs:label>PB-22 (Quinolin-8-yl 1-pentyl-1H-indole-3-carboxylate)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7225">
+<rdfs:label>5F-PB-22 (Quinolin-8-yl 1-(5-fluoropentyl)-1H-indole-3carboxylate)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7245">
+<rdfs:label>4-methyl-alpha-ethylaminopentiophenone (4-MEAP)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7246">
+<rdfs:label>N-ethylhexedrone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7249">
+<rdfs:label>Alpha-ethyltryptamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7260">
+<rdfs:label>Ibogaine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7285">
+<rdfs:label>Ketamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7295">
+<rdfs:label>Tiletamine &amp; Zolazepam Combination Product</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7297">
+<rdfs:label>CP-47,497 (5-(1,1-Dimethylheptyl)-2-[(1R,3S)-3hydroxycyclohexyl-phenol)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7298">
+<rdfs:label>CP-47,497 C8 Homologue (5-(1,1-Dimethyloctyl)-2[(1R,3S)3-hydroxycyclohexyl-phenol)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7300">
+<rdfs:label>Lysergic acid</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7310">
+<rdfs:label>Lysergic acid amide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7315">
+<rdfs:label>Lysergic acid diethylamide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7348">
+<rdfs:label>2,5-Dimethoxy-4-(n)-propylthiophenethylamine (2C-T7)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7350">
+<rdfs:label>Marihuana Extract</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7360">
+<rdfs:label>Marihuana</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7365">
+<rdfs:label>Dronabinol in an oral solution in a drug product approved for marketing by the U.S. Food and Drug Administration</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7367">
+<rdfs:label>Approved Cannabidiol Drugs (as defined in 21 CFR 1308.15(f))</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7369">
+<rdfs:label>Dronabinol (synthetic) in sesame oil in soft gelatin capsule as approved by FDA</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7370">
+<rdfs:label>Tetrahydrocannabinols</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7374">
+<rdfs:label>Parahexyl</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7379">
+<rdfs:label>Nabilone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7381">
+<rdfs:label>Mescaline</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7385">
+<rdfs:label>2-(4-Ethylthio-2,5-dimethoxyphenyl) ethanamine (2C-T-2 )</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7390">
+<rdfs:label>3,4,5-Trimethoxyamphetamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7391">
+<rdfs:label>4-Bromo-2,5-dimethoxyamphetamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7392">
+<rdfs:label>4-Bromo-2,5-dimethoxyphenethylamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7395">
+<rdfs:label>4-Methyl-2,5-dimethoxyamphetamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7396">
+<rdfs:label>2,5-Dimethoxyamphetamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7398">
+<rdfs:label>JWH-398 (1-Pentyl-3-(4-chloro-1-naphthoyl) indole)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7399">
+<rdfs:label>2,5-Dimethoxy-4-ethylamphetamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7400">
+<rdfs:label>3,4-Methylenedioxyamphetamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7401">
+<rdfs:label>5-Methoxy-3,4-methylenedioxyamphetamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7402">
+<rdfs:label>N-Hydroxy-3,4-methylenedioxyamphetamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7404">
+<rdfs:label>3,4-Methylenedioxy-N-ethylamphetamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7405">
+<rdfs:label>3,4-Methylenedioxymethamphetamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7411">
+<rdfs:label>4-Methoxyamphetamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7415">
+<rdfs:label>Peyote</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7431">
+<rdfs:label>5-Methoxy-N-N-dimethyltryptamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7432">
+<rdfs:label>Alpha-methyltryptamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7433">
+<rdfs:label>Bufotenine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7434">
+<rdfs:label>Diethyltryptamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7435">
+<rdfs:label>Dimethyltryptamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7437">
+<rdfs:label>Psilocybin</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7438">
+<rdfs:label>Psilocyn</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7439">
+<rdfs:label>5-Methoxy-N,N-diisopropyltryptamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7443">
+<rdfs:label>4-chloro-alpha-pyrrolidinovalerophenone (4-chloro-a-PVP)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7446">
+<rdfs:label>4&#180;-methyl-alpha-pyrrolidinohexiophenone (MPHP)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7455">
+<rdfs:label>N-Ethyl-1-phenylcyclohexylamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7458">
+<rdfs:label>1-(1-Phenylcyclohexyl)pyrrolidine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7460">
+<rdfs:label>1-Phenylcyclohexylamine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7470">
+<rdfs:label>1-[1-(2-Thienyl)cyclohexyl]piperidine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7471">
+<rdfs:label>Phencyclidine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7473">
+<rdfs:label>1-[1-(2-Thienyl)cyclohexyl]pyrrolidine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7482">
+<rdfs:label>N-Ethyl-3-piperidyl benzilate</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7484">
+<rdfs:label>N-Methyl-3-piperidyl benzilate</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7493">
+<rdfs:label>N-Benzylpiperazine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7498">
+<rdfs:label>4-Methyl-alphapyrrolidinopropiophenone (4-MePPP)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7508">
+<rdfs:label>2-(2,5-Dimethoxy-4-methylphenyl) ethanamine (2C-D)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7509">
+<rdfs:label>2-(2,5-Dimethoxy-4-ethylphenyl) ethanamine (2C-E )</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7517">
+<rdfs:label>2-(2,5-Dimethoxyphenyl) ethanamine (2C-H)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7518">
+<rdfs:label>2-(4-iodo-2,5-dimethoxyphenyl) ethanamine (2C-I)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7519">
+<rdfs:label>2-(4-Chloro-2,5-dimethoxyphenyl) ethanamine (2C-C)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7521">
+<rdfs:label>2-(2,5-Dimethoxy-4-nitro-phenyl) ethanamine (2C-N)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7524">
+<rdfs:label>2-(2,5-Dimethoxy-4-(n)-propylphenyl) ethanamine (2CP)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7532">
+<rdfs:label>2-(4-Isopropylthio)-2,5-dimethoxyphenyl) ethanamine (2C-T-4 )</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7535">
+<rdfs:label>MDPV (3,4-Methylenedioxypyrovalerone)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7536">
+<rdfs:label>2-(4-bromo-2,5-dimethoxyphenyl)-N-(2-methoxybenzyl) ethanamine (25B-NBOMe)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7537">
+<rdfs:label>2-(4-chloro-2,5-dimethoxyphenyl)-N-(2-methoxybenzyl) ethanamine (25C-NBOMe)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7538">
+<rdfs:label>2-(4-iodo-2,5-dimethoxyphenyl)-N-(2-methoxybenzyl) ethanamine (25I-NBOMe)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7540">
+<rdfs:label>Methylone (3,4-Methylenedioxy-N-methylcathinone)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7541">
+<rdfs:label>Butylone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7542">
+<rdfs:label>Pentylone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7543">
+<rdfs:label>N-Ethylpentylone (1-(1,3-benzodioxol-5-yl)-2(ethylamino)-pentan-1-one)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7544">
+<rdfs:label>alpha-pyrrolidinohexanophenone (a-PHP)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7545">
+<rdfs:label>alpha-pyrrolidinopentiophenone (&#945;-PVP)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7546">
+<rdfs:label>alpha-pyrrolidinobutiophenone (&#945;-PBP)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7548">
+<rdfs:label>alpha-pyrrolidinoheptaphenone (PV8)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7694">
+<rdfs:label>AM-694 (1-(5-Fluoropentyl)-3-(2-iodobenzoyl) indole)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8192">
+<rdfs:label>Carisoprodol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8333">
+<rdfs:label>4-Anilino-N-phenethyl-4-piperidine (ANPP)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8501">
+<rdfs:label>Phenylacetone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8603">
+<rdfs:label>1-Piperidinocyclohexanecarbonitrile</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9010">
+<rdfs:label>Alphaprodine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9020">
+<rdfs:label>Anileridine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9040">
+<rdfs:label>Coca Leaves</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9041">
+<rdfs:label>Cocaine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9050">
+<rdfs:label>Codeine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9051">
+<rdfs:label>Acetyldihydrocodeine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9052">
+<rdfs:label>Benzylmorphine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9053">
+<rdfs:label>Codeine-N-oxide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9054">
+<rdfs:label>Cyprenorphine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9055">
+<rdfs:label>Desomorphine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9056">
+<rdfs:label>Etorphine (except HCl)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9059">
+<rdfs:label>Etorphine HCl</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9064">
+<rdfs:label>Buprenorphine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9070">
+<rdfs:label>Codeine methylbromide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9120">
+<rdfs:label>Dihydrocodeine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9143">
+<rdfs:label>Oxycodone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9145">
+<rdfs:label>Dihydromorphine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9150">
+<rdfs:label>Hydromorphone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9167">
+<rdfs:label>Difenoxin 1 mg/25 ug AtSO4/du</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9168">
+<rdfs:label>Difenoxin</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9170">
+<rdfs:label>Diphenoxylate</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9180">
+<rdfs:label>Ecgonine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9190">
+<rdfs:label>Ethylmorphine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9193">
+<rdfs:label>Hydrocodone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9200">
+<rdfs:label>Heroin</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9210">
+<rdfs:label>Levomethorphan</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9220">
+<rdfs:label>Levorphanol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9226">
+<rdfs:label>Isomethadone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9230">
+<rdfs:label>Meperidine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9232">
+<rdfs:label>Meperidine intermediate-A</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9233">
+<rdfs:label>Meperidine intermediate-B</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9234">
+<rdfs:label>Meperidine intermediate-C</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9240">
+<rdfs:label>Metazocine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9250">
+<rdfs:label>Methadone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9254">
+<rdfs:label>Methadone intermediate</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9260">
+<rdfs:label>Metopon</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9273">
+<rdfs:label>Dextropropoxyphene, bulk (non-dosage forms)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9278">
+<rdfs:label>Dextropropoxyphene dosage forms</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9300">
+<rdfs:label>Morphine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9301">
+<rdfs:label>Hydromorphinol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9302">
+<rdfs:label>Methyldesorphine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9304">
+<rdfs:label>Methyldihydromorphine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9305">
+<rdfs:label>Morphine methylbromide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9306">
+<rdfs:label>Morphine methylsulfonate</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9307">
+<rdfs:label>Morphine-N-oxide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9308">
+<rdfs:label>Myrophine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9309">
+<rdfs:label>Nicocodeine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9312">
+<rdfs:label>Nicomorphine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9313">
+<rdfs:label>Normorphine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9314">
+<rdfs:label>Pholcodine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9315">
+<rdfs:label>Thebacon</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9319">
+<rdfs:label>Acetorphine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9330">
+<rdfs:label>Oripavine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9333">
+<rdfs:label>Thebaine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9334">
+<rdfs:label>Dihydroetorphine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9335">
+<rdfs:label>Drotebanol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9400">
+<rdfs:label>Nalorphine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9547">
+<rdfs:label>U-47700 (3,4-dichloro-N-[2-(dimethylamino)cyclohexyl]-N-methylbenzamide)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9551">
+<rdfs:label>AH-7921 (3,4-dichloro-N-[(1-dimethylamino)cyclohexylmethyl]benzamide))</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9560">
+<rdfs:label>MT-45 (1-cyclohexyl-4-(1,2-diphenylethyl)piperazine))</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9600">
+<rdfs:label>Opium, raw</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9601">
+<rdfs:label>Acetylmethadol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9602">
+<rdfs:label>Allylprodine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9603">
+<rdfs:label>Alphacetylmethadol except levo-alphacetylmethadol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9604">
+<rdfs:label>Alphameprodine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9605">
+<rdfs:label>Alphamethadol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9606">
+<rdfs:label>Benzethidine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9607">
+<rdfs:label>Betacetylmethadol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9608">
+<rdfs:label>Betameprodine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9609">
+<rdfs:label>Betamethadol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9610">
+<rdfs:label>Opium extracts</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9611">
+<rdfs:label>Betaprodine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9612">
+<rdfs:label>Clonitazene</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9613">
+<rdfs:label>Dextromoramide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9615">
+<rdfs:label>Diampromide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9616">
+<rdfs:label>Diethylthiambutene</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9617">
+<rdfs:label>Dimenoxadol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9618">
+<rdfs:label>Dimepheptanol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9619">
+<rdfs:label>Dimethylthiambutene</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9620">
+<rdfs:label>Opium fluid extract</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9621">
+<rdfs:label>Dioxaphetyl butyrate</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9622">
+<rdfs:label>Dipipanone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9623">
+<rdfs:label>Ethylmethylthiambutene</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9624">
+<rdfs:label>Etonitazene</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9625">
+<rdfs:label>Etoxeridine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9626">
+<rdfs:label>Furethidine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9627">
+<rdfs:label>Hydroxypethidine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9628">
+<rdfs:label>Ketobemidone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9629">
+<rdfs:label>Levomoramide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9630">
+<rdfs:label>Opium tincture</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9631">
+<rdfs:label>Levophenacylmorphan</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9632">
+<rdfs:label>Morpheridine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9633">
+<rdfs:label>Noracymethadol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9634">
+<rdfs:label>Norlevorphanol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9635">
+<rdfs:label>Normethadone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9636">
+<rdfs:label>Norpipanone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9637">
+<rdfs:label>Phenadoxone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9638">
+<rdfs:label>Phenampromide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9639">
+<rdfs:label>Opium, powdered</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9640">
+<rdfs:label>Opium, granulated</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9641">
+<rdfs:label>Phenoperidine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9642">
+<rdfs:label>Piritramide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9643">
+<rdfs:label>Proheptazine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9644">
+<rdfs:label>Properidine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9645">
+<rdfs:label>Racemoramide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9646">
+<rdfs:label>Trimeperidine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9647">
+<rdfs:label>Phenomorphan</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9648">
+<rdfs:label>Levo-alphacetylmethadol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9649">
+<rdfs:label>Propiram</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9650">
+<rdfs:label>Opium poppy</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9650">
+<rdfs:label>Poppy Straw</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9652">
+<rdfs:label>Oxymorphone</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9661">
+<rdfs:label>1-Methyl-4-phenyl-4-propionoxypiperidine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9663">
+<rdfs:label>1-(2-Phenylethyl)-4-phenyl-4-acetoxypiperidine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9670">
+<rdfs:label>Poppy Straw Concentrate</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9709">
+<rdfs:label>Pentazocine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9715">
+<rdfs:label>Phenazocine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9720">
+<rdfs:label>Butorphanol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9725">
+<rdfs:label>Eluxadoline</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9729">
+<rdfs:label>Thiafentanil</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9730">
+<rdfs:label>Piminodine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9732">
+<rdfs:label>Racemethorphan</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9733">
+<rdfs:label>Racemorphan</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9737">
+<rdfs:label>Alfentanil</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9739">
+<rdfs:label>Remifentanil</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9740">
+<rdfs:label>Sufentanil</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9743">
+<rdfs:label>Carfentanil</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9750">
+<rdfs:label>Tilidine</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9752">
+<rdfs:label>Tramadol (2-[(dimethylamino)methyl]-1-(3-methoxyphenyl)cyclohexanol)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9780">
+<rdfs:label>Tapentadol</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9800">
+<rdfs:label>Bezitramide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9801">
+<rdfs:label>Fentanyl</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9802">
+<rdfs:label>Moramide-intermediate</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9803">
+<rdfs:label>Codeine &amp; isoquinoline alkaloid 90 mg/du</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9804">
+<rdfs:label>Codeine combination product 90 mg/du</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9807">
+<rdfs:label>Dihydrocodeine combination product 90 mg/du</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9808">
+<rdfs:label>Ethylmorphine combination product 15 mg/du</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9809">
+<rdfs:label>Opium combination product 25 mg/du</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9810">
+<rdfs:label>Morphine combination product/50 mg/(100 ml or 100 gm)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9811">
+<rdfs:label>Acryl fentanyl (N-(1-phenethylpiperidin-4-yl)-N-phenylacrylamide)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9812">
+<rdfs:label>Para-Fluorofentanyl</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9813">
+<rdfs:label>3-Methylfentanyl</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9814">
+<rdfs:label>Alpha-methylfentanyl</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9815">
+<rdfs:label>Acetyl-alpha-methylfentanyl</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9816">
+<rdfs:label>N-(2-fluorophenyl)-N-(1-phenethylpiperidin-4-yl)propionamide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9821">
+<rdfs:label>Acetyl Fentanyl (N-(1-phenethylpiperidin-4-yl)-N-phenylacetamide)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9822">
+<rdfs:label>Butyryl Fentanyl</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9823">
+<rdfs:label>Para-fluorobutyryl fentanyl</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9824">
+<rdfs:label>4-Fluoroisobutyryl fentanyl (N-(4-fluorophenyl)-N-(1-phenethylpiperidin-4-yl)isobutyramide)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9825">
+<rdfs:label>2-methoxy-N-(1-phenethylpiperidin-4-yl)-N-phenylacetamide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9826">
+<rdfs:label>Para-chloroisobutyryl fentanyl</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9827">
+<rdfs:label>Isobutyryl fentanyl</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9830">
+<rdfs:label>Beta-hydroxyfentanyl</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9831">
+<rdfs:label>Beta-hydroxy-3-methylfentanyl</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9832">
+<rdfs:label>Alpha-methylthiofentanyl</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9833">
+<rdfs:label>3-Methylthiofentanyl</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9834">
+<rdfs:label>Furanyl fentanyl (N-(1-phenethylpiperidin-4-yl)-N-phenylfuran-2-carboxamide)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9835">
+<rdfs:label>Thiofentanyl</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9836">
+<rdfs:label>Beta-hydroxythiofentanyl</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9837">
+<rdfs:label>Para-methoxybutyryl fentanyl</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9838">
+<rdfs:label>Ocfentanil</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9840">
+<rdfs:label>Valeryl fentanyl</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9843">
+<rdfs:label>N-(1-phenethylpiperidin-4-yl)-N-phenyltetrahydrofuran-2-carboxamide</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9845">
+<rdfs:label>Cyclopropyl Fentanyl</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9847">
+<rdfs:label>Cyclopentyl fentanyl</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9850">
+<rdfs:label>Fentanyl related-substances as defined in 21 CFR 1308.11(h)</rdfs:label>
+<rdf:type rdf:resource="#DrugCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+</rdf:RDF>
+

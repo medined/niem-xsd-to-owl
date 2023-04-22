@@ -1,0 +1,3915 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#mmucc.xsd">
+<rdfs:label>mmucc.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+  
+  
+  <owl:Class rdf:about="#AlcoholTestCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for the kind of Alcohol Test Given.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Blood</rdfs:label>
+<rdf:type rdf:resource="#AlcoholTestCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Breath</rdfs:label>
+<rdf:type rdf:resource="#AlcoholTestCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Urine</rdfs:label>
+<rdf:type rdf:resource="#AlcoholTestCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Other Test Type</rdfs:label>
+<rdf:type rdf:resource="#AlcoholTestCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#AlcoholTestResultCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a status of BAC Test results.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Pending">
+<rdfs:label>Pending</rdfs:label>
+<rdf:type rdf:resource="#AlcoholTestResultCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Unknown">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#AlcoholTestResultCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#AlcoholTestStatusCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for an indication of the presence of alcohol by test.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Test Not Given</rdfs:label>
+<rdf:type rdf:resource="#AlcoholTestStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Test Refused</rdfs:label>
+<rdf:type rdf:resource="#AlcoholTestStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Test Given</rdfs:label>
+<rdf:type rdf:resource="#AlcoholTestStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#AlcoholTestStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Unknown if Tested</rdfs:label>
+<rdf:type rdf:resource="#AlcoholTestStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#AtmosphericConditionCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for the prevailing atmospheric conditions that existed at the time of the crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>No Additional Atmospheric Conditions</rdfs:label>
+<rdf:type rdf:resource="#AtmosphericConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Clear</rdfs:label>
+<rdf:type rdf:resource="#AtmosphericConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Cloudy</rdfs:label>
+<rdf:type rdf:resource="#AtmosphericConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Blowing Snow</rdfs:label>
+<rdf:type rdf:resource="#AtmosphericConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>Freezing Rain or Drizzle</rdfs:label>
+<rdf:type rdf:resource="#AtmosphericConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Rain</rdfs:label>
+<rdf:type rdf:resource="#AtmosphericConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Sleet or Hail</rdfs:label>
+<rdf:type rdf:resource="#AtmosphericConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Snow</rdfs:label>
+<rdf:type rdf:resource="#AtmosphericConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Fog, Smog, Smoke</rdfs:label>
+<rdf:type rdf:resource="#AtmosphericConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Severe Crosswinds</rdfs:label>
+<rdf:type rdf:resource="#AtmosphericConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Blowing Sand, Soil, Dirt</rdfs:label>
+<rdf:type rdf:resource="#AtmosphericConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#AtmosphericConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#98">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#AtmosphericConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#AtmosphericConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  <owl:Class rdf:about="#ClockDiagram12PointsCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for 12 points clock diagram</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Non-Collision</rdfs:label>
+<rdf:type rdf:resource="#ClockDiagram12PointsCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>1 Clock Point</rdfs:label>
+<rdf:type rdf:resource="#ClockDiagram12PointsCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>10 Clock Point</rdfs:label>
+<rdf:type rdf:resource="#ClockDiagram12PointsCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>11 Clock Point</rdfs:label>
+<rdf:type rdf:resource="#ClockDiagram12PointsCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>12 Clock Point</rdfs:label>
+<rdf:type rdf:resource="#ClockDiagram12PointsCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>2 Clock Point</rdfs:label>
+<rdf:type rdf:resource="#ClockDiagram12PointsCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>3 Clock Point</rdfs:label>
+<rdf:type rdf:resource="#ClockDiagram12PointsCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>4 Clock Point</rdfs:label>
+<rdf:type rdf:resource="#ClockDiagram12PointsCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>5 Clock Point</rdfs:label>
+<rdf:type rdf:resource="#ClockDiagram12PointsCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>6 Clock Point</rdfs:label>
+<rdf:type rdf:resource="#ClockDiagram12PointsCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>7 Clock Point</rdfs:label>
+<rdf:type rdf:resource="#ClockDiagram12PointsCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>8 Clock Point</rdfs:label>
+<rdf:type rdf:resource="#ClockDiagram12PointsCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>9 Clock Point</rdfs:label>
+<rdf:type rdf:resource="#ClockDiagram12PointsCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CommercialVehicleConfigurationCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a general configuration of a motor vehicle.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Not Applicable</rdfs:label>
+<rdf:type rdf:resource="#CommercialVehicleConfigurationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Single-Unit Truck (2- axle and GVWR more than 10,000 lbs)</rdfs:label>
+<rdf:type rdf:resource="#CommercialVehicleConfigurationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Vehicle 10,000 pounds or less placarded for hazardous materials</rdfs:label>
+<rdf:type rdf:resource="#CommercialVehicleConfigurationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19">
+<rdfs:label>Truck More Than 10,000 lbs, Cannot Classify</rdfs:label>
+<rdf:type rdf:resource="#CommercialVehicleConfigurationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Single-Unit Truck (3 or more axles)</rdfs:label>
+<rdf:type rdf:resource="#CommercialVehicleConfigurationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20">
+<rdfs:label>Bus/Large Van (seats for 9-15 occupants, including driver)</rdfs:label>
+<rdf:type rdf:resource="#CommercialVehicleConfigurationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#21">
+<rdfs:label>Bus (seats for more than 15 occupants, including driver)</rdfs:label>
+<rdf:type rdf:resource="#CommercialVehicleConfigurationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Truck Pulling Trailer(s)</rdfs:label>
+<rdf:type rdf:resource="#CommercialVehicleConfigurationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Truck Tractor (Bobtail)</rdfs:label>
+<rdf:type rdf:resource="#CommercialVehicleConfigurationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Truck Tractor/Semi-Trailer</rdfs:label>
+<rdf:type rdf:resource="#CommercialVehicleConfigurationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Truck Tractor/Double</rdfs:label>
+<rdf:type rdf:resource="#CommercialVehicleConfigurationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Truck Tractor/Triple</rdfs:label>
+<rdf:type rdf:resource="#CommercialVehicleConfigurationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#CommercialVehicleConfigurationCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CrashClassificationCharacteristicCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type to identify the characteristics of the crash with respect to its location on or off a trafficway.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Non-trafficway</rdfs:label>
+<rdf:type rdf:resource="#CrashClassificationCharacteristicCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Trafficway, Not on Road</rdfs:label>
+<rdf:type rdf:resource="#CrashClassificationCharacteristicCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>Trafficway, On Road</rdfs:label>
+<rdf:type rdf:resource="#CrashClassificationCharacteristicCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CrashClassificationLandOwnershipCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for the ownership of the land where the crash occurred.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Private Property</rdfs:label>
+<rdf:type rdf:resource="#CrashClassificationLandOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Public Property</rdfs:label>
+<rdf:type rdf:resource="#CrashClassificationLandOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CrashEnvironmentContributingCircumstancesCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for apparent environmental conditions which may have contributed to the crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>None</rdfs:label>
+<rdf:type rdf:resource="#CrashEnvironmentContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Weather Conditions</rdfs:label>
+<rdf:type rdf:resource="#CrashEnvironmentContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Visual Obstruction(s)</rdfs:label>
+<rdf:type rdf:resource="#CrashEnvironmentContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Glare</rdfs:label>
+<rdf:type rdf:resource="#CrashEnvironmentContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Animal(s) on the Roadway</rdfs:label>
+<rdf:type rdf:resource="#CrashEnvironmentContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#CrashEnvironmentContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#CrashEnvironmentContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CrashFirstHarmfulEventLocationCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a location of the first harmful event as it relates to its position within or outside the trafficway.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>On Roadway</rdfs:label>
+<rdf:type rdf:resource="#CrashFirstHarmfulEventLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Separator</rdfs:label>
+<rdf:type rdf:resource="#CrashFirstHarmfulEventLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>On Shoulder</rdfs:label>
+<rdf:type rdf:resource="#CrashFirstHarmfulEventLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>On Median</rdfs:label>
+<rdf:type rdf:resource="#CrashFirstHarmfulEventLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>On Roadside</rdfs:label>
+<rdf:type rdf:resource="#CrashFirstHarmfulEventLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Outside Trafficway</rdfs:label>
+<rdf:type rdf:resource="#CrashFirstHarmfulEventLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Off Roadway-Location Unknown</rdfs:label>
+<rdf:type rdf:resource="#CrashFirstHarmfulEventLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>In Parking Lane/Zone</rdfs:label>
+<rdf:type rdf:resource="#CrashFirstHarmfulEventLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Gore</rdfs:label>
+<rdf:type rdf:resource="#CrashFirstHarmfulEventLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#CrashFirstHarmfulEventLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CrashHarmfulEventCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for the injury or damage-producing event that characterizes the crash type.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Rollover/Overturn</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Railway Vehicle</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Live Animal</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>Motor Vehicle In-Transport</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14">
+<rdfs:label>Parked Motor Vehicle</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#15">
+<rdfs:label>Non-Motorist on Personal Conveyance</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#16">
+<rdfs:label>Thrown or Falling Object</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#17">
+<rdfs:label>Boulder</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#18">
+<rdfs:label>Other Object (not fixed)</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19">
+<rdfs:label>Building</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Fire/Explosion</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20">
+<rdfs:label>Impact Attenuator/Crash Cushion</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#21">
+<rdfs:label>Bridge Pier or Support</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23">
+<rdfs:label>Bridge Rail (Includes parapet)</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24">
+<rdfs:label>Guardrail Face</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#25">
+<rdfs:label>Concrete Traffic Barrier</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26">
+<rdfs:label>Other Traffic Barrier</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Immersion</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30">
+<rdfs:label>Utility Pole/Light Support</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31">
+<rdfs:label>Other Post, Other Pole, or Other Supports</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32">
+<rdfs:label>Culvert</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33">
+<rdfs:label>Curb</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34">
+<rdfs:label>Ditch</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35">
+<rdfs:label>Embankment</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38">
+<rdfs:label>Fence</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#39">
+<rdfs:label>Wall</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Gas Inhalation</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#40">
+<rdfs:label>Fire Hydrant</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#41">
+<rdfs:label>Shrubbery</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#42">
+<rdfs:label>Tree (Standing Only)</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#43">
+<rdfs:label>Other Fixed Object</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#44">
+<rdfs:label>Pavement Surface Irregularity ( Ruts, Potholes, Grates etc.)</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#45">
+<rdfs:label>Working Motor Vehicle</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#46">
+<rdfs:label>Traffic Signal Support</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#48">
+<rdfs:label>Snow Bank</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#49">
+<rdfs:label>Ridden Animal or Animal Drawn Conveyance</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Fell/Jumped from Vehicle</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#50">
+<rdfs:label>Bridge Overhead Structure</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#51">
+<rdfs:label>Jackknife(Causing Injury or Damage)</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#52">
+<rdfs:label>Guardrail End</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#53">
+<rdfs:label>Mail Box</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#54">
+<rdfs:label>Motor Vehicle In-Transport Strikes or is Struck by Cargo, Persons or Objects Set-in-Motion from/by Another Motor Vehicle In Transport</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#55">
+<rdfs:label>Motor Vehicle in Motion Outside the Trafficway</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#57">
+<rdfs:label>Cable Barrier</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#58">
+<rdfs:label>Ground</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#59">
+<rdfs:label>Traffic Sign Support</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Injured in Vehicle (Other than Cargo/Equipment Loss or Shift)</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Other Non-Collision</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#72">
+<rdfs:label>Cargo/Equipment Loss or Shift (harmful to this vehicle)</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#73">
+<rdfs:label>Object Fell From Motor Vehicle In-Transport</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Pedestrian</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Pedalcyclist</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#CrashHarmfulEventCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CrashJunctionRelationCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a location of the first harmful event in relation to a junction.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Non-Junction</rdfs:label>
+<rdf:type rdf:resource="#CrashJunctionRelationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#16">
+<rdfs:label>Shared-Use Path Crossing</rdfs:label>
+<rdf:type rdf:resource="#CrashJunctionRelationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#17">
+<rdfs:label>Acceleration/Deceleration Lane</rdfs:label>
+<rdf:type rdf:resource="#CrashJunctionRelationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#18">
+<rdfs:label>Through Roadway</rdfs:label>
+<rdf:type rdf:resource="#CrashJunctionRelationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19">
+<rdfs:label>Other location within Interchange Area</rdfs:label>
+<rdf:type rdf:resource="#CrashJunctionRelationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Intersection</rdfs:label>
+<rdf:type rdf:resource="#CrashJunctionRelationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20">
+<rdfs:label>Entrance/Exit Ramp</rdfs:label>
+<rdf:type rdf:resource="#CrashJunctionRelationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Intersection-Related</rdfs:label>
+<rdf:type rdf:resource="#CrashJunctionRelationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Driveway Access</rdfs:label>
+<rdf:type rdf:resource="#CrashJunctionRelationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Entrance/Exit Ramp Related</rdfs:label>
+<rdf:type rdf:resource="#CrashJunctionRelationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Railway Grade Crossing</rdfs:label>
+<rdf:type rdf:resource="#CrashJunctionRelationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Crossover-Related</rdfs:label>
+<rdf:type rdf:resource="#CrashJunctionRelationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Driveway Access Related</rdfs:label>
+<rdf:type rdf:resource="#CrashJunctionRelationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#98">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#CrashJunctionRelationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#CrashJunctionRelationCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CrashLightConditionCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a kind/level of light that existed at the time of the motor vehicle crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Daylight</rdfs:label>
+<rdf:type rdf:resource="#CrashLightConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Dark - Not Lighted</rdfs:label>
+<rdf:type rdf:resource="#CrashLightConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Dark - Lighted</rdfs:label>
+<rdf:type rdf:resource="#CrashLightConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Dawn</rdfs:label>
+<rdf:type rdf:resource="#CrashLightConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Dusk</rdfs:label>
+<rdf:type rdf:resource="#CrashLightConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Dark - Unknown Lighting</rdfs:label>
+<rdf:type rdf:resource="#CrashLightConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#CrashLightConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#CrashLightConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#CrashLightConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CrashMannerCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a manner in which two motor vehicles in transport initially came together without regard to the direction of force.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Not a Collision with Motor Vehicle In-Transport</rdfs:label>
+<rdf:type rdf:resource="#CrashMannerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Front-to-Rear</rdfs:label>
+<rdf:type rdf:resource="#CrashMannerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Rear-to-Rear</rdfs:label>
+<rdf:type rdf:resource="#CrashMannerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#CrashMannerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Front-to-Front</rdfs:label>
+<rdf:type rdf:resource="#CrashMannerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Angle</rdfs:label>
+<rdf:type rdf:resource="#CrashMannerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Sideswipe - Same Direction</rdfs:label>
+<rdf:type rdf:resource="#CrashMannerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Sideswipe - Opposite Direction</rdfs:label>
+<rdf:type rdf:resource="#CrashMannerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Rear-to-Side</rdfs:label>
+<rdf:type rdf:resource="#CrashMannerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#98">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#CrashMannerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#CrashMannerCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CrashRoadContributingCircumstancesCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for an apparent condition of the road which may have contributed to the crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>None</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Road Surface Condition (wet, icy, snow, slush, etc.)</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Debris</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#25">
+<rdfs:label>Toll Booth/Plaza Related</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26">
+<rdfs:label>Backup Due to Prior Non-Recurring Incident</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#27">
+<rdfs:label>Backup Due to Prior Crash</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#28">
+<rdfs:label>Backup Due to Regular Congestion</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Rut, Holes, Bumps</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Work Zone (construction/maintenance/utility)</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Worn,Travel Polished Surface</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Obstruction in Roadway</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Traffic Control Device Inoperative, Missing or Obscured</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Shoulders (none, low, soft, high)</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Non-Highway Work</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#98">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CrashRoadSurfaceConditionCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a roadway surface condition at the time and place of a crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Non-Trafficway or Driveway Access</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadSurfaceConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Dry</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadSurfaceConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Slush</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadSurfaceConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Mud, Dirt or Gravel</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadSurfaceConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Wet</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadSurfaceConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Snow</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadSurfaceConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Ice/Frost</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadSurfaceConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Sand</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadSurfaceConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Water (Standing or Moving)</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadSurfaceConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Oil</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadSurfaceConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadSurfaceConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#98">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadSurfaceConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#CrashRoadSurfaceConditionCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CrashSchoolBusRelatedCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for if a school bus or motor vehicle functioning as a school bus for a school-related purpose is involved in the crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>No</rdfs:label>
+<rdf:type rdf:resource="#CrashSchoolBusRelatedCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Yes, School Bus Directly Involved</rdfs:label>
+<rdf:type rdf:resource="#CrashSchoolBusRelatedCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Yes, School Bus Indirectly Involved</rdfs:label>
+<rdf:type rdf:resource="#CrashSchoolBusRelatedCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CrashVehicleCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a motor vehicle unit type and number assigned to uniquely identify each motor vehicle involved in the crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Motor Vehicle In-Transport (Inside or Outside the Trafficway)</rdfs:label>
+<rdf:type rdf:resource="#CrashVehicleCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Parked Motor Vehicle</rdfs:label>
+<rdf:type rdf:resource="#CrashVehicleCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Working Motor Vehicle (highway construction, maintenance, utility only)</rdfs:label>
+<rdf:type rdf:resource="#CrashVehicleCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CrashVehicleEmergencyUseIndicationCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for official motor vehicles that are involved in a crash while on an emergency response.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Not Applicable</rdfs:label>
+<rdf:type rdf:resource="#CrashVehicleEmergencyUseIndicationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Non-Emergency, Non-Transport</rdfs:label>
+<rdf:type rdf:resource="#CrashVehicleEmergencyUseIndicationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Non-Emergency Transport</rdfs:label>
+<rdf:type rdf:resource="#CrashVehicleEmergencyUseIndicationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Emergency Operation, Emergency Warning Equipment Not in Use</rdfs:label>
+<rdf:type rdf:resource="#CrashVehicleEmergencyUseIndicationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Emergency Operation, Emergency Warning Equipment in Use</rdfs:label>
+<rdf:type rdf:resource="#CrashVehicleEmergencyUseIndicationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Emergency Operation, Emergency Warning Equipment in Use Unknown</rdfs:label>
+<rdf:type rdf:resource="#CrashVehicleEmergencyUseIndicationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#CrashVehicleEmergencyUseIndicationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#CrashVehicleEmergencyUseIndicationCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DriverContributingCircumstancesCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for actions by the driver that may have contributed to the crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>No Contributing Action</rdfs:label>
+<rdf:type rdf:resource="#DriverContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Ran Off Roadwayr</rdfs:label>
+<rdf:type rdf:resource="#DriverContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Wrong Side or Wrong Way</rdfs:label>
+<rdf:type rdf:resource="#DriverContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Followed Too Closely</rdfs:label>
+<rdf:type rdf:resource="#DriverContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>Failed to Keep in Proper Lane</rdfs:label>
+<rdf:type rdf:resource="#DriverContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13">
+<rdfs:label>Operated Motor Vehicle in Reckless or Aggressive Manner</rdfs:label>
+<rdf:type rdf:resource="#DriverContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14">
+<rdfs:label>Operated Motor Vehicle in Inattentive, Careless, Negligent, or Erratic Manner</rdfs:label>
+<rdf:type rdf:resource="#DriverContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#15">
+<rdfs:label>Swerved or Avoided Due to Wind, Slippery Surface, Motor Vehicle, Object, Non-Motorist in Roadway, etc.</rdfs:label>
+<rdf:type rdf:resource="#DriverContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#16">
+<rdfs:label>Over-Correcting/Over-Steering</rdfs:label>
+<rdf:type rdf:resource="#DriverContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Failed to Yield Right-of-Way</rdfs:label>
+<rdf:type rdf:resource="#DriverContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Ran Red Light</rdfs:label>
+<rdf:type rdf:resource="#DriverContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Ran Stop Sign</rdfs:label>
+<rdf:type rdf:resource="#DriverContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Disregarded Other Traffic Sign</rdfs:label>
+<rdf:type rdf:resource="#DriverContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Disregarded Other Road Markings</rdfs:label>
+<rdf:type rdf:resource="#DriverContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Improper Turn</rdfs:label>
+<rdf:type rdf:resource="#DriverContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Improper Backing</rdfs:label>
+<rdf:type rdf:resource="#DriverContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Improper Passing</rdfs:label>
+<rdf:type rdf:resource="#DriverContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#98">
+<rdfs:label>Other Contributing Action</rdfs:label>
+<rdf:type rdf:resource="#DriverContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#DriverContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DriverDistractionCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for distractions which may have influenced the driver performance.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Not Distracted</rdfs:label>
+<rdf:type rdf:resource="#DriverDistractionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Talking on Hand-Held Electronic Device</rdfs:label>
+<rdf:type rdf:resource="#DriverDistractionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>Outside the Vehicle (includes unspecified external distractions)</rdfs:label>
+<rdf:type rdf:resource="#DriverDistractionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13">
+<rdfs:label>Other Inside the Vehicle (eating, personal hygiene, etc.)</rdfs:label>
+<rdf:type rdf:resource="#DriverDistractionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Passenger</rdfs:label>
+<rdf:type rdf:resource="#DriverDistractionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Talking on Hands-Free Electronic Device</rdfs:label>
+<rdf:type rdf:resource="#DriverDistractionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Manually Operating an Electronic Communication Device (texting, typing, dialing)</rdfs:label>
+<rdf:type rdf:resource="#DriverDistractionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Other Activity, Electronic Device</rdfs:label>
+<rdf:type rdf:resource="#DriverDistractionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown if Distracted</rdfs:label>
+<rdf:type rdf:resource="#DriverDistractionCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DriverLicenseCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a current kind of an individuals driver license at the time of the crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Non-CDL Drivers License</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Commercial Driver License (CDL)</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Non-CDL Restricted Drivers License (Learners permit, Temporary/Limited, Graduated Drivers License, etc.)</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DriverLicenseClassCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a kind of License assigned by authorizing agent issuing a driver license to the individual.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#N">
+<rdfs:label>None</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NA">
+<rdfs:label>None/Not Applicable</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NA">
+<rdfs:label>Not Applicable</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#R">
+<rdfs:label>Any regular or standard driver's license issued for the operation of automobiles and light trucks by States that separate these vehicles from Class "C". Other class designation codes such as "D", "R" and others may be used by States to indicate a regular driver's license class.</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseClassCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DriverLicenseJurisdictionOtherCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for the geographic or political entity issuing a driver license other than US, Canadian Province, Mexican State.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Not Licensed</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseJurisdictionOtherCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#93">
+<rdfs:label>Indian Nation</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseJurisdictionOtherCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#94">
+<rdfs:label>U.S. Government</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseJurisdictionOtherCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#97">
+<rdfs:label>International License (other than Mexico, Canada)</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseJurisdictionOtherCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#98">
+<rdfs:label>Not Applicable</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseJurisdictionOtherCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseJurisdictionOtherCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DriverLicensePermitStatusCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a current status of an individuals driver license at the time of the crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Not Licensed</rdfs:label>
+<rdf:type rdf:resource="#DriverLicensePermitStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Suspended</rdfs:label>
+<rdf:type rdf:resource="#DriverLicensePermitStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Revoked</rdfs:label>
+<rdf:type rdf:resource="#DriverLicensePermitStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Expired</rdfs:label>
+<rdf:type rdf:resource="#DriverLicensePermitStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Canceled or Denied</rdfs:label>
+<rdf:type rdf:resource="#DriverLicensePermitStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Disqualified (CDL)</rdfs:label>
+<rdf:type rdf:resource="#DriverLicensePermitStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Valid License</rdfs:label>
+<rdf:type rdf:resource="#DriverLicensePermitStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#DriverLicensePermitStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DriverViolationCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for all motor vehicle-related violations code category, if any, which apply to this driver.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>None</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Manslaughter or homicide</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Driving while intoxicated (alcohol or drugs) or BAC above limit (any detectable BAC for CDLs)</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>Driving while impaired</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13">
+<rdfs:label>Driving under influence of substance not intended to intoxicate</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14">
+<rdfs:label>Drinking while operating</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#15">
+<rdfs:label>Illegal possession of alcohol or drugs</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#16">
+<rdfs:label>Driving with detectable alcohol</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#18">
+<rdfs:label>Refusal to submit to chemical test</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19">
+<rdfs:label>Alcohol, drug, or impairment violations generally</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Willful reckless driving; driving to endanger; negligent driving</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#21">
+<rdfs:label>Racing</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#22">
+<rdfs:label>Speeding (above the speed limit)</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23">
+<rdfs:label>Speed greater than reasonable and prudent (not necessarily over the limit)</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24">
+<rdfs:label>Exceeding special speed limit (e.g. for trucks, buses, cycles, or on bridge, in school zone, etc.)</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#25">
+<rdfs:label>Energy speed (exceeding 55 mph, non-pointable)</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26">
+<rdfs:label>Driving too slowly</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#29">
+<rdfs:label>Speed related violations, generally</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Unsafe reckless (not willful, wanton reckless) driving</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31">
+<rdfs:label>Fail to stop for red signal</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32">
+<rdfs:label>Fail to stop for flashing red</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33">
+<rdfs:label>Violation of turn on red (fail to stop and yield, yield to pedestrians before turning)</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34">
+<rdfs:label>Fail to obey flashing signal (yellow or red)</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35">
+<rdfs:label>Fail to obey signal generally</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36">
+<rdfs:label>Violate RR grade crossing device/regulations</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37">
+<rdfs:label>Fail to obey stop sign</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38">
+<rdfs:label>Fail to obey yield sign</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#39">
+<rdfs:label>Fail to obey traffic control device</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Inattentive, careless, improper driving</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#41">
+<rdfs:label>Turn in violation of traffic control (disobey signs, turn arrow or pavement markings; not a right on red violation)</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#42">
+<rdfs:label>Improper method and position of turn (too wide, wrong lane)</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#43">
+<rdfs:label>Fail to signal for turn or stop</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#45">
+<rdfs:label>Fail to yield to emergency vehicle</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#46">
+<rdfs:label>Fail to yield generally</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#48">
+<rdfs:label>Enter intersection when space insufficient</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#49">
+<rdfs:label>Turn, yield, signaling violations generally</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Fleeing or eluding police</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#51">
+<rdfs:label>Driving wrong way on one-way road</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#52">
+<rdfs:label>Driving on left, wrong side of road, generally</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#53">
+<rdfs:label>Improper, unsafe passing</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#54">
+<rdfs:label>Pass on right (drive off pavement to pass)</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#55">
+<rdfs:label>Pass stopped school bus</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#56">
+<rdfs:label>Fail to give way when overtaken</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#58">
+<rdfs:label>Following too closely</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#59">
+<rdfs:label>Wrong side, passing, following violations, generally</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Fail to obey police, fireman, authorized person directing traffic</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#61">
+<rdfs:label>Unsafe or prohibited lane change</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#62">
+<rdfs:label>Improper use of lane (enter of 3-lane road, HOV designated lane)</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#63">
+<rdfs:label>Certain traffic to use right lane (trucks, slow moving, etc.)</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#66">
+<rdfs:label>Motorcycle lane violations (more than two per lane, riding between lanes, etc.)</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#67">
+<rdfs:label>Motorcyclist attached to another vehicle</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#69">
+<rdfs:label>Lane violations, generally</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Hit-and-run, fail to stop after crash</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#71">
+<rdfs:label>Driving while license withdrawn</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#72">
+<rdfs:label>Other driver license violations</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#73">
+<rdfs:label>Commercial driver violations (log book, hours, permits carried)</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#74">
+<rdfs:label>Vehicle registration violations</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#75">
+<rdfs:label>Fail to carry insurance card</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#76">
+<rdfs:label>Driving uninsured vehicle</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#79">
+<rdfs:label>Non-moving violations generally</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Fail to give aid, info., wait for police after crash</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#81">
+<rdfs:label>Lamp violations</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#82">
+<rdfs:label>Brake violations</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#83">
+<rdfs:label>Failure to require restraint use (by self or passengers)</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#84">
+<rdfs:label>Motorcycle equipment violations (helmet, special equipment)</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#85">
+<rdfs:label>Violation of hazardous cargo regulations</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#86">
+<rdfs:label>Size, weight, load violations</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#89">
+<rdfs:label>Equipment violations generally</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Serious violation resulting in death</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#91">
+<rdfs:label>Parking</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#92">
+<rdfs:label>Theft, unauthorized use of motor vehicle</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#93">
+<rdfs:label>Driving where prohibited (sidewalk, limited access, off truck route)</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#97">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#98">
+<rdfs:label>Other moving violation (coasting, backing, opening door)</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown Violation(s)</rdfs:label>
+<rdf:type rdf:resource="#DriverViolationCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DrivingRestrictionCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for restrictions assigned to an individuals driver license by the license examiner.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>None</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Corrective Lenses</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Limited - Other</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>CDL Intrastate Only</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>Motor Vehicles without Air Brakes</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13">
+<rdfs:label>Military Vehicles Only</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14">
+<rdfs:label>Except Class A Bus</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#15">
+<rdfs:label>Except Class A and Class B Bus</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#16">
+<rdfs:label>Except Tractor-Trailer</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#17">
+<rdfs:label>Farm Waiver</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Mechanical Devices (special brakes, hand controls, or other adaptive devices)</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Prosthetic Aid</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Automatic Transmission</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Outside Mirror</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Limit to Daylight Only</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Limit to Employment</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Learner's Permit Restrictions</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Intermediate License Restrictions</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#98">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DrugTestCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a kind of Drug Test.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Blood</rdfs:label>
+<rdf:type rdf:resource="#DrugTestCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Urine</rdfs:label>
+<rdf:type rdf:resource="#DrugTestCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Other Test Type</rdfs:label>
+<rdf:type rdf:resource="#DrugTestCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DrugTestResultCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a Result of Drug Test.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#101">
+<rdfs:label>Positive</rdfs:label>
+<rdf:type rdf:resource="#DrugTestResultCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#102">
+<rdfs:label>Negative</rdfs:label>
+<rdf:type rdf:resource="#DrugTestResultCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#999">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#DrugTestResultCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DrugTestStatusCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a Status of Drug Test.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Test Not Given</rdfs:label>
+<rdf:type rdf:resource="#DrugTestStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#101">
+<rdfs:label>Test Refused</rdfs:label>
+<rdf:type rdf:resource="#DrugTestStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#102">
+<rdfs:label>Test Given</rdfs:label>
+<rdf:type rdf:resource="#DrugTestStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#999">
+<rdfs:label>Unknown If Tested</rdfs:label>
+<rdf:type rdf:resource="#DrugTestStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#EventSequenceCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for events in sequence related to this motor vehicle, including both non-collision as well as collision events.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#60">
+<rdfs:label>Cargo/Equipment Loss or Shift (non-harmful)</rdfs:label>
+<rdf:type rdf:resource="#EventSequenceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#61">
+<rdfs:label>Equipment Failure (blown tire, brake failure, etc)</rdfs:label>
+<rdf:type rdf:resource="#EventSequenceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#62">
+<rdfs:label>Separation of Units</rdfs:label>
+<rdf:type rdf:resource="#EventSequenceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#63">
+<rdfs:label>Ran Off Roadway - Right</rdfs:label>
+<rdf:type rdf:resource="#EventSequenceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#64">
+<rdfs:label>Ran Off Roadway - Left</rdfs:label>
+<rdf:type rdf:resource="#EventSequenceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#65">
+<rdfs:label>Cross Median</rdfs:label>
+<rdf:type rdf:resource="#EventSequenceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#66">
+<rdfs:label>Downhill Runaway</rdfs:label>
+<rdf:type rdf:resource="#EventSequenceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#67">
+<rdfs:label>Vehicle Went Airborne</rdfs:label>
+<rdf:type rdf:resource="#EventSequenceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#68">
+<rdfs:label>Cross Centerline</rdfs:label>
+<rdf:type rdf:resource="#EventSequenceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#69">
+<rdfs:label>Re-entering Roadway</rdfs:label>
+<rdf:type rdf:resource="#EventSequenceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#70">
+<rdfs:label>(Non-harmful, Swaying Trailer/Jackknife)</rdfs:label>
+<rdf:type rdf:resource="#EventSequenceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#71">
+<rdfs:label>End Departure</rdfs:label>
+<rdf:type rdf:resource="#EventSequenceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#79">
+<rdfs:label>Ran off Roadway - Direction Unknown</rdfs:label>
+<rdf:type rdf:resource="#EventSequenceCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#FirstConditionCrashCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for any relevant condition of the individual (motorist or non-motorist) that is directly related to the crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#00">
+<rdfs:label>None/Apparently Normal</rdfs:label>
+<rdf:type rdf:resource="#FirstConditionCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown if Impaired</rdfs:label>
+<rdf:type rdf:resource="#FirstConditionCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#HazMatCargoReleaseCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for an indication that a motor vehicle had a hazardous materials placard as required by federal/state regulations.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Yes</rdfs:label>
+<rdf:type rdf:resource="#HazMatCargoReleaseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>No</rdfs:label>
+<rdf:type rdf:resource="#HazMatCargoReleaseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Not Applicable</rdfs:label>
+<rdf:type rdf:resource="#HazMatCargoReleaseCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#InformationSourceCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for an affiliation of the person completing the crash report such as Source of Information</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Law Enforcement Agency</rdfs:label>
+<rdf:type rdf:resource="#InformationSourceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Motorist</rdfs:label>
+<rdf:type rdf:resource="#InformationSourceCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#InjuredTransportationSourceCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a kind of transport to the medical facility receiving the patient.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Not Transported</rdfs:label>
+<rdf:type rdf:resource="#InjuredTransportationSourceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>EMS Air</rdfs:label>
+<rdf:type rdf:resource="#InjuredTransportationSourceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Law Enforcement</rdfs:label>
+<rdf:type rdf:resource="#InjuredTransportationSourceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>EMS Unknown Mode</rdfs:label>
+<rdf:type rdf:resource="#InjuredTransportationSourceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Transported Unknown Source</rdfs:label>
+<rdf:type rdf:resource="#InjuredTransportationSourceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>EMS Ground</rdfs:label>
+<rdf:type rdf:resource="#InjuredTransportationSourceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#InjuredTransportationSourceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#InjuredTransportationSourceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#InjuredTransportationSourceCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#IntersectionCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for an intersection consists of two or more roadways that intersect at the same level.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Not an Intersection</rdfs:label>
+<rdf:type rdf:resource="#IntersectionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>L-Intersection</rdfs:label>
+<rdf:type rdf:resource="#IntersectionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Four-Way Intersection</rdfs:label>
+<rdf:type rdf:resource="#IntersectionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>T-Intersection</rdfs:label>
+<rdf:type rdf:resource="#IntersectionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Y-Intersection</rdfs:label>
+<rdf:type rdf:resource="#IntersectionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Traffic Circle</rdfs:label>
+<rdf:type rdf:resource="#IntersectionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Roundabout</rdfs:label>
+<rdf:type rdf:resource="#IntersectionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Five Point, or More</rdfs:label>
+<rdf:type rdf:resource="#IntersectionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#98">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#IntersectionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#IntersectionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#ManeuverCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a controlled maneuver for this motor vehicle prior to the beginning of the sequence of events.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Movements Essentially Straight Ahead</rdfs:label>
+<rdf:type rdf:resource="#ManeuverCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Turning Right</rdfs:label>
+<rdf:type rdf:resource="#ManeuverCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Turning Left</rdfs:label>
+<rdf:type rdf:resource="#ManeuverCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>Making a U-Turn</rdfs:label>
+<rdf:type rdf:resource="#ManeuverCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13">
+<rdfs:label>Backing</rdfs:label>
+<rdf:type rdf:resource="#ManeuverCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14">
+<rdfs:label>Negotiating a Curve</rdfs:label>
+<rdf:type rdf:resource="#ManeuverCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#15">
+<rdfs:label>Changing Lanes</rdfs:label>
+<rdf:type rdf:resource="#ManeuverCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Decelerating in Road</rdfs:label>
+<rdf:type rdf:resource="#ManeuverCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Stopped in Roadway</rdfs:label>
+<rdf:type rdf:resource="#ManeuverCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Passing or Overtaking another Vehicle</rdfs:label>
+<rdf:type rdf:resource="#ManeuverCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Disableed or "Parked" in Travel Lane</rdfs:label>
+<rdf:type rdf:resource="#ManeuverCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Entering Traffic Lane</rdfs:label>
+<rdf:type rdf:resource="#ManeuverCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Leaving Traffic Lane</rdfs:label>
+<rdf:type rdf:resource="#ManeuverCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#98">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#ManeuverCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#ManeuverCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#MotorCarrierIdentificationCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type motor carrier identification category</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Interstate Carrier</rdfs:label>
+<rdf:type rdf:resource="#MotorCarrierIdentificationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Intrastate Carrier</rdfs:label>
+<rdf:type rdf:resource="#MotorCarrierIdentificationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Not in Commerce/Government</rdfs:label>
+<rdf:type rdf:resource="#MotorCarrierIdentificationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Not in Commerce/Other Truck</rdfs:label>
+<rdf:type rdf:resource="#MotorCarrierIdentificationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#MotoristPersonCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a motorist person category code.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Driver of a Motor Vehicle In-Transport</rdfs:label>
+<rdf:type rdf:resource="#MotoristPersonCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Passenger of a Motor Vehicle In-Transport</rdfs:label>
+<rdf:type rdf:resource="#MotoristPersonCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Unknown Occupant Type in a Motor Vehicle In-Transport</rdfs:label>
+<rdf:type rdf:resource="#MotoristPersonCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#NA-No-Yes-NR-CodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for standard selection codes as yes, no, unknown.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Not Available</rdfs:label>
+<rdf:type rdf:resource="#NA-No-Yes-NR-CodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>No</rdfs:label>
+<rdf:type rdf:resource="#NA-No-Yes-NR-CodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Yes</rdfs:label>
+<rdf:type rdf:resource="#NA-No-Yes-NR-CodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#NA-No-Yes-NR-CodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#NonMotoristActionBeforeCrashCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for an action of the non-motorist prior to the crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>None</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristActionBeforeCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Working in Trafficway (Incident Response)</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristActionBeforeCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristActionBeforeCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Waiting to Cross Roadway</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristActionBeforeCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Crossing Roadway</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristActionBeforeCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Walking/Cycling on Sidewalk</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristActionBeforeCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Walking/Cycling Along Roadway with Traffic (In or Adjacent to Travel Lane)</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristActionBeforeCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Walking/Cycling Along Roadway Against Traffic (In or Adjacent to Travel Lane)</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristActionBeforeCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>In Roadway - Other</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristActionBeforeCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Adjacent to Roadway (e.g., Shoulder, Median)</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristActionBeforeCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristActionBeforeCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#NonMotoristContributingCircumstancesCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for actions that the non-motorist was undertaking at the time of the crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>No Improper Action</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Dart/Dash</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19">
+<rdfs:label>Not Visible (Dark Clothing, No Lighting, Etc.)</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Failure to Yield Right-of-Way</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#21">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Failure to Obey Traffic Signs, Signals, or Officer</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30">
+<rdfs:label>Disabled Vehicle Related (Working on, Pushing, Leaving/Approaching)</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>In Roadway Improperly (Standing, Lying, Working, Playing)</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Entering/Exiting Parked/Standing Vehicle</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Inattentive(talking, eating, etc)</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Improper Turn/Merge</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Improper Passing</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Wrong-Way Riding or Walking</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#NonMotoristLocationCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a non-motorists location with respect to the roadway at the time of the crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>At Intersection - In Marked Crosswalk</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Midblock - Marked Crosswalk</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Travel Lane - Other Location</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#16">
+<rdfs:label>Bicycle Lane</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>At Intersection-Unmarked / Unknown if Marked Crosswalk</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20">
+<rdfs:label>Shoulder/Roadside</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#21">
+<rdfs:label>Sidewalk</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#22">
+<rdfs:label>Median/Crossing Island</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23">
+<rdfs:label>Driveway Access</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24">
+<rdfs:label>Shared-Use Path or Trail</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#25">
+<rdfs:label>Non-Trafficway Area</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#28">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>At Intersection - Other</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown Location</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#NonMotoristPersonCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a kind of Non-Motorist involved in a Traffic Accident.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Other Pedestrian (wheelchair, person in a building, skater, etc)</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristPersonCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19">
+<rdfs:label>Unknown Type of Non-Motorist</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristPersonCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Occupant of a Motor Vehicle Not In-Transport (parked, etc.)</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristPersonCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Occupant of a Non-Motor Vehicle Transport Device</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristPersonCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Pedestrian</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristPersonCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Bicyclist</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristPersonCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Other Cyclist</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristPersonCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Persons on Personal Conveyances</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristPersonCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#NonMotoristSafetyEquipmentCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for safety equipment(s) used by the non-motorist.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>None Used</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristSafetyEquipmentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Helmet</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristSafetyEquipmentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Reflective Equipment/Clothing (jacket, backpack, etc.)</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristSafetyEquipmentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Protective Pads Used(elbows, knees, shins, etc.)</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristSafetyEquipmentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Lighting</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristSafetyEquipmentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Other Safety Equipment</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristSafetyEquipmentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristSafetyEquipmentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Unknown if Used</rdfs:label>
+<rdf:type rdf:resource="#NonMotoristSafetyEquipmentCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#OccupantAirBagDeployedCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for deployment status of an air bag relative to the position in the vehicle for this occupant.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Not Applicable</rdfs:label>
+<rdf:type rdf:resource="#OccupantAirBagDeployedCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Deployed- Front</rdfs:label>
+<rdf:type rdf:resource="#OccupantAirBagDeployedCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Deployed- Side (door, seatback)</rdfs:label>
+<rdf:type rdf:resource="#OccupantAirBagDeployedCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20">
+<rdfs:label>Not Deployed</rdfs:label>
+<rdf:type rdf:resource="#OccupantAirBagDeployedCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#28">
+<rdfs:label>Switched Off</rdfs:label>
+<rdf:type rdf:resource="#OccupantAirBagDeployedCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Deployed- Curtain (roof)</rdfs:label>
+<rdf:type rdf:resource="#OccupantAirBagDeployedCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Deployed- Other (Knee, air belt, etc.)</rdfs:label>
+<rdf:type rdf:resource="#OccupantAirBagDeployedCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Deployed- Combination</rdfs:label>
+<rdf:type rdf:resource="#OccupantAirBagDeployedCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Deployment- Unknown Location</rdfs:label>
+<rdf:type rdf:resource="#OccupantAirBagDeployedCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#98">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#OccupantAirBagDeployedCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Deployment Unknown</rdfs:label>
+<rdf:type rdf:resource="#OccupantAirBagDeployedCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#OccupantEjectionCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for occupant completely or partially thrown from the interior of the motor vehicle, excluding motorcycles, as a result of a crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Not Ejected</rdfs:label>
+<rdf:type rdf:resource="#OccupantEjectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Totally Ejected</rdfs:label>
+<rdf:type rdf:resource="#OccupantEjectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Partially Ejected</rdfs:label>
+<rdf:type rdf:resource="#OccupantEjectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Ejected - Unknown Degree</rdfs:label>
+<rdf:type rdf:resource="#OccupantEjectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#OccupantEjectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Not Applicable</rdfs:label>
+<rdf:type rdf:resource="#OccupantEjectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Unknown if Ejected</rdfs:label>
+<rdf:type rdf:resource="#OccupantEjectionCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#OccupantProtectionSystemMotorcycleHelmetUseCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for the helmet use by a motorcyclist, at the time of the crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#16">
+<rdfs:label>Helmet, Other than DOT-Compliant Motorcycle Helmet</rdfs:label>
+<rdf:type rdf:resource="#OccupantProtectionSystemMotorcycleHelmetUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#17">
+<rdfs:label>No Helmet</rdfs:label>
+<rdf:type rdf:resource="#OccupantProtectionSystemMotorcycleHelmetUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19">
+<rdfs:label>Helmet, Unknown if DOT Compliant</rdfs:label>
+<rdf:type rdf:resource="#OccupantProtectionSystemMotorcycleHelmetUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#29">
+<rdfs:label>Unknown if Helmet Worn</rdfs:label>
+<rdf:type rdf:resource="#OccupantProtectionSystemMotorcycleHelmetUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>DOT-Compliant Motorcycle Helmet</rdfs:label>
+<rdf:type rdf:resource="#OccupantProtectionSystemMotorcycleHelmetUseCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#OccupantProtectionSystemUseCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for the restraint equipment in use by the occupant, or the helmet use by a motorcyclist, at the time of the crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Not Applicable</rdfs:label>
+<rdf:type rdf:resource="#OccupantProtectionSystemUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Shoulder Belt Only Used</rdfs:label>
+<rdf:type rdf:resource="#OccupantProtectionSystemUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Child Restraint System - Forward Facing</rdfs:label>
+<rdf:type rdf:resource="#OccupantProtectionSystemUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Child Restraint System - Rear Facing</rdfs:label>
+<rdf:type rdf:resource="#OccupantProtectionSystemUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>Booster Seat</rdfs:label>
+<rdf:type rdf:resource="#OccupantProtectionSystemUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Lap Belt Only Used</rdfs:label>
+<rdf:type rdf:resource="#OccupantProtectionSystemUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Shoulder and Lap Belt Used</rdfs:label>
+<rdf:type rdf:resource="#OccupantProtectionSystemUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Child Restraint Type Unknown</rdfs:label>
+<rdf:type rdf:resource="#OccupantProtectionSystemUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>None Used - Motor Vehicle Occupant</rdfs:label>
+<rdf:type rdf:resource="#OccupantProtectionSystemUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Restraint Used - Type Unknown</rdfs:label>
+<rdf:type rdf:resource="#OccupantProtectionSystemUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#97">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#OccupantProtectionSystemUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#98">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#OccupantProtectionSystemUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#OccupantProtectionSystemUseCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#OccupantSeatCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for the occupants seat in the motor vehicle prior to the first event in the sequence of events.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Left (usually the motor vehicle or motorcycle driver except for postal vehicles and some foreign vehicles)</rdfs:label>
+<rdf:type rdf:resource="#OccupantSeatCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Middle</rdfs:label>
+<rdf:type rdf:resource="#OccupantSeatCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Right</rdfs:label>
+<rdf:type rdf:resource="#OccupantSeatCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#OccupantSeatCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#OccupantSeatCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#OccupantSeatOtherLocationCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for the location of the vehicle occupant prior to the first event in the sequence of events.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Not Applicable</rdfs:label>
+<rdf:type rdf:resource="#OccupantSeatOtherLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#50">
+<rdfs:label>Sleeper Section of Cab (truck)</rdfs:label>
+<rdf:type rdf:resource="#OccupantSeatOtherLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#51">
+<rdfs:label>Other Enclosed Cargo Area</rdfs:label>
+<rdf:type rdf:resource="#OccupantSeatOtherLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#52">
+<rdfs:label>Unenclosed Cargo Area</rdfs:label>
+<rdf:type rdf:resource="#OccupantSeatOtherLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#54">
+<rdfs:label>Trailing Unit</rdfs:label>
+<rdf:type rdf:resource="#OccupantSeatOtherLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#55">
+<rdfs:label>Riding on Motor Vehicle Exterior (non-trailing unit)</rdfs:label>
+<rdf:type rdf:resource="#OccupantSeatOtherLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#OccupantSeatOtherLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#OccupantSeatRowCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for the occupants seat row in the motor vehicle prior to the first event in the sequence of events.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Front</rdfs:label>
+<rdf:type rdf:resource="#OccupantSeatRowCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Second</rdfs:label>
+<rdf:type rdf:resource="#OccupantSeatRowCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Third</rdfs:label>
+<rdf:type rdf:resource="#OccupantSeatRowCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Fourth</rdfs:label>
+<rdf:type rdf:resource="#OccupantSeatRowCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Other Row(bus, 15 passenger van etc.)</rdfs:label>
+<rdf:type rdf:resource="#OccupantSeatRowCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#OccupantSeatRowCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#PersonInjuryLocationCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for the primary or most obvious area of the persons body injured during the crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Head</rdfs:label>
+<rdf:type rdf:resource="#PersonInjuryLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Face</rdfs:label>
+<rdf:type rdf:resource="#PersonInjuryLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Neck</rdfs:label>
+<rdf:type rdf:resource="#PersonInjuryLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Thorax (chest)</rdfs:label>
+<rdf:type rdf:resource="#PersonInjuryLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Abdomen and Pelvis</rdfs:label>
+<rdf:type rdf:resource="#PersonInjuryLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Spine</rdfs:label>
+<rdf:type rdf:resource="#PersonInjuryLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Upper Extremity</rdfs:label>
+<rdf:type rdf:resource="#PersonInjuryLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Lower Extremity</rdfs:label>
+<rdf:type rdf:resource="#PersonInjuryLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Unspecified</rdfs:label>
+<rdf:type rdf:resource="#PersonInjuryLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#PersonInjuryStatusCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for the injury severity level for a person involved in crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>No Apparent Injury (O)</rdfs:label>
+<rdf:type rdf:resource="#PersonInjuryStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Possible Injury (C)</rdfs:label>
+<rdf:type rdf:resource="#PersonInjuryStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Suspected Minor Injury (B)</rdfs:label>
+<rdf:type rdf:resource="#PersonInjuryStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Suspected Serious Injury (A)</rdfs:label>
+<rdf:type rdf:resource="#PersonInjuryStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Fatal Injury (K)</rdfs:label>
+<rdf:type rdf:resource="#PersonInjuryStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#RoadwayGradeCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for the grade characteristics of the roadway in the direction of travel for this vehicle.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Level</rdfs:label>
+<rdf:type rdf:resource="#RoadwayGradeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Hillcrest</rdfs:label>
+<rdf:type rdf:resource="#RoadwayGradeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Sag (Bottom)</rdfs:label>
+<rdf:type rdf:resource="#RoadwayGradeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Uphill</rdfs:label>
+<rdf:type rdf:resource="#RoadwayGradeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Downhill</rdfs:label>
+<rdf:type rdf:resource="#RoadwayGradeCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#RoadwayHorizontalAlignmentCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for the horizontal geometric or layout and inclination characteristics of the roadway in the direction of travel for this vehicle.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Straight</rdfs:label>
+<rdf:type rdf:resource="#RoadwayHorizontalAlignmentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Curve Right</rdfs:label>
+<rdf:type rdf:resource="#RoadwayHorizontalAlignmentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Curve Left</rdfs:label>
+<rdf:type rdf:resource="#RoadwayHorizontalAlignmentCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#SecondConditionCrashCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for any relevant condition of the individual (motorist or non-motorist) that is directly related to the crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#01">
+<rdfs:label>Ill(sick), Blackout(Fainted)</rdfs:label>
+<rdf:type rdf:resource="#SecondConditionCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#02">
+<rdfs:label>Asleep or Fatigued</rdfs:label>
+<rdf:type rdf:resource="#SecondConditionCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#08">
+<rdfs:label>Emotional(depressed, angry, disturbed, etc.)</rdfs:label>
+<rdf:type rdf:resource="#SecondConditionCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#09">
+<rdfs:label>Under the Influence of Alcohol, Drugs or Medications/</rdfs:label>
+<rdf:type rdf:resource="#SecondConditionCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Physically Impairment - No Detail</rdfs:label>
+<rdf:type rdf:resource="#SecondConditionCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#96">
+<rdfs:label>Other Physical Impairment</rdfs:label>
+<rdf:type rdf:resource="#SecondConditionCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#SpeedingRelatedCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type to indicate whether the investigating officer suspects that the driver involved in the crash was speeding based on verbal or physical evidence and not on speculation alone.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>No</rdfs:label>
+<rdf:type rdf:resource="#SpeedingRelatedCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Exceeded Speed Limit</rdfs:label>
+<rdf:type rdf:resource="#SpeedingRelatedCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Racing</rdfs:label>
+<rdf:type rdf:resource="#SpeedingRelatedCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Too Fast for Conditions</rdfs:label>
+<rdf:type rdf:resource="#SpeedingRelatedCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#SpeedingRelatedCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#StandardSelectionCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for standard selection codes as yes, no, unknown.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>No/None/None-Noted</rdfs:label>
+<rdf:type rdf:resource="#StandardSelectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Yes</rdfs:label>
+<rdf:type rdf:resource="#StandardSelectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#StandardSelectionCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#TrafficwayDescriptionCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for an indication of whether or not the trafficway for this vehicle is divided and whether it serves one-way or two-way traffic.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Non-Trafficway or Driveway Access</rdfs:label>
+<rdf:type rdf:resource="#TrafficwayDescriptionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Two-Way, Not Divided</rdfs:label>
+<rdf:type rdf:resource="#TrafficwayDescriptionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Two-Way, Divided, Unprotected (Painted &gt; 4 Feet ) Median</rdfs:label>
+<rdf:type rdf:resource="#TrafficwayDescriptionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Two-Way, Divided, Positive Median Barrier</rdfs:label>
+<rdf:type rdf:resource="#TrafficwayDescriptionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>One-Way Trafficway</rdfs:label>
+<rdf:type rdf:resource="#TrafficwayDescriptionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Two-Way, Not Divided With a Continuous Left-Turn Lane</rdfs:label>
+<rdf:type rdf:resource="#TrafficwayDescriptionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Entrance/Exit Ramp</rdfs:label>
+<rdf:type rdf:resource="#TrafficwayDescriptionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#TrafficwayDescriptionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#TrafficwayDescriptionCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#TravelDirectionBeforeCrashCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for the direction of a motor vehicles travel on the roadway before the crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Not on Roadway</rdfs:label>
+<rdf:type rdf:resource="#TravelDirectionBeforeCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Northbound</rdfs:label>
+<rdf:type rdf:resource="#TravelDirectionBeforeCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Southbound</rdfs:label>
+<rdf:type rdf:resource="#TravelDirectionBeforeCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Eastbound</rdfs:label>
+<rdf:type rdf:resource="#TravelDirectionBeforeCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Westbound</rdfs:label>
+<rdf:type rdf:resource="#TravelDirectionBeforeCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#TravelDirectionBeforeCrashCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#VehicleBodyCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a category indicating the general configuration or shape of a motor vehicle distinguished by characteristics such as number of doors, rows of seats, windows, or roof line.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Passenger Car</rdfs:label>
+<rdf:type rdf:resource="#VehicleBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14">
+<rdfs:label>(Sport) Utility Vehicle</rdfs:label>
+<rdf:type rdf:resource="#VehicleBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20">
+<rdfs:label>Passenger Van</rdfs:label>
+<rdf:type rdf:resource="#VehicleBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#21">
+<rdfs:label>Cargo Van (10,000 lbs GVWR or less)</rdfs:label>
+<rdf:type rdf:resource="#VehicleBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30">
+<rdfs:label>Pickup</rdfs:label>
+<rdf:type rdf:resource="#VehicleBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#45">
+<rdfs:label>Other Light Trucks (10,000 lbs GVWR or less)</rdfs:label>
+<rdf:type rdf:resource="#VehicleBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#50">
+<rdfs:label>School Bus</rdfs:label>
+<rdf:type rdf:resource="#VehicleBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#52">
+<rdfs:label>Transit Bus</rdfs:label>
+<rdf:type rdf:resource="#VehicleBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#58">
+<rdfs:label>Other Bus</rdfs:label>
+<rdf:type rdf:resource="#VehicleBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#65">
+<rdfs:label>Motorcoach</rdfs:label>
+<rdf:type rdf:resource="#VehicleBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#73">
+<rdfs:label>Motor Home</rdfs:label>
+<rdf:type rdf:resource="#VehicleBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#78">
+<rdfs:label>Medium/Heavy Trucks (more than 10,000 lbs GVWR)</rdfs:label>
+<rdf:type rdf:resource="#VehicleBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#80">
+<rdfs:label>Motorcycle</rdfs:label>
+<rdf:type rdf:resource="#VehicleBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#81">
+<rdfs:label>Moped</rdfs:label>
+<rdf:type rdf:resource="#VehicleBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#90">
+<rdfs:label>All Terrain Vehicle (ATV)</rdfs:label>
+<rdf:type rdf:resource="#VehicleBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#91">
+<rdfs:label>Snowmobile</rdfs:label>
+<rdf:type rdf:resource="#VehicleBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#94">
+<rdfs:label>Low Speed Vehicle</rdfs:label>
+<rdf:type rdf:resource="#VehicleBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#95">
+<rdfs:label>Golf Cart</rdfs:label>
+<rdf:type rdf:resource="#VehicleBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#97">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#VehicleBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#VehicleBusUseCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type describes the common type of bus service this vehicle was being used as at the time of the crash. Buses are any motor vehicle with seats to transport nine (9) or more people, including the driver's seat. This element does not include vans which are owned and operated for personal use.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Not a Bus</rdfs:label>
+<rdf:type rdf:resource="#VehicleBusUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>School</rdfs:label>
+<rdf:type rdf:resource="#VehicleBusUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Intercity</rdfs:label>
+<rdf:type rdf:resource="#VehicleBusUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Charter/Tour</rdfs:label>
+<rdf:type rdf:resource="#VehicleBusUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Transit/ Commuter</rdfs:label>
+<rdf:type rdf:resource="#VehicleBusUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Shuttle</rdfs:label>
+<rdf:type rdf:resource="#VehicleBusUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Modified for Personal/Private Use</rdfs:label>
+<rdf:type rdf:resource="#VehicleBusUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#98">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#VehicleBusUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#VehicleBusUseCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#VehicleCargoBodyCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a kind of body for buses and trucks more than 10,000 lbs (4,536 kg) GVWR.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Not Applicable (N/A)</rdfs:label>
+<rdf:type rdf:resource="#VehicleCargoBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Van/Enclosed Box</rdfs:label>
+<rdf:type rdf:resource="#VehicleCargoBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Log</rdfs:label>
+<rdf:type rdf:resource="#VehicleCargoBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Intermodal Container Chassis</rdfs:label>
+<rdf:type rdf:resource="#VehicleCargoBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>Vehicle Towing Another Motor Vehicle</rdfs:label>
+<rdf:type rdf:resource="#VehicleCargoBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Cargo Tank</rdfs:label>
+<rdf:type rdf:resource="#VehicleCargoBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#22">
+<rdfs:label>Bus</rdfs:label>
+<rdf:type rdf:resource="#VehicleCargoBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Flatbed</rdfs:label>
+<rdf:type rdf:resource="#VehicleCargoBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Dump</rdfs:label>
+<rdf:type rdf:resource="#VehicleCargoBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Concrete Mixer</rdfs:label>
+<rdf:type rdf:resource="#VehicleCargoBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Auto Transporter</rdfs:label>
+<rdf:type rdf:resource="#VehicleCargoBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Garbage/Refuse</rdfs:label>
+<rdf:type rdf:resource="#VehicleCargoBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Grain/ Chips/ Gravel</rdfs:label>
+<rdf:type rdf:resource="#VehicleCargoBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Pole-Trailer</rdfs:label>
+<rdf:type rdf:resource="#VehicleCargoBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#96">
+<rdfs:label>No Cargo Body Type</rdfs:label>
+<rdf:type rdf:resource="#VehicleCargoBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#97">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#VehicleCargoBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#98">
+<rdfs:label>Unknown Cargo Body Type</rdfs:label>
+<rdf:type rdf:resource="#VehicleCargoBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#VehicleCargoBodyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#VehicleContributingCircumstancesCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for pre-existing motor vehicle defects or maintenance conditions that may have contributed to the crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>None</rdfs:label>
+<rdf:type rdf:resource="#VehicleContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Tires</rdfs:label>
+<rdf:type rdf:resource="#VehicleContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Wipers</rdfs:label>
+<rdf:type rdf:resource="#VehicleContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Wheels</rdfs:label>
+<rdf:type rdf:resource="#VehicleContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>Mirrors</rdfs:label>
+<rdf:type rdf:resource="#VehicleContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13">
+<rdfs:label>Windows/Windshield</rdfs:label>
+<rdf:type rdf:resource="#VehicleContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14">
+<rdfs:label>Body, Doors</rdfs:label>
+<rdf:type rdf:resource="#VehicleContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#15">
+<rdfs:label>Truck Coupling/Trailer Hitch/Safety Chains</rdfs:label>
+<rdf:type rdf:resource="#VehicleContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Brake System</rdfs:label>
+<rdf:type rdf:resource="#VehicleContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Steering</rdfs:label>
+<rdf:type rdf:resource="#VehicleContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Suspension</rdfs:label>
+<rdf:type rdf:resource="#VehicleContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Power Train</rdfs:label>
+<rdf:type rdf:resource="#VehicleContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Exhaust System</rdfs:label>
+<rdf:type rdf:resource="#VehicleContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Lights (head, signal, tail)</rdfs:label>
+<rdf:type rdf:resource="#VehicleContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#97">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#VehicleContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#98">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#VehicleContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#VehicleContributingCircumstancesCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#VehicleDamageCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for events in sequence related to this motor vehicle, including both non-collision as well as collision events.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#00">
+<rdfs:label>Non-Collision</rdfs:label>
+<rdf:type rdf:resource="#VehicleDamageCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13">
+<rdfs:label>Top</rdfs:label>
+<rdf:type rdf:resource="#VehicleDamageCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14">
+<rdfs:label>Undercarriage</rdfs:label>
+<rdf:type rdf:resource="#VehicleDamageCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#18">
+<rdfs:label>Cargo Loss</rdfs:label>
+<rdf:type rdf:resource="#VehicleDamageCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#98">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#VehicleDamageCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#VehicleDamageCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#VehicleDamageExtentCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for an estimation of total damage to motor vehicle from crash.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>No Damage</rdfs:label>
+<rdf:type rdf:resource="#VehicleDamageExtentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Minor Damage</rdfs:label>
+<rdf:type rdf:resource="#VehicleDamageExtentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Functional Damage</rdfs:label>
+<rdf:type rdf:resource="#VehicleDamageExtentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Disabling Damage</rdfs:label>
+<rdf:type rdf:resource="#VehicleDamageExtentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#VehicleDamageExtentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#VehicleDamageExtentCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#VehicleGrossAndCombinationWeightRatingCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for the amount recommended by the manufacturer as the upper limit to the operational weight for a motor vehicle and any cargo (human or other) to be carried and the sum of all GVWRs for each unit in a combination unit motor vehicle.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Not Applicable</rdfs:label>
+<rdf:type rdf:resource="#VehicleGrossAndCombinationWeightRatingCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>10,000 lbs. or less</rdfs:label>
+<rdf:type rdf:resource="#VehicleGrossAndCombinationWeightRatingCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>10,001 lbs - 26,000 lbs</rdfs:label>
+<rdf:type rdf:resource="#VehicleGrossAndCombinationWeightRatingCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>26,001 lbs. or more</rdfs:label>
+<rdf:type rdf:resource="#VehicleGrossAndCombinationWeightRatingCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#VehicleGrossAndCombinationWeightRatingCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#VehicleGrossAndCombinationWeightRatingCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#VehicleTrafficControlDeviceCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a kind of traffic control device (TCD) applicable to this motor vehicle at the crash location.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>No Controls</rdfs:label>
+<rdf:type rdf:resource="#VehicleTrafficControlDeviceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Traffic control signal</rdfs:label>
+<rdf:type rdf:resource="#VehicleTrafficControlDeviceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20">
+<rdfs:label>Stop Sign</rdfs:label>
+<rdf:type rdf:resource="#VehicleTrafficControlDeviceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#21">
+<rdfs:label>Yield Sign</rdfs:label>
+<rdf:type rdf:resource="#VehicleTrafficControlDeviceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23">
+<rdfs:label>School Zone Sign/Device</rdfs:label>
+<rdf:type rdf:resource="#VehicleTrafficControlDeviceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Flashing Traffic Control Signal</rdfs:label>
+<rdf:type rdf:resource="#VehicleTrafficControlDeviceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#40">
+<rdfs:label>Warning Sign</rdfs:label>
+<rdf:type rdf:resource="#VehicleTrafficControlDeviceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#50">
+<rdfs:label>Person (including flagger, law enforcement, crossing guard, etc.)</rdfs:label>
+<rdf:type rdf:resource="#VehicleTrafficControlDeviceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#65">
+<rdfs:label>Railway Crossing Device</rdfs:label>
+<rdf:type rdf:resource="#VehicleTrafficControlDeviceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#97">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#VehicleTrafficControlDeviceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#98">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#VehicleTrafficControlDeviceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#VehicleTrafficControlDeviceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#VehicleUseCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a kind of special function being served by this vehicle regardless of whether the function is marked on the vehicle.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>No Special Use</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Taxi</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13">
+<rdfs:label>Incident Response</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Vehicle Used for School Transport</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Vehicle Used as Other Bus</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Military</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Police</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Ambulance</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Fire Truck</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Non-Transport Emergency Services Vehicle</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#98">
+<rdfs:label>Not Reported</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#WorkZoneCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a crash that occurs in or related to a construction, maintenance, or utility work zone and indicates kind of the work zone</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Lane Closure</rdfs:label>
+<rdf:type rdf:resource="#WorkZoneCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Lane Shift/Crossover</rdfs:label>
+<rdf:type rdf:resource="#WorkZoneCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Work on Shoulder or Median</rdfs:label>
+<rdf:type rdf:resource="#WorkZoneCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Intermittent or Moving Work</rdfs:label>
+<rdf:type rdf:resource="#WorkZoneCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#WorkZoneCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#WorkZoneCrashLocationCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for a crash that occurs in or related to a construction, maintenance, or utility work zone.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Before First Work Zone Warning Sign</rdfs:label>
+<rdf:type rdf:resource="#WorkZoneCrashLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Advance Warning Area</rdfs:label>
+<rdf:type rdf:resource="#WorkZoneCrashLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Transition Area</rdfs:label>
+<rdf:type rdf:resource="#WorkZoneCrashLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Activity Area</rdfs:label>
+<rdf:type rdf:resource="#WorkZoneCrashLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Termination Area</rdfs:label>
+<rdf:type rdf:resource="#WorkZoneCrashLocationCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#WorkZoneWorkersPresenceIndicationCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#mmucc.xsd"/>
+<rdfs:comment>A data type for the Work Zone Workers Presence</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Yes</rdfs:label>
+<rdf:type rdf:resource="#WorkZoneWorkersPresenceIndicationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>No</rdfs:label>
+<rdf:type rdf:resource="#WorkZoneWorkersPresenceIndicationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#WorkZoneWorkersPresenceIndicationCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+</rdf:RDF>
+

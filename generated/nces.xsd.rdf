@@ -1,0 +1,235 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#nces.xsd">
+<rdfs:label>nces.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+    
+      
+    
+  
+  
+  
+  <owl:Class rdf:about="#CIP2DigitCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#nces.xsd"/>
+<rdfs:comment>A data type for 2-digit Classification of Instructional Programs (CIP) codes.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#01">
+<rdfs:label>AGRICULTURAL/ANIMAL/PLANT/VETERINARY SCIENCE AND RELATED FIELDS.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03">
+<rdfs:label>NATURAL RESOURCES AND CONSERVATION.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#04">
+<rdfs:label>ARCHITECTURE AND RELATED SERVICES.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#05">
+<rdfs:label>AREA, ETHNIC, CULTURAL, GENDER, AND GROUP STUDIES.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#09">
+<rdfs:label>COMMUNICATION, JOURNALISM, AND RELATED PROGRAMS.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>COMMUNICATIONS TECHNOLOGIES/TECHNICIANS AND SUPPORT SERVICES.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>COMPUTER AND INFORMATION SCIENCES AND SUPPORT SERVICES.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>CULINARY, ENTERTAINMENT, AND PERSONAL SERVICES.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13">
+<rdfs:label>EDUCATION.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14">
+<rdfs:label>ENGINEERING.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#15">
+<rdfs:label>ENGINEERING/ENGINEERING-RELATED TECHNOLOGIES/TECHNICIANS.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#16">
+<rdfs:label>FOREIGN LANGUAGES, LITERATURES, AND LINGUISTICS.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19">
+<rdfs:label>FAMILY AND CONSUMER SCIENCES/HUMAN SCIENCES.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#21">
+<rdfs:label>RESERVED.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#22">
+<rdfs:label>LEGAL PROFESSIONS AND STUDIES.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23">
+<rdfs:label>ENGLISH LANGUAGE AND LITERATURE/LETTERS.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24">
+<rdfs:label>LIBERAL ARTS AND SCIENCES, GENERAL STUDIES AND HUMANITIES.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#25">
+<rdfs:label>LIBRARY SCIENCE.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26">
+<rdfs:label>BIOLOGICAL AND BIOMEDICAL SCIENCES.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#27">
+<rdfs:label>MATHEMATICS AND STATISTICS.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#28">
+<rdfs:label>MILITARY SCIENCE, LEADERSHIP AND OPERATIONAL ART.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#29">
+<rdfs:label>MILITARY TECHNOLOGIES AND APPLIED SCIENCES.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30">
+<rdfs:label>MULTI/INTERDISCIPLINARY STUDIES.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31">
+<rdfs:label>PARKS, RECREATION, LEISURE, FITNESS, AND KINESIOLOGY.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32">
+<rdfs:label>BASIC SKILLS AND DEVELOPMENTAL/REMEDIAL EDUCATION.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33">
+<rdfs:label>CITIZENSHIP ACTIVITIES.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34">
+<rdfs:label>HEALTH-RELATED KNOWLEDGE AND SKILLS.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35">
+<rdfs:label>INTERPERSONAL AND SOCIAL SKILLS.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36">
+<rdfs:label>LEISURE AND RECREATIONAL ACTIVITIES.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37">
+<rdfs:label>PERSONAL AWARENESS AND SELF-IMPROVEMENT.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38">
+<rdfs:label>PHILOSOPHY AND RELIGIOUS STUDIES.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#39">
+<rdfs:label>THEOLOGY AND RELIGIOUS VOCATIONS.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#40">
+<rdfs:label>PHYSICAL SCIENCES.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#41">
+<rdfs:label>SCIENCE TECHNOLOGIES/TECHNICIANS.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#42">
+<rdfs:label>PSYCHOLOGY.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#43">
+<rdfs:label>HOMELAND SECURITY, LAW ENFORCEMENT, FIREFIGHTING AND RELATED PROTECTIVE SERVICES.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#44">
+<rdfs:label>PUBLIC ADMINISTRATION AND SOCIAL SERVICE PROFESSIONS.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#45">
+<rdfs:label>SOCIAL SCIENCES.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#46">
+<rdfs:label>CONSTRUCTION TRADES.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#47">
+<rdfs:label>MECHANIC AND REPAIR TECHNOLOGIES/TECHNICIANS.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#48">
+<rdfs:label>PRECISION PRODUCTION.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#49">
+<rdfs:label>TRANSPORTATION AND MATERIALS MOVING.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#50">
+<rdfs:label>VISUAL AND PERFORMING ARTS.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#51">
+<rdfs:label>HEALTH PROFESSIONS AND RELATED PROGRAMS.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#52">
+<rdfs:label>BUSINESS, MANAGEMENT, MARKETING, AND RELATED SUPPORT SERVICES.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#53">
+<rdfs:label>HIGH SCHOOL/SECONDARY DIPLOMAS AND CERTIFICATES.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#54">
+<rdfs:label>HISTORY.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#55">
+<rdfs:label>RESERVED.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#60">
+<rdfs:label>HEALTH PROFESSIONS RESIDENCY/FELLOWSHIP PROGRAMS.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#61">
+<rdfs:label>MEDICAL RESIDENCY/FELLOWSHIP PROGRAMS.</rdfs:label>
+<rdf:type rdf:resource="#CIP2DigitCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+  
+</rdf:RDF>
+

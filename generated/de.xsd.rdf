@@ -1,0 +1,244 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#de.xsd">
+<rdfs:label>de.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+
+   
+
+          
+
+          
+
+                 
+
+                 
+
+                 
+
+                 
+
+                 
+
+                 
+
+                 
+
+                    
+
+                    
+
+                 
+
+                    
+
+                 
+
+                 
+
+                 
+
+          
+
+          
+
+  
+
+   
+
+   
+
+  
+
+          
+
+          
+
+             
+
+             
+
+             
+
+          
+
+          
+
+          
+
+          
+
+                 
+
+                 
+
+          
+
+          
+
+          
+
+  
+
+   
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+  
+
+   
+
+          
+
+          
+
+          
+
+          
+
+  
+
+  
+
+          
+
+          
+
+          
+
+          
+
+  
+
+  
+
+          
+
+          
+
+          
+
+          
+
+  
+
+  
+
+          
+
+          
+
+          
+
+          
+
+  
+
+  
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+  
+
+  <owl:Class rdf:about="#statusValues">
+<rdfs:subClassOf rdf:resource="#de.xsd"/>
+<rdfs:comment/>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Actual">
+<rdfs:label/>
+<rdf:type rdf:resource="#statusValues"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Exercise">
+<rdfs:label/>
+<rdf:type rdf:resource="#statusValues"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#System">
+<rdfs:label/>
+<rdf:type rdf:resource="#statusValues"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Test">
+<rdfs:label/>
+<rdf:type rdf:resource="#statusValues"/>
+</owl:NamedIndividual>
+
+
+  <owl:Class rdf:about="#typeValues">
+<rdfs:subClassOf rdf:resource="#de.xsd"/>
+<rdfs:comment/>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Report">
+<rdfs:label/>
+<rdf:type rdf:resource="#typeValues"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Update">
+<rdfs:label/>
+<rdf:type rdf:resource="#typeValues"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Cancel">
+<rdfs:label/>
+<rdf:type rdf:resource="#typeValues"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Request">
+<rdfs:label/>
+<rdf:type rdf:resource="#typeValues"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Response">
+<rdfs:label/>
+<rdf:type rdf:resource="#typeValues"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Dispatch">
+<rdfs:label/>
+<rdf:type rdf:resource="#typeValues"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Ack">
+<rdfs:label/>
+<rdf:type rdf:resource="#typeValues"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Error">
+<rdfs:label/>
+<rdf:type rdf:resource="#typeValues"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SensorConfiguration">
+<rdfs:label/>
+<rdf:type rdf:resource="#typeValues"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SensorControl">
+<rdfs:label/>
+<rdf:type rdf:resource="#typeValues"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SensorStatus">
+<rdfs:label/>
+<rdf:type rdf:resource="#typeValues"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SensorDetection">
+<rdfs:label/>
+<rdf:type rdf:resource="#typeValues"/>
+</owl:NamedIndividual>
+
+
+</rdf:RDF>
+

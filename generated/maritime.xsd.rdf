@@ -1,0 +1,3183 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#maritime.xsd">
+<rdfs:label>maritime.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  <owl:Class rdf:about="#CANUSLexiconAPR07CategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#maritime.xsd"/>
+<rdfs:comment>A data type for a category defined by the April 2007 Canada/USA Bi-National Vessel of Interest (VOI) Lexicon category codes.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1a">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 1a.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1b">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 1b.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1c">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 1c.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1d">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 1d.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1e">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 1e.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2a">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 2a.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2b">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 2b.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2c">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 2c.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2d">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 2d.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2e">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 2e.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2f">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 2f.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2g">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 2g.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2h">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 2h.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2i">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 2i.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2j">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 2j.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3a">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 3a.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3b">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 3b.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3c">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 3c.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3d">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 3d.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3d1">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 3d1.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3d2">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 3d2.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3d3">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 3d3.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3e">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 3e.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3f">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 3f.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3g">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 3g.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3h">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value 3h.</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07CategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CANUSLexiconAPR07ThreatCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#maritime.xsd"/>
+<rdfs:comment>A data type for a threat code as defined by the April 2007 Canada/USA Bi-National Vessel of Interest (VOI) Lexicon threat codes.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#High">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2007, value High</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07ThreatCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Low">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2009, value Low</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07ThreatCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Medium">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2008, value Medium</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07ThreatCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Negligible">
+<rdfs:label>See CANADA / USA Bi-National VOI Lexicon dated APRIL 2010, value Negligable</rdfs:label>
+<rdf:type rdf:resource="#CANUSLexiconAPR07ThreatCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+          
+          
+          
+        
+      
+    
+  
+  <owl:Class rdf:about="#COTPRegionCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#maritime.xsd"/>
+<rdfs:comment>A data type for a Captain of the Port (COTP) Zone.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Baltimore">
+<rdfs:label>Baltimore Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Boston">
+<rdfs:label>Boston Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Buffalo">
+<rdfs:label>Buffalo Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Charleston">
+<rdfs:label>Charleston Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Chicago">
+<rdfs:label>Chicago Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Cleveland">
+<rdfs:label>Cleveland Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Corpus Christi">
+<rdfs:label>Corpus Christi Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Detroit">
+<rdfs:label>Detroit Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Duluth">
+<rdfs:label>Duluth Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Guam">
+<rdfs:label>Guam Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Hampton Roads">
+<rdfs:label>Hampton Roads Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Honolulu">
+<rdfs:label>Honolulu Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Houston-Galveston">
+<rdfs:label>Houston-Galveston Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Huntington">
+<rdfs:label>Huntington Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Jacksonville">
+<rdfs:label>Jacksonville Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Long Island Sound">
+<rdfs:label>Long Island Sound Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Los Angeles-Long Beach">
+<rdfs:label>Los Angeles-Long Beach Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Louisville">
+<rdfs:label>Louisville Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Memphis">
+<rdfs:label>Memphis Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Miami">
+<rdfs:label>Miami Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Milwaukee">
+<rdfs:label>Milwaukee Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Mobile">
+<rdfs:label>Mobile Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Morgan City">
+<rdfs:label>Morgan City Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#New Orleans">
+<rdfs:label>New Orleans Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#New York">
+<rdfs:label>New York Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Paducah">
+<rdfs:label>Paducah Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Philadelphia">
+<rdfs:label>Philadelphia Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Pittsburgh">
+<rdfs:label>Pittsburgh Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Port Arthur">
+<rdfs:label>Port Arthur Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Portland, Maine">
+<rdfs:label>Portland, Maine Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Portland, Oregon">
+<rdfs:label>Portland, Oregon Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Prince William Sound">
+<rdfs:label>Prince William Sound Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Providence">
+<rdfs:label>Providence Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Puget Sound">
+<rdfs:label>Puget Sound Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#San Diego">
+<rdfs:label>San Diego Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#San Francisco">
+<rdfs:label>San Francisco Bay Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#San Juan">
+<rdfs:label>San Juan Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Sault Ste. Marie">
+<rdfs:label>Sault Ste. Marie Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Savannah">
+<rdfs:label>Savannah Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Southeast Alaska">
+<rdfs:label>Southeast Alaska Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#St. Louis">
+<rdfs:label>St. Louis Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Tampa">
+<rdfs:label>Tampa Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Toledo">
+<rdfs:label>Toledo Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Western Alaska">
+<rdfs:label>Western Alaska Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Wilmington">
+<rdfs:label>Wilmington Captain of the Port Zone</rdfs:label>
+<rdf:type rdf:resource="#COTPRegionCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+        
+      
+    
+  
+  <owl:Class rdf:about="#CrewRoleCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#maritime.xsd"/>
+<rdfs:comment>A data type for a crew role.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Able Seaman">
+<rdfs:label>Able Seaman</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Agent">
+<rdfs:label>Agent</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Asst Food and Beverage Manager">
+<rdfs:label>Asst Food and Beverage Manager</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Bar Manager">
+<rdfs:label>Bar Manager</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Bar Service">
+<rdfs:label>Bar Service</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Bosun">
+<rdfs:label>Bosun</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Cadet">
+<rdfs:label>Cadet</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Captain">
+<rdfs:label>Captain</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Cargo Technician">
+<rdfs:label>Cargo Technician</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Casino Staff">
+<rdfs:label>Casino Staff</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Chief Cook">
+<rdfs:label>Chief Cook</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Chief Electrician">
+<rdfs:label>Chief Electrician</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Chief Engineer">
+<rdfs:label>Chief Engineer</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Chief Housekeeper">
+<rdfs:label>Chief Housekeeper</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Chief Master">
+<rdfs:label>Chief Master</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Chief Mate">
+<rdfs:label>Chief Mate</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Chief Officer">
+<rdfs:label>Chief Officer</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Chief Purser">
+<rdfs:label>Chief Purser</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Chief Steward">
+<rdfs:label>Chief Steward</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Cook">
+<rdfs:label>Cook</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Crane Operator">
+<rdfs:label>Crane Operator</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Crew Member">
+<rdfs:label>Crew Member</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Cruise Director">
+<rdfs:label>Cruise Director</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Cruise Staff">
+<rdfs:label>Cruise Staff</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Deck Officer">
+<rdfs:label>Deck Officer</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Deckhand">
+<rdfs:label>Deckhand</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Doctor">
+<rdfs:label>Doctor</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Donkeyman">
+<rdfs:label>Donkeyman</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Electrical Engineer">
+<rdfs:label>Electrical Engineer</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Electrician">
+<rdfs:label>Electrician</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Engineer Cadet">
+<rdfs:label>Engineer Cadet</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Engineering Crew">
+<rdfs:label>Engineering Crew</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Entertainment">
+<rdfs:label>Entertainment</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Facilities Crew">
+<rdfs:label>Facilities Crew</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Facilities Manager">
+<rdfs:label>Facilities Manager</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#First Assistant Engineer">
+<rdfs:label>First Assistant Engineer</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#First Mate">
+<rdfs:label>First Mate</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#First Officer">
+<rdfs:label>First Officer</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Fitter">
+<rdfs:label>Fitter</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Food and Beverage Manager">
+<rdfs:label>Food and Beverage Manager</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Food Service">
+<rdfs:label>Food Service</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Fourth Assistant Engineer">
+<rdfs:label>Fourth Assistant Engineer</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Greaser">
+<rdfs:label>Greaser</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Hospitality">
+<rdfs:label>Hospitality</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Hotel Director">
+<rdfs:label>Hotel Director</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Hotel Staff">
+<rdfs:label>Hotel Staff</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Housekeeping Staff">
+<rdfs:label>Housekeeping Staff</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Information Technology">
+<rdfs:label>Information Technology</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Laundry Master">
+<rdfs:label>Laundry Master</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Lifeboatman">
+<rdfs:label>Lifeboatman</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Maitre-d">
+<rdfs:label>Maitre-d</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Marine Crew">
+<rdfs:label>Marine Crew</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Marketing and Revenue Manager">
+<rdfs:label>Marketing and Revenue Manager</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Master">
+<rdfs:label>Master</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Master First Class Pilot">
+<rdfs:label>Master First Class Pilot</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Mate First Class Pilot">
+<rdfs:label>Mate First Class Pilot</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Mechanic">
+<rdfs:label>Mechanic</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Medical Staff">
+<rdfs:label>Medical Staff</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Messman">
+<rdfs:label>Messman</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Motorman">
+<rdfs:label>Motorman</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Oiler">
+<rdfs:label>Oiler</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Operator">
+<rdfs:label>Operator</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Ordinary Seaman">
+<rdfs:label>Ordinary Seaman</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Other">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Owner">
+<rdfs:label>Owner</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Painter">
+<rdfs:label>Painter</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Porter">
+<rdfs:label>Porter</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Provision">
+<rdfs:label>Provision</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Provision Master">
+<rdfs:label>Provision Master</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Pumpman">
+<rdfs:label>Pumpman</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#QMED">
+<rdfs:label>QMED</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Radio Officer">
+<rdfs:label>Radio Officer</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Reeferman">
+<rdfs:label>Reeferman</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Safety and Security">
+<rdfs:label>Safety and Security</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Second Assistant Engineer">
+<rdfs:label>Second Assistant Engineer</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Second Mate">
+<rdfs:label>Second Mate</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Second Officer">
+<rdfs:label>Second Officer</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Staff Captain">
+<rdfs:label>Staff Captain</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Steward">
+<rdfs:label>Steward</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Tankerman">
+<rdfs:label>Tankerman</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Third Assistant Engineer">
+<rdfs:label>Third Assistant Engineer</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Third Mate">
+<rdfs:label>Third Mate</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Third Officer">
+<rdfs:label>Third Officer</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Tunnelman">
+<rdfs:label>Tunnelman</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Utility Person">
+<rdfs:label>Utility Person</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Welder">
+<rdfs:label>Welder</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Wiper">
+<rdfs:label>Wiper</rdfs:label>
+<rdf:type rdf:resource="#CrewRoleCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+      
+    
+  
+  <owl:Class rdf:about="#InterestNotificationCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#maritime.xsd"/>
+<rdfs:comment>A data type for a code specifying whether an interest is an indicator or notification, warning or alert.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Indicator">
+<rdfs:label>Any piece of discreet data, processed or otherwise, that is used to inform part of an analytical process.</rdfs:label>
+<rdf:type rdf:resource="#InterestNotificationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Notification:Alert">
+<rdfs:label>Notification of the actual or eminent execution of an event.</rdfs:label>
+<rdf:type rdf:resource="#InterestNotificationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Notification:Warning">
+<rdfs:label>Notification of a possible activity or event</rdfs:label>
+<rdf:type rdf:resource="#InterestNotificationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+          
+          
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+          
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+          
+          
+          
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+          
+          
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+      
+    
+  
+  <owl:Class rdf:about="#USMTFEnvironmentCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#maritime.xsd"/>
+<rdfs:comment>A data type for a USMTF-defined force-threat designator code used in combination with threat codes.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#AIR">
+<rdfs:label>Air</rdfs:label>
+<rdf:type rdf:resource="#USMTFEnvironmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LND">
+<rdfs:label>Land</rdfs:label>
+<rdf:type rdf:resource="#USMTFEnvironmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SPC">
+<rdfs:label>Space</rdfs:label>
+<rdf:type rdf:resource="#USMTFEnvironmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SUB">
+<rdfs:label>Subsurface</rdfs:label>
+<rdf:type rdf:resource="#USMTFEnvironmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SUR">
+<rdfs:label>Surface</rdfs:label>
+<rdf:type rdf:resource="#USMTFEnvironmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UNK">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#USMTFEnvironmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#USMTFThreatCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#maritime.xsd"/>
+<rdfs:comment>A data type for a USMTF-defined threat code.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#AFD">
+<rdfs:label>Assumed Friendly</rdfs:label>
+<rdf:type rdf:resource="#USMTFThreatCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FRD">
+<rdfs:label>Friend</rdfs:label>
+<rdf:type rdf:resource="#USMTFThreatCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HOS">
+<rdfs:label>Hostile</rdfs:label>
+<rdf:type rdf:resource="#USMTFThreatCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NEU">
+<rdfs:label>Neutral</rdfs:label>
+<rdf:type rdf:resource="#USMTFThreatCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SUS">
+<rdfs:label>Suspect</rdfs:label>
+<rdf:type rdf:resource="#USMTFThreatCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UNK">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#USMTFThreatCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+          
+          
+        
+      
+    
+  
+  <owl:Class rdf:about="#VesselOperationalConditionOfEquipmentCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#maritime.xsd"/>
+<rdfs:comment>A data type for an Operational Condition of Equipment (OCE) of a vessel.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Not Operational">
+<rdfs:label>Not Operational</rdfs:label>
+<rdf:type rdf:resource="#VesselOperationalConditionOfEquipmentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Not Required">
+<rdfs:label>Not Required</rdfs:label>
+<rdf:type rdf:resource="#VesselOperationalConditionOfEquipmentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Operational">
+<rdfs:label>Operational</rdfs:label>
+<rdf:type rdf:resource="#VesselOperationalConditionOfEquipmentCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+</rdf:RDF>
+

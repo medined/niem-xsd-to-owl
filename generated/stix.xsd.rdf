@@ -1,0 +1,98 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#stix.xsd">
+<rdfs:label>stix.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+  
+  
+  <owl:Class rdf:about="#DiscoveryMethodCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#stix.xsd"/>
+<rdfs:comment>A data type for a method by which a cyber incident is discovered or detected</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#agent-disclosure">
+<rdfs:label>The incident was disclosed by the threat agent (e.g., public brag, private blackmail)</rdfs:label>
+<rdf:type rdf:resource="#DiscoveryMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#antivirus">
+<rdfs:label>The incident was discovered by an antivirus system</rdfs:label>
+<rdf:type rdf:resource="#DiscoveryMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#audit">
+<rdfs:label>The incident was discovered during an external security audit or scan</rdfs:label>
+<rdf:type rdf:resource="#DiscoveryMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#customer">
+<rdfs:label>The incident was reported by a customer or partner affected by the incident</rdfs:label>
+<rdf:type rdf:resource="#DiscoveryMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#external-fraud-detection">
+<rdfs:label>The incident was discovered through external fraud detection means (e.g., Common Point of Purchase reporting)</rdfs:label>
+<rdf:type rdf:resource="#DiscoveryMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#financial-audit">
+<rdfs:label>The incident was discovered during a financial audit and/or reconciliation process</rdfs:label>
+<rdf:type rdf:resource="#DiscoveryMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#hips">
+<rdfs:label>The incident was discovered from host-based IDS or file integrity monitoring</rdfs:label>
+<rdf:type rdf:resource="#DiscoveryMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#incident-response">
+<rdfs:label>The incident was discovered during the investigation of a separate incident</rdfs:label>
+<rdf:type rdf:resource="#DiscoveryMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#internal-fraud-detection">
+<rdfs:label>The incident was discovered through internal fraud detection means</rdfs:label>
+<rdf:type rdf:resource="#DiscoveryMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#it-audit">
+<rdfs:label>The incident was discovered by an internal IT audit or scan</rdfs:label>
+<rdf:type rdf:resource="#DiscoveryMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#law-enforcement">
+<rdfs:label>The incident was reported by law enforcement</rdfs:label>
+<rdf:type rdf:resource="#DiscoveryMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#log-review">
+<rdfs:label>The incident was discovered during a log review process or by a Security Information and Event Management (SIEM) tool</rdfs:label>
+<rdf:type rdf:resource="#DiscoveryMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#monitoring-service">
+<rdfs:label>The incident was reported by a managed security event monitoring service</rdfs:label>
+<rdf:type rdf:resource="#DiscoveryMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#nids">
+<rdfs:label>The incident was discovered by a network-based intrusion detection/prevention system</rdfs:label>
+<rdf:type rdf:resource="#DiscoveryMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#security-alarm">
+<rdfs:label>The incident was discovered by a physical security alarm</rdfs:label>
+<rdf:type rdf:resource="#DiscoveryMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#unknown">
+<rdfs:label>It is not known how this incident was discovered</rdfs:label>
+<rdf:type rdf:resource="#DiscoveryMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#unrelated-party">
+<rdfs:label>The incident was reported by an unrelated party</rdfs:label>
+<rdf:type rdf:resource="#DiscoveryMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#user">
+<rdfs:label>The incident was reported by a user</rdfs:label>
+<rdf:type rdf:resource="#DiscoveryMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+</rdf:RDF>
+

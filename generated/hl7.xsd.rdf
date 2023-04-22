@@ -1,0 +1,360 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#hl7.xsd">
+<rdfs:label>hl7.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+  
+  
+  
+  <owl:Class rdf:about="#ReligionCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#hl7.xsd"/>
+<rdfs:comment>A data type for a religion to which a person can subscribe or believe; a categorization of spiritual beliefs.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1001">
+<rdfs:label>Adventist</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1002">
+<rdfs:label>African Religions</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1003">
+<rdfs:label>Afro-Caribbean Religions</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1004">
+<rdfs:label>Agnosticism</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1005">
+<rdfs:label>Anglican</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1006">
+<rdfs:label>Animism</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1007">
+<rdfs:label>Atheism</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1008">
+<rdfs:label>Babi &amp; Baha'I faiths</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1009">
+<rdfs:label>Baptist</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1010">
+<rdfs:label>Bon</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1011">
+<rdfs:label>Cao Dai</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1012">
+<rdfs:label>Celticism</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1013">
+<rdfs:label>Christian (non-Catholic, non-specific)</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1014">
+<rdfs:label>Confucianism</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1015">
+<rdfs:label>Cyberculture Religions</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1016">
+<rdfs:label>Divination</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1017">
+<rdfs:label>Fourth Way</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1018">
+<rdfs:label>Free Daism</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1019">
+<rdfs:label>Gnosis</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1020">
+<rdfs:label>Hinduism</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1021">
+<rdfs:label>Humanism</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1022">
+<rdfs:label>Independent</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1023">
+<rdfs:label>Islam</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1024">
+<rdfs:label>Jainism</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1025">
+<rdfs:label>Jehovah's Witnesses</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1026">
+<rdfs:label>Judaism</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1027">
+<rdfs:label>Latter Day Saints</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1028">
+<rdfs:label>Lutheran</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1029">
+<rdfs:label>Mahayana</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1030">
+<rdfs:label>Meditation</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1031">
+<rdfs:label>Messianic Judaism</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1032">
+<rdfs:label>Mitraism</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1033">
+<rdfs:label>New Age</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1034">
+<rdfs:label>non-Roman Catholic</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1035">
+<rdfs:label>Occult</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1036">
+<rdfs:label>Orthodox</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1037">
+<rdfs:label>Paganism</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1038">
+<rdfs:label>Pentecostal</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1039">
+<rdfs:label>Process, The</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1040">
+<rdfs:label>Reformed/Presbyterian</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1041">
+<rdfs:label>Roman Catholic Church</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1042">
+<rdfs:label>Satanism</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1043">
+<rdfs:label>Scientology</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1044">
+<rdfs:label>Shamanism</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1045">
+<rdfs:label>Shiite (Islam)</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1046">
+<rdfs:label>Shinto</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1047">
+<rdfs:label>Sikism</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1048">
+<rdfs:label>Spiritualism</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1049">
+<rdfs:label>Sunni (Islam)</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1050">
+<rdfs:label>Taoism</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1051">
+<rdfs:label>Theravada</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1052">
+<rdfs:label>Unitarian-Universalism</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1053">
+<rdfs:label>Universal Life Church</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1054">
+<rdfs:label>Vajrayana (Tibetan)</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1055">
+<rdfs:label>Veda</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1056">
+<rdfs:label>Voodoo</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1057">
+<rdfs:label>Wicca</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1058">
+<rdfs:label>Yaohushua</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1059">
+<rdfs:label>Zen Buddhism</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1060">
+<rdfs:label>Zoroastrianism</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1061">
+<rdfs:label>Assembly of God</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1062">
+<rdfs:label>Brethren</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1063">
+<rdfs:label>Christian Scientist</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1064">
+<rdfs:label>Church of Christ</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1065">
+<rdfs:label>Church of God</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1066">
+<rdfs:label>Congregational</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1067">
+<rdfs:label>Disciples of Christ</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1068">
+<rdfs:label>Eastern Orthodox</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1069">
+<rdfs:label>Episcopalian</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1070">
+<rdfs:label>Evangelical Covenant</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1071">
+<rdfs:label>Friends</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1072">
+<rdfs:label>Full Gospel</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1073">
+<rdfs:label>Methodist</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1074">
+<rdfs:label>Native American</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1075">
+<rdfs:label>Nazarene</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1076">
+<rdfs:label>Presbyterian</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1077">
+<rdfs:label>Protestant</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1078">
+<rdfs:label>Protestant, No Denomination</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1079">
+<rdfs:label>Reformed</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1080">
+<rdfs:label>Salvation Army</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1081">
+<rdfs:label>Unitarian Universalist</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1082">
+<rdfs:label>United Church of Christ</rdfs:label>
+<rdf:type rdf:resource="#ReligionCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+  
+</rdf:RDF>
+

@@ -1,0 +1,3684 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#aamva_d20.xsd">
+<rdfs:label>aamva_d20.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+  
+  <owl:Class rdf:about="#AccidentSeverityCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for severity levels of an accident.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Fatal Accident</rdfs:label>
+<rdf:type rdf:resource="#AccidentSeverityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Incapacitating Injury Accident</rdfs:label>
+<rdf:type rdf:resource="#AccidentSeverityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Non-incapacitating Evident Injury</rdfs:label>
+<rdf:type rdf:resource="#AccidentSeverityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Possible Injury Accident</rdfs:label>
+<rdf:type rdf:resource="#AccidentSeverityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Non-injury Accident</rdfs:label>
+<rdf:type rdf:resource="#AccidentSeverityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#AccidentSeverityCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#BrandCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for a brand applied to a vehicle title or odometer.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#00">
+<rdfs:label>Clear</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#01">
+<rdfs:label>Flood damage</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#02">
+<rdfs:label>Fire damage</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03">
+<rdfs:label>Hail damage</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#04">
+<rdfs:label>Salt damage</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#05">
+<rdfs:label>Vandalism</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#06">
+<rdfs:label>Kit</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07">
+<rdfs:label>Dismantled</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#08">
+<rdfs:label>Junk</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#09">
+<rdfs:label>Rebuilt</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Reconstructed</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Salvage</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>Test Vehicle</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13">
+<rdfs:label>Refurbished</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14">
+<rdfs:label>Collision</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#15">
+<rdfs:label>Reserved</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#16">
+<rdfs:label>Salvage Retention</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#17">
+<rdfs:label>Prior Taxi</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#18">
+<rdfs:label>Prior Police</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19">
+<rdfs:label>Original Taxi</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20">
+<rdfs:label>Original Police</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#21">
+<rdfs:label>Remanufactured</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#22">
+<rdfs:label>Gray Market</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23">
+<rdfs:label>Warranty Return</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24">
+<rdfs:label>Antique</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#25">
+<rdfs:label>Classic</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26">
+<rdfs:label>Agricultural Vehicle</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#27">
+<rdfs:label>Logging Vehicle</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#28">
+<rdfs:label>Street Rod</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#29">
+<rdfs:label>Vehicle Contains Reissued VIN</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30">
+<rdfs:label>Replica</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31">
+<rdfs:label>Totaled</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32">
+<rdfs:label>Owner Retained</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33">
+<rdfs:label>Bond Posted</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34">
+<rdfs:label>Memorandum Copy</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35">
+<rdfs:label>Parts Only</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36">
+<rdfs:label>Recovered Theft</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37">
+<rdfs:label>Undisclosed Lien</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38">
+<rdfs:label>Prior Owner Retained</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#39">
+<rdfs:label>Vehicle Non-conformity Uncorrected</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#40">
+<rdfs:label>Vehicle Non-conformity Corrected</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#41">
+<rdfs:label>Vehicle Safety Defect Uncorrected</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#42">
+<rdfs:label>Vehicle Safety Defect Corrected</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#43">
+<rdfs:label>VIN replaced by a new state assigned VIN</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#45">
+<rdfs:label>Gray Market</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#46">
+<rdfs:label>Gray Market</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#68">
+<rdfs:label>Actual</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#69">
+<rdfs:label>Not Actual</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#70">
+<rdfs:label>Not Actual - Odometer tampering verified</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#71">
+<rdfs:label>Exempt from Odometer Disclosure</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#72">
+<rdfs:label>Exceeds Mechanical Limits</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#73">
+<rdfs:label>Odometer may be Altered</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#74">
+<rdfs:label>Odometer Replaced</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#75">
+<rdfs:label>Reading at Time of Renewal</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#76">
+<rdfs:label>Odometer Discrepancy</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#77">
+<rdfs:label>Call Title Division</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#78">
+<rdfs:label>Rectify Previous Exceeds Mechanical Limits Brand</rdfs:label>
+<rdf:type rdf:resource="#BrandCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#BrandDamagePercentageCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for the percentage of damage in a brand on a vehicle.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#R">
+<rdfs:label>Reported</rdfs:label>
+<rdf:type rdf:resource="#BrandDamagePercentageCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#T">
+<rdfs:label>Threshold</rdfs:label>
+<rdf:type rdf:resource="#BrandDamagePercentageCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#BranderCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for kinds of branders.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#I">
+<rdfs:label>Insurance Carrier</rdfs:label>
+<rdf:type rdf:resource="#BranderCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#J">
+<rdfs:label>Junk Yard</rdfs:label>
+<rdf:type rdf:resource="#BranderCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S">
+<rdfs:label>State</rdfs:label>
+<rdf:type rdf:resource="#BranderCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#V">
+<rdfs:label>Salvage Yard</rdfs:label>
+<rdf:type rdf:resource="#BranderCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#BrandVehicleDispositionCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for vehicle dispositions.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#01">
+<rdfs:label>Scrapped</rdfs:label>
+<rdf:type rdf:resource="#BrandVehicleDispositionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#02">
+<rdfs:label>Sold Out Of State</rdfs:label>
+<rdf:type rdf:resource="#BrandVehicleDispositionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03">
+<rdfs:label>Stolen or Never Recovered</rdfs:label>
+<rdf:type rdf:resource="#BrandVehicleDispositionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#04">
+<rdfs:label>Crushed</rdfs:label>
+<rdf:type rdf:resource="#BrandVehicleDispositionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#09">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#BrandVehicleDispositionCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CDLHolderCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for a code set indicating at the time of the citation, whether the individual holds a Commercial Driver License (CDL) or, in the case of an unlicensed driver, whether the individual's last held license was a CDL.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>The cited driver held a current CLP or CDL, or if no valid CLP/CDLlicense, his/her previous license was a CDL or his/her CLP had been disqualified and the citation had been issued prior to the expiration date of the CLP.</rdfs:label>
+<rdf:type rdf:resource="#CDLHolderCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>No - The cited driver has a current base license, has never held a license, or holds no current license and the previous license was a base license.</rdfs:label>
+<rdf:type rdf:resource="#CDLHolderCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#CDLHolderCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CMVCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for whether a person was operating a commercial motor vehicle in an incident.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Commercial</rdfs:label>
+<rdf:type rdf:resource="#CMVCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Noncommercial</rdfs:label>
+<rdf:type rdf:resource="#CMVCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#CMVCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CountryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for country codes specified by DHS as part of the DHS Western Hemisphere Travel Initiative.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#CAN">
+<rdfs:label>Canada</rdfs:label>
+<rdf:type rdf:resource="#CountryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#USA">
+<rdfs:label>U.S.A.</rdfs:label>
+<rdf:type rdf:resource="#CountryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CourtCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for kinds of courts.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#ADM">
+<rdfs:label>Administrative Adjudication</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CHA">
+<rdfs:label>Chancery Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CIR">
+<rdfs:label>Circuit Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CIT">
+<rdfs:label>City Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CIV">
+<rdfs:label>Civil Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COC">
+<rdfs:label>County Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COR">
+<rdfs:label>Corporation Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CRI">
+<rdfs:label>Criminal Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DIS">
+<rdfs:label>District Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DOT">
+<rdfs:label>Secretary USDOT</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FED">
+<rdfs:label>U.S. District Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GEN">
+<rdfs:label>General Court Martial</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HUS">
+<rdfs:label>Hustings Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#JPC">
+<rdfs:label>Justice of Peace Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#JUS">
+<rdfs:label>Justice Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#JUV">
+<rdfs:label>Juvenile Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LEC">
+<rdfs:label>Law &amp; Equity Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MAG">
+<rdfs:label>Magistrate Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MAY">
+<rdfs:label>Mayor's Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MUN">
+<rdfs:label>Municipal Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OTH">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#POL">
+<rdfs:label>Police Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SJC">
+<rdfs:label>Special Justice Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SPL">
+<rdfs:label>Special Court Martial</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SSP">
+<rdfs:label>State Supreme Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SUM">
+<rdfs:label>Summary Court Martial</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SUP">
+<rdfs:label>Superior Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TJC">
+<rdfs:label>Trial Justice Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRA">
+<rdfs:label>Traffic Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRI">
+<rdfs:label>Tribal Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TWN">
+<rdfs:label>Town Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UNK">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#USC">
+<rdfs:label>U.S. Commissioner</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#USM">
+<rdfs:label>U.S. Magistrate Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#USS">
+<rdfs:label>U.S. Supreme Court</rdfs:label>
+<rdf:type rdf:resource="#CourtCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DecalPeriodCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for the lifespan of a decal.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>2 Years</rdfs:label>
+<rdf:type rdf:resource="#DecalPeriodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F">
+<rdfs:label>Full Year Decal</rdfs:label>
+<rdf:type rdf:resource="#DecalPeriodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#I">
+<rdfs:label>Infinite</rdfs:label>
+<rdf:type rdf:resource="#DecalPeriodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#P">
+<rdfs:label>Partial Year Decal</rdfs:label>
+<rdf:type rdf:resource="#DecalPeriodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#R">
+<rdfs:label>Prorated Decal</rdfs:label>
+<rdf:type rdf:resource="#DecalPeriodCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DHSDriverLicenseIssuingCountryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for a code set that identifies a country from the DHS Western Hemisphere Travel Initiative.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#CAN">
+<rdfs:label>Canada</rdfs:label>
+<rdf:type rdf:resource="#DHSDriverLicenseIssuingCountryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#USA">
+<rdfs:label>U.S.A.</rdfs:label>
+<rdf:type rdf:resource="#DHSDriverLicenseIssuingCountryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DriverLicenseClassCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for kinds of vehicles that a licensed driver may be approved to operate.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#A">
+<rdfs:label>Class "A" vehicles - any combination of vehicles with a GCWR of 26,001 or more pounds, provided the GVWR of the vehicle(s) being towed is in excess of 10,000 pounds [49 CFR 383.91(a)(1)]. (Holders of a Class A license may, with the appropriate endorsement, operate all Class B &amp; C vehicles).</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B">
+<rdfs:label>Class "B" vehicles - any single vehicle with a GVWR of 26,001 or more pounds, or any such vehicle towing a vehicle not in excess of 10,000 pounds GVWR [49 CFR 383.91(a)(2)]. (Holders of a Class B license may, with the appropriate endorsement, operate all Class C vehicles).</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C">
+<rdfs:label>Class "C" vehicles - any single vehicle, or combination of vehicles, that meets neither the definition of Group A nor that of Group B, but that either is designed to transport 16 or more passengers including the driver, or is used in the transportation of materials found to be hazardous for the purposes of the Hazardous Materials Transportation Act and which require the motor vehicle to be placarded under the Hazardous Materials Regulations (49 CFR part 172, subpart F) [49 CFR 383.91(a)(3)].</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M">
+<rdfs:label>Class "M" vehicles - Motorcycles, Mopeds, Motor-driven Cycles. (class M is being retired as a Commercial Class)</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseClassCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DriverLicenseHMEThreatCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for a code set indicating if a driver should be issued a Hazardous Material Endorsement, as determined by the TSA background check and adjudication process.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>No security threat - Issue/renew/transfer HME</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseHMEThreatCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Determination of security threat - Do not issue/renew/transfer HME</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseHMEThreatCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Determination of security threat - Immediately revoke HME</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseHMEThreatCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DriverLicenseMedicalCertificationRestrictionCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for a restriction imposed on a commercial driver by a medical examiner.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Wearing corrective lenses</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseMedicalCertificationRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Wearing hearing aid</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseMedicalCertificationRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Accompanied by a waiver/exemption</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseMedicalCertificationRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Driving within an exempt intra city zone</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseMedicalCertificationRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Accompanied by a Skill Performance Evaluation certificate (SPE)</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseMedicalCertificationRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Qualified by operation of 49 CFR 391.64</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseMedicalCertificationRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DriverLicenseMedicalCertificationStatusCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for an indication of the status of a driver's medical certification.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#C">
+<rdfs:label>The driver is certified.</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseMedicalCertificationStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N">
+<rdfs:label>The driver is not certified.</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseMedicalCertificationStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DriverLicenseMedicalSelfCertificationCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for a driver's self certification of the commercial driver's status regarding 49 CFR 390.3 and the type of driving.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#EA">
+<rdfs:label>Excepted Intrastate</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseMedicalSelfCertificationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EI">
+<rdfs:label>Excepted Interstate</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseMedicalSelfCertificationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NA">
+<rdfs:label>Non-excepted Intrastate</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseMedicalSelfCertificationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NI">
+<rdfs:label>Non-excepted Interstate</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseMedicalSelfCertificationCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DriverLicensePermitEndorsementCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for endorsements on a driver license permit which authorizes the operation of specified kinds of vehicles carrying specified loads.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#L">
+<rdfs:label>Motorcycle</rdfs:label>
+<rdf:type rdf:resource="#DriverLicensePermitEndorsementCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N">
+<rdfs:label>Tank</rdfs:label>
+<rdf:type rdf:resource="#DriverLicensePermitEndorsementCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#O">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#DriverLicensePermitEndorsementCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#P">
+<rdfs:label>Passenger</rdfs:label>
+<rdf:type rdf:resource="#DriverLicensePermitEndorsementCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S">
+<rdfs:label>School and Passenger Bus</rdfs:label>
+<rdf:type rdf:resource="#DriverLicensePermitEndorsementCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#T">
+<rdfs:label>Doubles/Triples</rdfs:label>
+<rdf:type rdf:resource="#DriverLicensePermitEndorsementCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DriverLicenseREALIDComplianceCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for a code set that is an indication of the degree to which a driver license or ID Card is compliant with the REAL ID Act.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#F">
+<rdfs:label>Fully Compliant</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseREALIDComplianceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M">
+<rdfs:label>Materially Compliant</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseREALIDComplianceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N">
+<rdfs:label>Non-compliant</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseREALIDComplianceCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DriverLicenseWithdrawalActionCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for kinds of driver license withdrawal actions.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Revoked</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalActionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Barred</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalActionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Suspended</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalActionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Canceled</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalActionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Denied</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalActionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Disqualified</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalActionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Other Withdrawal</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalActionCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DriverLicenseWithdrawalBasisCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for bases for withdrawal action for a driver.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalBasisCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Conviction</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalBasisCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Administrative Adjudication</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalBasisCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Administrative Action</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalBasisCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Repeated Violations</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalBasisCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Withdrawal resulting from point system</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalBasisCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Court Ordered or Requested</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalBasisCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Court Recommended</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalBasisCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>NRVC Action or Reciprocity</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalBasisCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Administrative Per Se</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalBasisCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DriverLicenseWithdrawalDueProcessStatusCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for due process statuses of a withdrawal action.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>Not Defined</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalDueProcessStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Hearing Held; Action Confirmed</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalDueProcessStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Hearing Offered but not Requested</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalDueProcessStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Hearing Requested; not yet Held</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalDueProcessStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Department Action Appealed to Court</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalDueProcessStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Hearing not Applicable</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalDueProcessStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DriverLicenseWithdrawalEligibilityCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for when a driver may be eligible to apply for reinstatement of driving privileges that have been withdrawn.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Date">
+<rdfs:label>A person will become eligible to apply for reinstatement of those driving privileges withdrawn on a given date.</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalEligibilityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Indefinite">
+<rdfs:label>It has not yet been determined when or if a person will be eligible to apply for reinstatement of those driving privileges withdrawn.</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalEligibilityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Permanent">
+<rdfs:label>A person will never be eligible to apply for reinstatement of those driving privileges withdrawn.</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalEligibilityCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DriverLicenseWithdrawalExtentCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for extents of withdrawals.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Commercial</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalExtentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Permit</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalExtentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>All</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalExtentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Non-CDL</rdfs:label>
+<rdf:type rdf:resource="#DriverLicenseWithdrawalExtentCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DrivingEndorsementCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for endorsements on a driver license which authorizes the operation of specified kinds of vehicles carrying specified loads.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#H">
+<rdfs:label>Hazardous Material</rdfs:label>
+<rdf:type rdf:resource="#DrivingEndorsementCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L">
+<rdfs:label>Motorcycle</rdfs:label>
+<rdf:type rdf:resource="#DrivingEndorsementCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N">
+<rdfs:label>Tank</rdfs:label>
+<rdf:type rdf:resource="#DrivingEndorsementCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#O">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#DrivingEndorsementCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#P">
+<rdfs:label>Passenger</rdfs:label>
+<rdf:type rdf:resource="#DrivingEndorsementCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S">
+<rdfs:label>School and Passenger Bus</rdfs:label>
+<rdf:type rdf:resource="#DrivingEndorsementCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#T">
+<rdfs:label>Doubles/Triples</rdfs:label>
+<rdf:type rdf:resource="#DrivingEndorsementCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#X">
+<rdfs:label>Combined Tank/Hazmat</rdfs:label>
+<rdf:type rdf:resource="#DrivingEndorsementCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DrivingInsuranceStatusCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for the ways in which a driver of a vehicle may or may not be insured.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#N">
+<rdfs:label>No insurance</rdfs:label>
+<rdf:type rdf:resource="#DrivingInsuranceStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#O">
+<rdfs:label>Insured owner</rdfs:label>
+<rdf:type rdf:resource="#DrivingInsuranceStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#P">
+<rdfs:label>Insured non-owner</rdfs:label>
+<rdf:type rdf:resource="#DrivingInsuranceStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DrivingOffenseCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for ACD codes for a driving offense.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#A04">
+<rdfs:label>Driving under the influence of alcohol with BAC at or over .04</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A08">
+<rdfs:label>Driving under the influence of alcohol with BAC at or over .08</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A10">
+<rdfs:label>Driving under the influence of alcohol with BAC at or over .10</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A11">
+<rdfs:label>Driving under the influence of alcohol with BAC at or over __ (detail field required)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A12">
+<rdfs:label>Refused to submit to test for alcohol - Implied Consent Law</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A20">
+<rdfs:label>Driving under the influence of alcohol or drugs</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A21">
+<rdfs:label>Driving under the influence of alcohol</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A22">
+<rdfs:label>Driving under the influence of drugs</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A23">
+<rdfs:label>Driving under the influence of alcohol and drugs</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A24">
+<rdfs:label>Driving under the influence of medication not intended to intoxicate</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A25">
+<rdfs:label>Driving while impaired - ability definitely impaired</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A26">
+<rdfs:label>Drinking alcohol while operating a vehicle</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A31">
+<rdfs:label>Illegal possession of alcohol</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A33">
+<rdfs:label>Illegal possession of drugs (controlled substances)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A35">
+<rdfs:label>Possession of open alcohol container</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A41">
+<rdfs:label>Driver violation of ignition interlock or immobilization device</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A50">
+<rdfs:label>Motor vehicle used in the commission of a felony involving the manufacturing, distributing, or dispensing a con-trolled substance</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A60">
+<rdfs:label>Underage Convicted of Drinking and Driving at .02 or higher BAC</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A61">
+<rdfs:label>Underage Administrative Per Se - Drinking and Driving at .02 or higher BAC</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A90">
+<rdfs:label>Administrative Per Se for .10 BAC</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A94">
+<rdfs:label>Administrative Per Se for .04 BAC</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A98">
+<rdfs:label>Administrative Per Se for .08 BAC</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B01">
+<rdfs:label>Hit and run - failure to stop and render aid after accident</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B02">
+<rdfs:label>Hit and run - failure to stop and render aid after accident - Fatal accident</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B03">
+<rdfs:label>Hit and run - failure to stop and render aid after accident - Personal injury accident</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B04">
+<rdfs:label>Hit and run - failure to stop and render aid after accident - Property damage accident</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B05">
+<rdfs:label>Leaving accident scene before police arrive</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B06">
+<rdfs:label>Leaving accident scene before police arrive - Fatal accident</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B07">
+<rdfs:label>Leaving accident scene before police arrive - Personal injury accident</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B08">
+<rdfs:label>Leaving accident scene before police arrive - Property damage accident</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B14">
+<rdfs:label>Failure to reveal identity after fatal or personal injury accident</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B19">
+<rdfs:label>Driving while out of service order is in effect and transporting 16 or more passengers, including the driver and/or transporting hazardous materials that require a placard.</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B20">
+<rdfs:label>Driving while license withdrawn</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B21">
+<rdfs:label>Driving while license barred</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B22">
+<rdfs:label>Driving while license canceled</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B23">
+<rdfs:label>Driving while license denied</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B24">
+<rdfs:label>Driving while license disqualified</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B25">
+<rdfs:label>Driving while license revoked</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B26">
+<rdfs:label>Driving while license suspended</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B27">
+<rdfs:label>General, driving while an out of service order is in effect (for violations not covered by B19).</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B41">
+<rdfs:label>Possess or provide counterfeit or altered driver license (includes DL, CDL, and Instruction Permit) or ID</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B51">
+<rdfs:label>Expired or no driver license (includes DL, CDL, and Instruction Permit)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B56">
+<rdfs:label>Driving a CMV without obtaining a CDL</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B57">
+<rdfs:label>Driving a CMV without a CDL in the drivers possession</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B61">
+<rdfs:label>Failed to file accident report</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B63">
+<rdfs:label>Failed to file future proof of financial responsibility</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B64">
+<rdfs:label>Failed to file insurance certification</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B65">
+<rdfs:label>Failed to file medical certification/disability information</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B74">
+<rdfs:label>Failed to show insurance certification</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B78">
+<rdfs:label>Failed to show non-commercial driver license</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B91">
+<rdfs:label>Improper classification or endorsement on driver license (includes DL, CDL, and Instruction Permit)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D02">
+<rdfs:label>Misrepresentation of identity or other facts on application for driver license (includes DL, CDL, and Instruction Permit)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D06">
+<rdfs:label>Misrepresentation of identity or other facts to obtain alcohol</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D07">
+<rdfs:label>Possess multiple driver licenses (includes DL, CDL, and Instruction Permit)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D10">
+<rdfs:label>Manufacture or make false driver license (includes DL, CDL, and Instruction Permit)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D16">
+<rdfs:label>Show or use improperly - Driver license (includes DL, CDL, and Instruction Permit)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D27">
+<rdfs:label>Violate limited license conditions</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D29">
+<rdfs:label>Violate restrictions of driver license (includes DL, CDL, and Instruction Permit)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D35">
+<rdfs:label>Failure to comply with financial responsibility law</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D36">
+<rdfs:label>Failure to maintain required liability insurance</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D37">
+<rdfs:label>Failure to pay for damages or make installment payment</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D38">
+<rdfs:label>Failure to post security or obtain release from liability</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D39">
+<rdfs:label>Unsatisfied judgment</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D45">
+<rdfs:label>Failure to appear for trial or court appearance.</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D51">
+<rdfs:label>Failure to make required payment of child support</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D53">
+<rdfs:label>Failure to make required payment of fine and costs</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D56">
+<rdfs:label>Failure to answer a citation, pay fines, penalties and/or costs related to the original violation</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D70">
+<rdfs:label>Driver's view obstructed</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D72">
+<rdfs:label>Inability to control vehicle</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D74">
+<rdfs:label>Operating a motor vehicle improperly because of drowsiness</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D75">
+<rdfs:label>Operating a motor vehicle improperly due to physical or mental disabili-ty</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D78">
+<rdfs:label>Perjury about the operation of a motor vehicle</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E01">
+<rdfs:label>Operating without equipment as required by law</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E02">
+<rdfs:label>Operating without brakes as required by law</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E03">
+<rdfs:label>Operating without HAZMAT safety equipment as required by law</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E04">
+<rdfs:label>Operating without HAZMAT placards/markings as required by law</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E05">
+<rdfs:label>Operating without lights as required by law</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E06">
+<rdfs:label>Operating without school bus equipment as required by law</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E23">
+<rdfs:label>Use of radar or laser detector prohibited by law</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E31">
+<rdfs:label>Defective brakes</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E33">
+<rdfs:label>Defective HAZMAT safety devices</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E34">
+<rdfs:label>Defective lights</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E36">
+<rdfs:label>Defective school bus equipment</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E37">
+<rdfs:label>Defective tires</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E50">
+<rdfs:label>Failure to use equipment as required</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E51">
+<rdfs:label>Failure to use brakes</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E53">
+<rdfs:label>Failure to use HAZMAT safety devices as required</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E54">
+<rdfs:label>Failure to use headlight dimmer as required</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E55">
+<rdfs:label>Failure to use lights as required</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E56">
+<rdfs:label>Failure to use school bus safety equipment as required</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E57">
+<rdfs:label>Failure to use snow tires or chains as required</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E70">
+<rdfs:label>Equipment used improperly or obstructed</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E71">
+<rdfs:label>Brakes used improperly</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F02">
+<rdfs:label>Child or youth restraint not used properly as required</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F03">
+<rdfs:label>Motorcycle safety equipment not used properly as required</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F04">
+<rdfs:label>Seat belt not used properly as required</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F05">
+<rdfs:label>Carrying unsecured passengers in open area of vehicle</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F06">
+<rdfs:label>Improper operation of or riding on a motorcycle</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F34">
+<rdfs:label>Stopping, standing, or parking: obstructing or impeding traffic</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F66">
+<rdfs:label>Unsafe condition of vehicle (no specified component)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M02">
+<rdfs:label>Failure to obey barrier</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M03">
+<rdfs:label>Failure to obey construction or maintenance zone markers</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M04">
+<rdfs:label>Failure to obey flagger</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M05">
+<rdfs:label>Failure to obey lane markings or signal</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M08">
+<rdfs:label>Failure to obey police or peace officer</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M09">
+<rdfs:label>Failure to obey railroad crossing restrictions</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M10">
+<rdfs:label>Failure to obey railroad gates, signs or signals</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M11">
+<rdfs:label>Failure to obey restricted lane</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M12">
+<rdfs:label>Failure to obey safety zone</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M13">
+<rdfs:label>Failure to obey school crossing guard</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M14">
+<rdfs:label>Failure to obey sign or traffic control device</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M15">
+<rdfs:label>Failure to obey stop sign</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M16">
+<rdfs:label>Failure to obey traffic signal or light</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M17">
+<rdfs:label>Failure to obey traffic sign</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M18">
+<rdfs:label>Failure to obey warning light or flasher</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M19">
+<rdfs:label>Failure to obey yield sign</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M20">
+<rdfs:label>For drivers who are not required to always stop, failure to slow down at a railroad-highway grade crossing and check that tracks are clear of approaching train.</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M21">
+<rdfs:label>For drivers who are not required to always stop, failure to stop before reaching tracks at a railroad-highway grade crossing when the tracks are not clear.</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M22">
+<rdfs:label>For drivers who are always required to stop, failure to stop as required before driving onto railroad-highway grade crossing.</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M23">
+<rdfs:label>For all drivers, failing to have sufficient space to drive completely through the railroad-highway grade crossing without stopping.</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M24">
+<rdfs:label>For all drivers, failing to negotiate a railroad-highway grade crossing because of insufficient undercarriage clearance.</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M25">
+<rdfs:label>Failure to stop - basic rule at unsigned intersection or when entering roadway from private driveway, alley, etc.</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M30">
+<rdfs:label>Following improperly</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M31">
+<rdfs:label>Failure to leave sufficient distance for overtaking by other vehicles</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M32">
+<rdfs:label>Following emergency vehicle unlawfully</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M33">
+<rdfs:label>Following fire equipment unlawfully</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M34">
+<rdfs:label>Following too closely</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M40">
+<rdfs:label>Improper lane or location</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M41">
+<rdfs:label>Failure to keep in proper lane</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M42">
+<rdfs:label>Improper or erratic (unsafe) lane changes</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M43">
+<rdfs:label>Ran off road</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M44">
+<rdfs:label>Improper lane or location - crossover</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M45">
+<rdfs:label>Improper lane or location - crosswalk</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M46">
+<rdfs:label>Improper lane or location - entrance/exit ramp or way</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M47">
+<rdfs:label>Improper lane or location - in bicycle lane</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M48">
+<rdfs:label>Improper lane or location - in occupied lane</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M49">
+<rdfs:label>Improper lane or location - in HOV or restricted lane</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M50">
+<rdfs:label>Improper lane or location - limited access highway</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M51">
+<rdfs:label>Improper lane or location - median</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M55">
+<rdfs:label>Improper lane or location - on rail or streetcar tracks</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M56">
+<rdfs:label>Improper lane or location - on fire hose</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M57">
+<rdfs:label>Improper lane or location - oncoming traffic lane</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M58">
+<rdfs:label>Improper lane or location - road shoulder, ditch or sidewalk</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M60">
+<rdfs:label>Improper lane or location - slower vehicle lane</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M61">
+<rdfs:label>Improper lane or location - straddling center line(s)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M62">
+<rdfs:label>Improper lane or location - traveling in turn (or center) lane</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M70">
+<rdfs:label>Improper passing</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M71">
+<rdfs:label>Passing in violation of posted sign or pavement marking</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M72">
+<rdfs:label>Passing in violation of opposite directions restriction</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M73">
+<rdfs:label>Passing on wrong side</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M74">
+<rdfs:label>Passing on hill or curve</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M75">
+<rdfs:label>Passing school bus displaying warning not to pass</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M76">
+<rdfs:label>Passing where prohibited</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M77">
+<rdfs:label>Passing with insufficient distance or visibility</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M80">
+<rdfs:label>Inattentive/distracted,careless, or negligent driving</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M81">
+<rdfs:label>Careless driving</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M82">
+<rdfs:label>Inattentive/distracted driving</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M83">
+<rdfs:label>Negligent driving</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M84">
+<rdfs:label>Reckless driving</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M85">
+<rdfs:label>Texting While Driving</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M86">
+<rdfs:label>Using a Hand-held Mobile Telephone While Driving</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N01">
+<rdfs:label>Failure to yield right of way (FTY ROW)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N02">
+<rdfs:label>FTY ROW to animal rider or animal-drawn vehicle</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N03">
+<rdfs:label>FTY ROW to cyclist</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N04">
+<rdfs:label>FTY ROW to emergency vehicle (i.e. ambulance, fire equipment, police, etc.)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N05">
+<rdfs:label>FTY ROW to funeral procession, procession or parade</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N06">
+<rdfs:label>FTY ROW to other vehicle</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N07">
+<rdfs:label>FTY ROW to overtaking vehicle</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N08">
+<rdfs:label>FTY ROW to pedestrian (includes handicapped or blind)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N09">
+<rdfs:label>FTY ROW to school bus</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N20">
+<rdfs:label>FTY ROW at crosswalk</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N21">
+<rdfs:label>FTY ROW at rotary/roundabout/circular intersection</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N22">
+<rdfs:label>FTY ROW at stop sign</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N23">
+<rdfs:label>FTY ROW at traffic sign</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N24">
+<rdfs:label>FTY ROW at traffic signal</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N25">
+<rdfs:label>FTY ROW at unsigned intersection</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N26">
+<rdfs:label>FTY ROW at yield sign</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N30">
+<rdfs:label>FTY ROW when warning displayed on other vehicle</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N31">
+<rdfs:label>FTY ROW when turning</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N40">
+<rdfs:label>Failure to use or improper signal</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N41">
+<rdfs:label>Failure to cancel directional signals</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N42">
+<rdfs:label>Failure to signal intention to pass</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N43">
+<rdfs:label>Failure to signal lane change or turn</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N44">
+<rdfs:label>Giving wrong signal</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N50">
+<rdfs:label>Improper turn</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N51">
+<rdfs:label>Improper method of turning</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N52">
+<rdfs:label>Improper position for turning</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N53">
+<rdfs:label>Making improper left turn</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N54">
+<rdfs:label>Making improper right turn</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N55">
+<rdfs:label>Making improper turn around (not U turn)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N56">
+<rdfs:label>Making improper U turn</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N60">
+<rdfs:label>Driving wrong way</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N61">
+<rdfs:label>Driving wrong way at rotary/roundabout/circular intersection</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N62">
+<rdfs:label>Driving wrong way on divided highway</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N63">
+<rdfs:label>Driving wrong way on one way street or road</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N70">
+<rdfs:label>Driving on wrong side</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N71">
+<rdfs:label>Driving on wrong side of divided highway</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N72">
+<rdfs:label>Driving on wrong side of undivided street or road</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N80">
+<rdfs:label>Coasting (operating with gears disengaged)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N82">
+<rdfs:label>Improper backing</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N83">
+<rdfs:label>Improper Start from a Parked Position</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N84">
+<rdfs:label>Unsafe operation</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S01">
+<rdfs:label>01-05 &gt; Speed limit (detail optional)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S06">
+<rdfs:label>06-10 &gt; Speed limit (detail optional)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S14">
+<rdfs:label>Speeding 11-14 &gt; speed limit</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S15">
+<rdfs:label>Speeding 15 mph or more above speed limit (detail optional)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S16">
+<rdfs:label>16-20 &gt; Speed limit (detail optional)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S21">
+<rdfs:label>21-25 &gt; Speed limit (detail optional)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S26">
+<rdfs:label>26-30 &gt; Speed limit (detail optional)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S31">
+<rdfs:label>31-35 &gt; Speed limit (detail optional)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S36">
+<rdfs:label>36-40 &gt; Speed limit (detail optional)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S41">
+<rdfs:label>41+ &gt; Speed limit (detail optional)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S51">
+<rdfs:label>01-10 &gt; Speed limit (detail optional)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S71">
+<rdfs:label>21-30 &gt; Speed limit (detail optional)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S81">
+<rdfs:label>31-40 &gt; Speed limit (detail optional)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S91">
+<rdfs:label>41+ &gt; Speed limit (detail optional)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S92">
+<rdfs:label>Speeding - Speed limit and actual speed (detail required)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S93">
+<rdfs:label>Speeding</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S94">
+<rdfs:label>Prima Facie speed violation or driving too fast for conditions</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S95">
+<rdfs:label>Speed contest (racing) on road open to traffic</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S96">
+<rdfs:label>Speed less than minimum</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S97">
+<rdfs:label>Operating at erratic or suddenly changing speeds</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S98">
+<rdfs:label>Speeding on freeway (wasting fuel)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#U01">
+<rdfs:label>Fleeing or evading police or roadblock</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#U02">
+<rdfs:label>Resisting arrest</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#U03">
+<rdfs:label>Using a motor vehicle in connection with a felony (not traffic offense)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#U04">
+<rdfs:label>Using a motor vehicle in connection with a misdemeanor (not traffic offense)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#U05">
+<rdfs:label>Using a motor vehicle to aid and abet a felon</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#U06">
+<rdfs:label>Vehicular assault</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#U07">
+<rdfs:label>Vehicular homicide</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#U08">
+<rdfs:label>Vehicular manslaughter</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#U09">
+<rdfs:label>Negligent homicide while operating a CMV</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#U10">
+<rdfs:label>Causing a fatality through the negligent operation of a CMV</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#U21">
+<rdfs:label>Illegal operation of emergency vehicle</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#U27">
+<rdfs:label>Vehicular Feticide (1st Degree)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#U28">
+<rdfs:label>Vehicular Feticide (2nd Degree)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#U31">
+<rdfs:label>Violation resulting in fatal accident</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W00">
+<rdfs:label>Withdrawal, Non-ACD violation (A withdrawal issued by the State of Record for a single conviction which is neither traffic safety related, driver control related or federally mandated)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W01">
+<rdfs:label>Accumulation of convictions (including point systems and/or being judged a habitual offender or violator)</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W13">
+<rdfs:label>Parental consent withdrawn</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W14">
+<rdfs:label>Physical or mental disability</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W15">
+<rdfs:label>Physicians' or specialists' report recommended</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W20">
+<rdfs:label>Unable to pass DL test(s) or meet qualifications</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W30">
+<rdfs:label>Two serious violations within three years</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W31">
+<rdfs:label>Three serious violations within three years</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W40">
+<rdfs:label>The accumulation of two or more major offenses.</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W41">
+<rdfs:label>An additional major offenses after reinstatement.</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W50">
+<rdfs:label>The accumulation of two out-of-service order general violations (violations not covered by W51) within ten years.</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W51">
+<rdfs:label>The accumulation of two out-of-service order violations within ten years while transporting 16 or more passengers, including the driver and/or transporting hazardous materials that require a placard.</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W52">
+<rdfs:label>The accumulation of three or more out-of-service order violations within ten years.</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W60">
+<rdfs:label>The accumulation of two RRGC violations within three years.</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W61">
+<rdfs:label>The accumulation of three or more RRGC violations within three years.</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W70">
+<rdfs:label>Imminent hazard.</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W80">
+<rdfs:label>Failed employer-directed drug test</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W81">
+<rdfs:label>Refusal to submit to an employer-directed drug test</rdfs:label>
+<rdf:type rdf:resource="#DrivingOffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DrivingPermitRestrictionCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for categories of driving restrictions for permits.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#B">
+<rdfs:label>Corrective lenses must be worn</rdfs:label>
+<rdf:type rdf:resource="#DrivingPermitRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C">
+<rdfs:label>Mechanical Aid</rdfs:label>
+<rdf:type rdf:resource="#DrivingPermitRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D">
+<rdfs:label>Prosthetic Aid</rdfs:label>
+<rdf:type rdf:resource="#DrivingPermitRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E">
+<rdfs:label>No Manual Transmission</rdfs:label>
+<rdf:type rdf:resource="#DrivingPermitRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F">
+<rdfs:label>Outside Mirror</rdfs:label>
+<rdf:type rdf:resource="#DrivingPermitRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G">
+<rdfs:label>Limit to Daylight Only</rdfs:label>
+<rdf:type rdf:resource="#DrivingPermitRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H">
+<rdfs:label>Limited to Employment</rdfs:label>
+<rdf:type rdf:resource="#DrivingPermitRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#I">
+<rdfs:label>Limited - other</rdfs:label>
+<rdf:type rdf:resource="#DrivingPermitRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#J">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#DrivingPermitRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#K">
+<rdfs:label>Intrastate Only</rdfs:label>
+<rdf:type rdf:resource="#DrivingPermitRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L">
+<rdfs:label>No Air Brakes Equipped Vehicle</rdfs:label>
+<rdf:type rdf:resource="#DrivingPermitRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M">
+<rdfs:label>No Class A Passenger Vehicle</rdfs:label>
+<rdf:type rdf:resource="#DrivingPermitRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N">
+<rdfs:label>No Class A and Class B Passenger Vehicle</rdfs:label>
+<rdf:type rdf:resource="#DrivingPermitRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#O">
+<rdfs:label>No Tractor-Trailer</rdfs:label>
+<rdf:type rdf:resource="#DrivingPermitRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#P">
+<rdfs:label>No Passengers in CMV Bus</rdfs:label>
+<rdf:type rdf:resource="#DrivingPermitRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#V">
+<rdfs:label>Medical Variance</rdfs:label>
+<rdf:type rdf:resource="#DrivingPermitRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W">
+<rdfs:label>Farm Waiver</rdfs:label>
+<rdf:type rdf:resource="#DrivingPermitRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#X">
+<rdfs:label>No Cargo in CMV Tank Vehicle</rdfs:label>
+<rdf:type rdf:resource="#DrivingPermitRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DrivingRestrictionCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for categories of driving restrictions.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#B">
+<rdfs:label>Corrective lenses must be worn</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C">
+<rdfs:label>Mechanical Aid</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D">
+<rdfs:label>Prosthetic Aid</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E">
+<rdfs:label>No Manual Transmission</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F">
+<rdfs:label>Outside Mirror</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G">
+<rdfs:label>Limit to Daylight Only</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H">
+<rdfs:label>Limited to Employment</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#I">
+<rdfs:label>Limited - other</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#J">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#K">
+<rdfs:label>Intrastate Only</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L">
+<rdfs:label>No Air Brakes Equipped Vehicle</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M">
+<rdfs:label>No Class A Passenger Vehicle</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N">
+<rdfs:label>No Class A and Class B Passenger Vehicle</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#O">
+<rdfs:label>No Tractor-Trailer</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#P">
+<rdfs:label>No Passengers in CMV Bus</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#V">
+<rdfs:label>Medical Variance</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W">
+<rdfs:label>Farm Waiver</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#X">
+<rdfs:label>No Cargo in CMV Tank Vehicle</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Z">
+<rdfs:label>No Full Ait Break equipped CMV</rdfs:label>
+<rdf:type rdf:resource="#DrivingRestrictionCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DrivingStatusCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for statuses of a drivers privilege type.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#ELG">
+<rdfs:label>The individual does not have a current valid license and has nothing on record that would prevent issuance.</rdfs:label>
+<rdf:type rdf:resource="#DrivingStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LIC">
+<rdfs:label>The individual has a current valid license with all their driving privileges intact.</rdfs:label>
+<rdf:type rdf:resource="#DrivingStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NEN">
+<rdfs:label>The individual has been withdrawn in a specific jurisdiction for an offense which is not federally mandated and not related to traffic safety.</rdfs:label>
+<rdf:type rdf:resource="#DrivingStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NOT">
+<rdfs:label>The individual does not have a current valid license and has an adverse action on record that prevents issuance in all jurisdictions.</rdfs:label>
+<rdf:type rdf:resource="#DrivingStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RPD">
+<rdfs:label>The individual has been reported deceased.</rdfs:label>
+<rdf:type rdf:resource="#DrivingStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#HazMatCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for whether a driver was operating a vehicle carrying hazardous materials.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Hazardous Materials</rdfs:label>
+<rdf:type rdf:resource="#HazMatCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>No Hazardous Materials</rdfs:label>
+<rdf:type rdf:resource="#HazMatCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#HazMatCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#InsuranceCoverageCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for categories of coverage provided by an insurance policy.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#01">
+<rdfs:label>All inclusive (all vehicles owned or not)</rdfs:label>
+<rdf:type rdf:resource="#InsuranceCoverageCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#02">
+<rdfs:label>Limited to vehicles insurer is aware of</rdfs:label>
+<rdf:type rdf:resource="#InsuranceCoverageCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03">
+<rdfs:label>Broadform</rdfs:label>
+<rdf:type rdf:resource="#InsuranceCoverageCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#04">
+<rdfs:label>Driver other vehicle</rdfs:label>
+<rdf:type rdf:resource="#InsuranceCoverageCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#05">
+<rdfs:label>Not to exceed 1.5 Tons</rdfs:label>
+<rdf:type rdf:resource="#InsuranceCoverageCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#06">
+<rdfs:label>Not for hire</rdfs:label>
+<rdf:type rdf:resource="#InsuranceCoverageCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#JurisdictionAuthorityCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for an authority with jurisdiction over a particular area.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#AB">
+<rdfs:label>Alberta, Canada</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AG">
+<rdfs:label>Aguascalientes, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AK">
+<rdfs:label>Alaska, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AL">
+<rdfs:label>Alabama, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AR">
+<rdfs:label>Arkansas, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AS">
+<rdfs:label>American Samoa, US Territorial Possession</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AZ">
+<rdfs:label>Arizona, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BA">
+<rdfs:label>Baja California, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BC">
+<rdfs:label>British Columbia, Canada</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BJ">
+<rdfs:label>Baja California Sur, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CA">
+<rdfs:label>California, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CE">
+<rdfs:label>Campeche, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CH">
+<rdfs:label>Chihuahua, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CI">
+<rdfs:label>Chiapas, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CL">
+<rdfs:label>Colima, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CO">
+<rdfs:label>Colorado, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CT">
+<rdfs:label>Connecticut, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CU">
+<rdfs:label>Coahuila de Zaragoza, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DC">
+<rdfs:label>District of Columbia, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DE">
+<rdfs:label>Delaware, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DF">
+<rdfs:label>Distrito Federal Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DO">
+<rdfs:label>Durango, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DS">
+<rdfs:label>U.S. Department of State</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DT">
+<rdfs:label>U.S. Department of Transportation</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EM">
+<rdfs:label>(Estados) Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FH">
+<rdfs:label>Federal Motor Carrier Safety Administration (FMCSA used to be the OMC in the FHWA)</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FL">
+<rdfs:label>Florida, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FM">
+<rdfs:label>Federal States of Micronesia, US Territorial Possession</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GA">
+<rdfs:label>Georgia, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GM">
+<rdfs:label>Guam, US Territorial Possession</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GR">
+<rdfs:label>Guerrero, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GS">
+<rdfs:label>General Services Administration (GSA)</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GU">
+<rdfs:label>Guanajuato, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HI">
+<rdfs:label>Hawaii, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HL">
+<rdfs:label>Hidalgo, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IA">
+<rdfs:label>Iowa, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ID">
+<rdfs:label>Idaho, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IL">
+<rdfs:label>Illinois, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IN">
+<rdfs:label>Indiana, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IR">
+<rdfs:label>Internal Revenue Service (IRS)</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#JL">
+<rdfs:label>Jalisco, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KS">
+<rdfs:label>Kansas, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KY">
+<rdfs:label>Kentucky, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LA">
+<rdfs:label>Louisiana, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MA">
+<rdfs:label>Massachusetts, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MB">
+<rdfs:label>Manitoba, Canada</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MC">
+<rdfs:label>Michoacan de Ocampo, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MD">
+<rdfs:label>Maryland, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ME">
+<rdfs:label>Maine, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MH">
+<rdfs:label>Marshal Islands, US Territorial Possession</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MI">
+<rdfs:label>Michigan, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MN">
+<rdfs:label>Minnesota, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MO">
+<rdfs:label>Missouri, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MP">
+<rdfs:label>Northern Mariana Islands, US Territorial Possession</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MR">
+<rdfs:label>Morelos, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MS">
+<rdfs:label>Mississippi, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MT">
+<rdfs:label>Montana, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MX">
+<rdfs:label>Mexico (United Mexican States)</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NA">
+<rdfs:label>Nayarit, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NB">
+<rdfs:label>New Brunswick, Canada</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NC">
+<rdfs:label>North Carolina, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ND">
+<rdfs:label>North Dakota, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NE">
+<rdfs:label>Nebraska, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NF">
+<rdfs:label>Newfoundland and Labrador, Canada</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NH">
+<rdfs:label>New Hampshire, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NJ">
+<rdfs:label>New Jersey, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NL">
+<rdfs:label>Nuevo Leon, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NM">
+<rdfs:label>New Mexico, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NS">
+<rdfs:label>Nova Scotia, Canada</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NT">
+<rdfs:label>Northwest Territory, Canada</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NU">
+<rdfs:label>Nunavut, Canada</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NV">
+<rdfs:label>Nevada, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NY">
+<rdfs:label>New York, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OA">
+<rdfs:label>Oaxaca, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OH">
+<rdfs:label>Ohio, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OK">
+<rdfs:label>Oklahoma, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ON">
+<rdfs:label>Ontario, Canada</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OR">
+<rdfs:label>Oregon, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PA">
+<rdfs:label>Pennsylvania, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PB">
+<rdfs:label>Puebla, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PE">
+<rdfs:label>Prince Edward Island, Canada</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PR">
+<rdfs:label>Puerto Rico, US Territorial Possession</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PW">
+<rdfs:label>Palau (till 1994), US Territorial Possession</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PZ">
+<rdfs:label>Panamanian Canal Zone till December 2000, US Territorial Possession</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#QC">
+<rdfs:label>Quebec, Canada</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#QR">
+<rdfs:label>Quintana Roo, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#QU">
+<rdfs:label>Queretaro de Arteaga, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RI">
+<rdfs:label>Rhode Island, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SC">
+<rdfs:label>South Carolina, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SD">
+<rdfs:label>South Dakota, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SI">
+<rdfs:label>Sinaloa, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SK">
+<rdfs:label>Saskatchewan, Canada</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SL">
+<rdfs:label>San Luis Potosi, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SO">
+<rdfs:label>Sonora, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TA">
+<rdfs:label>Tamaulipas, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TB">
+<rdfs:label>Tabasco, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TL">
+<rdfs:label>Tlaxcala, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TN">
+<rdfs:label>Tennessee, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TS">
+<rdfs:label>Transportation Security Administration (TSA)</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TX">
+<rdfs:label>Texas, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UT">
+<rdfs:label>Utah, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VA">
+<rdfs:label>Virginia, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VC">
+<rdfs:label>Veracruz-Llave, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VI">
+<rdfs:label>Virgin Islands, US Territorial Possession</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VT">
+<rdfs:label>Vermont, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WA">
+<rdfs:label>Washington, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WI">
+<rdfs:label>Wisconsin, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WK">
+<rdfs:label>Wake Island, US Territorial Possession</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WV">
+<rdfs:label>West Virginia, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WY">
+<rdfs:label>Wyoming, USA</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#YT">
+<rdfs:label>Yukon Territory, Canada</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#YU">
+<rdfs:label>Yucatan, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ZA">
+<rdfs:label>Zacatecas, Mexico</rdfs:label>
+<rdf:type rdf:resource="#JurisdictionAuthorityCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#LienReleaseReasonCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for reasons a legal encumbrance may be removed from a property.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#01">
+<rdfs:label>Lien paid off.</rdfs:label>
+<rdf:type rdf:resource="#LienReleaseReasonCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#02">
+<rdfs:label>Vehicle repossessed.</rdfs:label>
+<rdf:type rdf:resource="#LienReleaseReasonCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03">
+<rdfs:label>Lien perfected in error (lienholder has no interest in the vehicle).</rdfs:label>
+<rdf:type rdf:resource="#LienReleaseReasonCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#04">
+<rdfs:label>Paper title requested.</rdfs:label>
+<rdf:type rdf:resource="#LienReleaseReasonCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#05">
+<rdfs:label>Lien paid off with no title printed.</rdfs:label>
+<rdf:type rdf:resource="#LienReleaseReasonCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#MedicalPractitionerSpecialtyCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for a code indicating the specialty of the medical practitioner.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#AN">
+<rdfs:label>Advanced Practice Nurse</rdfs:label>
+<rdf:type rdf:resource="#MedicalPractitionerSpecialtyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CH">
+<rdfs:label>Chiropractor</rdfs:label>
+<rdf:type rdf:resource="#MedicalPractitionerSpecialtyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DO">
+<rdfs:label>Osteopathic Doctor</rdfs:label>
+<rdf:type rdf:resource="#MedicalPractitionerSpecialtyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MD">
+<rdfs:label>Medical Doctor</rdfs:label>
+<rdf:type rdf:resource="#MedicalPractitionerSpecialtyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PA">
+<rdfs:label>Physician Assistant</rdfs:label>
+<rdf:type rdf:resource="#MedicalPractitionerSpecialtyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XX">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#MedicalPractitionerSpecialtyCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#PassFailCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for whether something has passed or failed some sort of test.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#F">
+<rdfs:label>Fail</rdfs:label>
+<rdf:type rdf:resource="#PassFailCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#P">
+<rdfs:label>Pass</rdfs:label>
+<rdf:type rdf:resource="#PassFailCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#PersonOrganDonorCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for organs a person could be willing to donate upon death.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#A">
+<rdfs:label>Any organ</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganDonorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B">
+<rdfs:label>Bone</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganDonorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C">
+<rdfs:label>Connective tissue (tendons, ligaments, fascia)</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganDonorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E">
+<rdfs:label>Eyes</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganDonorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F">
+<rdfs:label>Cornea</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganDonorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H">
+<rdfs:label>Heart</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganDonorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#I">
+<rdfs:label>Heart Valves</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganDonorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#K">
+<rdfs:label>Kidney</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganDonorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L">
+<rdfs:label>Liver/Iliac Vessels</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganDonorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M">
+<rdfs:label>Lymph Nodes</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganDonorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N">
+<rdfs:label>Intestine</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganDonorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#P">
+<rdfs:label>Pancreas/Islet Cells</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganDonorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Q">
+<rdfs:label>Pancreas/Spleen/Iliac vessels</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganDonorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#R">
+<rdfs:label>Radius, Humerus &amp; Ulna</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganDonorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S">
+<rdfs:label>Skin</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganDonorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#T">
+<rdfs:label>Hepatocytes</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganDonorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#U">
+<rdfs:label>Lungs</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganDonorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#V">
+<rdfs:label>Veins</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganDonorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W">
+<rdfs:label>Cartoid Arteries</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganDonorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Z">
+<rdfs:label>No organs</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganDonorCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#RegistrationPlateColorCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for colors of a vehicle registration plate or license plate.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#A">
+<rdfs:label>Maroon</rdfs:label>
+<rdf:type rdf:resource="#RegistrationPlateColorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B">
+<rdfs:label>Blue</rdfs:label>
+<rdf:type rdf:resource="#RegistrationPlateColorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E">
+<rdfs:label>Gray</rdfs:label>
+<rdf:type rdf:resource="#RegistrationPlateColorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G">
+<rdfs:label>Green</rdfs:label>
+<rdf:type rdf:resource="#RegistrationPlateColorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#I">
+<rdfs:label>Ivory</rdfs:label>
+<rdf:type rdf:resource="#RegistrationPlateColorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#K">
+<rdfs:label>Black</rdfs:label>
+<rdf:type rdf:resource="#RegistrationPlateColorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N">
+<rdfs:label>Brown</rdfs:label>
+<rdf:type rdf:resource="#RegistrationPlateColorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#O">
+<rdfs:label>Orange</rdfs:label>
+<rdf:type rdf:resource="#RegistrationPlateColorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#R">
+<rdfs:label>Red</rdfs:label>
+<rdf:type rdf:resource="#RegistrationPlateColorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W">
+<rdfs:label>White</rdfs:label>
+<rdf:type rdf:resource="#RegistrationPlateColorCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#RegistrationStatusCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for activities recorded for a registration.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#00">
+<rdfs:label>Active</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#01">
+<rdfs:label>Canceled</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#02">
+<rdfs:label>Stolen</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03">
+<rdfs:label>Expired</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#04">
+<rdfs:label>Revoked</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#05">
+<rdfs:label>Suspended</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#06">
+<rdfs:label>Swap</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07">
+<rdfs:label>Inactive</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>No Status</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#RegistrationStatusDetailCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for additional information regarding a registration status.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#A">
+<rdfs:label>Vehicle, Plates &amp; VIN Stolen</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusDetailCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B">
+<rdfs:label>Plates &amp; VIN Stolen (not vehicle)</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusDetailCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C">
+<rdfs:label>Vehicle &amp; Plate Stolen (not VIN)</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusDetailCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D">
+<rdfs:label>Vehicle &amp; VIN Stolen (not plate)</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusDetailCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E">
+<rdfs:label>Vehicle Stolen (not plate &amp; VIN)</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusDetailCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F">
+<rdfs:label>Plate Stolen (not Vehicle &amp; VIN)</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusDetailCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G">
+<rdfs:label>VIN Stolen (not vehicle &amp; plate)</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusDetailCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H">
+<rdfs:label>Junk</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusDetailCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#I">
+<rdfs:label>Excise Tax Due</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusDetailCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#J">
+<rdfs:label>Non-renewable</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusDetailCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#K">
+<rdfs:label>Insurance</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusDetailCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L">
+<rdfs:label>Insurance Pending</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusDetailCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M">
+<rdfs:label>Revoked Check</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusDetailCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N">
+<rdfs:label>Pending Revoked Check</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusDetailCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#O">
+<rdfs:label>Revoked Credit Card</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusDetailCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#P">
+<rdfs:label>Pending Revoked Credit Card</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusDetailCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Q">
+<rdfs:label>Advanced Renew</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusDetailCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#R">
+<rdfs:label>Advanced Registration</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusDetailCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S">
+<rdfs:label>Lost</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusDetailCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#T">
+<rdfs:label>Owner Citation</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusDetailCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#U">
+<rdfs:label>Reinstatement Fee Due</rdfs:label>
+<rdf:type rdf:resource="#RegistrationStatusDetailCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#SmogCertificateCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for whether or not a vehicle has a current smog certificate.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#B">
+<rdfs:label>Biannual</rdfs:label>
+<rdf:type rdf:resource="#SmogCertificateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E">
+<rdfs:label>Exempt</rdfs:label>
+<rdf:type rdf:resource="#SmogCertificateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N">
+<rdfs:label>No</rdfs:label>
+<rdf:type rdf:resource="#SmogCertificateCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Y">
+<rdfs:label>Year</rdfs:label>
+<rdf:type rdf:resource="#SmogCertificateCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#TitleStatusCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for statuses for a title.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#00">
+<rdfs:label>Active</rdfs:label>
+<rdf:type rdf:resource="#TitleStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#01">
+<rdfs:label>In Process</rdfs:label>
+<rdf:type rdf:resource="#TitleStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#02">
+<rdfs:label>Mailed</rdfs:label>
+<rdf:type rdf:resource="#TitleStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03">
+<rdfs:label>Canceled</rdfs:label>
+<rdf:type rdf:resource="#TitleStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#04">
+<rdfs:label>Stolen Title</rdfs:label>
+<rdf:type rdf:resource="#TitleStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#05">
+<rdfs:label>Already Surrendered</rdfs:label>
+<rdf:type rdf:resource="#TitleStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#06">
+<rdfs:label>Held by Garagekeeper</rdfs:label>
+<rdf:type rdf:resource="#TitleStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07">
+<rdfs:label>Held for Revenue</rdfs:label>
+<rdf:type rdf:resource="#TitleStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#08">
+<rdfs:label>Returned for Correction</rdfs:label>
+<rdf:type rdf:resource="#TitleStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#09">
+<rdfs:label>Held in Abeyance</rdfs:label>
+<rdf:type rdf:resource="#TitleStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Transferred</rdfs:label>
+<rdf:type rdf:resource="#TitleStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Title Returned Unclaimed</rdfs:label>
+<rdf:type rdf:resource="#TitleStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>Vehicle Titled Out of State</rdfs:label>
+<rdf:type rdf:resource="#TitleStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13">
+<rdfs:label>Revoked</rdfs:label>
+<rdf:type rdf:resource="#TitleStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14">
+<rdfs:label>Title Application Withdrawn</rdfs:label>
+<rdf:type rdf:resource="#TitleStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#15">
+<rdfs:label>Inactive</rdfs:label>
+<rdf:type rdf:resource="#TitleStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#16">
+<rdfs:label>Suspended</rdfs:label>
+<rdf:type rdf:resource="#TitleStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#17">
+<rdfs:label>Vehicle Reported Sold Out of State by Owner</rdfs:label>
+<rdf:type rdf:resource="#TitleStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#97">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#TitleStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#VehicleFuelCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for kinds of fuel or motive power used to propel a vehicle.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#A">
+<rdfs:label>Gasohol</rdfs:label>
+<rdf:type rdf:resource="#VehicleFuelCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C">
+<rdfs:label>Compressed Natural Gas</rdfs:label>
+<rdf:type rdf:resource="#VehicleFuelCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D">
+<rdfs:label>Diesel</rdfs:label>
+<rdf:type rdf:resource="#VehicleFuelCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E">
+<rdfs:label>Electric</rdfs:label>
+<rdf:type rdf:resource="#VehicleFuelCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G">
+<rdfs:label>Gasoline</rdfs:label>
+<rdf:type rdf:resource="#VehicleFuelCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H">
+<rdfs:label>Hybrid</rdfs:label>
+<rdf:type rdf:resource="#VehicleFuelCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#K">
+<rdfs:label>Kerosene</rdfs:label>
+<rdf:type rdf:resource="#VehicleFuelCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L">
+<rdfs:label>Liquefied Petroleum Gas (Butane &amp; Propane)</rdfs:label>
+<rdf:type rdf:resource="#VehicleFuelCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N">
+<rdfs:label>Liquefied Natural Gas</rdfs:label>
+<rdf:type rdf:resource="#VehicleFuelCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#O">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#VehicleFuelCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S">
+<rdfs:label>Steam</rdfs:label>
+<rdf:type rdf:resource="#VehicleFuelCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#VehicleOdometerReadingUnitCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for the units of measurement associated with an odometer reading.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#K">
+<rdfs:label>Kilometers</rdfs:label>
+<rdf:type rdf:resource="#VehicleOdometerReadingUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M">
+<rdfs:label>Miles</rdfs:label>
+<rdf:type rdf:resource="#VehicleOdometerReadingUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#VehicleTitleDocumentCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for kinds of an individual title document.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Duplicate">
+<rdfs:label>Duplicate</rdfs:label>
+<rdf:type rdf:resource="#VehicleTitleDocumentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Original">
+<rdfs:label>Original</rdfs:label>
+<rdf:type rdf:resource="#VehicleTitleDocumentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Replacement">
+<rdfs:label>Replacement</rdfs:label>
+<rdf:type rdf:resource="#VehicleTitleDocumentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Salvage">
+<rdfs:label>Salvage</rdfs:label>
+<rdf:type rdf:resource="#VehicleTitleDocumentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#VehicleTransmissionCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for kinds of transmission units in a vehicle.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#A">
+<rdfs:label>Automatic</rdfs:label>
+<rdf:type rdf:resource="#VehicleTransmissionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M">
+<rdfs:label>Manual</rdfs:label>
+<rdf:type rdf:resource="#VehicleTransmissionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#VehicleUseCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#aamva_d20.xsd"/>
+<rdfs:comment>A data type for ways in which a vehicle is used.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#00">
+<rdfs:label>None (not in use)</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#01">
+<rdfs:label>Personal</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#02">
+<rdfs:label>Driver Training</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03">
+<rdfs:label>Construction/Maintenance</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#04">
+<rdfs:label>Ambulance</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#05">
+<rdfs:label>Military</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#06">
+<rdfs:label>Taxi</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07">
+<rdfs:label>Transportation of property</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#08">
+<rdfs:label>Agriculture</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#09">
+<rdfs:label>Wrecker or Tow</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Police</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Other Business</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>Fire fighting</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13">
+<rdfs:label>Bus</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#97">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#VehicleUseCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+</rdf:RDF>
+

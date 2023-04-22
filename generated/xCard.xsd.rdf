@@ -1,0 +1,72 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#xCard.xsd">
+<rdfs:label>xCard.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+    
+      
+      
+    
+  
+  
+  
+  <owl:Class rdf:about="#TelephoneCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#xCard.xsd"/>
+<rdfs:comment>A data type for a type of telephone.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#cell">
+<rdfs:label>A cellular or mobile telephone</rdfs:label>
+<rdf:type rdf:resource="#TelephoneCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#fax">
+<rdfs:label>A facsimile-capable telephone</rdfs:label>
+<rdf:type rdf:resource="#TelephoneCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#home">
+<rdfs:label>A home telephone</rdfs:label>
+<rdf:type rdf:resource="#TelephoneCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#pager">
+<rdfs:label>A paging device</rdfs:label>
+<rdf:type rdf:resource="#TelephoneCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#text">
+<rdfs:label>A telephone that supports text messages (SMS)</rdfs:label>
+<rdf:type rdf:resource="#TelephoneCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#textphone">
+<rdfs:label>A telecommunication device for people with hearing or speech difficulties.</rdfs:label>
+<rdf:type rdf:resource="#TelephoneCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#video">
+<rdfs:label>A video conferencing-capable telephone</rdfs:label>
+<rdf:type rdf:resource="#TelephoneCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#voice">
+<rdfs:label>A voice-capable telephone</rdfs:label>
+<rdf:type rdf:resource="#TelephoneCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#work">
+<rdfs:label>A work telephone</rdfs:label>
+<rdf:type rdf:resource="#TelephoneCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+  
+</rdf:RDF>
+

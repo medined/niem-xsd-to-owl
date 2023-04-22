@@ -1,0 +1,1472 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#st.xsd">
+<rdfs:label>st.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+    
+      
+      
+      
+    
+  
+  
+  
+  
+  
+  <owl:Class rdf:about="#CategoryOfGovernmentOwnershipCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type describing governmental ownership</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>State Highway Agency</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Railroad</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>State Toll Authority</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>Local Toll Authority</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13">
+<rdfs:label>Other public Instrumentality (e.g. Airport, School, University)</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14">
+<rdfs:label>Indian Tribe Nation</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#15">
+<rdfs:label>Other Federal Agency</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#16">
+<rdfs:label>Bureau of Indian Affairs</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#17">
+<rdfs:label>Bureau of Fish and Wildlife</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#18">
+<rdfs:label>U.S. Forest Service</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19">
+<rdfs:label>National Park Service</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>County Highway Agency</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20">
+<rdfs:label>Tennessee Valley Authority</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#21">
+<rdfs:label>Bureau of Land Management</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#22">
+<rdfs:label>Bureau of Reclamation</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23">
+<rdfs:label>Corp of Engineers</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24">
+<rdfs:label>Air Force</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#25">
+<rdfs:label>Navy/Marines</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26">
+<rdfs:label>Army</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#27">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Town or Township Highway Agency</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>City or Municipal Highway Agency</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>State Park, Forest or Reservation Agency</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Local Park, Forest or Reservation Agency</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Other State Agency</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Other Local Agency</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Private (other than Railroad)</rdfs:label>
+<rdf:type rdf:resource="#CategoryOfGovernmentOwnershipCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#FederalAidRouteCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type indicating Federal-aid/National Highway System (NHS) route type</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Route is non Federal-aid</rdfs:label>
+<rdf:type rdf:resource="#FederalAidRouteCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>NHS connector to Major Pipeline Terminal</rdfs:label>
+<rdf:type rdf:resource="#FederalAidRouteCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>NHS connector to Major Ferry Terminal</rdfs:label>
+<rdf:type rdf:resource="#FederalAidRouteCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Route is Federal-aid, but not on NHS (i.e., all non-NHS routes functionally classified as Interstate, Other Freeways &amp; Expressways, Other Principal Arterials, Minor Arterials, Major Collectors, and Urban Minor Collectors)</rdfs:label>
+<rdf:type rdf:resource="#FederalAidRouteCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Route is on NHS</rdfs:label>
+<rdf:type rdf:resource="#FederalAidRouteCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>NHS connector to Major Airport</rdfs:label>
+<rdf:type rdf:resource="#FederalAidRouteCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>NHS connector to Major Port Facility</rdfs:label>
+<rdf:type rdf:resource="#FederalAidRouteCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>NHS connector to Major Amtrak Station</rdfs:label>
+<rdf:type rdf:resource="#FederalAidRouteCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>NHS connector to Major Rail/Truck Terminal</rdfs:label>
+<rdf:type rdf:resource="#FederalAidRouteCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>NHS connector to Major Inter City Bus Terminal</rdfs:label>
+<rdf:type rdf:resource="#FederalAidRouteCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>NHS connector to Major Public Transportation or Multi-Modal Passenger Terminal</rdfs:label>
+<rdf:type rdf:resource="#FederalAidRouteCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#FunctionalClassCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type indicating functional class of the segment</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Interstate</rdfs:label>
+<rdf:type rdf:resource="#FunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Principal arterial other freeways and expressways</rdfs:label>
+<rdf:type rdf:resource="#FunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Principal arterial other</rdfs:label>
+<rdf:type rdf:resource="#FunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Minor arterial</rdfs:label>
+<rdf:type rdf:resource="#FunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Major collector</rdfs:label>
+<rdf:type rdf:resource="#FunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Minor collector</rdfs:label>
+<rdf:type rdf:resource="#FunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Local</rdfs:label>
+<rdf:type rdf:resource="#FunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#InterchangeCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type indicating the interchange category.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Diamond</rdfs:label>
+<rdf:type rdf:resource="#InterchangeCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Other (e.g. double crossover diamond, displaced left turn, diverging diamond)</rdfs:label>
+<rdf:type rdf:resource="#InterchangeCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Full Cloverleaf</rdfs:label>
+<rdf:type rdf:resource="#InterchangeCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Partial Cloverleaf</rdfs:label>
+<rdf:type rdf:resource="#InterchangeCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Trumpet</rdfs:label>
+<rdf:type rdf:resource="#InterchangeCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Three-leg directional</rdfs:label>
+<rdf:type rdf:resource="#InterchangeCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Four-leg all-directional</rdfs:label>
+<rdf:type rdf:resource="#InterchangeCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Semi-directional</rdfs:label>
+<rdf:type rdf:resource="#InterchangeCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Single entrances and/or exits (partial interchange)</rdfs:label>
+<rdf:type rdf:resource="#InterchangeCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Single point interchange (SPI)</rdfs:label>
+<rdf:type rdf:resource="#InterchangeCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#IntersectionJunctionGeometryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type indicating geometric configuration that best describes the intersection/junction</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>T - Intersection</rdfs:label>
+<rdf:type rdf:resource="#IntersectionJunctionGeometryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Y - Intersection</rdfs:label>
+<rdf:type rdf:resource="#IntersectionJunctionGeometryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Cross-Intersection (four legs)</rdfs:label>
+<rdf:type rdf:resource="#IntersectionJunctionGeometryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Five of more legs and not circular</rdfs:label>
+<rdf:type rdf:resource="#IntersectionJunctionGeometryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Roundabout</rdfs:label>
+<rdf:type rdf:resource="#IntersectionJunctionGeometryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Other circular intersection (e.g. rotaries, neighborhood traffic circles)</rdfs:label>
+<rdf:type rdf:resource="#IntersectionJunctionGeometryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Non-conventional intersection (e.g. superstreet, median U-turn, displaced left turn)</rdfs:label>
+<rdf:type rdf:resource="#IntersectionJunctionGeometryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Midblock pedestrian crossing</rdfs:label>
+<rdf:type rdf:resource="#IntersectionJunctionGeometryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#IntersectionJunctionTrafficControlCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type indicating traffic control present at intersection/junction</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Uncontrolled</rdfs:label>
+<rdf:type rdf:resource="#IntersectionJunctionTrafficControlCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Railroad crossing, crossbucks only</rdfs:label>
+<rdf:type rdf:resource="#IntersectionJunctionTrafficControlCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#IntersectionJunctionTrafficControlCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Two-way Stop</rdfs:label>
+<rdf:type rdf:resource="#IntersectionJunctionTrafficControlCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>All-way Stop</rdfs:label>
+<rdf:type rdf:resource="#IntersectionJunctionTrafficControlCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Yield sign</rdfs:label>
+<rdf:type rdf:resource="#IntersectionJunctionTrafficControlCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Signalized (with pedestrian signal)</rdfs:label>
+<rdf:type rdf:resource="#IntersectionJunctionTrafficControlCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Signalized (without pedestrian signal)</rdfs:label>
+<rdf:type rdf:resource="#IntersectionJunctionTrafficControlCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Railroad crossing, gates and flashing lights</rdfs:label>
+<rdf:type rdf:resource="#IntersectionJunctionTrafficControlCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Railroad crossing, flashing lights only</rdfs:label>
+<rdf:type rdf:resource="#IntersectionJunctionTrafficControlCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Railroad crossing, stop-sign controlled</rdfs:label>
+<rdf:type rdf:resource="#IntersectionJunctionTrafficControlCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#InventoryDirectionCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type describing direction of inventory if divided roads are inventoried in each direction</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Reference compass direction if divided roads are inventoried in each direction usually due to different characteristics on each roadway</rdfs:label>
+<rdf:type rdf:resource="#InventoryDirectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Both if inventoried in only one direction</rdfs:label>
+<rdf:type rdf:resource="#InventoryDirectionCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+      
+    
+  
+  <owl:Class rdf:about="#MedianCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type describing the median present on the segment</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Undivided</rdfs:label>
+<rdf:type rdf:resource="#MedianCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Flush paved median (at least 4 feet in width)</rdfs:label>
+<rdf:type rdf:resource="#MedianCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Raised median</rdfs:label>
+<rdf:type rdf:resource="#MedianCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Depressed median</rdfs:label>
+<rdf:type rdf:resource="#MedianCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Two-way left turn lane</rdfs:label>
+<rdf:type rdf:resource="#MedianCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Railroad or rapid transit</rdfs:label>
+<rdf:type rdf:resource="#MedianCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Divided, separate grades without retaining wall</rdfs:label>
+<rdf:type rdf:resource="#MedianCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Divided, separate grades with retaining wall</rdfs:label>
+<rdf:type rdf:resource="#MedianCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Other divided</rdfs:label>
+<rdf:type rdf:resource="#MedianCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#OneTwoWayOperationCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type indication of whether the segment operates as a one- or two-way roadway</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>One-way</rdfs:label>
+<rdf:type rdf:resource="#OneTwoWayOperationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Two-way</rdfs:label>
+<rdf:type rdf:resource="#OneTwoWayOperationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>One direction of travel for divided roadways</rdfs:label>
+<rdf:type rdf:resource="#OneTwoWayOperationCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#RoadwayAccessControlCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type for the degree that access to abutting land is fully, partially or not controlled by a public authority.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>No Access Control</rdfs:label>
+<rdf:type rdf:resource="#RoadwayAccessControlCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Full Access Control</rdfs:label>
+<rdf:type rdf:resource="#RoadwayAccessControlCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Partial Access Control</rdfs:label>
+<rdf:type rdf:resource="#RoadwayAccessControlCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+    
+      
+        
+          
+          
+          
+        
+      
+    
+  
+  <owl:Class rdf:about="#RoadwayCategoryBeginningRampTerminalCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type describing the type of roadway intersecting with the ramp at the beginning terminal. A ramp is described by a beginning and ending ramp terminal in the direction of ramp traffic flow or the direction of inventory.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Freeway</rdfs:label>
+<rdf:type rdf:resource="#RoadwayCategoryBeginningRampTerminalCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Non-Freeway (surface street)</rdfs:label>
+<rdf:type rdf:resource="#RoadwayCategoryBeginningRampTerminalCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Other Ramp</rdfs:label>
+<rdf:type rdf:resource="#RoadwayCategoryBeginningRampTerminalCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Frontage Road</rdfs:label>
+<rdf:type rdf:resource="#RoadwayCategoryBeginningRampTerminalCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#RoadwayCategoryBeginningRampTerminalCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#RoadwayCategoryEndingRampTerminalCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type describing the type of roadway intersecting with the ramp at the ending terminal. A ramp is described by a beginning and ending ramp terminal in the direction of inventory.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Freeway</rdfs:label>
+<rdf:type rdf:resource="#RoadwayCategoryEndingRampTerminalCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Non-Freeway (surface street)</rdfs:label>
+<rdf:type rdf:resource="#RoadwayCategoryEndingRampTerminalCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Other Ramp</rdfs:label>
+<rdf:type rdf:resource="#RoadwayCategoryEndingRampTerminalCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Frontage Road</rdfs:label>
+<rdf:type rdf:resource="#RoadwayCategoryEndingRampTerminalCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#RoadwayCategoryEndingRampTerminalCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#RoadwayFunctionalClassCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type for the character of service or function of streets or highways.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Rural-Principal Arterial-Interstate</rdfs:label>
+<rdf:type rdf:resource="#RoadwayFunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Urban-Principal Arterial-Interstate</rdfs:label>
+<rdf:type rdf:resource="#RoadwayFunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>Urban-Principal Arterial-Other Freeways or Expressways</rdfs:label>
+<rdf:type rdf:resource="#RoadwayFunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13">
+<rdfs:label>Urban-Other Principal Arterial</rdfs:label>
+<rdf:type rdf:resource="#RoadwayFunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14">
+<rdfs:label>Urban-Minor Arterial</rdfs:label>
+<rdf:type rdf:resource="#RoadwayFunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#15">
+<rdfs:label>Urban-Collector</rdfs:label>
+<rdf:type rdf:resource="#RoadwayFunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#16">
+<rdfs:label>Urban-Local Road or Street</rdfs:label>
+<rdf:type rdf:resource="#RoadwayFunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19">
+<rdfs:label>Urban-Unknown Urban</rdfs:label>
+<rdf:type rdf:resource="#RoadwayFunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Rural-Principal Arterial-Other</rdfs:label>
+<rdf:type rdf:resource="#RoadwayFunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Rural-Minor Arterial</rdfs:label>
+<rdf:type rdf:resource="#RoadwayFunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Rural-Major Collector</rdfs:label>
+<rdf:type rdf:resource="#RoadwayFunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Rural-Minor Collector</rdfs:label>
+<rdf:type rdf:resource="#RoadwayFunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Rural-Local Road or Street</rdfs:label>
+<rdf:type rdf:resource="#RoadwayFunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Rural-Unknown Rural</rdfs:label>
+<rdf:type rdf:resource="#RoadwayFunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#RoadwayFunctionalClassCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#RoadwayIntersectionTrafficControlCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type for a kind of traffic control device at intersection where crash occurred.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>No Control</rdfs:label>
+<rdf:type rdf:resource="#RoadwayIntersectionTrafficControlCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20">
+<rdfs:label>All-Way Stop Signs</rdfs:label>
+<rdf:type rdf:resource="#RoadwayIntersectionTrafficControlCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#21">
+<rdfs:label>Yield Signs on Cross Street Only</rdfs:label>
+<rdf:type rdf:resource="#RoadwayIntersectionTrafficControlCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31">
+<rdfs:label>Stop Signs on Cross Street Only</rdfs:label>
+<rdf:type rdf:resource="#RoadwayIntersectionTrafficControlCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32">
+<rdfs:label>All-Way Flasher (red on cross street)</rdfs:label>
+<rdf:type rdf:resource="#RoadwayIntersectionTrafficControlCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33">
+<rdfs:label>Signals Pre-Timed(2 phase)</rdfs:label>
+<rdf:type rdf:resource="#RoadwayIntersectionTrafficControlCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34">
+<rdfs:label>Signals Pre-Timed(multi-phase)</rdfs:label>
+<rdf:type rdf:resource="#RoadwayIntersectionTrafficControlCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35">
+<rdfs:label>Signals Semi-Actuated(2 phase)</rdfs:label>
+<rdf:type rdf:resource="#RoadwayIntersectionTrafficControlCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36">
+<rdfs:label>Signals Semi-Actuated(multi-phase)</rdfs:label>
+<rdf:type rdf:resource="#RoadwayIntersectionTrafficControlCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37">
+<rdfs:label>Signals Fully Actuated(2 phase)</rdfs:label>
+<rdf:type rdf:resource="#RoadwayIntersectionTrafficControlCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38">
+<rdfs:label>Signals Fully Actuated(multi-phase)</rdfs:label>
+<rdf:type rdf:resource="#RoadwayIntersectionTrafficControlCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>All-Way Flasher (yellow on main, red on all legs)</rdfs:label>
+<rdf:type rdf:resource="#RoadwayIntersectionTrafficControlCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#98">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#RoadwayIntersectionTrafficControlCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#RoadwayIntersectionTrafficControlCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#RoadwayLightingCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type for a kind of roadway illumination.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>No Lighting</rdfs:label>
+<rdf:type rdf:resource="#RoadwayLightingCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Spot Illumination on One Side</rdfs:label>
+<rdf:type rdf:resource="#RoadwayLightingCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Continuous Lighting on One Side</rdfs:label>
+<rdf:type rdf:resource="#RoadwayLightingCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Spot Illumination on Both Sides</rdfs:label>
+<rdf:type rdf:resource="#RoadwayLightingCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Continuous Lighting on Both Sides</rdfs:label>
+<rdf:type rdf:resource="#RoadwayLightingCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#RoadwayNumberLanesCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type for number of through lanes on the side-road approaches at intersection including all lanes with through movement (through and left-turn, or through and right-turn) but not exclusive turn lanes.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>One Lane</rdfs:label>
+<rdf:type rdf:resource="#RoadwayNumberLanesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Two Lanes</rdfs:label>
+<rdf:type rdf:resource="#RoadwayNumberLanesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Three Lanes</rdfs:label>
+<rdf:type rdf:resource="#RoadwayNumberLanesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Four to Six Lanes</rdfs:label>
+<rdf:type rdf:resource="#RoadwayNumberLanesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Seven or More Lanes</rdfs:label>
+<rdf:type rdf:resource="#RoadwayNumberLanesCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#99">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#RoadwayNumberLanesCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#RoadwayPavementLongitudinalMarkingCenterlinePresenceCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type for Centerline Presence/Type on the roadway surface to guide or control the path followed by drivers.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>No Marked Centerline</rdfs:label>
+<rdf:type rdf:resource="#RoadwayPavementLongitudinalMarkingCenterlinePresenceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Standard Centerline Markings</rdfs:label>
+<rdf:type rdf:resource="#RoadwayPavementLongitudinalMarkingCenterlinePresenceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Centerline With Centerline Rumble Strip</rdfs:label>
+<rdf:type rdf:resource="#RoadwayPavementLongitudinalMarkingCenterlinePresenceCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#RoadwayPavementLongitudinalMarkingEdgeLinePresenceCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type for Edge line Presence/Type on the roadway surface to guide or control the path followed by drivers.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>No Marked Edgeline</rdfs:label>
+<rdf:type rdf:resource="#RoadwayPavementLongitudinalMarkingEdgeLinePresenceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Standard Width Edgeline</rdfs:label>
+<rdf:type rdf:resource="#RoadwayPavementLongitudinalMarkingEdgeLinePresenceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Wide Edgeline</rdfs:label>
+<rdf:type rdf:resource="#RoadwayPavementLongitudinalMarkingEdgeLinePresenceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#97">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#RoadwayPavementLongitudinalMarkingEdgeLinePresenceCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#RoadwayPavementLongitudinalMarkingLaneLineMarkingsCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type for Lane Line Markings used on the roadway surface to guide or control the path followed by drivers.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>No Lane Markings</rdfs:label>
+<rdf:type rdf:resource="#RoadwayPavementLongitudinalMarkingLaneLineMarkingsCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Standard Lane Line</rdfs:label>
+<rdf:type rdf:resource="#RoadwayPavementLongitudinalMarkingLaneLineMarkingsCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Wide Lane Line</rdfs:label>
+<rdf:type rdf:resource="#RoadwayPavementLongitudinalMarkingLaneLineMarkingsCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#RoadWayPresenceBicycleFacilityCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type for indication whether a facility is designated for the exclusive use of bicycles or are to be shared with other transportation modes.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>None</rdfs:label>
+<rdf:type rdf:resource="#RoadWayPresenceBicycleFacilityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Wide Curb Lane</rdfs:label>
+<rdf:type rdf:resource="#RoadWayPresenceBicycleFacilityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Marked Bicycle Lane</rdfs:label>
+<rdf:type rdf:resource="#RoadWayPresenceBicycleFacilityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Unmarked Paved Shoulder</rdfs:label>
+<rdf:type rdf:resource="#RoadWayPresenceBicycleFacilityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Separate Bicycle Path/Trail</rdfs:label>
+<rdf:type rdf:resource="#RoadWayPresenceBicycleFacilityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#RoadWayPresenceBicycleFacilityCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#RoadWayPresenceBicycleSignedBicycleRouteCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type for any road, path, or way which is specifically designated as being open to bicycle travel.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#0">
+<rdfs:label>No</rdfs:label>
+<rdf:type rdf:resource="#RoadWayPresenceBicycleSignedBicycleRouteCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Yes</rdfs:label>
+<rdf:type rdf:resource="#RoadWayPresenceBicycleSignedBicycleRouteCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Not Applicable</rdfs:label>
+<rdf:type rdf:resource="#RoadWayPresenceBicycleSignedBicycleRouteCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#RoadWayPresenceBicycleSignedBicycleRouteCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#RuralUrbanDesignationCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type indicating rural or urban designation based on Census urban boundary and population.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Rural</rdfs:label>
+<rdf:type rdf:resource="#RuralUrbanDesignationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Urban (population greater than or equal to 5,000)</rdfs:label>
+<rdf:type rdf:resource="#RuralUrbanDesignationCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#SurfaceCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type indicating the surface segment code</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Unpaved</rdfs:label>
+<rdf:type rdf:resource="#SurfaceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Unbonded CRCP Overlay on PCC Pavements</rdfs:label>
+<rdf:type rdf:resource="#SurfaceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Bonded PCC Overlays on PCC Pavements</rdfs:label>
+<rdf:type rdf:resource="#SurfaceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#SurfaceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Bituminous</rdfs:label>
+<rdf:type rdf:resource="#SurfaceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>JPCP - Jointed Plain Concrete Pavement</rdfs:label>
+<rdf:type rdf:resource="#SurfaceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>JRCP - Jointed Reinforced Concrete Pavement</rdfs:label>
+<rdf:type rdf:resource="#SurfaceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>CRCP - Continuously Reinforced Concrete Pavement</rdfs:label>
+<rdf:type rdf:resource="#SurfaceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Asphalt-Concrete (AC) Overlay over Existing AC Pavement</rdfs:label>
+<rdf:type rdf:resource="#SurfaceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>AC Overlay over Existing Jointed Concrete Pavement</rdfs:label>
+<rdf:type rdf:resource="#SurfaceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>AC (Bi Overlay over Existing CRCP)</rdfs:label>
+<rdf:type rdf:resource="#SurfaceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Unbonded Jointed Concrete Overlay on Portland Cement Concrete (PCC) Pavements</rdfs:label>
+<rdf:type rdf:resource="#SurfaceCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#TrafficAccessControlCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#st.xsd"/>
+<rdfs:comment>A data type describing the degree of traffic access control</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Full access control - Preference given to through traffic movements by providing interchanges with selected public roads, and by prohibiting crossing at-grade and direct driveway connections (i.e., limited access to the facility).</rdfs:label>
+<rdf:type rdf:resource="#TrafficAccessControlCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Partial access control - Preference given to through traffic movement. In addition to interchanges, there may be some crossings at-grade with public roads, but, direct private driveway connections have been minimized through the use of frontage roads or other local access restrictions. Control of curb cuts is not access control</rdfs:label>
+<rdf:type rdf:resource="#TrafficAccessControlCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>No access control - No degree of access control exists (i.e., full access to the facility is permitted).</rdfs:label>
+<rdf:type rdf:resource="#TrafficAccessControlCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+</rdf:RDF>
+

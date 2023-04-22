@@ -1,0 +1,2033 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#ucr.xsd">
+<rdfs:label>ucr.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+    
+      
+      
+    
+  
+  
+  <owl:Class rdf:about="#ArrestCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type for kinds of arrests that can occur.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#ON-VIEW_ARREST">
+<rdfs:label>ON-VIEW ARREST</rdfs:label>
+<rdf:type rdf:resource="#ArrestCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SUMMONED-CITED">
+<rdfs:label>SUMMONED/CITED</rdfs:label>
+<rdf:type rdf:resource="#ArrestCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TAKEN_INTO_CUSTODY">
+<rdfs:label>TAKEN INTO CUSTODY</rdfs:label>
+<rdf:type rdf:resource="#ArrestCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#ArresteeWeaponCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type for weapons with which a subject may be armed with upon apprehension.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#CLUB-BLACKJACK-BRASS_KNUCKLES">
+<rdfs:label>CLUB/ BLACKJACK/ BRASS KNUCKLES</rdfs:label>
+<rdf:type rdf:resource="#ArresteeWeaponCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FIREARM-TYPE_NOT_STATED">
+<rdfs:label>FIREARM (TYPE NOT STATED)</rdfs:label>
+<rdf:type rdf:resource="#ArresteeWeaponCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FIREARM-TYPE_NOT_STATED-AUTOMATIC">
+<rdfs:label>FIREARM (TYPE NOT STATED) - AUTOMATIC</rdfs:label>
+<rdf:type rdf:resource="#ArresteeWeaponCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HANDGUN">
+<rdfs:label>HANDGUN</rdfs:label>
+<rdf:type rdf:resource="#ArresteeWeaponCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HANDGUN-AUTOMATIC">
+<rdfs:label>HANDGUN - AUTOMATIC</rdfs:label>
+<rdf:type rdf:resource="#ArresteeWeaponCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LETHAL_CUTTING_INSTRUMENT">
+<rdfs:label>LETHAL CUTTING INSTRUMENT</rdfs:label>
+<rdf:type rdf:resource="#ArresteeWeaponCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OTHER_FIREARM">
+<rdfs:label>OTHER FIREARM</rdfs:label>
+<rdf:type rdf:resource="#ArresteeWeaponCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OTHER_FIREARM-AUTOMATIC">
+<rdfs:label>OTHER FIREARM - AUTOMATIC</rdfs:label>
+<rdf:type rdf:resource="#ArresteeWeaponCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RIFLE">
+<rdfs:label>RIFLE</rdfs:label>
+<rdf:type rdf:resource="#ArresteeWeaponCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RIFLE-AUTOMATIC">
+<rdfs:label>RIFLE - AUTOMATIC</rdfs:label>
+<rdf:type rdf:resource="#ArresteeWeaponCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SHOTGUN">
+<rdfs:label>SHOTGUN</rdfs:label>
+<rdf:type rdf:resource="#ArresteeWeaponCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SHOTGUN-AUTOMATIC">
+<rdfs:label>SHOTGUN - AUTOMATIC</rdfs:label>
+<rdf:type rdf:resource="#ArresteeWeaponCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UNARMED">
+<rdfs:label>UNARMED</rdfs:label>
+<rdf:type rdf:resource="#ArresteeWeaponCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DrugCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type for kinds of drugs.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#AMPHETAMINES-METHAMPHETAMINES">
+<rdfs:label>AMPHETAMINES/METHAMPHETAMINES</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BARBITURATES">
+<rdfs:label>BARBITURATES</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COCAINE">
+<rdfs:label>COCAINE (ALL FORMS EXCEPT CRACK)</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CRACK_COCAINE">
+<rdfs:label>CRACK COCAINE</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HASHISH">
+<rdfs:label>HASHISH</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HEROIN">
+<rdfs:label>HEROIN</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LSD">
+<rdfs:label>LSD</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MARIJUANA">
+<rdfs:label>MARIJUANA</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MORPHINE">
+<rdfs:label>MORPHINE</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OPIUM">
+<rdfs:label>OPIUM</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OTHER_DEPRESSANTS">
+<rdfs:label>OTHER DEPRESSANTS</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OTHER_DRUGS">
+<rdfs:label>OTHER DRUGS</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OTHER_HALLUCINOGENS">
+<rdfs:label>OTHER HALLUCINOGENS</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OTHER_NARCOTICS">
+<rdfs:label>OTHER NARCOTICS</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OTHER_STIMULANTS">
+<rdfs:label>OTHER STIMULANTS</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OVER_THREE_DRUG_TYPES">
+<rdfs:label>OVER THREE DRUG TYPES</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PCP">
+<rdfs:label>PCP</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UNKNOWN_DRUG_TYPE">
+<rdfs:label>UNKNOWN DRUG TYPE</rdfs:label>
+<rdf:type rdf:resource="#DrugCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#ForceCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type for kinds of weapons or forces used by a subject in committing an offense.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#ASPHYXIATION">
+<rdfs:label>ASPHYXIATION</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AUTOMATIC_FIREARM">
+<rdfs:label>AUTOMATIC FIREARM (TYPE NOT STATED)</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AUTOMATIC_HANDGUN">
+<rdfs:label>AUTOMATIC HANDGUN</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AUTOMATIC_RIFLE">
+<rdfs:label>AUTOMATIC RIFLE</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AUTOMATIC_SHOTGUN">
+<rdfs:label>AUTOMATIC SHOTGUN</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BLUNT_OBJECT">
+<rdfs:label>BLUNT OBJECT</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DRUGS-NARCOTICS-SLEEPING_PILLS">
+<rdfs:label>DRUGS/ NARCOTICS/ SLEEPING PILLS</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EXPLOSIVES">
+<rdfs:label>EXPLOSIVES</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FIRE-INCENDIARY_DEVICE">
+<rdfs:label>FIRE/ INCENDIARY DEVICE</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FIREARM">
+<rdfs:label>FIREARM (TYPE NOT STATED)</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HANDGUN">
+<rdfs:label>HANDGUN</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KNIFE-CUTTING_INSTRUMENT">
+<rdfs:label>KNIFE/CUTTING INSTRUMENT</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MOTOR_VEHICLE-VESSEL">
+<rdfs:label>MOTOR VEHICLE/VESSEL</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NONE">
+<rdfs:label>NONE</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OTHER">
+<rdfs:label>OTHER</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OTHER_AUTOMATIC_FIREARM">
+<rdfs:label>OTHER AUTOMATIC FIREARM</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OTHER_FIREARM">
+<rdfs:label>OTHER FIREARM</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PERSONAL_WEAPONS">
+<rdfs:label>PERSONAL WEAPONS</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#POISON">
+<rdfs:label>POISON</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RIFLE">
+<rdfs:label>RIFLE</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SHOTGUN">
+<rdfs:label>SHOTGUN</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UNKNOWN">
+<rdfs:label>UNKNOWN</rdfs:label>
+<rdf:type rdf:resource="#ForceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#IncidentBiasMotivationCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type for bias motivations for an incident.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#ANTI-AMERICAN_INDIAN-ALASKAN_NATIVE">
+<rdfs:label>ANTI-AMERICAN INDIAN OR ALASKAN NATIVE</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-ARAB">
+<rdfs:label>ANTI-ARAB</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-ASIAN">
+<rdfs:label>ANTI-ASIAN</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-ATHEISM-AGNOSTICISM">
+<rdfs:label>ANTI-ATHEISM/ AGNOSTICISM</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-BISEXUAL">
+<rdfs:label>ANTI-BISEXUAL</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-BLACK-AFRICAN_AMERICAN">
+<rdfs:label>ANTI-BLACK OR AFRICAN AMERICAN</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-BUDDHIST">
+<rdfs:label>ANTI-BUDDHIST</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-CATHOLIC">
+<rdfs:label>ANTI-CATHOLIC</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-CHURCH_OF_JESUS_CHRIST">
+<rdfs:label>ANTI-CHURCH OF JESUS CHRIST</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-DISABLED">
+<rdfs:label>ANTI-DISABLED</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-EASTERN_ORTHODOX">
+<rdfs:label>ANTI-EASTERN_ORTHODOX</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-FEMALE">
+<rdfs:label>ANTI-FEMALE</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-GAY">
+<rdfs:label>ANTI-GAY</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-GENDER_NON-CONFORMING">
+<rdfs:label>ANTI-GENDER NON-CONFORMING</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-HETEROSEXUAL">
+<rdfs:label>ANTI-HETEROSEXUAL</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-HISPANIC-LATINO">
+<rdfs:label>ANTI-HISPANIC OR LATINO</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-ISLAMIC">
+<rdfs:label>ANTI-ISLAMIC (MUSLIM)</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-JEHOVAH_WITNESS">
+<rdfs:label>ANTI-JEHOVAH_WITNESS</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-JEWISH">
+<rdfs:label>ANTI-JEWISH</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-LESBIAN">
+<rdfs:label>ANTI-LESBIAN</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-LESBIAN-GAY-BISEXUAL-TRANSGENDER">
+<rdfs:label>ANTI-LESBIAN, GAY, BISEXUAL, OR TRANSGENDER (MIXED GROUP)</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-MALE">
+<rdfs:label>ANTI-MALE</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-MENTAL_DISABILITY">
+<rdfs:label>ANTI-MENTAL DISABILITY</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-MULTIPLE_RACES-GROUP">
+<rdfs:label>ANTI-MULTIPLE RACES, GROUP</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-MULTIPLE_RELIGIONS">
+<rdfs:label>ANTI-MULTIPLE RELIGIONS, GROUP</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-NATIVE_HAWAIIAN-OTHER_PACIFIC_ISLANDER">
+<rdfs:label>ANTI-NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-NOT_HISPANIC-LATINO">
+<rdfs:label>ANTI-NOT HISPANIC OR LATINO</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-OTHER_ETHNICITY_NATIONAL_ORIGIN">
+<rdfs:label>ANTI-OTHER_ETHNICITY_NATIONAL_ORIGIN</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-OTHER_RELIGION">
+<rdfs:label>ANTI-OTHER_RELIGION</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-PHYSICAL_DISABILITY">
+<rdfs:label>ANTI-PHYSICAL DISABILITY</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-PROTESTANT">
+<rdfs:label>ANTI-PROTESTANT</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-SIKH">
+<rdfs:label>ANTI-SIKH</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-TRANSGENDER">
+<rdfs:label>ANTI-TRANSGENDER</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANTI-WHITE">
+<rdfs:label>ANTI-WHITE</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GENDER_BIAS">
+<rdfs:label>GENDER_BIAS</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NONE">
+<rdfs:label>NONE (NO BIAS)</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#POLITICAL_AFFILIATION_BIAS">
+<rdfs:label>POLITICAL_AFFILIATION_BIAS</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UNKNOWN">
+<rdfs:label>UNKNOWN (OFFENDER'S MOTIVATION NOT KNOWN)</rdfs:label>
+<rdf:type rdf:resource="#IncidentBiasMotivationCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#IncidentExceptionalClearanceCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type for ways in which an incident may be cleared exceptionally.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#DEATH_OF_OFFENDER">
+<rdfs:label>DEATH OF OFFENDER</rdfs:label>
+<rdf:type rdf:resource="#IncidentExceptionalClearanceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IN_CUSTODY_OF_OTHER_JURISDICTION">
+<rdfs:label>IN CUSTODY OF OTHER JURISDICTION</rdfs:label>
+<rdf:type rdf:resource="#IncidentExceptionalClearanceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#JUVENILE-NO_CUSTODY">
+<rdfs:label>JUVENILE/NO CUSTODY (THE HANDLING OF A JUVENILE WITHOUT TAKING HIM/HER INTO CUSTODY, BUT RATHER BY ORAL OR WRITTEN NOTICE GIVEN TO THE PARENTS OR LEGAL GUARDIAN IN A CASE INVOLVING A MINOR OFFENSE, SUCH AS A PETTY LARCENY)</rdfs:label>
+<rdf:type rdf:resource="#IncidentExceptionalClearanceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NOT_APPLICABLE">
+<rdfs:label>NOT APPLICABLE (NOT CLEARED EXCEPTIONALLY)</rdfs:label>
+<rdf:type rdf:resource="#IncidentExceptionalClearanceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PROSECUTION_DECLINED">
+<rdfs:label>PROSECUTION DECLINED (BY THE PROSECUTOR FOR OTHER THAN LACK OF PROBABLE CAUSE)</rdfs:label>
+<rdf:type rdf:resource="#IncidentExceptionalClearanceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VICTIM_REFUSED_TO_COOPERATE">
+<rdfs:label>VICTIM REFUSED TO COOPERATE (IN THE PROSECUTION)</rdfs:label>
+<rdf:type rdf:resource="#IncidentExceptionalClearanceCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#IncidentFactorCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type for factors that may have been involved in or contributed to a subject committing an offense.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#ALCOHOL">
+<rdfs:label>ALCOHOL</rdfs:label>
+<rdf:type rdf:resource="#IncidentFactorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COMPUTER_EQUIPMENT-HANDHELD_DEVICE">
+<rdfs:label>COMPUTER EQUIPMENT/HANDHELD DEVICE</rdfs:label>
+<rdf:type rdf:resource="#IncidentFactorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DRUGS-NARCOTICS">
+<rdfs:label>DRUGS OR NARCOTICS</rdfs:label>
+<rdf:type rdf:resource="#IncidentFactorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NOT_APPLICABLE">
+<rdfs:label>NOT APPLICABLE</rdfs:label>
+<rdf:type rdf:resource="#IncidentFactorCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#InjuryCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type for a general category of harm or injury.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#APPARENT_BROKEN_BONES">
+<rdfs:label>APPARENT BROKEN BONES</rdfs:label>
+<rdf:type rdf:resource="#InjuryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#APPARENT_MINOR_INJURY">
+<rdfs:label>APPARENT MINOR INJURY</rdfs:label>
+<rdf:type rdf:resource="#InjuryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LOSS_OF_TEETH">
+<rdfs:label>LOSS OF TEETH</rdfs:label>
+<rdf:type rdf:resource="#InjuryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NONE">
+<rdfs:label>NONE</rdfs:label>
+<rdf:type rdf:resource="#InjuryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OTHER_MAJOR_INJURY">
+<rdfs:label>OTHER MAJOR INJURY</rdfs:label>
+<rdf:type rdf:resource="#InjuryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#POSSIBLE_INTERNAL_INJURY">
+<rdfs:label>POSSIBLE INTERNAL INJURY</rdfs:label>
+<rdf:type rdf:resource="#InjuryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SEVERE_LACERATION">
+<rdfs:label>SEVERE LACERATION</rdfs:label>
+<rdf:type rdf:resource="#InjuryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UNCONSCIOUSNESS">
+<rdfs:label>UNCONSCIOUSNESS</rdfs:label>
+<rdf:type rdf:resource="#InjuryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#JudicialDistrictCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type for a judicial district.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#ALABAMA_MIDDLE">
+<rdfs:label>MIDDLE ALABAMA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALABAMA_NORTHERN">
+<rdfs:label>NORTHERN ALABAMA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALABAMA_SOUTHERN">
+<rdfs:label>SOUTHERN ALABAMA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALASKA">
+<rdfs:label>ALASKA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ARIZONA">
+<rdfs:label>ARIZONA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ARKANSAS_EASTERN">
+<rdfs:label>EASTERN ARKANSAS</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ARKANSAS_WESTERN">
+<rdfs:label>WESTERN ARKANSAS</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CALIFORNIA_CENTRAL">
+<rdfs:label>CENTRAL CALIFORNIA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CALIFORNIA_EASTERN">
+<rdfs:label>EASTERN CALIFORNIA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CALIFORNIA_NORTHERN">
+<rdfs:label>NORTHERN CALIFORNIA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CALIFORNIA_SOUTHERN">
+<rdfs:label>SOUTHERN CALIFORNIA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COLORADO">
+<rdfs:label>COLORADO</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CONNECTICUT">
+<rdfs:label>CONNECTICUT</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DELAWARE">
+<rdfs:label>DELAWARE</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FLORIDA_MIDDLE">
+<rdfs:label>MIDDLE FLORIDA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FLORIDA_NORTHERN">
+<rdfs:label>NORTHERN FLORIDA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FLORIDA_SOUTHERN">
+<rdfs:label>SOUTHERN FLORIDA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GEORGIA_MIDDLE">
+<rdfs:label>MIDDLE GEORGIA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GEORGIA_NORTHERN">
+<rdfs:label>NORTHERN GEORGIA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GEORGIA_SOUTHERN">
+<rdfs:label>SOUTHERN GEORGIA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GUAM">
+<rdfs:label>GUAM</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HAWAII">
+<rdfs:label>HAWAII</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IDAHO">
+<rdfs:label>IDAHO</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ILLINOIS_CENTRAL">
+<rdfs:label>CENTRAL ILLINOIS</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ILLINOIS_NORTHERN">
+<rdfs:label>NORTHERN ILLINOIS</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ILLINOIS_SOUTHERN">
+<rdfs:label>SOUTHERN ILLINOIS</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INDIANA_NORTHERN">
+<rdfs:label>NORTHERN INDIANA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INDIANA_SOUTHERN">
+<rdfs:label>SOUTHERN INDIANA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IOWA_NORTHERN">
+<rdfs:label>NORTHERN IOWA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IOWA_SOUTHERN">
+<rdfs:label>SOUTHERN IOWA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KANSAS">
+<rdfs:label>KANSAS</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KENTUCKY_EASTERN">
+<rdfs:label>EASTERN KENTUCKY</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KENTUCKY_WESTERN">
+<rdfs:label>WESTERN KENTUCKY</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LOUISIANA_EASTERN">
+<rdfs:label>EASTERN LOUISIANA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LOUISIANA_MIDDLE">
+<rdfs:label>MIDDLE LOUISIANA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LOUISIANA_WESTERN">
+<rdfs:label>WESTERN LOUISIANA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MAINE">
+<rdfs:label>MAINE</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MARIANA_ISLANDS_NORTHERN">
+<rdfs:label>NORTHERN MARIANA ISLANDS</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MARYLAND">
+<rdfs:label>MARYLAND</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MASSACHUSETTS">
+<rdfs:label>MASSACHUSETTS</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MICHIGAN_EASTERN">
+<rdfs:label>EASTERN MICHIGAN</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MICHIGAN_WESTERN">
+<rdfs:label>WESTERN MICHIGAN</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MINNESOTA">
+<rdfs:label>MINNESOTA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MISSISSIPPI_NORTHERN">
+<rdfs:label>NORTHERN MISSISSIPPI</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MISSISSIPPI_SOUTHERN">
+<rdfs:label>SOUTHERN MISSISSIPPI</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MISSOURI_EASTERN">
+<rdfs:label>EASTERN MISSOURI</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MISSOURI_WESTERN">
+<rdfs:label>WESTERN MISSOURI</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MONTANA">
+<rdfs:label>MONTANA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NEBRASKA">
+<rdfs:label>NEBRASKA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NEVADA">
+<rdfs:label>NEVADA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NEW_HAMPSHIRE">
+<rdfs:label>NEW HAMPSHIRE</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NEW_JERSEY">
+<rdfs:label>NEW JERSEY</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NEW_MEXICO">
+<rdfs:label>NEW MEXICO</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NEW_YORK_EASTERN">
+<rdfs:label>EASTERN NEW YORK</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NEW_YORK_NORTHERN">
+<rdfs:label>NORTHERN NEW YORK</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NEW_YORK_SOUTHERN">
+<rdfs:label>SOUTHERN NEW YORK</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NEW_YORK_WESTERN">
+<rdfs:label>WESTERN NEW YORK</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NORTH_CAROLINA_EASTERN">
+<rdfs:label>EASTERN NORTH CAROLINA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NORTH_CAROLINA_MIDDLE">
+<rdfs:label>MIDDLE NORTH CAROLINA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NORTH_CAROLINA_WESTERN">
+<rdfs:label>WESTERN NORTH CAROLINA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NORTH_DAKOTA">
+<rdfs:label>NORTH DAKOTA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OHIO_NORTHERN">
+<rdfs:label>NORTHERN OHIO</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OHIO_SOUTHERN">
+<rdfs:label>SOUTHERN OHIO</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OKLAHOMA_EASTERN">
+<rdfs:label>EASTERN OKLAHOMA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OKLAHOMA_NORTHERN">
+<rdfs:label>NORTHERN OKLAHOMA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OKLAHOMA_WESTERN">
+<rdfs:label>WESTERN OKLAHOMA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OREGON">
+<rdfs:label>OREGON</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PENNSYLVANIA_EASTERN">
+<rdfs:label>EASTERN PENNSYLVANIA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PENNSYLVANIA_MIDDLE">
+<rdfs:label>MIDDLE PENNSYLVANIA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PENNSYLVANIA_WESTERN">
+<rdfs:label>WESTERN PENNSYLVANIA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PUERTO_RICO">
+<rdfs:label>PUERTO RICO</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RHODE_ISLAND">
+<rdfs:label>RHODE ISLAND</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SOUTH_CAROLINA">
+<rdfs:label>SOUTH CAROLINA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SOUTH_DAKOTA">
+<rdfs:label>SOUTH DAKOTA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TENNESSEE_EASTERN">
+<rdfs:label>EASTERN TENNESSEE</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TENNESSEE_MIDDLE">
+<rdfs:label>MIDDLE TENNESSEE</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TENNESSEE_WESTERN">
+<rdfs:label>WESTERN TENNESSEE</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TEXAS_EASTERN">
+<rdfs:label>EASTERN TEXAS</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TEXAS_NORTHERN">
+<rdfs:label>NORTHERN TEXAS</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TEXAS_SOUTHERN">
+<rdfs:label>SOUTHERN TEXAS</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TEXAS_WESTERN">
+<rdfs:label>WESTERN TEXAS</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UTAH">
+<rdfs:label>UTAH</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VERMONT">
+<rdfs:label>VERMONT</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VIRGIN_ISLANDS">
+<rdfs:label>VIRGIN ISLANDS</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VIRGINIA_EASTERN">
+<rdfs:label>EASTERN VIRGINIA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VIRGINIA_WESTERN">
+<rdfs:label>WESTERN VIRGINIA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WASHINGTON_DC">
+<rdfs:label>DISTRICT OF COLUMBIA DISTRICT COURT</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WASHINGTON_EASTERN">
+<rdfs:label>EASTERN WASHINGTON</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WASHINGTON_WESTERN">
+<rdfs:label>WESTERN WASHINGTON</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WEST_VIRGINIA_NORTHERN">
+<rdfs:label>NORTHERN WEST VIRGINIA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WEST_VIRGINIA_SOUTHERN">
+<rdfs:label>SOUTHERN WEST VIRGINIA</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WISCONSIN_EASTERN">
+<rdfs:label>EASTERN WISCONSIN</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WISCONSIN_WESTERN">
+<rdfs:label>WESTERN WISCONSIN</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WYOMING">
+<rdfs:label>WYOMING</rdfs:label>
+<rdf:type rdf:resource="#JudicialDistrictCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#JustifiableHomicideFactorCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type for circumstances of a justifiable homicide.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#CRIMINAL_ATTACKED_CIVILIAN">
+<rdfs:label>CRIMINAL ATTACKED A CIVILIAN</rdfs:label>
+<rdf:type rdf:resource="#JustifiableHomicideFactorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CRIMINAL_ATTACKED_LEO-OTHER_OFFICER_KILLED_CRIMINAL">
+<rdfs:label>CRIMINAL ATTACKED POLICE OFFICER AND CRIMINAL KILLED BY ANOTHER POLICE OFFICER</rdfs:label>
+<rdf:type rdf:resource="#JustifiableHomicideFactorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CRIMINAL_ATTACKED_LEO-THAT_OFFICER_KILLED_CRIMINAL">
+<rdfs:label>CRIMINAL ATTACKED POLICE OFFICER AND THAT OFFICER KILLED CRIMINAL</rdfs:label>
+<rdf:type rdf:resource="#JustifiableHomicideFactorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CRIMINAL_ATTEMPTED_FLIGHT_FROM_CRIME">
+<rdfs:label>CRIMINAL ATTEMPTED FLIGHT FROM A CRIME</rdfs:label>
+<rdf:type rdf:resource="#JustifiableHomicideFactorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CRIMINAL_KILLED_IN_COMMISSION_OF_CRIME">
+<rdfs:label>CRIMINAL KILLED IN COMMISSION OF A CRIME</rdfs:label>
+<rdf:type rdf:resource="#JustifiableHomicideFactorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CRIMINAL_RESISTED_ARREST">
+<rdfs:label>CRIMINAL RESISTED ARREST</rdfs:label>
+<rdf:type rdf:resource="#JustifiableHomicideFactorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UNABLE_TO_DETERMINE-NOT_ENOUGH_INFORMATION">
+<rdfs:label>UNABLE TO DETERMINE/NOT ENOUGH INFORMATION</rdfs:label>
+<rdf:type rdf:resource="#JustifiableHomicideFactorCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#LEOKAActivityCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type for a kind of activity or circumstance in which a law enforcement officer was engaged at the time of assault.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#ALL_OTHER">
+<rdfs:label>ALL OTHER</rdfs:label>
+<rdf:type rdf:resource="#LEOKAActivityCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AMBUSH-NO_WARNING">
+<rdfs:label>AMBUSH-NO WARNING</rdfs:label>
+<rdf:type rdf:resource="#LEOKAActivityCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ATTEMPTING_OTHER_ARRESTS">
+<rdfs:label>ATTEMPTING OTHER ARRESTS</rdfs:label>
+<rdf:type rdf:resource="#LEOKAActivityCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BURGLARIES_IN_PROGRESS-PURSUING_BURGLARY_SUSPECTS">
+<rdfs:label>BURGLARIES IN PROGRESS OR PURSUING BURGLARY SUSPECTS</rdfs:label>
+<rdf:type rdf:resource="#LEOKAActivityCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CIVIL_DISORDER">
+<rdfs:label>CIVIL DISORDER (RIOT, MASS DISOBEDIENCE)</rdfs:label>
+<rdf:type rdf:resource="#LEOKAActivityCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HANDLING_PERSONS_WITH_MENTAL_ILLNESS">
+<rdfs:label>HANDLING PERSONS WITH MENTAL ILLNESS</rdfs:label>
+<rdf:type rdf:resource="#LEOKAActivityCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HANDLING-TRANSPORTING-CUSTODY_OF_PRISONERS">
+<rdfs:label>HANDLING, TRANSPORTING, CUSTODY OF PRISONERS</rdfs:label>
+<rdf:type rdf:resource="#LEOKAActivityCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INVESTIGATING_SUSPICIOUS_PERSONS-CIRCUMSTANCES">
+<rdfs:label>INVESTIGATING SUSPICIOUS PERSONS OR CIRCUMSTANCES</rdfs:label>
+<rdf:type rdf:resource="#LEOKAActivityCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RESPONDING_TO_DISTURBANCE_CALL">
+<rdfs:label>RESPONDING TO DISTURBANCE CALL (FAMILY QUARRELS, PERSON WITH FIREARM, ETC.)</rdfs:label>
+<rdf:type rdf:resource="#LEOKAActivityCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ROBBERIES_IN_PROGRESS-PURSUING_ROBBERY_SUSPECTS">
+<rdfs:label>ROBBERIES IN PROGRESS OR PURSUING ROBBERY SUSPECTS</rdfs:label>
+<rdf:type rdf:resource="#LEOKAActivityCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRAFFIC_PURSUITS-STOPS">
+<rdfs:label>TRAFFIC PURSUITS AND STOPS</rdfs:label>
+<rdf:type rdf:resource="#LEOKAActivityCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#LEOKAOfficerAssignmentCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type for an assignment a law enforcement officer was on when assaulted.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#DETECTIVE-SPECIAL_ASSIGNMENT-ALONE-NON_UNIFORMED_LEO">
+<rdfs:label>DETECTIVE OR SPECIAL ASSIGNMENT (ALONE) - NON-UNIFORMED OFFICERS</rdfs:label>
+<rdf:type rdf:resource="#LEOKAOfficerAssignmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DETECTIVE-SPECIAL_ASSIGNMENT-ASSISTED-NON_UNIFORMED_LEO">
+<rdfs:label>DETECTIVE OR SPECIAL ASSIGNMENT (ASSISTED) - NON-UNIFORMED OFFICERS</rdfs:label>
+<rdf:type rdf:resource="#LEOKAOfficerAssignmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ONE-OFFICER_VEHICLE-ALONE-UNIFORMED_LEO">
+<rdfs:label>ONE-OFFICER VEHICLE (ALONE) - UNIFORMED LAW ENFORCEMENT OFFICERS</rdfs:label>
+<rdf:type rdf:resource="#LEOKAOfficerAssignmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ONE-OFFICER_VEHICLE-ASSISTED-UNIFORMED_LEO">
+<rdfs:label>ONE-OFFICER VEHICLE (ASSISTED) - UNIFORMED LAW ENFORCEMENT OFFICERS</rdfs:label>
+<rdf:type rdf:resource="#LEOKAOfficerAssignmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OTHER-ALONE-LEO_SERVING_IN_OTHER_CAPACITY">
+<rdfs:label>OTHER (ALONE) - LAW ENFORCEMENT OFFICERS SERVING IN OTHER CAPACITIES (FOOT PATROL, OFF DUTY, ETC.)</rdfs:label>
+<rdf:type rdf:resource="#LEOKAOfficerAssignmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OTHER-ASSISTED-LEO_SERVING_IN_OTHER_CAPACITY">
+<rdfs:label>OTHER (ASSISTED) - LAW ENFORCEMENT OFFICERS SERVING IN OTHER CAPACITIES (FOOT PATROL, OFF DUTY, ETC.)</rdfs:label>
+<rdf:type rdf:resource="#LEOKAOfficerAssignmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TWO-OFFICER_VEHICLE-UNIFORMED_LEO">
+<rdfs:label>TWO-OFFICER VEHICLE - UNIFORMED LAW ENFORCEMENT OFFICERS</rdfs:label>
+<rdf:type rdf:resource="#LEOKAOfficerAssignmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#MethodOfEntryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type for methods of entry into a structure or premises.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#FORCE">
+<rdfs:label>FORCE</rdfs:label>
+<rdf:type rdf:resource="#MethodOfEntryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NO_FORCE">
+<rdfs:label>NO FORCE</rdfs:label>
+<rdf:type rdf:resource="#MethodOfEntryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#MultipleArresteeSegmentsCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type for the ways in which an arrested subject is counted or scored in a system so that a subject is counted only once despite potentially multiple arrests at a time.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#COUNT_ARRESTEE">
+<rdfs:label>COUNT ARRESTEE</rdfs:label>
+<rdf:type rdf:resource="#MultipleArresteeSegmentsCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MULTIPLE">
+<rdfs:label>MULTIPLE</rdfs:label>
+<rdf:type rdf:resource="#MultipleArresteeSegmentsCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NOT_APPLICABLE">
+<rdfs:label>NOT APPLICABLE</rdfs:label>
+<rdf:type rdf:resource="#MultipleArresteeSegmentsCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#NIBRSReportCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type for a kind of report contained in the NIBRS submission.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#EMPLOYEE_COUNT_REPORT">
+<rdfs:label>EMPLOYEE COUNT REPORT</rdfs:label>
+<rdf:type rdf:resource="#NIBRSReportCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GROUP_A_INCIDENT_REPORT">
+<rdfs:label>GROUP A INCIDENT REPORT</rdfs:label>
+<rdf:type rdf:resource="#NIBRSReportCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GROUP_A_INCIDENT_REPORT_LEOKA">
+<rdfs:label>GROUP A INCIDENT REPORT LEOKA</rdfs:label>
+<rdf:type rdf:resource="#NIBRSReportCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GROUP_B_ARREST_REPORT">
+<rdfs:label>GROUP B ARREST REPORT</rdfs:label>
+<rdf:type rdf:resource="#NIBRSReportCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HATE_CRIME_REPORT">
+<rdfs:label>HATE CRIME REPORT</rdfs:label>
+<rdf:type rdf:resource="#NIBRSReportCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ZERO_REPORT">
+<rdfs:label>ZERO REPORT</rdfs:label>
+<rdf:type rdf:resource="#NIBRSReportCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#OffenseCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type for Uniform Crime Reporting (UCR) offense codes.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#AGGRAVATED_ASSAULT">
+<rdfs:label>AGGRAVATED ASSAULT</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALL_OTHER_OFFENSES">
+<rdfs:label>ALL OTHER OFFENSES</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ARSON">
+<rdfs:label>ARSON</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BAD_CHECKS">
+<rdfs:label>BAD CHECKS</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BETTING-WAGERING">
+<rdfs:label>BETTING/WAGERING</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BRIBERY">
+<rdfs:label>BRIBERY</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BURGLARY-BREAKING_ENTERING">
+<rdfs:label>BURGLARY/BREAKING &amp; ENTERING</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COUNTERFEIT-FORGERY">
+<rdfs:label>COUNTERFEITING/FORGERY</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CRUELTY_TO_ANIMALS">
+<rdfs:label>ANIMAL CRUELTY</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CURFEW-LOITERING-VAGRANCY_VIOLATIONS">
+<rdfs:label>CURFEW/LOITERING/VAGRANCY VIOLATIONS</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DAMAGE-DESTRUCTION-VANDALISM_OF_PROPERTY">
+<rdfs:label>DESTRUCTION/DAMAGE/VANDALISM OF PROPERTY</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DISORDERLY_CONDUCT">
+<rdfs:label>DISORDERLY CONDUCT</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DRIVING_UNDER_INFLUENCE">
+<rdfs:label>DRIVING UNDER THE INFLUENCE</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DRUG_EQUIPMENT_VIOLATIONS">
+<rdfs:label>DRUG EQUIPMENT VIOLATIONS</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DRUG-NARCOTIC_VIOLATIONS">
+<rdfs:label>DRUG/NARCOTIC VIOLATIONS</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DRUNKENNESS">
+<rdfs:label>DRUNKENNESS</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EMBEZZLEMENT">
+<rdfs:label>EMBEZZLEMENT</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ESPIONAGE">
+<rdfs:label>ESPIONAGE</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EXPLOSIVES">
+<rdfs:label>EXPLOSIVES</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EXPORT_VIOLATIONS">
+<rdfs:label>EXPORT VIOLATIONS</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EXTORTION-BLACKMAIL">
+<rdfs:label>EXTORTION/BLACKMAIL</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FAILURE_TO_APPEAR">
+<rdfs:label>BOND FAILURE TO APPEAR</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FAMILY_OFFENSES-NONVIOLENT">
+<rdfs:label>FAMILY OFFENSES, NONVIOLENT</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FEDERAL_LIQUOR_OFFENSES">
+<rdfs:label>FEDERAL LIQUOR OFFENSES</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FEDERAL_RESOURCE_VIOLATIONS">
+<rdfs:label>FEDERAL RESOURCE VIOLATIONS</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FEDERAL_TOBACCO_OFFENSES">
+<rdfs:label>FEDERAL TOBACCO OFFENSES</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FIREARM_ACT_VIOLATION">
+<rdfs:label>FIREARM ACT VIOLATION</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FONDLING">
+<rdfs:label>FONDLING</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FRAUD-BY_WIRE">
+<rdfs:label>WIRE FRAUD</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FRAUD-CREDIT_CARD-AUTOMATIC_TELLER_MACHINE">
+<rdfs:label>CREDIT CARD/AUTOMATED TELLER MACHINE FRAUD</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FRAUD-FALSE_PRETENSES-SWINDLE-CONFIDENCE_GAME">
+<rdfs:label>FALSE PRETENSES/SWINDLE/CONFIDENCE GAME</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FRAUD-IMPERSONATION">
+<rdfs:label>IMPERSONATION</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FRAUD-WELFARE_FRAUD">
+<rdfs:label>WELFARE FRAUD</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FUGITIVE-FLIGHT_TO_AVOID_DEPORTATION">
+<rdfs:label>FUGITIVE - FLIGHT TO AVOID DEPORTATION</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FUGITIVE-FLIGHT_TO_AVOID_PROSECUTION">
+<rdfs:label>FUGITIVE - FLIGHT TO AVOID PROSECUTION</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FUGITIVE-HARBORING_ESCAPEE-CONCEALING_FROM_ARREST">
+<rdfs:label>FUGITIVE - HARBORING ESCAPEE - CONCEALING FROM ARREST</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GAMBLING-EQUIPMENT_VIOLATION">
+<rdfs:label>GAMBLING EQUIPMENT VIOLATION</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GAMBLING-OPERATING_PROMOTING_ASSISTING">
+<rdfs:label>OPERATING/PROMOTING/ASSISTING GAMBLING</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HACKING-COMPUTER_INVASION">
+<rdfs:label>HACKING/COMPUTER INVASION</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HUMAN_TRAFFICKING-COMMERCIAL_SEX_ACTS">
+<rdfs:label>HUMAN TRAFFICKING, COMMERCIAL SEX ACTS</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HUMAN_TRAFFICKING-INVOLUNTARY_SERVITUDE">
+<rdfs:label>HUMAN TRAFFICKING, INVOLUNTARY SERVITUDE</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IDENTITY_THEFT">
+<rdfs:label>IDENTITY THEFT</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IMMIGRATION-FALSE_CITIZENSHIP">
+<rdfs:label>IMMIGRATION - FALSE CITIZENSHIP</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IMMIGRATION-ILLEGAL_ENTRY_INTO_US">
+<rdfs:label>IMMIGRATION - ILLEGAL ENTRY INTO US</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IMMIGRATION-OTHER_IMMIGRATION_VIOLATIONS">
+<rdfs:label>IMMIGRATION - OTHER IMMIGRATION VIOLATIONS</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IMMIGRATION-RE_ENTRY_AFTER_DEPORTATION">
+<rdfs:label>IMMIGRATION - RE-ENTRY AFTER DEPORTATION</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IMMIGRATION-SMUGGLING_ALIENS">
+<rdfs:label>IMMIGRATION - SMUGGLING ALIENS</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IMPORT_VIOLATIONS">
+<rdfs:label>IMPORT VIOLATIONS</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INCEST">
+<rdfs:label>INCEST</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INTIMIDATION">
+<rdfs:label>INTIMIDATION</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#JUSTIFIABLE_HOMICIDE">
+<rdfs:label>JUSTIFIABLE HOMICIDE</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KIDNAPPING-ABDUCTION">
+<rdfs:label>KIDNAPPING/ABDUCTION</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LARCENY">
+<rdfs:label>ALL OTHER LARCENY</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LARCENY-FROM_AUTO">
+<rdfs:label>THEFT FROM MOTOR VEHICLE</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LARCENY-FROM_BUILDING">
+<rdfs:label>THEFT FROM BUILDING</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LARCENY-FROM_COIN_OPERATED_MACHINE">
+<rdfs:label>THEFT FROM COIN-OPERATED MACHINE OR DEVICE</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LARCENY-PARTS_FROM_VEHICLE">
+<rdfs:label>THEFT OF MOTOR VEHICLE PARTS OR ACCESSORIES</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LIQUOR_LAW_VIOLATIONS">
+<rdfs:label>LIQUOR LAW VIOLATIONS</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MANSLAUGHTER_NEGLIGENT">
+<rdfs:label>NEGLIGENT MANSLAUGHTER</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MANSLAUGHTER_NONNEGLIGENT-MURDER">
+<rdfs:label>MURDER &amp; NONNEGLIGENT MANSLAUGHTER</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MONEY_LAUNDERING">
+<rdfs:label>MONEY LAUNDERING</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MOTOR_VEHICLE_THEFT">
+<rdfs:label>MOTOR VEHICLE THEFT</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OBSCENE_MATERIAL-PORNOGRAPHY">
+<rdfs:label>PORNOGRAPHY/OBSCENE MATERIAL</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PEEPING_TOM">
+<rdfs:label>PEEPING TOM</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PERJURY">
+<rdfs:label>PERJURY</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#POCKET_PICKING">
+<rdfs:label>POCKET-PICKING</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PROSTITUTION">
+<rdfs:label>PROSTITUTION</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PROSTITUTION-ASSISTING_OR_PROMOTING">
+<rdfs:label>ASSISTING OR PROMOTING PROSTITUTION</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PROSTITUTION-PURCHASING">
+<rdfs:label>PURCHASING PROSTITUTION</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PURSE_SNATCHING">
+<rdfs:label>PURSE-SNATCHING</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RAPE">
+<rdfs:label>RAPE</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RAPE-STATUTORY">
+<rdfs:label>STATUTORY RAPE</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ROBBERY">
+<rdfs:label>ROBBERY</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SEX_ASSAULT-OBJECT">
+<rdfs:label>SEXUAL ASSAULT WITH AN OBJECT</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SEX_OFFENDER_REGISTRATION_VIOLATION">
+<rdfs:label>FAILURE TO REGISTER AS SEX OFFENDER</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SHOPLIFTING">
+<rdfs:label>SHOPLIFTING</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SIMPLE_ASSAULT">
+<rdfs:label>SIMPLE ASSAULT</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SODOMY">
+<rdfs:label>SODOMY</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SPORTS_TAMPERING">
+<rdfs:label>SPORTS TAMPERING</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STOLEN_PROPERTY_OFFENSES">
+<rdfs:label>STOLEN OFFENSES</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TREASON">
+<rdfs:label>TREASON</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRESPASSING">
+<rdfs:label>TRESPASS OF REAL</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WEAPON_LAW_VIOLATIONS">
+<rdfs:label>WEAPON LAW VIOLATIONS</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WEAPONS_OF_MASS_DESTRUCTION">
+<rdfs:label>WEAPONS OF MASS DESTRUCTION</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WILDLIFE_TRAFFICKING">
+<rdfs:label>WILDLIFE TRAFFICKING</rdfs:label>
+<rdf:type rdf:resource="#OffenseCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#PersonAgeCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type used to indicate the age of an individual victim when the reported crime occurred. Age code of person less than or equal to 1 year old.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#BABY">
+<rdfs:label>PERSON AGE 6 DAYS TO 1 YEAR OLD</rdfs:label>
+<rdf:type rdf:resource="#PersonAgeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NEONATAL">
+<rdfs:label>PERSON AGE UNDER 24 HOURS</rdfs:label>
+<rdf:type rdf:resource="#PersonAgeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NEWBORN">
+<rdfs:label>PERSON AGE 1 TO 6 DAYS OLD</rdfs:label>
+<rdf:type rdf:resource="#PersonAgeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UNKNOWN">
+<rdfs:label>UNKNOWN</rdfs:label>
+<rdf:type rdf:resource="#PersonAgeCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#PersonOrganizationAffiliationCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type for an affiliation between a person and an organization.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#AUXILLARY">
+<rdfs:label>A AUXILLARY EMPLOYEE</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganizationAffiliationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FULL-TIME">
+<rdfs:label>A FULL-TIME EMPLOYEE</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganizationAffiliationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INTERNSHIP">
+<rdfs:label>A INTERNSHIP EMPLOYEE</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganizationAffiliationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OTHER">
+<rdfs:label>A UNSPECIFIED EMPLOYEE</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganizationAffiliationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PART-TIME">
+<rdfs:label>A PART-TIME EMPLOYEE</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganizationAffiliationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PARTNER">
+<rdfs:label>A PARTNER</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganizationAffiliationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RESERVE">
+<rdfs:label>A RESERVE EMPLOYEE</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganizationAffiliationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VOLUNTEER">
+<rdfs:label>A VOLUNTEER</rdfs:label>
+<rdf:type rdf:resource="#PersonOrganizationAffiliationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#PropertyCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type for categories or classifications of a property item.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#AIRCRAFT">
+<rdfs:label>AIRCRAFT</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AIRCRAFT_PARTS-ACCESSORIES">
+<rdfs:label>AIRCRAFT PARTS/ ACCESSORIES</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALCOHOL">
+<rdfs:label>ALCOHOL</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ARTISTIC_SUPPLIES-ACCESSORIES">
+<rdfs:label>ARTISTIC SUPPLIES/ ACCESSORIES</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AUTOMOBILE">
+<rdfs:label>AUTOMOBILE</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BICYCLES">
+<rdfs:label>BICYCLES</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BUILDING_MATERIALS">
+<rdfs:label>BUILDING MATERIALS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BUSES">
+<rdfs:label>BUSES</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CAMPING-HUNTING-FISHING_EQUIPMENT-SUPPLIES">
+<rdfs:label>CAMPING/ HUNTING/ FISHING EQUIPMENT/ SUPPLIES</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CHEMICALS">
+<rdfs:label>CHEMICALS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CLOTHES-FURS">
+<rdfs:label>CLOTHES/ FURS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COLLECTIONS-COLLECTIBLES">
+<rdfs:label>COLLECTIONS/ COLLECTIBLES</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COMPUTER_HARDWARE-SOFTWARE">
+<rdfs:label>COMPUTER HARDWARE/ SOFTWARE</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CONSUMABLE_GOODS">
+<rdfs:label>CONSUMABLE GOODS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CREDIT-DEBIT_CARDS">
+<rdfs:label>CREDIT/ DEBIT CARDS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CROPS">
+<rdfs:label>CROPS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DOCUMENTS-PERSONAL-BUSINESS">
+<rdfs:label>DOCUMENTS/ PERSONAL OR BUSINESS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DRUGS-NARCOTIC_EQUIPMENT">
+<rdfs:label>DRUG/ NARCOTIC EQUIPMENT</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DRUGS-NARCOTICS">
+<rdfs:label>DRUGS/ NARCOTICS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EXPLOSIVES">
+<rdfs:label>EXPLOSIVES</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FARM_EQUIPMENT">
+<rdfs:label>FARM EQUIPMENT</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FIREARM_ACCESSORIES">
+<rdfs:label>FIREARM ACCESSORIES</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FIREARMS">
+<rdfs:label>FIREARMS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FUEL">
+<rdfs:label>FUEL</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GAMBLING_EQUIPMENT">
+<rdfs:label>GAMBLING EQUIPMENT</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HEAVY_CONSTRUCTION-INDUSTRIAL_EQUIPMENT">
+<rdfs:label>HEAVY CONSTRUCTION/ INDUSTRIAL EQUIPMENT</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HOUSEHOLD_GOODS">
+<rdfs:label>HOUSEHOLD GOODS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IDENTITY_DOCUMENTS">
+<rdfs:label>IDENTITY DOCUMENTS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IDENTITY-INTANGIBLE">
+<rdfs:label>IDENTITY - INTANGIBLE</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#JEWELRY-PRECIOUS_METALS-GEMS">
+<rdfs:label>JEWELRY/ PRECIOUS METALS/ GEMS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LAW_ENFORCEMENT_EQUIPMENT">
+<rdfs:label>LAW ENFORCEMENT EQUIPMENT</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LAWN-YARD-GARDEN_EQUIPMENT">
+<rdfs:label>LAWN/ YARD/ GARDEN EQUIPMENT</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LIVESTOCK">
+<rdfs:label>LIVESTOCK</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LOGGING_EQUIPMENT">
+<rdfs:label>LOGGING EQUIPMENT</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MEDICAL-MEDICAL_LAB_EQUIPMENT">
+<rdfs:label>MEDICAL/ MEDICAL LAB EQUIPMENT</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MERCHANDISE">
+<rdfs:label>MERCHANDISE</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#METALS-NON_PRECIOUS">
+<rdfs:label>METALS, NON-PRECIOUS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MONEY">
+<rdfs:label>MONEY</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MUSICAL_INSTRUMENTS">
+<rdfs:label>MUSICAL INSTRUMENTS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NEGOTIABLE_INSTRUMENTS">
+<rdfs:label>NEGOTIABLE INSTRUMENTS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NONNEGOTIABLE_INSTRUMENTS">
+<rdfs:label>NONNEGOTIABLE INSTRUMENTS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OFFICE-TYPE_EQUIPMENT">
+<rdfs:label>OFFICE-TYPE EQUIPMENT</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OTHER">
+<rdfs:label>OTHER</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OTHER_MOTOR_VEHICLES">
+<rdfs:label>OTHER MOTOR VEHICLES</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PENDING_INVENTORY">
+<rdfs:label>PENDING INVENTORY</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PETS">
+<rdfs:label>PETS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PHOTOGRAPHIC-OPTICAL_EQUIPMENT">
+<rdfs:label>PHOTOGRAPHIC/ OPTICAL EQUIPMENT</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PORTABLE_ELECTRONIC_COMMUNICATIONS">
+<rdfs:label>PORTABLE ELECTRONIC COMMUNICATIONS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PURSES-HANDBAGS-WALLETS">
+<rdfs:label>PURSES/ HANDBAGS/ WALLETS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RADIO-TV-VCR-DVD_PLAYERS">
+<rdfs:label>RADIO/ TV/ VCR/ DVD PLAYERS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RECORDINGS-AUDIO-VISUAL">
+<rdfs:label>RECORDINGS - AUDIO/ VISUAL</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RECREATIONAL_VEHICLES">
+<rdfs:label>RECREATIONAL VEHICLES</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RECREATIONAL-SPORTS_EQUIPMENT">
+<rdfs:label>RECREATIONAL/ SPORTS EQUIPMENT</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STRUCTURES-INDUSTRIAL-MANUFACTURING">
+<rdfs:label>STRUCTURES - INDUSTRIAL/ MANUFACTURING</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STRUCTURES-OTHER">
+<rdfs:label>STRUCTURES - OTHER</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STRUCTURES-OTHER_COMMERCIAL-BUSINESS">
+<rdfs:label>STRUCTURES - OTHER COMMERCIAL/ BUSINESS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STRUCTURES-OTHER_DWELLINGS">
+<rdfs:label>STRUCTURES - OTHER DWELLINGS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STRUCTURES-PUBLIC-COMMUNITY">
+<rdfs:label>STRUCTURES - PUBLIC/ COMMUNITY</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STRUCTURES-SINGLE_OCCUPANCY_DWELLINGS">
+<rdfs:label>STRUCTURES - SINGLE OCCUPANCY DWELLINGS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STRUCTURES-STORAGE">
+<rdfs:label>STRUCTURES - STORAGE</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TOOLS">
+<rdfs:label>TOOLS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRAILERS">
+<rdfs:label>TRAILERS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRUCKS">
+<rdfs:label>TRUCKS</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VEHICLE_PARTS-ACCESSORIES">
+<rdfs:label>VEHICLE PARTS/ ACCESSORIES</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WATERCRAFT">
+<rdfs:label>WATERCRAFT</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WATERCRAFT_EQUIPMENT-PARTS-ACCESSORIES">
+<rdfs:label>WATERCRAFT EQUIPMENT/PARTS/ACCESSORIES</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WEAPONS-OTHER">
+<rdfs:label>WEAPONS - OTHER</rdfs:label>
+<rdf:type rdf:resource="#PropertyCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#ReportActionCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type for a kind of action to be taken on the report.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#ADD">
+<rdfs:label>ADD</rdfs:label>
+<rdf:type rdf:resource="#ReportActionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DELETE">
+<rdfs:label>DELETE</rdfs:label>
+<rdf:type rdf:resource="#ReportActionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INCIDENT_REPORT">
+<rdfs:label>INCIDENT REPORT</rdfs:label>
+<rdf:type rdf:resource="#ReportActionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#REPLACE">
+<rdfs:label>REPLACE</rdfs:label>
+<rdf:type rdf:resource="#ReportActionCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#ResidentCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type for whether or not a person was a resident of a town, city, or community in relation to some activity.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#NONRESIDENT">
+<rdfs:label>NONRESIDENT</rdfs:label>
+<rdf:type rdf:resource="#ResidentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RESIDENT">
+<rdfs:label>RESIDENT</rdfs:label>
+<rdf:type rdf:resource="#ResidentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UNKNOWN">
+<rdfs:label>UNKNOWN</rdfs:label>
+<rdf:type rdf:resource="#ResidentCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#VictimCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ucr.xsd"/>
+<rdfs:comment>A data type for kinds of victims in an incident.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#BUSINESS">
+<rdfs:label>BUSINESS</rdfs:label>
+<rdf:type rdf:resource="#VictimCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FINANCIAL_INSTITUTION">
+<rdfs:label>FINANCIAL INSTITUTION</rdfs:label>
+<rdf:type rdf:resource="#VictimCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GOVERNMENT">
+<rdfs:label>GOVERNMENT</rdfs:label>
+<rdf:type rdf:resource="#VictimCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INDIVIDUAL">
+<rdfs:label>INDIVIDUAL</rdfs:label>
+<rdf:type rdf:resource="#VictimCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LAW_ENFORCEMENT_OFFICER">
+<rdfs:label>LAW ENFORCEMENT OFFICER</rdfs:label>
+<rdf:type rdf:resource="#VictimCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OTHER">
+<rdfs:label>OTHER</rdfs:label>
+<rdf:type rdf:resource="#VictimCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RELIGIOUS_ORGANIZATION">
+<rdfs:label>RELIGIOUS ORGANIZATION</rdfs:label>
+<rdf:type rdf:resource="#VictimCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SOCIETY-PUBLIC">
+<rdfs:label>SOCIETY/ PUBLIC</rdfs:label>
+<rdf:type rdf:resource="#VictimCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UNKNOWN">
+<rdfs:label>UNKNOWN</rdfs:label>
+<rdf:type rdf:resource="#VictimCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+</rdf:RDF>
+

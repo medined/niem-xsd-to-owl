@@ -1,0 +1,900 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#xPIL-types.xsd">
+<rdfs:label>xPIL-types.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+	
+		
+	
+	<owl:Class rdf:about="#AccountElementList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of information types used for account details</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#AccountID">
+<rdfs:label>The unique name, number or mixed account identifier, e.g. bank account number</rdfs:label>
+<rdf:type rdf:resource="#AccountElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IssuingAuthority">
+<rdfs:label>The organisation that assigns and manages the account, e.g. a bank, power supplier, etc.</rdfs:label>
+<rdf:type rdf:resource="#AccountElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AccountType">
+<rdfs:label>Commonly recognised names, such as IRD number (for NZ), SSN (for US), ABN (for AU), etc.</rdfs:label>
+<rdf:type rdf:resource="#AccountElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AccountBranch">
+<rdfs:label/>
+<rdf:type rdf:resource="#AccountElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IssuingCountryName">
+<rdfs:label>The country that issued the account</rdfs:label>
+<rdf:type rdf:resource="#AccountElementList"/>
+</owl:NamedIndividual>
+
+	<owl:Class rdf:about="#AccountOwnershipTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of types of account ownerships</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#AccountTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of types of accounts</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#BloodGroupList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of types of blood groups</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#A+">
+<rdfs:label/>
+<rdf:type rdf:resource="#BloodGroupList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A-">
+<rdfs:label/>
+<rdf:type rdf:resource="#BloodGroupList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B+">
+<rdfs:label/>
+<rdf:type rdf:resource="#BloodGroupList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B-">
+<rdfs:label/>
+<rdf:type rdf:resource="#BloodGroupList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AB+">
+<rdfs:label/>
+<rdf:type rdf:resource="#BloodGroupList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AB-">
+<rdfs:label/>
+<rdf:type rdf:resource="#BloodGroupList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#O+">
+<rdfs:label/>
+<rdf:type rdf:resource="#BloodGroupList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#O-">
+<rdfs:label/>
+<rdf:type rdf:resource="#BloodGroupList"/>
+</owl:NamedIndividual>
+
+	<owl:Class rdf:about="#BodyMarkPartList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of body parts for marks</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#BodyMarkPartLocationList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of locations on the body parts where the marks are found</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#BirthInfoElementList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of information types used for birth information</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#BirthStar">
+<rdfs:label>Commonly used in some oriental cultures</rdfs:label>
+<rdf:type rdf:resource="#BirthInfoElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BirthPlace">
+<rdfs:label>A free text descriprion of the birth place, e.g. country name, region, etc.</rdfs:label>
+<rdf:type rdf:resource="#BirthInfoElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BirthSign">
+<rdfs:label>Specific to some cultures</rdfs:label>
+<rdf:type rdf:resource="#BirthInfoElementList"/>
+</owl:NamedIndividual>
+
+	<owl:Class rdf:about="#CommunicationMediaTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of communication media types used for contact purposes</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Cellphone">
+<rdfs:label/>
+<rdf:type rdf:resource="#CommunicationMediaTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Fax">
+<rdfs:label/>
+<rdf:type rdf:resource="#CommunicationMediaTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Pager">
+<rdfs:label/>
+<rdf:type rdf:resource="#CommunicationMediaTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Telephone">
+<rdfs:label/>
+<rdf:type rdf:resource="#CommunicationMediaTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VOIP">
+<rdfs:label/>
+<rdf:type rdf:resource="#CommunicationMediaTypeList"/>
+</owl:NamedIndividual>
+
+	<owl:Class rdf:about="#ContactNumberElementList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of information types used for phone number details</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#CountryCode">
+<rdfs:label>Code to dial to a country. E.g. 1 for US, 44 for UK</rdfs:label>
+<rdf:type rdf:resource="#ContactNumberElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AreaCode">
+<rdfs:label>Code to dial an area within a country. For example: "02" for Sydney, "03" for Melbourne</rdfs:label>
+<rdf:type rdf:resource="#ContactNumberElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LocalNumber">
+<rdfs:label>Local number as would be used by others within the same dialing area.</rdfs:label>
+<rdf:type rdf:resource="#ContactNumberElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Extension">
+<rdfs:label>An extension to the number that is usually handled by some PABX</rdfs:label>
+<rdf:type rdf:resource="#ContactNumberElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Pin">
+<rdfs:label>E.g. special access code</rdfs:label>
+<rdf:type rdf:resource="#ContactNumberElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Separator">
+<rdfs:label>Any text that is not part of the phone number, but has some informational content, e.g. Ext. </rdfs:label>
+<rdf:type rdf:resource="#ContactNumberElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NationalNumber">
+<rdfs:label>Area code with local number if one line. May include national access numbers.</rdfs:label>
+<rdf:type rdf:resource="#ContactNumberElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#InternationalNumber">
+<rdfs:label>Full international number in one line. May include international access numbers.</rdfs:label>
+<rdf:type rdf:resource="#ContactNumberElementList"/>
+</owl:NamedIndividual>
+
+	<owl:Class rdf:about="#ContactNumberUsageList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of types of uses of contact number</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#DisabilityCauseList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of causes of disability</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#DocumentElementList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of information types used for document details</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#DocumentID">
+<rdfs:label>Usually the number of the document, which can be alphanumeric</rdfs:label>
+<rdf:type rdf:resource="#DocumentElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DocumentName">
+<rdfs:label>Name of the document.e.g. VISA, MASTERCARD for credit cards</rdfs:label>
+<rdf:type rdf:resource="#DocumentElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Privilege">
+<rdfs:label>A privilege the holder of the document was grunted. E.g. security access level</rdfs:label>
+<rdf:type rdf:resource="#DocumentElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Restriction">
+<rdfs:label>A restriction imposed on the holder of the document. E.g. learners license</rdfs:label>
+<rdf:type rdf:resource="#DocumentElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GroupName">
+<rdfs:label>A name of a larger group that recognises this document or supports it.</rdfs:label>
+<rdf:type rdf:resource="#DocumentElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VerificationCode">
+<rdfs:label>Verirfication/security code as in credit card</rdfs:label>
+<rdf:type rdf:resource="#DocumentElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Category">
+<rdfs:label>Category of the document such as Donor Type in License,
+Gold Card, Silver Card, Platinum Card, etc</rdfs:label>
+<rdf:type rdf:resource="#DocumentElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IssuePlace">
+<rdfs:label>Place of issue of the document. e.g.  Sydney, Australia</rdfs:label>
+<rdf:type rdf:resource="#DocumentElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AccessCode">
+<rdfs:label>Access/Security code of the document</rdfs:label>
+<rdf:type rdf:resource="#DocumentElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Type">
+<rdfs:label>Use this if the enumeration list for type of document is not used.</rdfs:label>
+<rdf:type rdf:resource="#DocumentElementList"/>
+</owl:NamedIndividual>
+
+	<owl:Class rdf:about="#DocumentTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of types of documents </rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Passport">
+<rdfs:label/>
+<rdf:type rdf:resource="#DocumentTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DriverLicense">
+<rdfs:label/>
+<rdf:type rdf:resource="#DocumentTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CreditCard">
+<rdfs:label/>
+<rdf:type rdf:resource="#DocumentTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BankCard">
+<rdfs:label/>
+<rdf:type rdf:resource="#DocumentTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KeyCard">
+<rdfs:label/>
+<rdf:type rdf:resource="#DocumentTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AccessCard">
+<rdfs:label/>
+<rdf:type rdf:resource="#DocumentTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IdentificationCard">
+<rdfs:label/>
+<rdf:type rdf:resource="#DocumentTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Certificate">
+<rdfs:label/>
+<rdf:type rdf:resource="#DocumentTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MileageProgram">
+<rdfs:label/>
+<rdf:type rdf:resource="#DocumentTypeList"/>
+</owl:NamedIndividual>
+
+	<owl:Class rdf:about="#ElectronicAddressIdentifierTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of electronic address identifiers</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#AIM">
+<rdfs:label/>
+<rdf:type rdf:resource="#ElectronicAddressIdentifierTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EMAIL">
+<rdfs:label/>
+<rdf:type rdf:resource="#ElectronicAddressIdentifierTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GOOGLE">
+<rdfs:label/>
+<rdf:type rdf:resource="#ElectronicAddressIdentifierTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GIZMO">
+<rdfs:label/>
+<rdf:type rdf:resource="#ElectronicAddressIdentifierTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ICQ">
+<rdfs:label/>
+<rdf:type rdf:resource="#ElectronicAddressIdentifierTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#JABBER">
+<rdfs:label/>
+<rdf:type rdf:resource="#ElectronicAddressIdentifierTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MSN">
+<rdfs:label/>
+<rdf:type rdf:resource="#ElectronicAddressIdentifierTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SIP">
+<rdfs:label/>
+<rdf:type rdf:resource="#ElectronicAddressIdentifierTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SKYPE">
+<rdfs:label/>
+<rdf:type rdf:resource="#ElectronicAddressIdentifierTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#URL">
+<rdfs:label/>
+<rdf:type rdf:resource="#ElectronicAddressIdentifierTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XRI">
+<rdfs:label/>
+<rdf:type rdf:resource="#ElectronicAddressIdentifierTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#YAHOO">
+<rdfs:label/>
+<rdf:type rdf:resource="#ElectronicAddressIdentifierTypeList"/>
+</owl:NamedIndividual>
+
+	<owl:Class rdf:about="#ElectronicAddressIdentifierUsageList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of types of use of electronic address identifiers</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#EventTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of type of events</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#FeatureTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of person's physical features </rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Weight">
+<rdfs:label/>
+<rdf:type rdf:resource="#FeatureTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Height">
+<rdfs:label/>
+<rdf:type rdf:resource="#FeatureTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HairColour">
+<rdfs:label/>
+<rdf:type rdf:resource="#FeatureTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EyeColour">
+<rdfs:label/>
+<rdf:type rdf:resource="#FeatureTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SkinColour">
+<rdfs:label/>
+<rdf:type rdf:resource="#FeatureTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Waist">
+<rdfs:label/>
+<rdf:type rdf:resource="#FeatureTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Breast">
+<rdfs:label/>
+<rdf:type rdf:resource="#FeatureTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Hip">
+<rdfs:label/>
+<rdf:type rdf:resource="#FeatureTypeList"/>
+</owl:NamedIndividual>
+
+	<owl:Class rdf:about="#FreeTextLineTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of types for free text lines for defining party characteristics as free format text</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#GenderList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of type of gender</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#HabitTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of type/category of habit</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#HobbyTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of type/category of hobby</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#IndustryCodeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List if industry code</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#IndustryTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of industry type</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#LanguagePreferenceList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>Lit of preference to use the language e.g. speak, read, write</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#LanguageSkillsList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of types of skills on languages</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#No">
+<rdfs:label/>
+<rdf:type rdf:resource="#LanguageSkillsList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Fluent">
+<rdfs:label/>
+<rdf:type rdf:resource="#LanguageSkillsList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Excellent">
+<rdfs:label/>
+<rdf:type rdf:resource="#LanguageSkillsList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Good">
+<rdfs:label/>
+<rdf:type rdf:resource="#LanguageSkillsList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Bad">
+<rdfs:label/>
+<rdf:type rdf:resource="#LanguageSkillsList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Average">
+<rdfs:label/>
+<rdf:type rdf:resource="#LanguageSkillsList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Fair">
+<rdfs:label/>
+<rdf:type rdf:resource="#LanguageSkillsList"/>
+</owl:NamedIndividual>
+
+	<owl:Class rdf:about="#LanguageTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>Type of language e.g. by birth, by education</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#MaritalStatusList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of types of marital status</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#MembershipElementList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of information types used for describing a membership</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#MembershipNumber">
+<rdfs:label>Membership identifier, e.g. membership number or some other type of ID</rdfs:label>
+<rdf:type rdf:resource="#MembershipElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Privilege">
+<rdfs:label>A privilege that the member can enjoy as part of the membership. E.g. access to free events.</rdfs:label>
+<rdf:type rdf:resource="#MembershipElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Restriction">
+<rdfs:label>A restriction that the membership imposes on the member, e.g. do not smoke.</rdfs:label>
+<rdf:type rdf:resource="#MembershipElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GroupName">
+<rdfs:label>Larger group or alliance name the membership provides access to.</rdfs:label>
+<rdf:type rdf:resource="#MembershipElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Category">
+<rdfs:label>Category of the membership such as Gold, Silver, Platinum, etc</rdfs:label>
+<rdf:type rdf:resource="#MembershipElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Type">
+<rdfs:label>Use this if the enumeration list for type of memberhsip is not used.</rdfs:label>
+<rdf:type rdf:resource="#MembershipElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IssuingCountryName">
+<rdfs:label>The country that issues the membership</rdfs:label>
+<rdf:type rdf:resource="#MembershipElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Role">
+<rdfs:label>Role in membership for a person , e.g. secretary, President, treasurer</rdfs:label>
+<rdf:type rdf:resource="#MembershipElementList"/>
+</owl:NamedIndividual>
+
+	<owl:Class rdf:about="#MembershipTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of types of memberships</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#NationalityTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of types of obtaining nationality</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#NumberTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of name types for commonly used Number type</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#RangeFrom">
+<rdfs:label>Indicates that the element contains the lower value of a range, e.g. 25 in 25-37</rdfs:label>
+<rdf:type rdf:resource="#NumberTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Range">
+<rdfs:label>Indicates that the value is a range, e.g. 25-37</rdfs:label>
+<rdf:type rdf:resource="#NumberTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RangeTo">
+<rdfs:label>Indicates that the element contains the top value of a range, e.g. 25 in 25-37</rdfs:label>
+<rdf:type rdf:resource="#NumberTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Prefix">
+<rdfs:label>Indicates that the element contains some value that is important, but not exactly the number itself. E.g. A250, where A is the prefix to the number 250</rdfs:label>
+<rdf:type rdf:resource="#NumberTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Suffix">
+<rdfs:label>Indocates that the element contains some value that is important, but not exactly the number itself. E.g. 'bis' in '45 bis'</rdfs:label>
+<rdf:type rdf:resource="#NumberTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Number">
+<rdfs:label>Indicates that the value is number, e.g. 2020 in ID 2020. The actual value can be alpha-numeric. </rdfs:label>
+<rdf:type rdf:resource="#NumberTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Separator">
+<rdfs:label>Indicates that the value is a separator that is expected to be preserved. Examples are / - #, etc.</rdfs:label>
+<rdf:type rdf:resource="#NumberTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Extension">
+<rdfs:label>Indicates that the value is an extension number of some identifier, e.g. 01 in ID 2330-01. 01 could be mean a specific semantics</rdfs:label>
+<rdf:type rdf:resource="#NumberTypeList"/>
+</owl:NamedIndividual>
+
+	<owl:Class rdf:about="#OccupationElementList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of information types used for describing an occupation</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Role">
+<rdfs:label>The actual role the person carries out.</rdfs:label>
+<rdf:type rdf:resource="#OccupationElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PositionTitle">
+<rdfs:label/>
+<rdf:type rdf:resource="#OccupationElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ReportsTo">
+<rdfs:label>Name, role or position who the person reports to.</rdfs:label>
+<rdf:type rdf:resource="#OccupationElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EmploymentType">
+<rdfs:label>E.g. full-time, part-time, temporary, contract, etc.</rdfs:label>
+<rdf:type rdf:resource="#OccupationElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CostCentre">
+<rdfs:label>Commonly used identifier for accounting purposes.</rdfs:label>
+<rdf:type rdf:resource="#OccupationElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Rank">
+<rdfs:label>A rank in some ranking system, e.g. private, major, superintendant, Justice, etc.This is different from role</rdfs:label>
+<rdf:type rdf:resource="#OccupationElementList"/>
+</owl:NamedIndividual>
+
+	<owl:Class rdf:about="#OrganisationCategoryTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of category the oranisation belongs to</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Vendor">
+<rdfs:label/>
+<rdf:type rdf:resource="#OrganisationCategoryTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GovernmentAgency">
+<rdfs:label/>
+<rdf:type rdf:resource="#OrganisationCategoryTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#University">
+<rdfs:label/>
+<rdf:type rdf:resource="#OrganisationCategoryTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#College">
+<rdfs:label/>
+<rdf:type rdf:resource="#OrganisationCategoryTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#School">
+<rdfs:label/>
+<rdf:type rdf:resource="#OrganisationCategoryTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Club">
+<rdfs:label/>
+<rdf:type rdf:resource="#OrganisationCategoryTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Association">
+<rdfs:label/>
+<rdf:type rdf:resource="#OrganisationCategoryTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Consortium">
+<rdfs:label/>
+<rdf:type rdf:resource="#OrganisationCategoryTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Company">
+<rdfs:label/>
+<rdf:type rdf:resource="#OrganisationCategoryTypeList"/>
+</owl:NamedIndividual>
+
+	<owl:Class rdf:about="#OrganisationInfoNatureList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of organisation nature of business</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#OrganisationInfoTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of type of organisation</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#OrganisationRelationshipTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of relationship types with an organisation</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#OrganisationDetailsUsageList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>Type of use of organisation details data</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#PartyIDTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of types of party identifiers</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#PartyIdentifierElementList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of information types used for describing party identifiers</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Identifier">
+<rdfs:label/>
+<rdf:type rdf:resource="#PartyIdentifierElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IssuingCountryName">
+<rdfs:label/>
+<rdf:type rdf:resource="#PartyIdentifierElementList"/>
+</owl:NamedIndividual>
+
+	<owl:Class rdf:about="#PartyIdentifierTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of identifier types</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#TaxID">
+<rdfs:label/>
+<rdf:type rdf:resource="#PartyIdentifierTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CompanyID">
+<rdfs:label/>
+<rdf:type rdf:resource="#PartyIdentifierTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NationalID">
+<rdfs:label/>
+<rdf:type rdf:resource="#PartyIdentifierTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RegistrationID">
+<rdfs:label/>
+<rdf:type rdf:resource="#PartyIdentifierTypeList"/>
+</owl:NamedIndividual>
+
+	<owl:Class rdf:about="#PartyTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>Organisation or Person</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#PartyUsageList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of type of use of party data</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#PersonCategoryTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of category the person belongs to</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#ExistingCustomer">
+<rdfs:label/>
+<rdf:type rdf:resource="#PersonCategoryTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PotentialCustomer">
+<rdfs:label/>
+<rdf:type rdf:resource="#PersonCategoryTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Employee">
+<rdfs:label/>
+<rdf:type rdf:resource="#PersonCategoryTypeList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Friend">
+<rdfs:label/>
+<rdf:type rdf:resource="#PersonCategoryTypeList"/>
+</owl:NamedIndividual>
+
+	<owl:Class rdf:about="#PersonDetailsUsageList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of type of use of person details data</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#PersonEthnicityList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of ethnicity of person</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#PersonFavouriteTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of favourites of the person</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#PhysicalInfoFreeTextTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of type of physical info for free text</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#PhysicalStatusList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of physical status of a person</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#PersonRelationshipTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>Type of relationship with a person</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#PreferenceTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>Type of preferences of a person</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#QualificationElementList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of information types used for describing a qualification</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#QualificationName">
+<rdfs:label>Free text name of the qualification</rdfs:label>
+<rdf:type rdf:resource="#QualificationElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MajorSubject">
+<rdfs:label>Name of the major subject of the qualification</rdfs:label>
+<rdf:type rdf:resource="#QualificationElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MinorSubject">
+<rdfs:label>Name of a minor subject of the qualification</rdfs:label>
+<rdf:type rdf:resource="#QualificationElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Grade">
+<rdfs:label>Grade (average?, percentage? ) achieved with the qualification.</rdfs:label>
+<rdf:type rdf:resource="#QualificationElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CourseDuration">
+<rdfs:label>Free text description of the duration of the course, e.g. 4 years, 1 month, etc.</rdfs:label>
+<rdf:type rdf:resource="#QualificationElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CompletionDate">
+<rdfs:label>Free text description of the date when the qualification was completed to the best known precision.</rdfs:label>
+<rdf:type rdf:resource="#QualificationElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Award">
+<rdfs:label>Award, or distinction that was awarded to the graduate, e.g. honors.</rdfs:label>
+<rdf:type rdf:resource="#QualificationElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Restriction">
+<rdfs:label>Restrictions imposed on the graduate, e.g. not valid before completion of 2 year practical work under supervision.</rdfs:label>
+<rdf:type rdf:resource="#QualificationElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Registration">
+<rdfs:label>Details of any professional registration if required for practicing, e.g. for pharmacists, electricians, medical professionals.</rdfs:label>
+<rdf:type rdf:resource="#QualificationElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WayOfStudy">
+<rdfs:label>Full time, part time, evening classes, extramural, etc.</rdfs:label>
+<rdf:type rdf:resource="#QualificationElementList"/>
+</owl:NamedIndividual>
+
+	<owl:Class rdf:about="#ReligionList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of religions of person</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#ResidencyTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of residency statusof person</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#RevenueCurrencyCodeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>Type of currency codes for revienue</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#RevenueSourceList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>Type of sources of revenue</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#RevenueTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>Type of revenue </rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#UnitTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of type of units for measurement</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#VehicleInfoElementList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of information types used for describing a vehicle</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Make">
+<rdfs:label>Free text make description, e.g. Toyota, Ford</rdfs:label>
+<rdf:type rdf:resource="#VehicleInfoElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Model">
+<rdfs:label>Free text model description, e.g. Pajero, Falcon, etc. May include make as in Ford Falcon or Mitsubishi Pajero. If the make information is included then do not put the make as a separate element qualified with Make.</rdfs:label>
+<rdf:type rdf:resource="#VehicleInfoElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ManufactureDate">
+<rdfs:label>Free text data which can be a full date or a year.</rdfs:label>
+<rdf:type rdf:resource="#VehicleInfoElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EngineNumber">
+<rdfs:label>Free text engine number</rdfs:label>
+<rdf:type rdf:resource="#VehicleInfoElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ChassisNumber">
+<rdfs:label>Free text chassis number</rdfs:label>
+<rdf:type rdf:resource="#VehicleInfoElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BodyNumber">
+<rdfs:label>Free text body number</rdfs:label>
+<rdf:type rdf:resource="#VehicleInfoElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LicensePlateNumber">
+<rdfs:label>Free text license plate number</rdfs:label>
+<rdf:type rdf:resource="#VehicleInfoElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LicensePlateType">
+<rdfs:label>Number plate types are different. e.g. standard, premier, diplomat, etc</rdfs:label>
+<rdf:type rdf:resource="#VehicleInfoElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Colour">
+<rdfs:label/>
+<rdf:type rdf:resource="#VehicleInfoElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BodyType">
+<rdfs:label>Type of body. e.g. Sedan, Ute, Station wagon, 2 door, etc</rdfs:label>
+<rdf:type rdf:resource="#VehicleInfoElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Type">
+<rdfs:label>Use this if the enumeration list for type of vehicle is not used.</rdfs:label>
+<rdf:type rdf:resource="#VehicleInfoElementList"/>
+</owl:NamedIndividual>
+
+	<owl:Class rdf:about="#VehicleTypeList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of types of vehicles</rdfs:comment>
+</owl:Class>
+
+	<owl:Class rdf:about="#VisaElementList">
+<rdfs:subClassOf rdf:resource="#xPIL-types.xsd"/>
+<rdfs:comment>List of information types used for describing a visa</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Type">
+<rdfs:label>Type of visa. e.g. Tourist, Visitor, Student</rdfs:label>
+<rdf:type rdf:resource="#VisaElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Number">
+<rdfs:label/>
+<rdf:type rdf:resource="#VisaElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Code">
+<rdfs:label>Some visas are known by its code number. e.g. B1, E3, H-1, Class X1</rdfs:label>
+<rdf:type rdf:resource="#VisaElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Country">
+<rdfs:label>Name of the country for which the visa is issued to.</rdfs:label>
+<rdf:type rdf:resource="#VisaElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IssuePlace">
+<rdfs:label>Free text description of the issuing place, e.g. country name and office name or country name and the city. For example US Embassy, Prague,
+Australia, Sydney</rdfs:label>
+<rdf:type rdf:resource="#VisaElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MaximumStay">
+<rdfs:label>Free text description of the length of maximum stay. E.g. 1 week, 2 months, etc.</rdfs:label>
+<rdf:type rdf:resource="#VisaElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Restriction">
+<rdfs:label>Any restrictions imposed on the visa holder, e.g. not for employment, cannot work for more than 20 hours</rdfs:label>
+<rdf:type rdf:resource="#VisaElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Privilege">
+<rdfs:label>Any privileges granted to the visa holder, e.g. departure fee waived, etc.</rdfs:label>
+<rdf:type rdf:resource="#VisaElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SpecialCondition">
+<rdfs:label>Any special conditions imposed on the visa holder. e.g. Not allowed to work for more than 10 hours a week</rdfs:label>
+<rdf:type rdf:resource="#VisaElementList"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EntryType">
+<rdfs:label>Single Entry, Multiple Entry, Double Entry, etc</rdfs:label>
+<rdf:type rdf:resource="#VisaElementList"/>
+</owl:NamedIndividual>
+
+</rdf:RDF>
+

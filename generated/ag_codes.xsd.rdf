@@ -1,0 +1,799 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#ag_codes.xsd">
+<rdfs:label>ag_codes.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+    
+      
+      
+      
+      
+      
+    
+  
+  
+  <owl:Class rdf:about="#CLUIDSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type for system-generated internal identifier of a common land unit (CLU). This identifier is for internal access use only.</rdfs:comment>
+</owl:Class>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CoordinateReferenceSystemCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type containing the geospatial projection standard used for calculating acreage.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#26901">
+<rdfs:label>NAD83 UTM Zone 1N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26902">
+<rdfs:label>NAD83 UTM Zone 2N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26903">
+<rdfs:label>NAD83 UTM Zone 3N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26904">
+<rdfs:label>NAD83 UTM Zone 4N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26905">
+<rdfs:label>NAD83 UTM Zone 5N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26906">
+<rdfs:label>NAD83 UTM Zone 6N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26907">
+<rdfs:label>NAD83 UTM Zone 7N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26908">
+<rdfs:label>NAD83 UTM Zone 8N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26909">
+<rdfs:label>NAD83 UTM Zone 9N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26910">
+<rdfs:label>NAD83 UTM Zone 10N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26911">
+<rdfs:label>NAD83 UTM Zone 11N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26912">
+<rdfs:label>NAD83 UTM Zone 12N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26913">
+<rdfs:label>NAD83 UTM Zone 13N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26914">
+<rdfs:label>NAD83 UTM Zone 14N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26915">
+<rdfs:label>NAD83 UTM Zone 15N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26916">
+<rdfs:label>NAD83 UTM Zone 16N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26917">
+<rdfs:label>NAD83 UTM Zone 17N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26918">
+<rdfs:label>NAD83 UTM Zone 18N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26919">
+<rdfs:label>NAD83 UTM Zone 19N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26920">
+<rdfs:label>NAD83 UTM Zone 20N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26921">
+<rdfs:label>NAD83 UTM Zone 21N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26922">
+<rdfs:label>NAD83 UTM Zone 22N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26923">
+<rdfs:label>NAD83 UTM Zone 23N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32655">
+<rdfs:label>WGS84 UTM Zone 55N</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32702">
+<rdfs:label>WGS84 UTM Zone 2S</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32755">
+<rdfs:label>WGS84 UTM Zone 55S</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3857">
+<rdfs:label>WGS84 Web Mercator (Auxiliary Sphere)</rdfs:label>
+<rdf:type rdf:resource="#CoordinateReferenceSystemCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CoreProductCategorySimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type containing subclassification of agricultural products in addition to the main classification provided by the Core Product Code. Each product classified by a Core Product Code is also assigned a Core Product Type Code providing greater clarification of the crop/commodity, tree, livestock ,etc. Codes are maintained by the Pilot CVT (Crop Validation Table).</rdfs:comment>
+</owl:Class>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CoreProductSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type containing classification codes of core agricultural products defined by the Pilot CVT (Crop Validation Table). Products are classified into individual crop and commodity types, tree types, and types of livestock.</rdfs:comment>
+</owl:Class>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CroppingPracticeCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type for code identifying the cropping practice applicable for a reported crop/commodity on a field/subfield.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#108">
+<rdfs:label>Non-Conventional</rdfs:label>
+<rdf:type rdf:resource="#CroppingPracticeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#120">
+<rdfs:label>Not Following Another Crop</rdfs:label>
+<rdf:type rdf:resource="#CroppingPracticeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19">
+<rdfs:label>Following Another Crop</rdfs:label>
+<rdf:type rdf:resource="#CroppingPracticeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#210">
+<rdfs:label>Standard Planting</rdfs:label>
+<rdf:type rdf:resource="#CroppingPracticeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#211">
+<rdfs:label>Winter Planted</rdfs:label>
+<rdf:type rdf:resource="#CroppingPracticeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#220">
+<rdfs:label>Interplanting</rdfs:label>
+<rdf:type rdf:resource="#CroppingPracticeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30">
+<rdfs:label>Fall Planted</rdfs:label>
+<rdf:type rdf:resource="#CroppingPracticeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Continuous Cropping</rdfs:label>
+<rdf:type rdf:resource="#CroppingPracticeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#46">
+<rdfs:label>Spring Planted</rdfs:label>
+<rdf:type rdf:resource="#CroppingPracticeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Summer Fallow</rdfs:label>
+<rdf:type rdf:resource="#CroppingPracticeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Water Fallow</rdfs:label>
+<rdf:type rdf:resource="#CroppingPracticeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#997">
+<rdfs:label>No Cropping Practice Specified</rdfs:label>
+<rdf:type rdf:resource="#CroppingPracticeCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CropYearSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type to indicate a period of time (in year) within which the crop is normally grown and designated by the calendar year in which the crop is normally harvested.</rdfs:comment>
+</owl:Class>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#FarmNumberIDSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type for identification number assigned to all land under control of a particular operator within a particular county.</rdfs:comment>
+</owl:Class>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#FieldNumberIDSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type for identification number assigned to a field of land that is part of a farm tract.</rdfs:comment>
+</owl:Class>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#FileCustomerIDSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type for internal identifier uniquely identifying a customer within a specific file. Each unique customer within a given file will have a unique File Customer Identifier. File Customer Identifier values are not unique across files.</rdfs:comment>
+</owl:Class>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#FinalReportedAcreageSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type for final number of acres that were reported.</rdfs:comment>
+</owl:Class>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#GeospatialDataSubmissionMethodCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type containing codes identifying the method used to submit geospatial data used to create a geospatial shape/polygon.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#C">
+<rdfs:label>CLU - Existing FSA CLU is used to provide the shape/polygon</rdfs:label>
+<rdf:type rdf:resource="#GeospatialDataSubmissionMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D">
+<rdfs:label>Digitized - Third party provider/producer has drawn/digitized the shape/polygon</rdfs:label>
+<rdf:type rdf:resource="#GeospatialDataSubmissionMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G">
+<rdfs:label>GIS Algorithm - GIS algorithm used by third party provider or producer system to create operational boundaries based on raw data collection method (MICS, FMIS)</rdfs:label>
+<rdf:type rdf:resource="#GeospatialDataSubmissionMethodCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#GeospatialShapeModifiedOtherReasonTextSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type for free form text providing the reason that a geospatial shape was modified from its original form when a reason other than the possible list of provided reasons is needed.</rdfs:comment>
+</owl:Class>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#GeospatialShapeModifiedReasonCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type containing codes identifying the reason that a geospatial shape/polygon was modified from its original shape.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#C">
+<rdfs:label>Corrected Acres Calculation Difference</rdfs:label>
+<rdf:type rdf:resource="#GeospatialShapeModifiedReasonCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G">
+<rdfs:label>GPS Issue</rdfs:label>
+<rdf:type rdf:resource="#GeospatialShapeModifiedReasonCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MD">
+<rdfs:label>Missing Data</rdfs:label>
+<rdf:type rdf:resource="#GeospatialShapeModifiedReasonCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#O">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#GeospatialShapeModifiedReasonCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S">
+<rdfs:label>Shape Drawn Incorrectly</rdfs:label>
+<rdf:type rdf:resource="#GeospatialShapeModifiedReasonCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#GeospatialShapeSourceCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type containing codes identifying the source data used to create a geospatial shape/polygon.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#B">
+<rdfs:label>Field Boundaries: Polygon is based on the outer boundaries of the field (i.e. vehicle GPS capabilities)</rdfs:label>
+<rdf:type rdf:resource="#GeospatialShapeSourceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C">
+<rdfs:label>CLU: Existing FSA CLU was used to provide the shape/polygon</rdfs:label>
+<rdf:type rdf:resource="#GeospatialShapeSourceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D">
+<rdfs:label>Digitized: Third party provider/producer has drawn/digitized the shape/polygon</rdfs:label>
+<rdf:type rdf:resource="#GeospatialShapeSourceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F">
+<rdfs:label>FMIS: Shape/polygon has been created by the producer''s Farm Management Information System</rdfs:label>
+<rdf:type rdf:resource="#GeospatialShapeSourceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#R">
+<rdfs:label>Raw Controller File: Shape/polygon has been created from a producer submitted raw controller file</rdfs:label>
+<rdf:type rdf:resource="#GeospatialShapeSourceCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#IrrigationPracticeCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type containing the irrigation practice code used for a unit of land with a crop.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#I">
+<rdfs:label>Irrigated</rdfs:label>
+<rdf:type rdf:resource="#IrrigationPracticeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N">
+<rdfs:label>Non-Irrigate</rdfs:label>
+<rdf:type rdf:resource="#IrrigationPracticeCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#MICSCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type containing codes identifying the Mobile Implement Control System (MICS) used in the collection of geospatial data.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#AG">
+<rdfs:label>AGCO</rdfs:label>
+<rdf:type rdf:resource="#MICSCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AL">
+<rdfs:label>AgLeader</rdfs:label>
+<rdf:type rdf:resource="#MICSCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CNH">
+<rdfs:label>Case IH/Ford/New Holland</rdfs:label>
+<rdf:type rdf:resource="#MICSCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FS">
+<rdfs:label>FSA</rdfs:label>
+<rdf:type rdf:resource="#MICSCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#JD">
+<rdfs:label>John Deere</rdfs:label>
+<rdf:type rdf:resource="#MICSCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#O">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#MICSCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PP">
+<rdfs:label>Precision Planting</rdfs:label>
+<rdf:type rdf:resource="#MICSCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RA">
+<rdfs:label>Raven</rdfs:label>
+<rdf:type rdf:resource="#MICSCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TR">
+<rdfs:label>Trimble</rdfs:label>
+<rdf:type rdf:resource="#MICSCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UN">
+<rdfs:label>Unknown</rdfs:label>
+<rdf:type rdf:resource="#MICSCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#MICSNameSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type containing a code name identifying the Mobile Implement Control System (MICS) used in the collection of geospatial data.</rdfs:comment>
+</owl:Class>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#OrganicPracticeCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type containing certification codes used for farm acreage in regards to a system/plan of production and handling practice to produce an organic commodity.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#N">
+<rdfs:label>Not Specified (Conventional)</rdfs:label>
+<rdf:type rdf:resource="#OrganicPracticeCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OC">
+<rdfs:label>Organic (USDA Certified)</rdfs:label>
+<rdf:type rdf:resource="#OrganicPracticeCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OT">
+<rdfs:label>Organic (Transitional)</rdfs:label>
+<rdf:type rdf:resource="#OrganicPracticeCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#OriginalReportedAcreageSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type for original, unmodified, number of acres that were reported.</rdfs:comment>
+</owl:Class>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#OriginatorIdentificationIDSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type for identifying the entity responsible for originating/publishing data.</rdfs:comment>
+</owl:Class>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#PlantedDateModifiedOtherReasonTextSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type for free form text providing the reason that a planted date was modified from its original value when a reason other than the possible list of provided reasons is needed.</rdfs:comment>
+</owl:Class>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#PlantedDateModifiedReasonCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type containing the reason codes that a planted date was modified from its original value.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#C">
+<rdfs:label>Correction</rdfs:label>
+<rdf:type rdf:resource="#PlantedDateModifiedReasonCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MP">
+<rdfs:label>Multiple Planting Dates</rdfs:label>
+<rdf:type rdf:resource="#PlantedDateModifiedReasonCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#O">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#PlantedDateModifiedReasonCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#ProducerSharePercentSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type for producer's share of a crop and the benefits coming from that crop, expressed as a percentage.</rdfs:comment>
+</owl:Class>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#ProductIntendedUseSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type identifying the intended use code for an agricultural product such as a crop/commodity, tree, livestock, etc. Codes for intended uses are specific to a particular combination of Core Product Code and Core Product Type Code and are maintained by the Pilot CVT (Crop Validation Table).</rdfs:comment>
+</owl:Class>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#ProductPlantingCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type for code to identify the planting of a product/crop as either conventional (planted as normal or no planting required) or unconventional/irregular in a predefined way.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#F">
+<rdfs:label>Failed Acreage (acreage that was timely planted with the intent to harvest, but because of disaster related conditions, the crop failed before it could be brought to harvest).</rdfs:label>
+<rdf:type rdf:resource="#ProductPlantingCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#P">
+<rdfs:label>Prevented Planted (the inability to plant the intended crop acreage with proper equipment by the final planting date for the crop type because of a natural disaster).</rdfs:label>
+<rdf:type rdf:resource="#ProductPlantingCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#V">
+<rdfs:label>Volunteer. (a crop that was planted in a previous crop year on the applicable acreage or drifted from other acreage, successfully self-seeded, and is growing this crop year on the applicable acreage without being intentionally sown or managed).</rdfs:label>
+<rdf:type rdf:resource="#ProductPlantingCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#ReportedAcreageModifiedOtherReasonTextSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type for reason code identifying the reason that the reported acreage was modified from its original value.</rdfs:comment>
+</owl:Class>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#ReportedAcreageModifiedReasonCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type identifying the reason codes that the reported acreage was modified from its original value.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#C">
+<rdfs:label>Corrected Acres</rdfs:label>
+<rdf:type rdf:resource="#ReportedAcreageModifiedReasonCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G">
+<rdfs:label>GPS Issue</rdfs:label>
+<rdf:type rdf:resource="#ReportedAcreageModifiedReasonCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MD">
+<rdfs:label>Missing Data</rdfs:label>
+<rdf:type rdf:resource="#ReportedAcreageModifiedReasonCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#O">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#ReportedAcreageModifiedReasonCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#SubfieldNumberSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type for alpha number that is used to uniquely identify a subfield within a field, within a tract within a farm within a state and county.</rdfs:comment>
+</owl:Class>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#TaxIdentificationCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type for identifying the tax identification type assigned to a specific individual, business or other entity and is used to authenticate the individual/entity for matters of taxation and other government business.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>SSN</rdfs:label>
+<rdf:type rdf:resource="#TaxIdentificationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>EIN</rdfs:label>
+<rdf:type rdf:resource="#TaxIdentificationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#TaxIdentificationIDSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type for tax identification assigned to a specific individual, business or other entity and is used to authenticate the individual/entity for matters of taxation and other federal government business.</rdfs:comment>
+</owl:Class>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#TractNumberIDSimpleType">
+<rdfs:subClassOf rdf:resource="#ag_codes.xsd"/>
+<rdfs:comment>A data type for identification number assigned to a unit of contiguous land that is under one ownership and that is operated as a farm or part of a farm. An owner is a person or business having deed to the land.</rdfs:comment>
+</owl:Class>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+</rdf:RDF>
+

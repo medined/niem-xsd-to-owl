@@ -1,0 +1,463 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#atf.xsd">
+<rdfs:label>atf.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+  
+  
+  <owl:Class rdf:about="#ExplosiveComponentCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#atf.xsd"/>
+<rdfs:comment>A data type for an item contained within an explosive device designed to cause harm or damage when propelled by an explosion.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Aluminum Foil</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveComponentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Nails</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveComponentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Nuts/Bolts/Screws</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveComponentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>Pellets</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveComponentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13">
+<rdfs:label>Rubber bands/Straps</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveComponentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14">
+<rdfs:label>Shells</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveComponentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#15">
+<rdfs:label>String/Rope</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveComponentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#16">
+<rdfs:label>Styrofoam</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveComponentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#17">
+<rdfs:label>Tape</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveComponentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#18">
+<rdfs:label>Wax/Epoxy/Putty/Bondo/etc.</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveComponentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19">
+<rdfs:label>Wire Construction</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveComponentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Balloons</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveComponentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20">
+<rdfs:label>Wood</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveComponentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#21">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveComponentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>BBs/Buckshot</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveComponentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Candles</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveComponentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Cardboard/Paper</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveComponentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Clay</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveComponentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Fragmentation</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveComponentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Magnet</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveComponentCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Money/Coins</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveComponentCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#ExplosiveContainerCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#atf.xsd"/>
+<rdfs:comment>A data type for an object that contains an explosive substance or agent.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Bag</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveContainerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Letter/Book</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveContainerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Pipe</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveContainerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>Radio/TV/Tape Player</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveContainerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13">
+<rdfs:label>Tubing</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveContainerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14">
+<rdfs:label>Vehicle</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveContainerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#15">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveContainerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Bottle/Jug</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveContainerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Box</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveContainerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Brief Case/Luggage</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveContainerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Can</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveContainerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>CO2 Container</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveContainerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>End Cap/Plugs</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveContainerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Gas Cylinder</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveContainerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Grenade</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveContainerCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#ExplosiveFillerCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#atf.xsd"/>
+<rdfs:comment>A data type for a substance that can cause an explosion when ignited or detonated.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>ANFO</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Dynamite</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Flam. Liquid</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>Flam. Solid; Flam. Gas</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13">
+<rdfs:label>Liquid Explosive</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14">
+<rdfs:label>Magnesium</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#15">
+<rdfs:label>Match Heads; Photo Flash Powder</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#16">
+<rdfs:label>Nitroglycerene</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#17">
+<rdfs:label>Ordnance</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#18">
+<rdfs:label>Pellet Powder</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19">
+<rdfs:label>PETN</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Black Powder</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20">
+<rdfs:label>Potassium Chlorate/Chemical/Solidox/etc.</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#21">
+<rdfs:label>Primer; Ammonium Nitrate/Prill</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#22">
+<rdfs:label>Rdx, Nitroguandine</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23">
+<rdfs:label>Shape Charge</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24">
+<rdfs:label>Simulator</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#25">
+<rdfs:label>Smokeless Powder</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26">
+<rdfs:label>TNT</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#27">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Blasting Agent</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Booster</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>C3</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>C4</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Composition B</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Deta Sheet</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Dynamite Binary</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveFillerCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#ExplosiveIgnitionCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#atf.xsd"/>
+<rdfs:comment>A data type for a means by which an explosive is ignited or detonated.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#1">
+<rdfs:label>Alligator Clips</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10">
+<rdfs:label>Detonating Cord</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11">
+<rdfs:label>Electrically Initiated</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12">
+<rdfs:label>Electronic Component</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13">
+<rdfs:label>Firecracker/Fireworks</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14">
+<rdfs:label>Firing Device</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#15">
+<rdfs:label>Flash/Light Bulb</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#16">
+<rdfs:label>Galvanometer</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#17">
+<rdfs:label>Igniter Cord</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#18">
+<rdfs:label>Improvised Detonators/Initiators</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19">
+<rdfs:label>Lamp</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2">
+<rdfs:label>Batteries</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20">
+<rdfs:label>Male/Female Plugs</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#21">
+<rdfs:label>Matches</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#22">
+<rdfs:label>Military Fuse</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23">
+<rdfs:label>Model Rocket</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24">
+<rdfs:label>Mouse/Rat Trap</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#25">
+<rdfs:label>Remote Control</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26">
+<rdfs:label>Safety Fuse</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#27">
+<rdfs:label>Signal Incendiary Fire</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#28">
+<rdfs:label>Spark Plug</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#29">
+<rdfs:label>Squib/Electric Matches</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#3">
+<rdfs:label>Blasting Machine</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30">
+<rdfs:label>Switch</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31">
+<rdfs:label>Timer</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32">
+<rdfs:label>Trailers of Flammable Liquid</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33">
+<rdfs:label>Wick</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34">
+<rdfs:label>Wire</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#4">
+<rdfs:label>Caps Electric</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5">
+<rdfs:label>Caps Non-Electric</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#6">
+<rdfs:label>Cigarette</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#7">
+<rdfs:label>Clock</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#8">
+<rdfs:label>Clothespin</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#9">
+<rdfs:label>Connectors</rdfs:label>
+<rdf:type rdf:resource="#ExplosiveIgnitionCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+</rdf:RDF>
+

@@ -1,0 +1,1507 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#jc3iedm.xsd">
+<rdfs:label>jc3iedm.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+  
+  
+  <owl:Class rdf:about="#EventCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#jc3iedm.xsd"/>
+<rdfs:comment>A data type for a designator for a name which denotes the category that some event falls under.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#ABDICA">
+<rdfs:label>Abdication: The renouncement by a person of his official functions.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ACCAIR">
+<rdfs:label>Accident, aircraft ground: An accident involving an aircraft during ground operations or maintenance.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ACCDNT">
+<rdfs:label>Accident: An unfortunate event, esp. one causing physical harm or damage, brought about unintentionally.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ACCMNE">
+<rdfs:label>Accident, mine: An accident involving unexploded ordnance.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ACCTRF">
+<rdfs:label>Accident, traffic: An accident involving at least one motor vehicle.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ACCWPN">
+<rdfs:label>Accident, weapon: An accident involving a weapon.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ACCWRK">
+<rdfs:label>Accident, workplace: An accident occurring at the workplace.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ACRLOS">
+<rdfs:label>Aircraft loss: The unforeseen loss of an aircraft (and personnel), other than crash.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ADVANC">
+<rdfs:label>Advancing: Moving towards an objective in some form of tactical formation. This is a transitional phase between operations that may or may not result in contact with the enemy.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AERENG">
+<rdfs:label>Aerial engagement: The occurrence of a hostile encounter between military aircraft.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AERSHO">
+<rdfs:label>Aerial shoot down: The deliberate destruction of an aircraft.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AIRCRS">
+<rdfs:label>Aircraft crash: The unforeseen destruction or damage of an aircraft (and personnel).</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AIRLAU">
+<rdfs:label>Aircraft launch activity: The occurrence of one or more aircraft taking off.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AIRLND">
+<rdfs:label>Aircraft landing: The action of approaching and alighting on the ground or some other surface after a flight.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AIRVIO">
+<rdfs:label>Airspace violation: The invasion of the declared own airspace by an aircraft.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRCAN">
+<rdfs:label>Alert cancellation: The end of a state of readiness.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AMBUSH">
+<rdfs:label>Ambush: A surprise attack by fire or other destructive means from concealed positions on a moving or temporarily halted force or group of personnel.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AMPH">
+<rdfs:label>Amphibious operation: Mounting an operation launched from the sea by naval and land forces against a hostile, or potentially hostile shore.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ARASLT">
+<rdfs:label>Air assault: Mounting an assault utilising a mixture of aviation and ground transport, the principal feature of which is the insertion of combat power.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ARBNAS">
+<rdfs:label>Airborne assault: Mounting an airborne operation, a phase beginning with delivery by air of the assault echelon of the force into the objective area and extending through attack of assault objectives and consolidation of the initial airhead.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ARMPRD">
+<rdfs:label>Arms production: An activity of, relating to or based on the production of arms.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ARMTRD">
+<rdfs:label>Arms trade: A happening of selling or buying of arms.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ARRLGL">
+<rdfs:label>Arresting, legal: Seizing and detaining of a person under authority of the law.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ARROBS">
+<rdfs:label>Arresting/obstructing: Stopping or checking of the motion, progress, growth, or spread of something.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ARSON">
+<rdfs:label>Arson: The crime of maliciously setting fire to the property of another or of burning ones own property for an improper purpose, as to collect insurance.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ARTFIR">
+<rdfs:label>Artillery fire: The use of artillery fire.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ASSMBL">
+<rdfs:label>Assembling: Joining together of multiple objects in the same area.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ASSNTN">
+<rdfs:label>Assassination: Murder of a prominent person.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ASTCRM">
+<rdfs:label>Assisting a criminal: Assisting or abetting a known criminal or terrorist.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ATMPOL">
+<rdfs:label>Atmospheric pollution: Contamination of the atmosphere caused by a poison or toxin.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ATMRDR">
+<rdfs:label>Attempted murder: The attempted act of unlawfully killing of one human being by another, especially with premeditated malice.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ATRAPE">
+<rdfs:label>Attempted rape: The attempted act of forcing another person to submit to sexual intercourse.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ATRBRY">
+<rdfs:label>Attempted robbery: The attempted act of robbing a person or place.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ATSCDE">
+<rdfs:label>Attempted suicide: The attempted act of killing oneself intentionally.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ATTACK">
+<rdfs:label>Attack, not otherwise specified: Conducting an offensive operation characterised by coordinated employment of firepower and manoeuvre to close with and destroy or capture the enemy.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ATTDVR">
+<rdfs:label>Attack, diversion: Conducting an attack wherein a force attacks, or threatens to attack, a target other than the main target for the purpose of drawing enemy defences away from the main effort.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ATTEL">
+<rdfs:label>Attack, electronic: Conducting electronic warfare involving the use of electromagnetic energy, directed energy or anti-radiation weapons to attack personnel, facilities, or equipment with the intent of degrading, neutralizing, or destroying enemy combat capability and is considered a form of fires.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ATTMN">
+<rdfs:label>Attack, main: Conducting the principal attack or effort into which the commander throws the full weight of the offensive power at his disposal. An attack directed against the chief objective of the campaign or battle.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ATTSPT">
+<rdfs:label>Attack, supporting: Conducting an offensive operation carried out in conjunction with a main attack and designed to achieve one or more of the following: a. deceive the enemy; b. destroy or pin down enemy forces which could interfere with the main attack; c. control ground whose occupation by the enemy will hinder the main attack; or d. force the enemy to commit reserves prematurely or in an indecisive area.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AVOIDN">
+<rdfs:label>Avoiding: Staying clear of a specified object.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BBYTRD">
+<rdfs:label>Booby trap discovery: The detection of a device intended to cause damage to unsuspecting people.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BCESC">
+<rdfs:label>Border crossing, escorted: A border crossing that is conducted under escort.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BCFRCD">
+<rdfs:label>Border crossing, forced: A border crossing that is conducted under pressure.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BCILGL">
+<rdfs:label>Border crossing, illegal: A border crossing that is forbidden by law.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BCNTPL">
+<rdfs:label>Border crossing, not-planned: A border crossing that is unplanned.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BCPLND">
+<rdfs:label>Border crossing, planned: A border crossing that is known to have been planned ahead of time.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BCSRVL">
+<rdfs:label>Border crossing, surveilled: A border crossing that is conducted under surveillance.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BLDUP">
+<rdfs:label>Build-up: Attaining prescribed strength of units and prescribed levels of vehicles, equipment, stores and supplies.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BLOCKN">
+<rdfs:label>Blocking: Denying of enemy access to an area or preventing his advance in a direction or along an avenue of approach.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BLYLND">
+<rdfs:label>Belly landing: An aircraft has landed without using the landing gear.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BMBACC">
+<rdfs:label>Bombing, accidental: An unfortunate bombing incident that happens unexpectedly and unintentionally.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BMBDLB">
+<rdfs:label>Bombing, deliberate: A deliberate and intentional bombing incident.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BOMBNG">
+<rdfs:label>Bombing: Attacking, damaging or destroying through the use of bombs.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BORINC">
+<rdfs:label>Border incursion: Moving a force or a group of people across a national or territorial border.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BORRAI">
+<rdfs:label>Border raid: A surprise attack by a force or a group of people across a national or territorial border (restricted to 25 km from the border).</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BREACH">
+<rdfs:label>Breaching: Breaking through or securing a passage through an enemy defence, obstacle, minefield, or fortification.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BRNOBJ">
+<rdfs:label>Burned out object: Complete destruction of an object by flames.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BYPASS">
+<rdfs:label>Bypass: Manoeuvring around an obstacle, position, or enemy force to maintain the momentum of advance.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CANLSE">
+<rdfs:label>Canalise: Restricting operations to a narrow zone by use of existing or reinforcing obstacles or by fire or bombing.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CAPTUR">
+<rdfs:label>Capture: Taking possession of an object, normally by force; it frequently involves movement as a preliminary phase.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CARLNC">
+<rdfs:label>Carrier launch: Launching of aircraft by a naval platform.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CARREC">
+<rdfs:label>Carrier recovery: Aircraft recovery by a naval platform.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CBRN">
+<rdfs:label>CBRN-EVENT: An ACTION-EVENT that involves chemical, biological, radiological, or nuclear materiel individually or in combination.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CDWDEX">
+<rdfs:label>Codeword execution: Initiating the codeword activity.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CEREMN">
+<rdfs:label>Ceremony or parade: The formal gathering of a group of people in order to carry out an act or series of acts prescribed by ritual protocol or convention.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CIVDIS">
+<rdfs:label>Civil disobedience: The refusal to comply with certain laws or to pay taxes etc. as a peaceful form of political protest.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CIVDMI">
+<rdfs:label>Civil demonstration, illegal: A public meeting or march illegally expressing protest or other opinion on an issue.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CIVDML">
+<rdfs:label>Civil demonstration, legal: A public meeting or march legally expressing protest or other opinion on an issue.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CIVUNR">
+<rdfs:label>Civil unrest: A behaviour that results in the disturbance of the normal order of society that generally falls short of riots and/or property destruction in the civil population.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CIVWAR">
+<rdfs:label>Civil war: A war among fellow-citizens or within the limits of one community.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CLRAIR">
+<rdfs:label>Clearing, air: Clearing of the air to gain either temporary or permanent air superiority or control in a given sector.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CLRLND">
+<rdfs:label>Clearing, land combat: Removing all enemy forces from a specific location, area, or zone.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CLROBS">
+<rdfs:label>Clearing, obstacle: Eliminating or neutralizing an obstacle.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CLRRAD">
+<rdfs:label>Clearing, radio net: Eliminating transmissions on a tactical radio net in order to allow a higher precedence transmission to occur.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CNDCNF">
+<rdfs:label>Conducting conference: Conducting a meeting for discussion, esp. a regular one held by an association or organisation.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CNDMED">
+<rdfs:label>Conducting media interview: Conducting a conversation between a reporter etc. and a person of public interest, used as a basis of a broadcast or publication.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CNDRCR">
+<rdfs:label>Conducting recreational activities: Conducting a refreshing or entertaining activity.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CNDSCL">
+<rdfs:label>Conducting social events: Conducting any social gathering, esp. one organised by a club or congregation.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CNDSPT">
+<rdfs:label>Conducting sporting events: Conducting any game or competitive activity, especially an outdoor one involving physical exertion, e.g. cricket, football, racing, hunting.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CNFSTN">
+<rdfs:label>Confiscation: The seizure of property under public authority.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CNFWPS">
+<rdfs:label>Conducting forward passage of lines: Moving an incoming force through another force that is currently in contact with the enemy in order for the incoming force to come into contact with the enemy.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CNPRFR">
+<rdfs:label>Conducting preparatory fire: Delivering fire on a target preparatory to an assault.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CNRDSV">
+<rdfs:label>Conducting road service: Enabling the movement of a number of specific units.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CNRWPS">
+<rdfs:label>Conducting rearward passage of lines: Moving a force through the defensive positions of another force behind it in order to break contact with the enemy.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CNSLDT">
+<rdfs:label>Consolidating of a position: Re-organising and strengthening of a newly captured position so that it can be used against the enemy.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COLMID">
+<rdfs:label>Collision, mid-air: In-flight collision of an aircraft with another aircraft.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COLOBS">
+<rdfs:label>Collision, obstacle: In-flight collision of an aircraft with natural or man-made object (fixed or mobile) located on the ground.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COMACT">
+<rdfs:label>Communications activation: The enabling of transmission of information.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COMDEA">
+<rdfs:label>Communications deactivation: The disabling of transmission of information.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COMDIS">
+<rdfs:label>Communications disruption: Interruption of the passage of communications by natural or man-made phenomena.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COMINT">
+<rdfs:label>Communications interception: Capturing electromagnetic communications signals.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COMOUT">
+<rdfs:label>Communications outage: The failure of communications equipment due to a mechanical malfunction.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COMRES">
+<rdfs:label>Communications restoration: The reestablishment of the ability to communicate.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CONSTN">
+<rdfs:label>Constructing: Building, digging or creating an object.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CONTAN">
+<rdfs:label>Containing: Restricting enemy forces by stopping, holding or surrounding them or compelling the enemy forces to centre activity on a given front and to prevent his withdrawing any part of his forces for use elsewhere.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COOPER">
+<rdfs:label>Cooperating: Working or acting together.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COUPDE">
+<rdfs:label>Coup detat: A violent or illegal seizure of power.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COVERN">
+<rdfs:label>Covering: Operating as a force apart from the main body to protect the main body by fighting to gain time while also observing and reporting information and preventing enemy ground observation of an direct fire against the main body.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CRIMIN">
+<rdfs:label>Criminal incident: A violation of law.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CRMHMN">
+<rdfs:label>Crime against humanity: Violation of the laws so gross in numbers affected that it is considered to affect all humans and not only individuals.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CROSSN">
+<rdfs:label>Crossing: Traversing a FEATURE or FACILITY.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CTRATK">
+<rdfs:label>Counter attack: Mounting an offensive operation in which an attack by a part or all of a defending force is made against an enemy attacking force, for such specific purposes as regaining ground lost, cutting off or destroying lead enemy units, and with the general objective of regaining the initiative and denying the enemy the attainment of his goal or purpose in attacking.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CTRBYF">
+<rdfs:label>Counter-battery fire: Fire delivered for the purpose of destroying or neutralizing indirect fire weapons systems.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CTRFIR">
+<rdfs:label>Counter attack by fire: Denying the enemy his goal by using fire against an engagement area to defeat or destroy an enemy force.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DAZZLE">
+<rdfs:label>Dazzle: Causing a temporary loss of vision or a temporary reduction in visual acuity; may also be applied to effects on optics.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DCPTEL">
+<rdfs:label>Deception, electronic: In electronic countermeasures, the deliberate radiation, re-radiation, alteration, absorption or reflection of electromagnetic energy in a manner intended to confuse, distract or seduce an enemy or his electronic systems.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DCPTIN">
+<rdfs:label>Deception: Employing measures designed to mislead the enemy by manipulation, distortion, or falsification of evidence to induce him to react in a manner prejudicial to his interests.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DEACST">
+<rdfs:label>Death of chief of state: Self-defined.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DEASPL">
+<rdfs:label>Death of spiritual leader: Self-defined.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DEFEAT">
+<rdfs:label>Defeat: Diminution of the effectiveness of the enemy to the extent that he is unable to participate further in the battle or at least cannot fulfil his intention.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DEFEND">
+<rdfs:label>Defending: Protecting a defined object against an enemy attack.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DEFLCT">
+<rdfs:label>Deflecting: Preventing an enemy force from following the intended course.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DELAYN">
+<rdfs:label>Delaying: Slowing the momentum of the enemy by conducting an operation in which the force under pressure trades time for space; the aim is to inflict the maximum damage on the enemy without becoming decisively engaged.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DEMO">
+<rdfs:label>Demolition: The destruction of structures, facilities, or materiel by use of fire, water, explosives, mechanical, or other means.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DENYNG">
+<rdfs:label>Denying: Preventing access by blocking, disrupting, dislocating and/or bringing fire to bear.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DEPLOY">
+<rdfs:label>Deploying: Moving to and adopting a tactical formation or dispersal at a specific location.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DEPORT">
+<rdfs:label>Massive deportation/banishment: The driving out or removing from a home or place of usual resort or continuance of a large number of people.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DISEAS">
+<rdfs:label>Disease: A disorder of structure or function in a human, animal, or plant, especially one that produces specific symptoms or that affects a specific part.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DISENG">
+<rdfs:label>Disengaging: Breaking off an action.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DIVRSN">
+<rdfs:label>Diversion: Drawing the attention and forces of an enemy from the point of the principal operation; an attack, alarm, or feint that diverts attention.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DLBATK">
+<rdfs:label>Attack, deliberate: Conducting an offensive operation characterised by pre-planned coordinated employment of firepower and manoeuvre to close with and destroy or capture the enemy.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DMNSTR">
+<rdfs:label>Demonstration: Conducting an offensive operation that is either an attack or a show of force on a front where a decision is not sought, made with the aim of deceiving the enemy. It is similar to a feint with the exception that no contact with the enemy is sought. In OOTW, an operation by military forces in sight of an actual or potential enemy to show military capabilities.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DRGCNS">
+<rdfs:label>Drug consumption, illegal: An action of consuming illegal drugs.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DRGDST">
+<rdfs:label>Drug distribution, illegal: An action to distribute illegal drugs or to illegally distribute legal drugs.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DRGMNF">
+<rdfs:label>Drug manufacturing, illegal: An action to manufacture illegal drugs or to illegally manufacture legal drugs.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DRGOPR">
+<rdfs:label>Drug operation: Illegal trafficking in drugs by a group or an organisation.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DRGSTR">
+<rdfs:label>Drug storage: An action to store drugs.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DRGTRN">
+<rdfs:label>Drug transportation: An action to transport drugs.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DROUGH">
+<rdfs:label>Drought: A prolonged or chronic shortage of water.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DRVSHT">
+<rdfs:label>Drive-by shooting: The act of firing a weapon, usually at a person, from a passing vehicle.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DSRPTN">
+<rdfs:label>Disrupting: Breaking apart an enemys formation and tempo, interrupting the enemys time table, causing premature commitment of forces, and/or splintering their attack using integrated fire planning and obstacle effect.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DSTRBT">
+<rdfs:label>Distributing: Dividing or dispensing in portions.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DSTRYN">
+<rdfs:label>Destroying: Physically rendering an enemy force combat-ineffective or damaging a target so that it cannot function as intended, nor be restored to a usable condition without being entirely rebuilt.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DTHNAT">
+<rdfs:label>Death, natural causes: Normal termination of life.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EARTHQ">
+<rdfs:label>Earthquake: A convulsion of the earths crust due to the release of accumulated stress as a result of faults in strata or volcanic action.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EARWAR">
+<rdfs:label>Early warning alert: Early notification of the launch or approach of weapons or weapons carriers.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ELCEMS">
+<rdfs:label>Electronic emission: The radiation of electromagnetic energy.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ELCVIO">
+<rdfs:label>Election associated violence: The occurrence of violent acts due to an election process.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ELCWAR">
+<rdfs:label>Electronic warfare: Military action to exploit the electro-magnetic spectrum encompassing the search for, interception and identification of electro-magnetic emissions, the employment of electro-magnetic energy, including directed energy, to reduce or prevent hostile use of the electro-magnetic spectrum, and actions to ensure its effective use by friendly forces.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ENGAGE">
+<rdfs:label>Engaging: Bringing the enemy under fire.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ENMCON">
+<rdfs:label>Enemy contact: The situation when opposing forces are in sight of or in range of direct fire of each others weapons.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ENVLPN">
+<rdfs:label>Enveloping: Manoeuvring by the main attacking force to pass around or over the enemys principal defensive positions with the aim of securing objectives to the enemys rear.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EPEDEM">
+<rdfs:label>Epidemic: A widespread occurrence of a disease in a community at a particular time.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EQPFAI">
+<rdfs:label>Equipment failure: A cessation of proper functioning or performance of a piece of equipment.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ESCPNG">
+<rdfs:label>Escaping: Breaking free from a restriction or control of a place, person, or organisation.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ESCRTN">
+<rdfs:label>Escorting: Accompanying and protecting another force or convoy.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EVACTN">
+<rdfs:label>Evacuating: Clearing or removing materiel and personnel from a given locality.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EXECTN">
+<rdfs:label>Execution: Putting a person to death, especially as a legal penalty.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EXPLOS">
+<rdfs:label>Explosion: A sudden release of any kind of energy.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EXPLTN">
+<rdfs:label>Exploitation: Taking advantage of a successful attack by mounting an offensive operation to follow-up and harass a dislocated enemy with the aim of further disorganising him in depth. This may provide the opportunity to capture ground that was not part of the objective of the original attack.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FAMINE">
+<rdfs:label>Famine: An extreme scarcity of food.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FIRE">
+<rdfs:label>Fire: A rapid, persistent chemical reaction that releases heat and light, especially the exothermic combination of a combustible substance with oxygen.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FIX">
+<rdfs:label>Fix: Preventing the enemy from moving any part of his force from a specific location for a specific period of time.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FIXACO">
+<rdfs:label>Fix, acoustic: Determining a position using acoustic data.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FIXELM">
+<rdfs:label>Fix, electromagnetic: Determining a position using electromagnetic data.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FIXELO">
+<rdfs:label>Fix, electro-optical: Determining a position using electro-optical data.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FLOOD">
+<rdfs:label>Flood: The overflowing of a body of water onto dry land.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FOLASS">
+<rdfs:label>Following and assuming: Operating as a committed force that is following a force conducting an offensive operation and is prepared to continue the mission of the force it is following when that force is fixed, attrited, or otherwise unable to continue.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FOLSPT">
+<rdfs:label>Following and supporting: Operating as a committed force that follows and supports the mission accomplishment of a force conducting an offensive operation.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FRCLND">
+<rdfs:label>Forced landing: An aircraft that by hostile act, or lack of vital resources is compelled to land.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FRFGTN">
+<rdfs:label>Firefighting: The activity of extinguishing fires.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FRNDFR">
+<rdfs:label>Friendly fire: Accidental damage by Allied troops to ones own installations, aircraft or personnel.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GENCHS">
+<rdfs:label>Generating chemical smoke: Producing chemical smoke to act as a form of cover to protect ongoing operations.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GENOCD">
+<rdfs:label>Genocide: The deliberated and systematic destruction of a racial, political or cultural group.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GOVCOL">
+<rdfs:label>Governmental collapse: The sudden loss of force, effectiveness or authority of the governing organisation.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GUARDN">
+<rdfs:label>Guarding: Operating as a security element to protect the main body by fighting to gain time while also observing and reporting information.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GUNATA">
+<rdfs:label>Gunnery, air-to-air: The act of firing an air-to-air weapon, usually at an aircraft.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HARASS">
+<rdfs:label>Harassing: Conducting an operation or executing a fire plan designed to curtail movement and, by threat of losses, to lower the morale of enemy troops.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HASTY">
+<rdfs:label>Attack, hasty: In land operations, an attack in which preparation time is traded for speed in order to exploit an opportunity.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HIDING">
+<rdfs:label>Hiding: Concealing an object.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HIJACK">
+<rdfs:label>Hijacking, not otherwise specified: Seizure of a vehicle in order to go somewhere other than the scheduled destination.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HJCKBT">
+<rdfs:label>Hijacking, boat: Seizure of a boat or ship in order to go somewhere other than the scheduled destination.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HJCKLV">
+<rdfs:label>Hijacking, land vehicle: Seizure of a land vehicle in order to go somewhere other than the scheduled destination.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HJCKPL">
+<rdfs:label>Hijacking, plane: Seizure of an aircraft in order to go somewhere other than the scheduled destination.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HLDDEF">
+<rdfs:label>Hold, defensive: Maintaining or retaining possession by force a position or area in defensive operations.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HLDOFF">
+<rdfs:label>Hold, offensive: Exerting sufficient pressure by means of combat power in an attack to prevent the movement or redeployment of enemy forces.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HOLIDY">
+<rdfs:label>National holiday: A day designated by a national authority as a day when work is not compulsory.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HRVIOL">
+<rdfs:label>Human rights violation: The commitment of an act against human rights.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HSTTKN">
+<rdfs:label>Hostage taking: Action to seize or hold a person as security for the fulfilment of a condition.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HUNTNG">
+<rdfs:label>Hunting: The activity of hunting wild animals or game, especially for food or sport.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IDENT">
+<rdfs:label>Identifying: Determining the identification of a particular class of object, recognising the friendly or enemy character of an object, or detecting the presence of an object.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ILLUMN">
+<rdfs:label>Illumination: Providing battlespace lighting by employing searchlight or pyrotechnic illuminants using diffusion or reflection.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INDESP">
+<rdfs:label>Industrial espionage incident: The practice of spying or the use of spies to obtain information about the plans and activities of competitors.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INDFIR">
+<rdfs:label>Indirect fire: Fire delivered on a target that is not itself used as a point of aim for the weapons or the director.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INDSHO">
+<rdfs:label>Indiscriminate shooting: Firing without a specific objective and without making distinction.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INFLTN">
+<rdfs:label>Infiltration: Moving a force, broken down as individuals or small groups, over, through or around enemy positions with the aim of avoiding detection.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INTCPN">
+<rdfs:label>Interception: Conducting electronic warfare support operations with a view to searching, locating and recording radiated electromagnetic energy.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INTDCT">
+<rdfs:label>Interdiction: Diverting, disrupting, delaying, or destroying the enemys surface military potential before it can be used effectively against friendly forces.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INTMDN">
+<rdfs:label>Intimidation: Act to frighten or overawe.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INVASI">
+<rdfs:label>Invasion: The act of taking possession of another land.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ISOLTN">
+<rdfs:label>Isolation: Sealing off (both physically and psychologically) an enemy from its sources of support, denying an enemy freedom of movement, and preventing an enemy unit from having contact with other enemy forces.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ISSMDA">
+<rdfs:label>Issuing media article: Sending forth or putting into circulation a non-fictional essay, especially one included with others in a newspaper, magazine, or journal.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ISSMDD">
+<rdfs:label>Issuing media documentary: Sending forth or putting into circulation any document published on a media that provides a factual record or report.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ISSPRS">
+<rdfs:label>Issuing press release: Sending forth or putting into circulation an official statement issued to media for information.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#JAMMNG">
+<rdfs:label>Jamming: Deliberately radiating, re-radiating or reflecting electromagnetic energy with the object of impairing the use of electronic devices, equipment or systems being used by the enemy.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KIDNAP">
+<rdfs:label>Kidnapping: Seizing and holding a person unlawfully, usually for ransom or political gain.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LABSTR">
+<rdfs:label>Labour strike: The organised refusal by employees to work until some grievance is remedied.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LEAGR">
+<rdfs:label>Leaguer: Adopting a defended formation as a temporary defensive measure in areas of low or moderate risk of combat.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LOCELC">
+<rdfs:label>Local election: An ACTION-EVENT in which local officials are selected by vote.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LOCTNG">
+<rdfs:label>Locating: Establishing the position of an object.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LOOTNG">
+<rdfs:label>Looting: Act to take private property from an enemy in war or stolen by thieves.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LTRBME">
+<rdfs:label>Letter bomb explosion: The explosion of a seemingly harmless letter or parcel.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LTRBMI">
+<rdfs:label>Letter bomb incident: The detection of a seemingly harmless letter or parcel.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MAINTN">
+<rdfs:label>Maintaining: Providing services to keep equipment in condition to carry out its function.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MARKNG">
+<rdfs:label>Marking: Making visible (by the use of light/IR/laser/arty) an object in order to allow its identification by another object (usually as a precursor to the use of direct fire weapons).</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MARLAW">
+<rdfs:label>Martial law implementation: Giving practical effect to military law, usually by restricting the rights of citizens for security reasons.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MASFOR">
+<rdfs:label>Massing of forces: The concentration of large quantities of military equipment and personnel.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MEDEVC">
+<rdfs:label>Medical evacuation: The process of moving any person who is wounded, injured or ill to/between medical treatment FACILITYs.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MILMOB">
+<rdfs:label>Military mobilisation: The act of assembling and making ready for active military service.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MINLAY">
+<rdfs:label>Mine-laying: Emplacement or deployment of one or more mines.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MISSIG">
+<rdfs:label>Missing individual: The absence of a PERSON from an expected or anticipated location.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MISSTG">
+<rdfs:label>Mission staging: The assembly of aircraft for the completion of a mission or other activity.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MOVING">
+<rdfs:label>Moving: Changing position.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MRTFIR">
+<rdfs:label>Mortar fire: The discharge of a projectile from a mortar weapon.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MURDER">
+<rdfs:label>Murder: The unlawful killing of one human being by another, especially with premeditated malice.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MUTASS">
+<rdfs:label>Mutual assistance pact agreement: An arrangement or contract between a number of organisations to provide mutual support.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NATDIS">
+<rdfs:label>Natural disaster: The damage caused by force of nature, such as a hurricane, cyclone, tornado or tidal wave.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NATELC">
+<rdfs:label>National election: An ACTION-EVENT in which national officials are selected by vote.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NATEMG">
+<rdfs:label>National state of emergency: A political term, to describe a condition approximating to that of war, wherein the normal constitution is suspended.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NAVGUN">
+<rdfs:label>Naval gun fire: The act of firing a naval surface-to-surface weapon.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NAVPLF">
+<rdfs:label>Naval platform flight operations: Aircraft launch or recovery by a naval platform.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NETSEI">
+<rdfs:label>Network seizure: Taking electronic control of a communications network.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NOS">
+<rdfs:label>Not otherwise specified: The appropriate value is not in the set of specified values.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NTRCHM">
+<rdfs:label>Neutralize, chemical: Making safe or non-toxic an object contaminated with a chemical agent.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NTRCOM">
+<rdfs:label>Neutralize, combat: Rendering ineffective or unusable in military operations.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NTREXP">
+<rdfs:label>Neutralize, explosive: Rendering bombs, mines, missiles, and booby traps into a safe state.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OBSCUR">
+<rdfs:label>Obscure: Covering something by a smoke screen.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OBSRNG">
+<rdfs:label>Observing: Providing continuous view and the potential for reports on the activity of an object.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OCCPNG">
+<rdfs:label>Occupying: Moving onto an objective, key terrain, or other manmade or natural terrain area without opposition and controlling that entire area.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OFFCOF">
+<rdfs:label>Offensive/counteroffensive: Conducting an operation by an attack force.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ORGCRM">
+<rdfs:label>Organised crime: Violation of the laws of a civil society performed by a group of persons established for that reason.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PCKTNG">
+<rdfs:label>Picketing: An act by a person or persons outside a place of work, intending to persuade esp. workers not to enter during a strike.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PEAAGR">
+<rdfs:label>Peace treaty agreement: An arrangement or contract among involved nations or factions to end a conflict.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PEACON">
+<rdfs:label>Peace conference: A meeting of a group of persons to discuss a peace process.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PENTRT">
+<rdfs:label>Penetrating: Breaking through the enemys defence or disrupting the enemys defensive systems.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PETSPL">
+<rdfs:label>Petroleum product spills: The accidental or delivered release of any petroleum product into the environment.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#POISON">
+<rdfs:label>Poisoning: Injuring or killing with toxic agents.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#POLDEM">
+<rdfs:label>Political demonstration: A public display of group feelings towards a political idea, person or cause.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#POLEXE">
+<rdfs:label>Political execution: A putting to death of a person or group of persons for political reasons.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#POWEXC">
+<rdfs:label>Prisoner exchange: The act of giving or taking POWs in return for others.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#POWRET">
+<rdfs:label>POW return: The arrival of a POW or a group of POWs to their own forces or country.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PROCUR">
+<rdfs:label>Procuring: Buying whatever is needed to fulfil a certain action.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PROTEL">
+<rdfs:label>Protection, electronic: That division of electronic warfare involving actions taken to ensure effective friendly use of the electromagnetic spectrum despite the enemys use of electromagnetic energy.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PRVACC">
+<rdfs:label>Providing accommodation: Providing room for receiving people, esp. a place to live or lodgings.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PRVAGR">
+<rdfs:label>Providing agricultural support: Providing advice or supplies for cultivating the soil and rearing animals.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PRVBDD">
+<rdfs:label>Providing bedding: Providing (1) sleeping accommodation or (2) mattress and bedclothes.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PRVCMP">
+<rdfs:label>Providing camps: Providing temporary accommodation of various kinds, usually consisting of huts or tents, for detainees, homeless persons, and other emergency use.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PRVCNS">
+<rdfs:label>Providing construction services: Providing labour and materiel for construction of facilities.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PRVDCN">
+<rdfs:label>Providing decontamination services: Providing purification of different items from contamination.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PRVEDU">
+<rdfs:label>Providing education services: Providing labour and materiel for the educational process.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PRVHLT">
+<rdfs:label>Providing healthcare services: Providing labour and materiel for maintaining the general health and welfare.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PRVHSN">
+<rdfs:label>Providing host nation support: Providing civil and/or military assistance rendered by a nation to foreign forces within its territory during peacetime, crises or emergencies, or war based on agreements mutually concluded between nations.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PRVINF">
+<rdfs:label>Providing infrastructure: Providing basic facilities such as roads, bridges, and sewers.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PRVLND">
+<rdfs:label>Providing laundry services: Providing labour and materiel for laundering of clothes or linens.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PRVRPR">
+<rdfs:label>Providing repair services: Providing labour and materiel to restore objects to sound condition.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PRVSCY">
+<rdfs:label>Providing security services: Providing labour and materiel to assure safety of personnel and facilities.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PRVSHL">
+<rdfs:label>Providing shelter: Providing housing.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PRVSTG">
+<rdfs:label>Providing storage services: Providing services for storage.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PRVTRS">
+<rdfs:label>Providing transhipment services: Providing movement of cargo from one ship or train or container to another for further shipment.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PRXBMB">
+<rdfs:label>Proxy-bombing: A deliberate and intentional bombing incident that happens unexpectedly where the perpetrator acts through a representative.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PSTLNC">
+<rdfs:label>Pestilence: A fatal epidemic disease, especially bubonic plague.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PSYOP">
+<rdfs:label>Psychological operation: Planned operations to convey selected information and indicators to foreign audiences to influence their emotions, motives, objective reasoning, and ultimately the behaviour of foreign governments, organisations, groups, and individuals. The purpose of psychological operations is to induce or reinforce foreign attitudes and behaviour favourable to the originators objectives.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PTRLNG">
+<rdfs:label>Patrolling: Gathering information or carrying out a destructive, harassing, mopping-up, or security mission.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PUBMDA">
+<rdfs:label>Publishing media article: Making generally known a non-fictional essay, especially one included with others in a newspaper, magazine, journal, etc.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PUBMDD">
+<rdfs:label>Publishing media documentary: Making generally known any document published on a media that provides a factual record or report.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PUBPRS">
+<rdfs:label>Publishing press release: Making generally known an official statement issued to media for information.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PURSNG">
+<rdfs:label>Pursuing: Continuing an offensive operation in order to catch or cut off a hostile force attempting to escape, with the aim of destroying it. Typically, contact is maintained and risk taken to harass relentlessly, thereby turning the pursuit into a rout.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RACIAL">
+<rdfs:label>Outbreak of racial/tribal/ethnic warfare: The use of force or violence by or against racial or tribal groups.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RAPE">
+<rdfs:label>Rape: The act of forcing another person to submit to sexual intercourse.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RECCE">
+<rdfs:label>Reconnaissance: Conducting a mission to obtain by visual operations or other detection methods information about the activities and resources of an enemy or potential enemy, or to secure data concerning the meteorological, hydrographic or geographic characteristics of a particular area.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RECCEF">
+<rdfs:label>Reconnaissance in force: Conducting an offensive operation designed to discover and/or test the enemys strength, or to obtain other information.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RECNSN">
+<rdfs:label>Reconstituting: Attaining prescribed strength of units and prescribed levels of vehicles, equipment, stores and supplies. The process will only take place after a unit/formation combat effectiveness has been reduced.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RECPRN">
+<rdfs:label>Recuperating: Resting a unit after it has been in action. Some reconstitution may take place as well.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RECVRN">
+<rdfs:label>Recovering: Retrieving any lost, incapacitated or captured object.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#REDPLN">
+<rdfs:label>Redeployment: Transferring a unit, an individual, or supplies deployed in one area to another area, or to another location within the area, for the purpose of further employment.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#REFMVM">
+<rdfs:label>Refugee movement: The movement of people who has been forced to leave their country in order to escape war, persecution, or natural disaster.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#REINFN">
+<rdfs:label>Reinforcing: Making a force available for the purpose of supplementing an in-place force.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RELDEM">
+<rdfs:label>Religious demonstration: A public display of group feelings towards a religious idea, person or cause.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RELVIO">
+<rdfs:label>Religious violence: Individual or organised act directed against groups or individuals because of their religious beliefs.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RELWAR">
+<rdfs:label>Religious warfare: An act of open armed conflict due to a difference of religious belief between two separate groups.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#REORGN">
+<rdfs:label>Reorganising: Changing a task organisation for a particular operation. (Normally takes place before an operation). This includes the transfer of authority.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#REPAIR">
+<rdfs:label>Repairing: Restoring an item to serviceable condition through correction of a specific failure or unserviceable condition.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RESPLN">
+<rdfs:label>Resupplying: Replenishing stocks in order to maintain the required levels of supply.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RESTNG">
+<rdfs:label>Resting: Observing a specified period of inactivity by an organisation that is out of contact with the enemy.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RETAIN">
+<rdfs:label>Retain: Occupying and holding a terrain feature to ensure it is free of enemy occupation or use.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RETIRE">
+<rdfs:label>Retire: Moving a force out of contact with the enemy with the expectation of no further significant contact.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#REVOLU">
+<rdfs:label>Revolution: The overthrow or renunciation of one government or ruler and the substitution of another by the governed.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RIOT">
+<rdfs:label>Riot: A disturbance of the peace by a crowd; an occurrence of public disorder.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RKTFIR">
+<rdfs:label>Rocket fire: The employment of a rocket powered weapon.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RLFPLC">
+<rdfs:label>Relief in place: An operation in which, by direction of higher authority, all or part of a unit is replaced in an area by the incoming unit. The responsibilities of the replaced elements for the mission and the assigned zone of operations are transferred to the incoming unit. The incoming unit continues the operation as ordered.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RNDZVS">
+<rdfs:label>Rendezvous: Achieving a pre-arranged meeting at a given time and place.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ROBERY">
+<rdfs:label>Robbery: Unlawfully taking property, valuables or money from a person or place.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SABOTG">
+<rdfs:label>Sabotage: An act or acts with intent to injure, interfere with, or obstruct the national defence of a country by wilfully injuring or destroying, or attempting to injure or destroy, any national defence or war material, premises or utilities, to include human and natural resources.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SCRNNG">
+<rdfs:label>Screening: Operating as a security element whose primary task is to observe, identify and report information, and which only fights in self-protection.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SECCMP">
+<rdfs:label>Security compromise: A release of information to someone unauthorised.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SECCOU">
+<rdfs:label>Secession of portion of country: The formal withdrawal of a portion of a country.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SECRNG">
+<rdfs:label>Securing: Gaining possession of a position or terrain feature, with or without force, and making such disposition to prevent, as far as possible, its destruction or loss by enemy action.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SECVIO">
+<rdfs:label>Security violation: An infringement of a security protocol.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SEIZNG">
+<rdfs:label>Seizing: Clearing a designated area and obtaining control of it.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SHOTNG">
+<rdfs:label>Shooting: The act of firing of a weapon, usually at a person.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SINKIN">
+<rdfs:label>Vessel sinking: The unforeseen loss, damage or destruction of a vessel by submersion.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SNPATK">
+<rdfs:label>Sniper attack: An attack by one who shoots at others from a concealed place.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SPACAC">
+<rdfs:label>Space accident: The unforeseen loss, destruction or damage of a spacecraft.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SPYING">
+<rdfs:label>Spying: Obtaining intelligence information furtively as an agent of a foreign power or competition.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SRVADV">
+<rdfs:label>Serving as an advance guard: Operating as a security element whose primary task is to move ahead of the main body and protect the main force by fighting to gain time, whilst also observing and reporting information.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SRVBRD">
+<rdfs:label>Serving as a bridgehead force: Operating as a force that seizes or controls ground in order to permit the continuous embarkation, landing or crossing of troops or materiel and to provide manoeuvre space during a water obstacle crossing.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SRVBRK">
+<rdfs:label>Serving as a breakout force: Operating as a force that is tasked with the continuation of the operation during an obstacle crossing.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SRVFLK">
+<rdfs:label>Serving as a flank guard: Operating as a security element whose primary task is to protect the main force by fighting on the designated flank to gain time, whilst also observing and reporting information.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SRVINP">
+<rdfs:label>Serving as an in-place force: Operating as a force that provides fire and other support to the bridgehead force during an obstacle crossing.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SRVMNB">
+<rdfs:label>Serving as a main body: Operating as the main force for a specific operation.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SRVRGD">
+<rdfs:label>Serving as a rear guard: Operating as a security element whose primary task is to move (or remain) at the rear of the main body and protect the main force by fighting to gain time, whilst also observing and reporting information.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SRVRSF">
+<rdfs:label>Serving as a reserve: Operating as a force that may be committed into combat only on the order of the commander of the organisation who so designated the reserve force.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STAWAR">
+<rdfs:label>State of war: A state characterised by hostile military activity between the parts.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STNGUP">
+<rdfs:label>Setting up: Establishing a FACILITY, ORGANISATION or FEATURE.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STRFAR">
+<rdfs:label>Strafing, aerial: Attack by enemy aircraft against ground targets using forward firing ordnance (bullets, shells, or rockets).</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STRIKE">
+<rdfs:label>Strike: The organised refusal by employees to work until some grievance is remedied.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SUICDE">
+<rdfs:label>Suicide: The action of killing oneself intentionally.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SUPRSN">
+<rdfs:label>Suppressing: Providing fires that neutralizes or temporarily degrades the capabilities of enemy forces within a specific area. This makes no assumptions as to enemy casualties; it may be a transitory effect.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SUPRTN">
+<rdfs:label>Supporting: Aiding, protecting, complementing or sustaining an object.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SURREN">
+<rdfs:label>Surrender: Yielding to the control or power of the enemy.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SURVEL">
+<rdfs:label>Surveillance, electronic: The systematic observation of aerospace, surface or subsurface areas, places, persons, or things, by electronic means.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SUSHOS">
+<rdfs:label>Suspension of hostilities: The cessation of war activities.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TERR">
+<rdfs:label>Terrorism: Using or threatening force or violence against individuals or property in an attempt to coerce or intimidate governments or societies to achieve political, religious or ideological objectives.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#THREAT">
+<rdfs:label>Threaten: Menacing an armed force by manoeuvre or action.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TORTUR">
+<rdfs:label>Torture: An action or practice of inflicting severe pain as a punishment or a forcible means of persuasion.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRBAGT">
+<rdfs:label>Troublemaking, agitating: Stirring up of public interest on a matter of controversy, such as a political or social issue.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRBBLL">
+<rdfs:label>Troublemaking, bullying: Intimidating by the use of superior size or strength.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRBHAR">
+<rdfs:label>Troublemaking, harassing: Persecuting systematically by besetting with annoyances, threats or demands.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRBHLG">
+<rdfs:label>Troublemaking, hooliganism: Causing difficulties by the actions of hoodlums, especially young ruffians.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRBINC">
+<rdfs:label>Troublemaking, inciting: Provoking to action, stirring up or urging on.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRBINT">
+<rdfs:label>Troublemaking, intimidating: Discouraging or inhibiting by or as if by threats.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TREVIO">
+<rdfs:label>Treaty violation: An infringement or breaking of the provisions of a formal agreement.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRNSPN">
+<rdfs:label>Transporting: Moving assets to a specified objective by sea, land or air.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRVRSN">
+<rdfs:label>Traversing: Travelling over a designated route.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TURNNG">
+<rdfs:label>Turning: Compelling an enemy force to move from one avenue of approach or movement corridor to another.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UXODSC">
+<rdfs:label>UXO discovery: The detection of the presence of unexploded explosive ordnance.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VANDAL">
+<rdfs:label>Vandalism/Rape/Loot/Ransack/Plunder/Sack: An act of vandalism, raping, looting, ransacking or plundering against an individual or property.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VERFYN">
+<rdfs:label>Verifying: Testifying to, asserting, affirming or confirming, as true or certain.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VOLCAN">
+<rdfs:label>Volcanic eruption: The release of lava or steam by a volcano.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WARALE">
+<rdfs:label>War/crisis alert: The state of readiness caused by the possibility of a war.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WARCON">
+<rdfs:label>War/military conference: A meeting of a group of persons to discuss war/military process.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WARCRM">
+<rdfs:label>War crime: Violation of the laws and customs of war, i.e. the principles and norms of international law that enshrine the rights and duties of warring parties and neutral states.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WATPOL">
+<rdfs:label>Oceans, seas or water pollution: Contamination of a body of water caused by a poison or toxin.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WDRPRS">
+<rdfs:label>Withdrawal under pressure: Disengaging from the enemy when the enemy has sufficient contact with friendly forces to interfere with the withdrawal.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WITDRL">
+<rdfs:label>Withdrawal: Disengaging a force in contact from an enemy force.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WITNSN">
+<rdfs:label>Witnessing: Observing an activity that may result in the need to provide evidence.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WPNFIR">
+<rdfs:label>Weapon firing: The firing of weapons.</rdfs:label>
+<rdf:type rdf:resource="#EventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#MilitaryOrganizationCategoryServiceCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#jc3iedm.xsd"/>
+<rdfs:comment>A data type for a designator for a kind of a military, paramilitary, irregular force, force or group, capable of functioning as an offensive or defensive combat or support organization.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Air Force">
+<rdfs:label>The MILITARY-ORGANISATION-TYPE in question belongs to the Air Force (includes reserves and mobilised air national guard).</rdfs:label>
+<rdf:type rdf:resource="#MilitaryOrganizationCategoryServiceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Army">
+<rdfs:label>The MILITARY-ORGANISATION-TYPE in question belongs to the Army (includes territorial army, reserves, and mobilised national guard).</rdfs:label>
+<rdf:type rdf:resource="#MilitaryOrganizationCategoryServiceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Border guard">
+<rdfs:label>A paramilitary MILITARY-ORGANISATION-TYPE whose primary task is to maintain the security of national borders.</rdfs:label>
+<rdf:type rdf:resource="#MilitaryOrganizationCategoryServiceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Civil service">
+<rdfs:label>The MILITARY-ORGANISATION-TYPE that is staffed solely by civilian personnel.</rdfs:label>
+<rdf:type rdf:resource="#MilitaryOrganizationCategoryServiceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Coast guard">
+<rdfs:label>The MILITARY-ORGANISATION-TYPE that may be responsible for one or more of the following: coastal defence, protection of life and property at sea, and enforcement of customs, immigration, and navigation laws.</rdfs:label>
+<rdf:type rdf:resource="#MilitaryOrganizationCategoryServiceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Combined">
+<rdfs:label>The MILITARY-ORGANISATION-TYPE contains two or more forces or agencies of two or more allies.</rdfs:label>
+<rdf:type rdf:resource="#MilitaryOrganizationCategoryServiceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Guerrilla">
+<rdfs:label>The MILITARY-ORGANISATION-TYPE in question is an irregular military force.</rdfs:label>
+<rdf:type rdf:resource="#MilitaryOrganizationCategoryServiceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Joint">
+<rdfs:label>The MILITARY-ORGANISATION-TYPE contains elements of more than one Service from the same nation.</rdfs:label>
+<rdf:type rdf:resource="#MilitaryOrganizationCategoryServiceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Local defence force">
+<rdfs:label>A military MILITARY-ORGANISATION-TYPE whose primary task is defence of a specific region (before mobilisation, a national guard is a local defence force).</rdfs:label>
+<rdf:type rdf:resource="#MilitaryOrganizationCategoryServiceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Local militia">
+<rdfs:label>A civilian MILITARY-ORGANISATION-TYPE that has a defence and possibly also a police role (may include irregular civilian MILITARY-ORGANISATION-TYPEs).</rdfs:label>
+<rdf:type rdf:resource="#MilitaryOrganizationCategoryServiceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Marines">
+<rdfs:label>The MILITARY-ORGANISATION-TYPE in question belongs to the Marines (includes reserves).</rdfs:label>
+<rdf:type rdf:resource="#MilitaryOrganizationCategoryServiceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Navy">
+<rdfs:label>The MILITARY-ORGANISATION-TYPE in question belongs to the Navy (includes reserves).</rdfs:label>
+<rdf:type rdf:resource="#MilitaryOrganizationCategoryServiceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Not known">
+<rdfs:label>It is not possible to determine which value is most applicable.</rdfs:label>
+<rdf:type rdf:resource="#MilitaryOrganizationCategoryServiceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Not otherwise specified">
+<rdfs:label>The appropriate value is not in the set of specified values.</rdfs:label>
+<rdf:type rdf:resource="#MilitaryOrganizationCategoryServiceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Paramilitary">
+<rdfs:label>Forces or groups distinct from the regular armed forces of any country, but resembling them in organization, equipment, training, or mission.</rdfs:label>
+<rdf:type rdf:resource="#MilitaryOrganizationCategoryServiceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Special force">
+<rdfs:label>The MILITARY-ORGANISATION-TYPE in question is trained and equipped for special purposes.</rdfs:label>
+<rdf:type rdf:resource="#MilitaryOrganizationCategoryServiceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Territorial force">
+<rdfs:label>The MILITARY-ORGANISATION-TYPE of a nations armed forces that is responsible for regional defence.</rdfs:label>
+<rdf:type rdf:resource="#MilitaryOrganizationCategoryServiceCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+</rdf:RDF>
+

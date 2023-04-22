@@ -1,0 +1,2572 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#commodity.xsd">
+<rdfs:label>commodity.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+    
+      
+      
+    
+  
+  
+  
+  <owl:Class rdf:about="#CommodityCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#commodity.xsd"/>
+<rdfs:comment>A data type for Standard Classification of Transported Goods (SCTG) commodity codes.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#01001">
+<rdfs:label>Live bovine animals</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#01002">
+<rdfs:label>Live swine</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#01003">
+<rdfs:label>Live poultry</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#01004">
+<rdfs:label>Live fish, including live eels and aquarium fish</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#01009">
+<rdfs:label>Other live animals, (including horses, sheep, goats, fur-bearing animals, reptiles, honey bees, insect larvae, bait, pet or song birds, cats, and dogs (except live shellfish, crustaceans such as crabs and lobsters, squid, octopus, and other aquatic invertebrates, see 05204)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#02100">
+<rdfs:label>Wheat</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#02200">
+<rdfs:label>Corn (except sweet corn, see 03219)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#02901">
+<rdfs:label>Rye</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#02902">
+<rdfs:label>Barley</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#02903">
+<rdfs:label>Oats</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#02904">
+<rdfs:label>Grain sorghum</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#02909">
+<rdfs:label>Other cereal grains, including rice (excludes soy beans, see 03400, and other oil seeds, see 0350x)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03100">
+<rdfs:label>Potatoes, including seed, fresh or chilled (except sweet potatoes, see 03219)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03211">
+<rdfs:label>Tomatoes, fresh or chilled</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03212">
+<rdfs:label>Onions, shallots, garlic, leeks, and onion sets, fresh or chilled</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03213">
+<rdfs:label>Lettuce, fresh or chilled</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03214">
+<rdfs:label>Leguminous vegetables such as peas and beans, fresh or chilled</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03219">
+<rdfs:label>Other fresh or chilled vegetables including olives</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03221">
+<rdfs:label>Leguminous vegetables, dried (such as peas, lentils, beans (includes those for use as seed and fodder, but excludes milled vegetables, see 06299)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03229">
+<rdfs:label>Other dried vegetables, such as potatoes, mushrooms, and onions (includes those for use as seed, but excludes milled vegetables, see 06299)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03311">
+<rdfs:label>Oranges, fresh or chilled</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03312">
+<rdfs:label>Grapefruit, fresh or chilled</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03319">
+<rdfs:label>Other citrus fruit, fresh or chilled</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03321">
+<rdfs:label>Bananas and plantains, fresh or chilled</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03322">
+<rdfs:label>Grapes, fresh or chilled</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03323">
+<rdfs:label>Melons, fresh or chilled</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03324">
+<rdfs:label>Apples, fresh or chilled</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03329">
+<rdfs:label>Other fresh or chilled fruit (excludes olives, see 03219)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03331">
+<rdfs:label>Dried grapes (includes raisins and "currants")</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03339">
+<rdfs:label>Other dried fruit, (includes mixtures of dried fruit)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03341">
+<rdfs:label>Nuts in the shell (not including peanuts, see 03501)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03342">
+<rdfs:label>Shelled nuts including sliced, chopped, shredded, stoned, pulped, and peeled, but not further processed (not including peanuts, see 03501)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03400">
+<rdfs:label>Soy beans, including for sowing</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03501">
+<rdfs:label>Peanuts, unroasted, including for sowing</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03502">
+<rdfs:label>Linseed (flaxseed), including for sowing</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03503">
+<rdfs:label>Colza (rape) or canola seeds, including for sowing</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03504">
+<rdfs:label>Sunflower seeds, including for sowing</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03505">
+<rdfs:label>Cotton seeds, including for sowing</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03506">
+<rdfs:label>Mustard seeds, including for sowing</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03509">
+<rdfs:label>Other oil seeds and nuts</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03601">
+<rdfs:label>Bulbs and roots and similar products, live trees and other plants, and mushroom spawn</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03602">
+<rdfs:label>Other seeds for sowing</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03910">
+<rdfs:label>Fresh-cut flowers</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03921">
+<rdfs:label>Tobacco, not stemmed or stripped</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03922">
+<rdfs:label>Stemmed and partially stemmed tobacco</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03930">
+<rdfs:label>Raw cotton (not carded or combed)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03991">
+<rdfs:label>Unprocessed coffee and unfermented tea</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03992">
+<rdfs:label>Sugar beet and sugar cane (see 07501 sugar)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#03999">
+<rdfs:label>Other agricultural products, including cotton linters, seaweed, and forestry products (except forage products and cereal straw, see 04110, raw spices, see 07303, natural rubber and gums, see 24102, and plants processed for ornamentation, see 40999)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#04110">
+<rdfs:label>Cereal straw or husks and forage products</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#04120">
+<rdfs:label>Inedible flours, meals, and pellets of meat, fish, or seafood, and greaves</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#04130">
+<rdfs:label>Bran, sharps, and other residues of cereals or leguminous plants</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#04140">
+<rdfs:label>Oil cake and other solid residues from the manufacture of vegetable fats or oils</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#04191">
+<rdfs:label>Eggs in the shell</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#04192">
+<rdfs:label>Raw hides and skins (including fur skins)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#04193">
+<rdfs:label>Shorn or pulled greasy wool, animal hair not carded or combed, silk-worm cocoons suitable for reeling, and raw silk</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#04199">
+<rdfs:label>Other products of animal origin, and residues and waste from the food industries used in animal feeding, not elsewhere classified, including natural honey, sausage casings, down, pigs' bristles, horsehair, degelatinized bone, shells, natural sponges, animal products used in the preparation of pharmaceuticals, bovine semen, and blood meal, and other feed ingredients such as vegetable waste, residues, or by-products such as gluten meal, dried beet-pulp, brewers' and distillers spent grains, malt sprouts, wine lees and argol, and acorns and horse-chestnuts</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#04210">
+<rdfs:label>Dog food or cat food put up for retail sale</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#04290">
+<rdfs:label>Other animal feed preparations, including complete feeds, premixes, bird seed, fish food, and feed supplements</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#05111">
+<rdfs:label>Meat except poultry, fresh or chilled</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#05112">
+<rdfs:label>Meat except poultry, frozen</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#05121">
+<rdfs:label>Poultry, fresh or chilled</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#05122">
+<rdfs:label>Poultry, frozen</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#05130">
+<rdfs:label>Meat, salted, in brine, dried, or smoked, including smoked hams, pork bellies, back bacon, cottage rolls, and pickled beef, edible flours and meals, and pig or poultry fat, not rendered</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#05201">
+<rdfs:label>Fresh or chilled fish including fillets</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#05202">
+<rdfs:label>Frozen fish including fillets</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#05203">
+<rdfs:label>Fish, salted, in brine, dried, or smoked, and edible fish meal</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#05204">
+<rdfs:label>Aquatic invertebrates, live, fresh, chilled, frozen, salted, in brine, or dried, and crustaceans in shell (such as lobsters, shrimps, crabs) cooked by steaming or by boiling in water</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#05310">
+<rdfs:label>Preparations, extracts, and juices of meat including poultry (except soups and broths, see 07720)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#06100">
+<rdfs:label>Wheat flour, groats, and meal (except byproducts, see 04130)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#06210">
+<rdfs:label>Malt</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#06291">
+<rdfs:label>Milled rice including husked, broken, flour, groats, and meal</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#06292">
+<rdfs:label>Corn flour, groats, and meal</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#06293">
+<rdfs:label>Starches and modified starches</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#06299">
+<rdfs:label>Inulin; wheat gluten; milled cereals and other vegetables; and grains otherwise worked, including rolled, flaked, hulled, pearled, sliced, or kibbled (except milling byproducts, see 04130)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#06310">
+<rdfs:label>Pasta (including stuffed, canned, frozen, or dried) and couscous</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#06320">
+<rdfs:label>Breakfast cereal foods, swelled, roasted, or partially cooked</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#06391">
+<rdfs:label>Mixes and dough for the preparation of bakery products, including batters</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#06392">
+<rdfs:label>Rice preparations, instant rice, and partially cooked rice</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#06399">
+<rdfs:label>Other food preparations of cereals, flour, starch, or milk, not elsewhere classified, including tapioca, malt extract, ice cream and milk shake mixes, pudding powders, and infant formula</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#06410">
+<rdfs:label>Baked snack foods including pretzels, cheese sticks, and tortilla chips (excludes cookies and crackers, see 06432)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#06420">
+<rdfs:label>Frozen baked products, including quiche, pizza, bagels, waffles, and pastries</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#06431">
+<rdfs:label>Perishable baked products (including fresh bread, pastries, pies, cakes, doughnuts, pizza, and quiche)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#06432">
+<rdfs:label>Dry baked products (including cookies, crackers, and taco shells)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07111">
+<rdfs:label>Milk and cream, un-concentrated and unsweetened</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07112">
+<rdfs:label>Milk and cream, in powder, granules, or other solid forms</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07119">
+<rdfs:label>Other prepared foodstuffs, fats, and oils, not elsewhere classified, including evaporated or condensed whole milk</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07120">
+<rdfs:label>Cheese and curds</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07130">
+<rdfs:label>Ice cream, ice milk, sherbets, and ices (excludes frozen yogurt, see 07199, and ice cream and ice milk mixes, see 06399)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07191">
+<rdfs:label>Butter and other fats and oils derived from milk</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07199">
+<rdfs:label>Other dairy products, including yogurt, buttermilk, sour cream, whey, and casein (excludes mixtures of butter and vegetable oil, see 0743x, preparations based on milk, see 06399, eggnog and flavored milk drinks, see 07899)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07210">
+<rdfs:label>Frozen vegetables and vegetable preparations (including french fries and vegetable mixtures)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07221">
+<rdfs:label>Potato chips including from potato flour preparations</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07229">
+<rdfs:label>Other processed or prepared vegetables (including canned and pickled vegetables, relishes, and olives, but excluding: frozen or dried vegetables, see 03221, 03229, or 07210; milled vegetables, see 06299; soup mixes, see 07720; tomato sauces, see 07711; or other sauces, see 07719)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07231">
+<rdfs:label>Jams, jellies, marmalades, fruit or nut purees, and fruit or nut pastes</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07232">
+<rdfs:label>Processed or prepared nuts, peanuts, or seeds (except shelled, see 03342, purees and pastes, see 07231, but including roasted nuts and peanut butter)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07239">
+<rdfs:label>Other processed or prepared fruit, including frozen or canned fruit (except dried, see 0333x)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07241">
+<rdfs:label>Frozen fruit and vegetable juices (does not include beverages based on juices, such as ades or nectars, see 078xx)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07242">
+<rdfs:label>Non-frozen fruit and vegetable juices (does not include beverages based on juices, such as ades or nectars, see 078xx)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07301">
+<rdfs:label>Processed coffee, including roasted beans, decaffeinated or instant coffee, and coffee substitutes such as roasted chicory</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07302">
+<rdfs:label>Fermented (processed) tea, including tea bags and decaffeinated tea</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07303">
+<rdfs:label>Spices, including unprocessed spices</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07410">
+<rdfs:label>Animal fats and oils and their fractions, not chemically modified, includes fats and oils of fish or marine mammals (does not include inedible flours, meals, and pellets, see 04120)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07421">
+<rdfs:label>Soy-bean oil</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07422">
+<rdfs:label>Colza (canola) oil</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07423">
+<rdfs:label>Corn oil</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07429">
+<rdfs:label>Other fixed vegetable fats and oils and their fractions, including peanut, olive, palm, sunflower- seed, safflower, cotton-seed, coconut (copra), palm kernel, mustard, linseed, castor, tung, sesame, jojoba, or wheat germ oil, not chemically modified (except byproducts of wet corn milling, see 04199, and oil seed waste and residues, see 04140)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07431">
+<rdfs:label>Non-liquid margarine (for liquid margarine, see 07439)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07432">
+<rdfs:label>Shortening</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07439">
+<rdfs:label>Chemically modified fats and oils, animal or vegetable waxes, and prepared edible fats, not elsewhere classified. Including margarine, vegetable shortening, blended salad oils, crude glycerol, glycerol waters and lyes. (Excludes oils and fats treated for use as biodiesel, see 18210)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07440">
+<rdfs:label>Flours and meals of oil seeds (except flours and meals of mustard, see 07719, and oil seed waste and residues, see 04140)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07501">
+<rdfs:label>Raw cane or beet sugar, in solid form</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07502">
+<rdfs:label>Refined cane or beet sugar and chemically pure sucrose, in solid form, including icing or cubed sugar</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07503">
+<rdfs:label>Glucose (corn sugar) and glucose syrup (corn syrup)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07509">
+<rdfs:label>Other sugars in solid form, molasses, and sugar syrups with no added flavoring or colorings, not elsewhere classified, including maple sugar and syrup, chemically pure fructose and maltose, and invert sugars (excludes byproducts of sugar extraction, see 04199. i Syrups with added flavor/color are in 07793)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07611">
+<rdfs:label>Sugar confectionery not containing cocoa, including sugar candy, and nuts, nut pastes, and fruit, fruit peel, and vegetables preserved by sugar glace products (except sugarless gum, see 07799)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07612">
+<rdfs:label>Chocolate confectionery including chocolate- coated nuts</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07620">
+<rdfs:label>Cocoa beans, paste, butter, and powder, and cocoa preparations including instant chocolate</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07711">
+<rdfs:label>Tomato sauces (including ketchup and chili sauces)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07719">
+<rdfs:label>Other sauces and sauce mixes, including prepared mustard, mustard flours and meals, soya sauce, mayonnaise, salad dressings including dried, and mixed condiments and seasonings, not elsewhere classified</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07720">
+<rdfs:label>Soups and broths (including mixes), and baby or dietetic foods</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07731">
+<rdfs:label>Syrups and concentrates used in food preparations or beverages</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07732">
+<rdfs:label>Flavoring powders, extracts, or essences including cocktail mixes</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07791">
+<rdfs:label>Processed eggs including egg albumin</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07792">
+<rdfs:label>Yeasts and baking powder</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07793">
+<rdfs:label>Sugar syrups with added flavors and/or colors, including table syrups</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07799">
+<rdfs:label>Edible preparations, not elsewhere classified, including protein concentrates, tofu, vegetable preparations for flavoring, jelly powders, concentrated juice fortified with vitamins or minerals, and vinegar</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07811">
+<rdfs:label>Carbonated soft drinks</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07819">
+<rdfs:label>Other sweetened or flavored water</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07891">
+<rdfs:label>Water, unsweetened and unflavored, including potable, spring, carbonated, or mineral</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#07899">
+<rdfs:label>Ice and other non-alcoholic beverages, including soya, almond, coconut, chocolate, and other milk drinks, and juices fortified with vitamins and minerals, not concentrated, and not elsewhere classified. (excludes dry ice (carbon dioxide), see 20241)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#08100">
+<rdfs:label>Beer (malt beer) (excludes non-alcoholic beer, see 07899)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#08200">
+<rdfs:label>Wine and other fermented beverages (excludes non-alcoholic wine, see 07899)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#08310">
+<rdfs:label>Undenatured ethyl alcohol that is 80% or more alcohol by volume</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#08320">
+<rdfs:label>Spirits, liqueurs, and other spirituous beverages, and undenatured ethyl alcohol that is less than 80% alcohol by volume</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#08410">
+<rdfs:label>Denatured ethyl alcohol of a strength of more than 80% by volume. (Excluding ethanol for use as biofuel, see 17600)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#08420">
+<rdfs:label>Denatured ethyl alcohol of a strength by volume of less than 80% vol., not for human consumption (excluding ethanol for use as biofuel, see 17500 and 17600)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#09010">
+<rdfs:label>Cigarettes</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#09090">
+<rdfs:label>Tobacco products (manufactured), not elsewhere classified, include cigars, tobacco extracts and essences, and tobacco substitutes (except leaf tobacco, see 0392x)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10010">
+<rdfs:label>Calcareous monumental or building stone</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#10020">
+<rdfs:label>Monumental or building stone, other, including slate (excludes dolomite, see 13300)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11010">
+<rdfs:label>Silica sands and quartz sands for construction use</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#11020">
+<rdfs:label>Silica sands and quartz sands for uses other than construction; and other sands such as feldspathic, filter, fire, and clayey sands such as kaolinic</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12011">
+<rdfs:label>Limestone flux</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12012">
+<rdfs:label>Agricultural limestone</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12019">
+<rdfs:label>Other gravel and crushed, powdered, or broken limestone and chalk (calcium carbonate)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#12020">
+<rdfs:label>Other gravel and crushed stone (except dolomite, see 13300, slate, see 13999, and limestone and chalk, see 1201x)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13101">
+<rdfs:label>Table salt, including sea salt</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13109">
+<rdfs:label>Other salt including, rock salt, brine, and pure sodium chloride</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13200">
+<rdfs:label>Natural calcium phosphates, natural aluminum- calcium phosphates, and phosphatic chalk</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13300">
+<rdfs:label>Dolomite, including monumental, building, and crushed</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13910">
+<rdfs:label>Sulfur (except sublimed, precipitated, or colloidal, see 20210)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13921">
+<rdfs:label>Kaolinic clays including China</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13929">
+<rdfs:label>Other Clays including bentonite, fire-clay, andalusite, kyanite, sillimanite, mullite, chamotte, and dinas earths</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13991">
+<rdfs:label>Pumice stone, emery, and natural abrasives</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13992">
+<rdfs:label>Gypsum and anhydrite</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13993">
+<rdfs:label>Asbestos</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13994">
+<rdfs:label>Leucite, nepheline, and nepheline syenite</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#13999">
+<rdfs:label>Other Non-metallic minerals such as natural graphite, quartz, quartzite, mica, steatite and talc, natural, crude earths, and peat (except natural asphalt, bitumen, shale, tar sands, and asphaltic rock, see 19990; precious and semi-precious stones, see 40942; and mined fertilizers except calcium phosphates, see 22xxx)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14100">
+<rdfs:label>Iron ores and concentrates including roasted iron pyrites</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14910">
+<rdfs:label>Copper ores and concentrates</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14991">
+<rdfs:label>Nickel ores and concentrates</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14992">
+<rdfs:label>Aluminum ores and concentrates, including bauxite</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14993">
+<rdfs:label>Lead ores and concentrates</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14994">
+<rdfs:label>Zinc ores and concentrates</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14995">
+<rdfs:label>Uranium or thorium ores and concentrates</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14996">
+<rdfs:label>Titanium</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#14999">
+<rdfs:label>Other ores and concentrates including those of precious metals</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#15100">
+<rdfs:label>Non-agglomerated bituminous coal</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#15910">
+<rdfs:label>Non-agglomerated anthracite</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#15920">
+<rdfs:label>Non-agglomerated lignite (except jet, see 13999)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#15930">
+<rdfs:label>Agglomerated coal including briquettes</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#16000">
+<rdfs:label>Crude petroleum oil and oils obtained from bituminous minerals including from tar sands</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#17110">
+<rdfs:label>Gasoline including for aviation use (exclude: blends of gasoline and alcohol, see 17120, and 17500, and aviation turbine fuel, see 17201)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#17120">
+<rdfs:label>Blends of gasoline and alcohol with up to 10 percent alcohol volume (E10 or lower), including for aviation use (excludeing+C192 aviation turbine fuel, see 17201, and blends of gasoline and alcohol with more than 10 percent alcohol volume, see 17500, and 17600)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#17201">
+<rdfs:label>Aviation turbine fuel (jet types A and B (except kerosene for heating and uses for other than aviation fuel, see 17202)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#17202">
+<rdfs:label>Kerosene for heating and uses other than aviation fuel.</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#17500">
+<rdfs:label>Alcohol and gasoline blends with more than 10 percent alcohol volume, include E15, E20, E25, E 70, E 75, E85, and other blends of ethanol not elsewhere classified, including ED95. (Does not include denatured anhydrous ethanol, see 17600.)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#18100">
+<rdfs:label>Fuel oils including diesel, distillate heating oil, Bunker C (excluding biodiesel, see below)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#18200">
+<rdfs:label>Blends of fuel oils that include 5 percent or less biodiesel by volume (B5, or less)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#18210">
+<rdfs:label>Blends of fuel oils with more than 5 percent biodiesel by volume, (except B100, see 18220).</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#18220">
+<rdfs:label>Biodiesel (derived from vegetable oils or animal fats), B100 (except mixtures of biodiesel and diesel fuel)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19100">
+<rdfs:label>Lubricating oils and greases (except mixtures and preparations containing less than 70% by weight of petroleum oils or oils obtained from bituminous materials, see 23909)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19209">
+<rdfs:label>Other refined petroleum oils and oils obtained from bituminous minerals, not elsewhere classified</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19310">
+<rdfs:label>Liquefied natural gas</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19321">
+<rdfs:label>Propane, liquefied</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19322">
+<rdfs:label>Butane, liquefied (excluding chemically pure, see 20501)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19329">
+<rdfs:label>Other liquefied gaseous hydrocarbons, not elsewhere classified (excluding chemically pure, see 20501)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19330">
+<rdfs:label>Gaseous hydrocarbons in a gaseous state including gaseous natural gas (excluding chemically pure, see 20501)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19911">
+<rdfs:label>Coke and semi-coke of coal, lignite, or peat, and retort carbon</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19912">
+<rdfs:label>Petroleum coke, including calcined</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19920">
+<rdfs:label>Petroleum asphalt</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19930">
+<rdfs:label>Bituminous mixtures based on natural asphalt, natural bitumen, petroleum asphalt, mineral tar, or mineral-tar pitch, and tarred macadam</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#19990">
+<rdfs:label>Other coal products and products of petroleum refining, and natural asphaltic minerals, not elsewhere classified</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20101">
+<rdfs:label>Sodium hydroxide (caustic soda)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20102">
+<rdfs:label>Potassium hydroxide (caustic potash)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20210">
+<rdfs:label>Sulfur, sublimed, precipitated, or colloidal</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20221">
+<rdfs:label>Hydrogen chloride (hydrochloric acid)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20222">
+<rdfs:label>Sulfuric acid and oleum</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20229">
+<rdfs:label>Other Inorganic acids, (except nitric and sulfonitric acid, see 22020 and phosphoric acid, see 22039)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20231">
+<rdfs:label>Artificial corundum</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20232">
+<rdfs:label>Aluminum oxide and aluminum hydroxide (does not include artificial corundum, see 20231)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20241">
+<rdfs:label>Carbon dioxide</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20242">
+<rdfs:label>Hydrogen, nitrogen, oxygen, and rare gases such as argon and helium</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20251">
+<rdfs:label>Sodium sulfates</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20252">
+<rdfs:label>Disodium carbonate, sodium hydrogen carbonate (sodium bicarbonate), and potassium carbonates</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20259">
+<rdfs:label>Other Sodium or potassium compounds.</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20261">
+<rdfs:label>Titanium oxides, pigments, and preparations</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20262">
+<rdfs:label>Other Inorganic pigments, and preparations and inorganic products used as luminophores, not elsewhere classified</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20263">
+<rdfs:label>Calcium carbide</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20264">
+<rdfs:label>Silicon or tungsten carbides</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20269">
+<rdfs:label>Other metal compounds, not elsewhere classified</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20291">
+<rdfs:label>Chlorine</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20292">
+<rdfs:label>Carbon black</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20293">
+<rdfs:label>Alkali or alkaline-earth metals, rare-earth metals, scandium, yttrium, and mercury</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20299">
+<rdfs:label>Inorganic chemicals not elsewhere classified. Such as iodine, fluorine, bromine, boron, tellurium, silicon, silicon or sulphur dioxide, halide and halide oxides of non-metals, carbon disulphides, hydrazine, hydroxylamine, ammonium bifluoride, fluorosilicates, ammonium chloride, bromide oxide, ammonium bromide, perchlorates, ammonium thiosulphate, peroxysulphates, ammonium persulphate, phosphinates, triammonium phosphates, ammonium bicarbonates, fulminates, cyanates, peroxychromates, complex silicates, hydrides, nitrides, silicides, radioactive elements, isotopes, and compounds.</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20300">
+<rdfs:label>Cyclic hydrocarbons, including benzene, toluene, xylene, styrene, cyclanes, cyclenes, cycloterpenes, ethylbenzene, cumene, vinyltoluene, and naphthalene</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20410">
+<rdfs:label>Acyclic alcohols</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20420">
+<rdfs:label>Phenols, phenol-alcohols, aldehydes, cyclic polymers of aldehydes, paraformaldehyde, ketones, and quinones (excludes their halogenated, sulfonated, nitrated, or nitrosated derivatives, see 20509)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20430">
+<rdfs:label>Organic acids, their anhydrides, halides, peroxides, and peroxyacids, and their halogenated, sulfonated, nitrated, or nitrosated derivatives</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20501">
+<rdfs:label>Acyclic hydrocarbons (except methane and propane, see 193xx)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20502">
+<rdfs:label>Halogenated derivatives of hydrocarbons</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20503">
+<rdfs:label>Other Sulfonamides, provitamins and vitamins, hormones, glycosides or vegetable alkaloids and their derivatives, antibiotics, and chemically pure sugars, not elsewhere classified (excludes products put up in measured doses or for retail sales, see 21000)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20504">
+<rdfs:label>Organic dyes, pigments, lakes, and toners</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#20509">
+<rdfs:label>Other Organic chemicals (excludes all cellulose derivatives, see 24101)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#21000">
+<rdfs:label>Pharmaceutical products, including chemical mixtures for medical use, in any form; unmixed chemicals for medical use, put up in measured doses or for retail sale; biological products; bandages (including adhesive) and related products, prepared for medical use or in packages for immediate medical use; sutures; dental fillings; bone reconstruction cements; and chemical contraceptive preparations based on hormones or spermicides. (excludes unmixed chemicals not in the forms specified above, which include most of the products in 20503 but which can also fall elsewhere in 20xxx)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#22010">
+<rdfs:label>Animal or vegetable fertilizers and fertilizers produced by mixing or chemically treating animal or vegetable products</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#22020">
+<rdfs:label>Nitrogenous mineral or chemical fertilizers (including nitric acid, sulfonitric acids, and ammonia)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#22031">
+<rdfs:label>Phosphatic slag (basic slag or Thomas slag)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#22039">
+<rdfs:label>Other Phosphatic mineral or chemical fertilizers, not elsewhere classified (includes superphosphates and phosphoric acid)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#22041">
+<rdfs:label>Potassium chloride (potash)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#22049">
+<rdfs:label>Other potassic mineral or chemical fertilizers, not elsewhere classified</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#22090">
+<rdfs:label>Other Fertilizers, including ammonium phosphate and fertilizers that are mixed or put up for retail sale</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23110">
+<rdfs:label>Paints and varnishes, including enamels, lacquers, distempers, and prepared water pigments for finishing leather</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23121">
+<rdfs:label>Vegetable tanning extracts or coloring matter, tannins and their derivatives, animal coloring matter, not elsewhere classified, mastics including putty, powdered glass, household dyes, surfacing preparations, and specialty preparations for paint, glass, or similar uses (excludes inorganic pigments, see 2026x; carbon black, see 20292; and organic dyes, pigments, lakes, and toners, see 20504)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23122">
+<rdfs:label>Inks</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23201">
+<rdfs:label>Essential oils, resinoids, and mixtures of odoriferous substances used as raw materials</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23202">
+<rdfs:label>Perfumery, cosmetic, or toilet preparations</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23300">
+<rdfs:label>Soap, organic surface-active agents, cleaning preparations, polishes and creams, and scouring preparations</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23400">
+<rdfs:label>Photographic or cinematographic film, plates, paper, paperboard, or textiles including exposed only or exposed and developed, and chemical preparations for photographic use</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23500">
+<rdfs:label>Insecticides, rodenticides, fungicides, herbicides, anti-sprouting products, plant-growth regulators, disinfectants, and similar products (except chemicals not made up as preparations, see 20xxx)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23901">
+<rdfs:label>Glues and prepared glues</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23902">
+<rdfs:label>Prepared explosives, pyrotechnic products, matches, pyrophoric alloys, and combustible preparations, not elsewhere classified (except cellulosic explosives not in prepared forms, see 24101, and other explosives not in prepared forms, see 20xxx)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23903">
+<rdfs:label>Activated carbon, activated natural mineral products, and animal black</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23904">
+<rdfs:label>Anti-knock preparations, oxidation or gum inhibitors, viscosity improvers, anti-corrosive preparations, and other prepared additives for mineral oils such as gasoline; hydraulic brake and transmission fluids containing none or less than 70% by weight of petroleum or bituminous oils; anti-freezing preparations; and prepared de-icing fluids</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23905">
+<rdfs:label>Industrial monocarboxylic fatty acids and acid oils from refining</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23906">
+<rdfs:label>Water-treatment preparations (includes anti-scaling compounds, flocculating agents, and water-softening compounds)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#23909">
+<rdfs:label>Other Chemical products and preparations not elsewhere classified, including turpentine and other chemical products of wood distillation or the manufacture of wood pulp, gelatin, enzymes, artificial waxes and prepared waxes, dental preparations except fillings, and lubricating preparations containing less than 70% petroleum (exclude preparations containing 70% or more by weight of petroleum oils or of oils obtained from bituminous minerals , see 19100)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24101">
+<rdfs:label>Plastics in primary forms; other cellulose derivatives .</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24102">
+<rdfs:label>Natural rubber and similar natural gums, reclaimed rubber, and synthetic rubber and factice, in primary forms or in plates, sheets, or strip</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24211">
+<rdfs:label>Man-made fiber filament tow or staple fibers, not carded or combed</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24212">
+<rdfs:label>Monofilaments of plastics of which any cross-sectional dimension exceeds 1 mm; rods; sticks; and profile shapes</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24213">
+<rdfs:label>Plastics plates, sheets, film, foil, tape, strip, and other flat shapes, including combinations with other materials</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24221">
+<rdfs:label>Plastics tubes, pipes, hoses, and fittings, including joints, elbows, and flanges</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24222">
+<rdfs:label>Plastics floor, wall, or ceiling coverings</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24223">
+<rdfs:label>Plastics bathtubs, shower-stalls, wash-basins, toilet bowls and tanks, toilet seats and covers, and similar sanitary ware</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24224">
+<rdfs:label>Plastics closures and articles for conveyance or packing goods, including, cases, trays, pails, bags, bottles, flasks, spools, food or plant containers, and foam shapes for packing</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24225">
+<rdfs:label>Plastics household or toilet articles</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24229">
+<rdfs:label>Other plastics articles, not elsewhere classified, including builders' ware, hardware, fasteners, apparel, ornamental articles, and insulating or polarizing material and fittings for electrical equipments.</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24310">
+<rdfs:label>Tires, inner tubes, mud or tire flaps, and "camelback" strips for retreading, of vulcanized rubber (except tread rubber, see 24102)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24391">
+<rdfs:label>Tubes, pipes, and hoses, of vulcanized rubber (except hard rubber, see 24399)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#24399">
+<rdfs:label>Other Articles of rubber, not elsewhere classified</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#25010">
+<rdfs:label>Logs for pulping (pulpwood)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#25020">
+<rdfs:label>Logs for lumber</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#25091">
+<rdfs:label>Fuel wood</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#25092">
+<rdfs:label>Wood in the rough, treated with paint, stains, creosote, or other preservatives</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#25093">
+<rdfs:label>Other untreated wood in the rough</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26100">
+<rdfs:label>Wood chips or particles</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26211">
+<rdfs:label>Lumber, treated</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26212">
+<rdfs:label>Lumber, untreated</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26221">
+<rdfs:label>Wood continuously shaped along any of its edges or faces</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26222">
+<rdfs:label>Shingles and shakes</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26310">
+<rdfs:label>Veneer sheets and sheets for plywood</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26320">
+<rdfs:label>Particle board, fiberboard, and similar board of wood or other ligneous materials</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26330">
+<rdfs:label>Plywood, veneered panels, and similar laminated wood including door skins</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26401">
+<rdfs:label>Windows, doors, and frames and thresholds</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26409">
+<rdfs:label>Other builders' joinery and carpentry of wood, not elsewhere classified (except shingles and shakes, see 26222)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26901">
+<rdfs:label>Wood packing containers, cable drums, pallets and skids, and coopers' products such as cask and barrels</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#26909">
+<rdfs:label>Other Wood products, not elsewhere classified, including wood charcoal, densified wood, and coffins</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#27110">
+<rdfs:label>Mechanical wood pulp</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#27120">
+<rdfs:label>Non-dissolving grades of soda or sulfate chemical wood pulp</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#27191">
+<rdfs:label>Dissolving grades of chemical wood pulp</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#27199">
+<rdfs:label>Other Pulp of fibrous cellulosic materials, not elsewhere classified (including recycled pulp)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#27200">
+<rdfs:label>Newsprint in large rolls or sheets</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#27311">
+<rdfs:label>Uncoated paper for writing, printing, or other graphic purposes, in large rolls or sheets</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#27312">
+<rdfs:label>Toilet or facial tissue stock, towel or napkin stock, and similar paper stock used for household or sanitary purposes, in large rolls or sheets</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#27319">
+<rdfs:label>Other Uncoated paper in large rolls or sheets, not elsewhere classified</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#27320">
+<rdfs:label>Uncoated paperboard in large rolls or sheets</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#27410">
+<rdfs:label>Paper, coated, impregnated, treated, or worked, in large rolls or sheets</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#27420">
+<rdfs:label>Paperboard, coated, impregnated, treated, or worked, in large rolls or sheets</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#28010">
+<rdfs:label>Toilet paper, facial tissues, towels, tampons, sanitary napkins, disposable diapers, and similar articles of paper for household, sanitary, or hospital use, and paper articles of apparel</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#28021">
+<rdfs:label>Sacks and bags of paper, paperboard, cellulose wadding, or cellulose fiber webs</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#28029">
+<rdfs:label>Other packing containers of paper, paperboard, cellulose wadding, or webs of cellulose fibers, not elsewhere classified</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#28091">
+<rdfs:label>Wallpaper and similar wall coverings</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#28092">
+<rdfs:label>Envelopes, letter cards, plain postcards and correspondence cards, and boxed sets of paper stationery</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#28099">
+<rdfs:label>Other Paper or paperboard articles, not elsewhere classified (except blank books, office pads, and forms, see 2999x)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#29100">
+<rdfs:label>Printed books, brochures, leaflets, and similar printed products (except advertising materials including catalogs, see 29300; atlases and music books, see 29999)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#29210">
+<rdfs:label>Newspapers</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#29220">
+<rdfs:label>Journals and periodicals</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#29300">
+<rdfs:label>Advertising material, commercial or trade catalogs, and similar printed products, including flyers</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#29910">
+<rdfs:label>Printed or illustrated postcards, messages, or announcements, and printed cards bearing personal greetings</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#29991">
+<rdfs:label>Manifold business-forms and interleaved carbon-sets</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#29999">
+<rdfs:label>Other Printed products, not elsewhere classified, including blank books, binders, and albums</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30110">
+<rdfs:label>Textile fibers, processed but not spun or made into yarn (does not include raw cotton, see 03930; other raw vegetable fibers, see 03999; and raw animal fibers such as greasy wool, see 04193)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30120">
+<rdfs:label>Yarns and thread (except specialty yarns such as metallized or gimped, see 30399)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30130">
+<rdfs:label>Broadwoven fabrics (except of metallized yarn, see 30399)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30140">
+<rdfs:label>Knitted or crocheted fabrics</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30200">
+<rdfs:label>Textile clothing and accessories, clothing and headgear made of artificial fur (excludes clothing and accessories of plastics, see 24229; of rubber, see 24399; of leather or fur, see 30503; of asbestos, see 31994; of paper, see 28010, except safety headgear, see 40999)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30310">
+<rdfs:label>Narrow-woven fabrics and related products</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30321">
+<rdfs:label>Tufted carpets and other textile floor coverings</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30329">
+<rdfs:label>Other Carpets and other textile floor coverings, not elsewhere classified</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30330">
+<rdfs:label>Textile household furnishings, including bed linens, table linens, toilet linens, curtains, quilts, comforters, pillows, and cushions (excludes household furnishings of plastics, see 24225; of paper, see 28010; and of other non-textile materials)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30391">
+<rdfs:label>Nonwoven and felt fabrics</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30392">
+<rdfs:label>Impregnated, coated, covered, or laminated textile fabrics, including rubberized</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30399">
+<rdfs:label>Other Textiles and textile articles, not elsewhere classified (except garnetted fibers, not further processed, see 41299)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30400">
+<rdfs:label>Footwear</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30501">
+<rdfs:label>Leather including of sheep, or reptiles, chamois, metallized, patent, and composition leather and tanned or dressed fur skins. Exclude articles made of these materials, see 30502 and 30503</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30502">
+<rdfs:label>Luggage, cases, and containers of leather or allied materials</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#30503">
+<rdfs:label>Other articles of leather, animal gut, or fur skins, not elsewhere classified, including apparel and clothing accessories, and saddlery (except leather sport gloves, see 40220)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31100">
+<rdfs:label>Hydraulic cements</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31210">
+<rdfs:label>Refractory ceramic products, including mortars and mixes</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31221">
+<rdfs:label>Ceramic pipes, conduits, guttering, and pipe fittings; ceramic flagstones; and ceramic paving, hearth, wall, or mosaic tiles</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31229">
+<rdfs:label>Other ceramic construction products</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31230">
+<rdfs:label>China, porcelain, or other ceramic household or personal articles</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31291">
+<rdfs:label>Ceramic sanitary fixtures including sinks, urinals, and bathtubs</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31299">
+<rdfs:label>Other Ceramic products, not elsewhere classified.</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31310">
+<rdfs:label>Glass in sheets or profiles (includes worked glass and float, cast, rolled, drawn, or blown glass)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31320">
+<rdfs:label>Glass containers for transporting or packing goods, such as bottles, flasks, jars, pots, ampoules, preserving jars, and closures such as stoppers and lids</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31391">
+<rdfs:label>Safety glass, comprising toughened (tempered) or laminated glass</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31392">
+<rdfs:label>Glassware used for table, kitchen, toilet, office, indoor decoration, or similar purposes</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31393">
+<rdfs:label>Glass slivers, rovings, yarns, and chopped strands</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31399">
+<rdfs:label>Other Glass and glass products, not elsewhere classified, including optical fibers, woven fabric, and articles (except non-woven products of glass fibers and other mineral wool, see 31993; excludes communications and similar insulated optical cable, see 35994; and stamped and molded transportation equipment parts, see 36405)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31911">
+<rdfs:label>Worked monumental or building granite and articles</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31919">
+<rdfs:label>Other Worked monumental or building stone, such as limestone, marble, travertine, and articles including mosaic cubes, chippings, or powder, not elsewhere classified</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31921">
+<rdfs:label>Asphalt shingles</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31929">
+<rdfs:label>Other Articles of asphalt or of similar material, not elsewhere classified (excludes asphaltic mixtures, see 19930)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31931">
+<rdfs:label>Gypsum wallboard, sheets, and lath</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31939">
+<rdfs:label>Other Plaster and articles of plaster, or of compositions based on plaster, not elsewhere classified</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31941">
+<rdfs:label>Non-refractory mortars and concretes, wet</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31942">
+<rdfs:label>Non-refractory mortars and concretes, dry</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31951">
+<rdfs:label>Building blocks and bricks, of cement, concrete, or artificial stone</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31952">
+<rdfs:label>Concrete pipes</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31953">
+<rdfs:label>Prefabricated structural components of concrete</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31959">
+<rdfs:label>Other Articles of cement, concrete, artificial stone, not elsewhere classified</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31991">
+<rdfs:label>Quicklime, slaked lime, and hydraulic lime</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31992">
+<rdfs:label>Exfoliated vermiculite, expanded clays, foamed slag, and similar expanded mineral materials</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31993">
+<rdfs:label>Slag rock and similar mineral wools, and thin sheets, webs, mattresses, boards, and similar nonwoven products of glass-fibers</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31994">
+<rdfs:label>Articles of asbestos-cement, cellulose fiber-cement, or of similar materials, fabricated asbestos fibers, mixtures with a basis of asbestos or with a basis of asbestos and magnesium carbonate and articles of such mixtures or of asbestos including clutch facings and unmounted brake linings and pads</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#31999">
+<rdfs:label>Other Non-metallic mineral products, not elsewhere classified</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32101">
+<rdfs:label>Ferro-alloys</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32102">
+<rdfs:label>Iron and steel in primary forms and semi-finished forms, powders, and granules</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32200">
+<rdfs:label>Flat-rolled products of iron or steel, including plate, sheet, foil, and strip</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32300">
+<rdfs:label>Bars, rods, angles, shapes, sections, and wire, of iron or steel</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32411">
+<rdfs:label>Copper in unwrought forms, powders or flakes, and additive alloys</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32412">
+<rdfs:label>Copper bars, rods, profiles, wire, plates, sheets, strip, and foil (including backed foil)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32421">
+<rdfs:label>Unwrought forms of aluminum, and powders and flakes .</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32422">
+<rdfs:label>Aluminum bars, rods, profiles, and wire</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32423">
+<rdfs:label>Aluminum plates, sheets, strip, and foil (including backed foil)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32491">
+<rdfs:label>Lead in unwrought forms, in finished basic shapes, or in powders or granules</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32492">
+<rdfs:label>Nickel in unwrought forms, in finished basic shapes, or in powders or granules</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32493">
+<rdfs:label>Zinc in unwrought forms, in finished basic shapes, or in powders or granules</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#32499">
+<rdfs:label>Other Nonferrous metal not elsewhere classified in unwrought forms, in finished basic shapes, or in powders or granules, including foil and backed foil (excludes precious metals, see 40941)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33111">
+<rdfs:label>Pipes and tubes of iron or steel</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33112">
+<rdfs:label>Pipes and tubes of base metals other than iron and steel</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33121">
+<rdfs:label>Pipe and tube fittings of iron or steel</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33122">
+<rdfs:label>Pipe and tube fittings of base metals other than iron and steel</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33201">
+<rdfs:label>Metal doors and windows and their frames</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33209">
+<rdfs:label>Other Metal structures and structural parts, not elsewhere classified, (except prefabricated buildings, see 40920)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33310">
+<rdfs:label>Nails, screws, bolts, nuts, washers, staples except in strips, and similar fastening articles</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33321">
+<rdfs:label>Hand tools, small mechanical appliances for food preparation, and blades for saws</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33322">
+<rdfs:label>Cutlery, including cutlery plated with precious metal, razors, scissors, shears, swords, daggers, and similar arms (excludes cutlery of precious metal, and cutlery clad with precious metal, see 40942)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33330">
+<rdfs:label>Interchangeable tools for hand-or machine-tools, including for construction and mining tools</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33340">
+<rdfs:label>Locks, mountings and fittings, racks and similar fixtures, and automatic door closers, of base metal</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33910">
+<rdfs:label>Other Metal containers with a capacity not exceeding 300 liters (about 80 gallons), not elsewhere classified (except containers for compressed or liquefied gas, see 33992)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33991">
+<rdfs:label>Railway or tramway track construction material of iron or steel</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33992">
+<rdfs:label>Metal containers with a capacity greater than 300 liters (about 80 gallons), and metal containers for compressed or liquefied gas</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33993">
+<rdfs:label>Springs including wire, leaf, helical, disc, or hair, and miscellaneous fabricated wire products (except electrically insulated products, see 35994, and nails and staples, see 33310)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#33999">
+<rdfs:label>Other Articles of non-precious metal, not elsewhere classified (except backed or printed foil, see 324xx, and musical instruments, see 40992)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34110">
+<rdfs:label>Spark-ignition reciprocating internal-combustion engines for motor vehicles, of a cylinder capacity exceeding 1000 cc</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34120">
+<rdfs:label>Other Internal-combustion piston engines (includes compression engines such as diesel and semi-diesel engines)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34130">
+<rdfs:label>Parts of internal combustion piston engines (except pumps for liquids, see 34310; filters, see 34999; crankshafts and camshafts, see 34972; and bearings, see 3497x)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34211">
+<rdfs:label>Steam, other vapor, or hydraulic turbines</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34212">
+<rdfs:label>Turbo-jets, turbo-propellers, and other gas turbines, including for aircraft</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34221">
+<rdfs:label>Boilers, power or heating, and nuclear reactors</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34222">
+<rdfs:label>Other Non-electric engines and motors, not elsewhere classified, including fluid power, windmills, spring- or weight-operated engines and motors, and missile and rocket reaction engines</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34310">
+<rdfs:label>Pumps for liquids and liquid elevators, including fluid power, vehicle, and service station pumps</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34320">
+<rdfs:label>Air or vacuum pumps and air or other gas compressors, (including compressors for refrigerating and air conditioning equipment)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34330">
+<rdfs:label>Fans (including blowers) and ventilating or recycling hoods incorporating a fan</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34410">
+<rdfs:label>Air conditioning equipment (except compressors, see 34320, and evaporative air coolers, see 34999)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34421">
+<rdfs:label>Household refrigerating or freezing equipment (except compressors, see 34320)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34422">
+<rdfs:label>Commercial- or industrial-type refrigerating or freezing equipment (except compressors, see 34320)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34511">
+<rdfs:label>Work trucks and tractors designed for lifting or for short distance transport of goods in factories, warehouses, docks, or airports (excludes trailers, see 36360)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34519">
+<rdfs:label>Other Lifting, handling, loading, or unloading machinery, not elsewhere classified (excludes cranes for road use, see 36330)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34520">
+<rdfs:label>Moving, grading, leveling, scraping, excavating, tamping, compacting, extracting, or boring machinery for earth, minerals, or ores, pile drivers and extractors, and snow ploughs and blowers (excludes motor vehicles for transporting goods, see 36220; tractors, see 36310; special purpose motor vehicles such as mobile drilling derricks, see 36330; parts for the vehicles listed above, see 3640x; powered hand tools, see 34950; and machinery for screening, mixing, etc. minerals, for drying, paving, etc., see 34999)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34910">
+<rdfs:label>Dish-washing machines, machinery for cleaning or drying bottles or other containers, machinery for aerating beverages, and packing or wrapping machinery</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34920">
+<rdfs:label>Agricultural, horticultural, forestry, and poultry or bee-keeping machinery (excludes powered hand tools, see 34950; tractors, see 36310; trailers and wagons, see 36360; and machinery for spraying or drying, see 34999)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34930">
+<rdfs:label>Textile manufacturing machines; laundry machines, including dryers; and sewing machines</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34940">
+<rdfs:label>Machine-tools for working hard materials, including metal-working (excludes other machines for working hard materials, such as woodworking presses; machines for working with metal wire; and machines for use in metallurgy, in foundries, or in metal rolling mills, see 34999 and in semiconductor manufacturing)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34950">
+<rdfs:label>Powered hand-tools, pneumatic, hydraulic, or with a self-contained electric or non-electric motor, including tools for lawn or construction use</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34960">
+<rdfs:label>Machines and apparatus for soldering, brazing or welding, for surface tempering, or for hot spraying of metals; and wire, rods, electrodes, and similar products for use with such machines and apparatus</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34971">
+<rdfs:label>Ball and roller bearings including mounted</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34972">
+<rdfs:label>Transmission shafts and cranks, clutches, bearing housings and plain shaft bearings, gears and gearing, ball and roller screws, gear boxes and other speed changers, flywheels and pulleys, and shaft couplings (excludes gear motors, see 35110; and roller and similar chain, see 33999)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34991">
+<rdfs:label>Machinery for making pulp, paper, or paperboard, including dryers and calendering machines</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34992">
+<rdfs:label>Book-binding, type-founding, type-setting, or printing machinery</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34993">
+<rdfs:label>Molding boxes for metal foundry, mold bases, molding patterns, and molds for metal carbides, glass, minerals, rubber, plastics, or metal (except ingot molds, see 34999)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34994">
+<rdfs:label>Taps, cocks, valves, and similar appliances for pipes, boiler shells, tanks and vats, or the like, including those for use in plumbing</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34995">
+<rdfs:label>Semiconductor manufacturing machinery</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34999">
+<rdfs:label>Other Machinery, not elsewhere classified</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35110">
+<rdfs:label>Electric motors, generators, generating sets, and rotary converters</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35120">
+<rdfs:label>Electric or electronic transformers, static converters including rectifiers, and inductors, and power supplies for small appliances and computers</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35210">
+<rdfs:label>Electric cooking appliances including stoves, ranges, grills, deep-fat fryers, and microwave ovens</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35220">
+<rdfs:label>Electrothermic or electromechanical domestic appliances such as vacuum cleaners, food grinders, blenders, juicers, coffee maker, can openers, electrical heating resistors (except of carbon, see 35995), and personal appliances such as shavers, and toothbrushes (Exclude: dishwashers, see 34910; refrigerators, see 34421; air conditioners, see 34410; fans, including range hoods, see 34330; or non-electric cooking or heating appliances (such as radiators or wood stoves), see 33999)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35310">
+<rdfs:label>Line telephone and telegraph switching apparatus (except parts, see 35390)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35390">
+<rdfs:label>Other Line telephone and telegraph communication apparatus, not elsewhere classified, including telephones, fax machines, ISDN apparatus, modems, and parts for telephone switching apparatus (excludes cellular telephones, see 35700)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35400">
+<rdfs:label>Electronic entertainment products, including televisions, radio broadcast receivers including satellite, disc players, digital recorders and playback devices, amplifiers, speakers, and digital cameras (except parts of these goods, see 35820)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35510">
+<rdfs:label>Computer equipment, including mainframes, laptop units, processing units, monitors, and other data input and output devices such as fax/modem, and electronic reading devices (excluding parts)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35520">
+<rdfs:label>Office equipment, such as point-of-sale devices, and word-processing machines, calculators, shredders, banknote dispensers (excludes photocopiers, see 38220, and facsimile machines, see 35390)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35610">
+<rdfs:label>Unrecorded media, such as blank tapes, disks, or other mediums for audio, video, computer data, or other use (does not include photographic film, see 23400)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35621">
+<rdfs:label>Computer software</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35629">
+<rdfs:label>Other Pre-recorded media, not elsewhere classified (includes records, tapes, and compact disks, but excludes software, see 35621, and photographic film, see 23400)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35700">
+<rdfs:label>Transmission apparatus for radio or TV broadcasting; radio transmission and reception apparatus; radar apparatus; radio navigational-aid apparatus; and radio remote-control apparatus, including cordless microphones, CB radios, cell-phones, pagers, GPS receivers, and television cameras (Does NOT include radio or television broadcast receivers, see 35400, or parts for these products, see 35820)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35811">
+<rdfs:label>Capacitors including power, resistors except heating but including variable resistor switches, and thermionic, cold-cathode, or photo-cathode valves and tubes, including vacuum, vapor, gas-filled, mercury-arc rectifying, cathode-ray, and television-camera (excludes heating resistors, see 35220 or 35995)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35812">
+<rdfs:label>Printed circuits</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35813">
+<rdfs:label>Diodes, transistors, and similar semiconductor devices, photosensitive semiconductor devices including photovoltaic cells, light-emitting diodes, mounted piezoelectric crystals, and chemical elements and components doped for use in electronics</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35814">
+<rdfs:label>Electronic integrated circuits and micro-assemblies including memory chips</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35820">
+<rdfs:label>Parts for goods in SCTGs 35400, 35811, 35812, 35813, and 35814 above, including cabinets</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35911">
+<rdfs:label>Primary cells and primary batteries, including alkaline, nickel-cadmium, and lithium batteries</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35912">
+<rdfs:label>Secondary cells and storage batteries including motor vehicle and nickel-cadmium batteries</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35920">
+<rdfs:label>Apparatus for switching or protecting electrical circuits or for making connections to or in electrical circuits, and boards, panels, consoles, desks, cabinets, or similar bases equipped with these apparatus</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35991">
+<rdfs:label>Ignition or starting equipment used for spark-ignition or compression-ignition internal combustion engines; generators including dynamos and alternators; cutouts used with internal combustion engines; spark plugs; and wiring sets used in vehicles, aircraft, or ships</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35992">
+<rdfs:label>Electrical lighting or signaling equipment, windshield wipers, or defrosters and demisters, used for motor vehicles or bicycles (exclude filament or discharge light bulbs, see 35993)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35993">
+<rdfs:label>Electric filament or discharge light bulbs, ultra-violet or infra-red bulbs, and arc-lamps, sealed beam lamp units for vehicles, and photographic flashbulbs</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35994">
+<rdfs:label>Insulated electric conductors, (including wire), co-axial cables, and optical fiber cables (exclude vehicle wiring sets, see 35991)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35995">
+<rdfs:label>Artificial graphite, colloidal or semi-colloidal graphite, preparations based on graphite or carbon, and articles of graphite or carbon including electric heating resistors of carbon, battery carbons, lamp carbons, packing rings and seals, electrodes, and brushes</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35999">
+<rdfs:label>Other electronic and electrical equipment and components, not elsewhere classified including electric conduits and fittings (except musical instruments, see 40992)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36101">
+<rdfs:label>Automobiles and vans for fewer than 10 people, including military jeeps and automobiles lightly armored, or powered by an electric motor (EV), hybrid vehicles that use a battery powered electric motor in addition to gasoline powered engine for improved efficiency (excludes: all-terrain vehicles, racing cars, ambulances, hearses, prison vans, and motor homes (excludes parts, see Motor vehicle parts, 364xx)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36109">
+<rdfs:label>Other Motor vehicles for fewer than 10 people, not elsewhere classified, including all-terrain vehicles, racing cars, ambulances, hearses, prison vans, and motor homes (except vehicle parts, see 364xx; and snowmobiles, golf carts, in-plant personnel carriers, see 36399; motorcycles, see 36351; and armored fighting vehicles, see 36391).</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36210">
+<rdfs:label>Motor vehicles for transporting goods, (including vehicles used in construction, mining, agriculture, military and armored commercial trucks.</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36220">
+<rdfs:label>Road tractors for semi-trailers (except parts, see 364xx)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36310">
+<rdfs:label>Tractors except road tractors and work tractors (includes farm, lawn-and- garden, and track-laying tractors, but does not include tractor parts, see 364xx, or tractors of 34511)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36320">
+<rdfs:label>Motor vehicles with a seating capacity of 10 or more persons (except parts, see 364xx)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36330">
+<rdfs:label>Special-purpose motor vehicles including mobile cranes, drilling derricks, concrete mixers, and fire-fighting vehicles (except parts, see 364xx)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36340">
+<rdfs:label>Chassis fitted with engines, and separate bodies, for motor vehicles</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36351">
+<rdfs:label>Motorcycles, motor scooters, and mopeds, and their parts (including side cars)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36359">
+<rdfs:label>Bicycles and other cycles, including unicycles and tricycles, and their parts</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36360">
+<rdfs:label>Trailers and semi-trailers and parts, including camping and library trailers</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36391">
+<rdfs:label>Armored fighting vehicles and their parts</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36399">
+<rdfs:label>Other Vehicles, not elsewhere classified (including snowmobiles; golf carts and in-plant personnel carriers, segways (except their parts, see 364xx; and hand-carts, grocery carts, wheelbarrows, and their parts)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36401">
+<rdfs:label>Brakes (except unmounted brake linings and pads, see 31994)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36402">
+<rdfs:label>Gear boxes (except parts, see 36409)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36403">
+<rdfs:label>Road wheels</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36404">
+<rdfs:label>Metal, stampings such as bumper, fender, door, hood, trim, and hub cap</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36409">
+<rdfs:label>Other Parts for motor vehicles, not elsewhere classified, including seat belts and seat covers, trims, plastics grilles, suspension shock-absorbers, radiators, mufflers, exhaust pipes, clutches, axles, bumpers, and steering wheels. (except parts for motorcycles, mopeds and armored fighting vehicles, see 36351 and 36391; and except engines and engine parts, see 341xx; pumps for liquids, see 34310; filters, see 34999; tires, see 24310; glass, see 313xx; lighting and signaling equipment, see 35992; ignition and starting equipment, see 35991; windshield wipers and defrosters, see 35992; seats, see 39029; and catalytic converters, see 34999)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37101">
+<rdfs:label>Railway or tramway locomotives and self-propelled rolling-stock (excludes maintenance or service vehicles, see 37102)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37102">
+<rdfs:label>Railway or tramway maintenance or service vehicles (including self-propelled), and passenger coaches and freight cars (not self-propelled)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37103">
+<rdfs:label>Parts of locomotives and rolling stock (excludes engines, see 341xx; electric motors and generators, see 35110; pumps for liquids, see 34310; and lighting equipment, see 39030)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37104">
+<rdfs:label>Track fixtures and fittings and their parts, mechanical signaling, safety, or traffic-control equipment, and containers specially designed and equipped for carriage by one or more transport modes</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37210">
+<rdfs:label>Aircraft, except parts</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37220">
+<rdfs:label>Spacecraft including satellites and suborbital and spacecraft launch vehicles, except parts</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37230">
+<rdfs:label>Parts of aircraft and spacecraft (except internal combustion engines, see 341xx; turbines, see 34212; other engines and motors, see 34222; tires, see 24310; pumps for liquids, see 34310; filters, see 34999; plastics, see 24229; glass, see 313xx; lighting equipment, see 39030; ignition and starting equipment, see 35991; windshield wipers and defrosters, see 35992; and seats, see 39029)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37240">
+<rdfs:label>Parachutes, rotochutes, aircraft-launching gear, deck-arresters, and flight simulators</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37310">
+<rdfs:label>Pleasure or sporting vessels, and rowing boats (parts except for hulls should be classified according to what the article is)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37320">
+<rdfs:label>Commercial ships and boats and other floating structures, including drilling or production platforms, lifeboats, inflatable rafts, buoys, and beacons (parts except for hulls should be classified according to what the article is)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38101">
+<rdfs:label>Eyewear including contact lenses and other lenses, goggles, and frames</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38109">
+<rdfs:label>Other Optical elements, instruments, and apparatus, not elsewhere classified (except photographic, cinematographic, and photocopying equipment, see 38210 or 38220)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38210">
+<rdfs:label>Photographic (including cinematographic) cameras, image projectors, enlargers, reducers, and projection screens; negatoscopes, and apparatus and equipment for film developing (excludes video, and digital cameras, see 35400)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38220">
+<rdfs:label>Photocopying and thermo-copying machines</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38310">
+<rdfs:label>Navigational instruments and appliances (except radar and radio navigational-aid apparatus, see 35700)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38320">
+<rdfs:label>Surveying, hydrographic, oceanographic, hydrological, meteorological, geophysical, drawing, mathematical calculating and length measuring hand instruments and appliances (except radar apparatus, see 35700)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38410">
+<rdfs:label>Apparatus based on the use of X-rays or alpha, beta, or gamma radiation</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38420">
+<rdfs:label>Electro-medical equipment (except pacemakers, see 38491)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38491">
+<rdfs:label>Orthopedic appliances; fracture appliances; artificial body parts; and appliances that are worn, carried, or implanted in the body to compensate for a medical condition</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38492">
+<rdfs:label>Surgical and medical instruments and apparatus</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38499">
+<rdfs:label>Other Instruments, apparatus, and appliances for medical, surgical, dental, or veterinary sciences, or for similar purposes, not elsewhere classified (excludes furniture, see 39021; wheelchairs, see 40999; and wadding, bandages, etc., see 21000)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38510">
+<rdfs:label>Instruments and apparatus for measuring or checking electrical quantities</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38520">
+<rdfs:label>Industrial process control instruments</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38591">
+<rdfs:label>Instruments and appliances for testing mechanical properties of materials</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38592">
+<rdfs:label>Instruments and appliances for measuring or detecting ionizing radiations</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38593">
+<rdfs:label>Gas or liquid supply or production meters</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38599">
+<rdfs:label>Other instruments and apparatus for measuring, checking, testing, or controlling, not elsewhere classified</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#39011">
+<rdfs:label>Mattresses and mattress supports (except inflatable and waterbed mattresses of plastics, see 24229, or of rubber, see 24399)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#39019">
+<rdfs:label>Other Household or office furniture, not elsewhere classified, including kitchen cabinets (except desk top furniture, which is classified by its material; and TV and stereo cabinets, see 35820)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#39021">
+<rdfs:label>Medical, surgical, dental, or veterinary furniture</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#39029">
+<rdfs:label>Other Furniture, not elsewhere classified</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#39030">
+<rdfs:label>Lamps, lighting fittings, and illuminated signs or name plates (except for motor vehicles, see 35992)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#40110">
+<rdfs:label>Arms (excludes swords, daggers, etc., see 33322)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#40120">
+<rdfs:label>Munitions and ammunition, including bombs, grenades, and missiles</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#40210">
+<rdfs:label>Toys, games, and baby carriages. Including dolls, stuffed animals, models, construction sets, video games and cartridges, electronic game consoles, coin-operated arcade games, puzzles, and bingo equipment.</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#40220">
+<rdfs:label>Sporting equipment including pool tables, bowling alley equipment such as pin-setting machines, and protective clothing and head gear such as pads, gloves, mittens, and helmets</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#40910">
+<rdfs:label>Clocks and watches</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#40920">
+<rdfs:label>Prefabricated buildings including tool or garden sheds</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#40930">
+<rdfs:label>Writing or drawing instruments and inked ribbons and pads</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#40941">
+<rdfs:label>Precious metal forms and shapes</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#40942">
+<rdfs:label>Pearls, precious or semi-precious stones including unworked; articles of pearls, stones, or precious metals including jewelry, catalysts, anodes, and tableware; and coins</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#40991">
+<rdfs:label>Costume jewelry</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#40992">
+<rdfs:label>Musical instruments (except amplifiers, see 35400, and mixing and editing boards, see 35920)</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#40993">
+<rdfs:label>Brooms, brushes, mechanical floor-sweepers, mops, feather dusters and paint pads or rollers, including brushes for floor scrubbers, polishers and other machines, appliances, or vehicles</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#40994">
+<rdfs:label>Sewing and knitting needles (including for machines), crochet hooks, hook and eye fasteners, safety pins, straight pins, buttons, buckles and clasps, tubular and bifurcated rivets, snap- fasteners, zippers, and similar notions</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#40995">
+<rdfs:label>Works of art, collections, and antiques</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#40999">
+<rdfs:label>Other Miscellaneous manufactured products, not elsewhere classified</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#41110">
+<rdfs:label>Metal slag, ash, and residues</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#41120">
+<rdfs:label>Other waste and scrap of ferrous metals</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#41130">
+<rdfs:label>Other waste and scrap of non-ferrous metals, including precious metals</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#41210">
+<rdfs:label>Sawdust and wood waste and scrap</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#41220">
+<rdfs:label>Waste and scrap of paper or paperboard</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#41291">
+<rdfs:label>Waste and scrap of glass</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#41299">
+<rdfs:label>Other Non-metallic waste and scrap, not elsewhere classified</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#43991">
+<rdfs:label>Items (including food) for grocery and convenience stores</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#43992">
+<rdfs:label>Supplies and food for restaurants and fast food chains</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#43993">
+<rdfs:label>Hardware or plumbing supplies</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#43994">
+<rdfs:label>Office supplies</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#43999">
+<rdfs:label>Miscellaneous</rdfs:label>
+<rdf:type rdf:resource="#CommodityCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#ConveyanceCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#commodity.xsd"/>
+<rdfs:comment>A data type for a kind of conveyance.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#36101">
+<rdfs:label>Automobiles and vans for fewer than 10 people, including military jeeps and automobiles lightly armored, or powered by an electric motor (EV), hybrid vehicles that use a battery powered electric motor in addition to gasoline powered engine for improved efficiency (excludes: all-terrain vehicles, racing cars, ambulances, hearses, prison vans, and motor homes (excludes parts, see Motor vehicle parts, 364xx)</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36109">
+<rdfs:label>Other Motor vehicles for fewer than 10 people, not elsewhere classified, including all-terrain vehicles, racing cars, ambulances, hearses, prison vans, and motor homes (except vehicle parts, see 364xx; and snowmobiles, golf carts, in-plant personnel carriers, see 36399; motorcycles, see 36351; and armored fighting vehicles, see 36391).</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36210">
+<rdfs:label>Motor vehicles for transporting goods, (including vehicles used in construction, mining, agriculture, military and armored commercial trucks.</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36220">
+<rdfs:label>Road tractors for semi-trailers (except parts, see 364xx)</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36310">
+<rdfs:label>Tractors except road tractors and work tractors (includes farm, lawn-and- garden, and track-laying tractors, but does not include tractor parts, see 364xx, or tractors of 34511)</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36320">
+<rdfs:label>Motor vehicles with a seating capacity of 10 or more persons (except parts, see 364xx)</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36330">
+<rdfs:label>Special-purpose motor vehicles including mobile cranes, drilling derricks, concrete mixers, and fire-fighting vehicles (except parts, see 364xx)</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36340">
+<rdfs:label>Chassis fitted with engines, and separate bodies, for motor vehicles</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36351">
+<rdfs:label>Motorcycles, motor scooters, and mopeds, and their parts (including side cars)</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36359">
+<rdfs:label>Bicycles and other cycles, including unicycles and tricycles, and their parts</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36360">
+<rdfs:label>Trailers and semi-trailers and parts, including camping and library trailers</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36391">
+<rdfs:label>Armored fighting vehicles and their parts</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36399">
+<rdfs:label>Other Vehicles, not elsewhere classified (including snowmobiles; golf carts and in-plant personnel carriers, segways (except their parts, see 364xx; and hand-carts, grocery carts, wheelbarrows, and their parts)</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36401">
+<rdfs:label>Brakes (except unmounted brake linings and pads, see 31994)</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36402">
+<rdfs:label>Gear boxes (except parts, see 36409)</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36403">
+<rdfs:label>Road wheels</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36404">
+<rdfs:label>Metal, stampings such as bumper, fender, door, hood, trim, and hub cap</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#36409">
+<rdfs:label>Other Parts for motor vehicles, not elsewhere classified, including seat belts and seat covers, trims, plastics grilles, suspension shock-absorbers, radiators, mufflers, exhaust pipes, clutches, axles, bumpers, and steering wheels. (except parts for motorcycles, mopeds and armored fighting vehicles, see 36351 and 36391; and except engines and engine parts, see 341xx; pumps for liquids, see 34310; filters, see 34999; tires, see 24310; glass, see 313xx; lighting and signaling equipment, see 35992; ignition and starting equipment, see 35991; windshield wipers and defrosters, see 35992; seats, see 39029; and catalytic converters, see 34999)</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37101">
+<rdfs:label>Railway or tramway locomotives and self-propelled rolling-stock (excludes maintenance or service vehicles, see 37102)</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37102">
+<rdfs:label>Railway or tramway maintenance or service vehicles (including self-propelled), and passenger coaches and freight cars (not self-propelled)</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37103">
+<rdfs:label>Parts of locomotives and rolling stock (excludes engines, see 341xx; electric motors and generators, see 35110; pumps for liquids, see 34310; and lighting equipment, see 39030)</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37104">
+<rdfs:label>Track fixtures and fittings and their parts, mechanical signaling, safety, or traffic-control equipment, and containers specially designed and equipped for carriage by one or more transport modes</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37210">
+<rdfs:label>Aircraft, except parts</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37220">
+<rdfs:label>Spacecraft including satellites and suborbital and spacecraft launch vehicles, except parts</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37230">
+<rdfs:label>Parts of aircraft and spacecraft (except internal combustion engines, see 341xx; turbines, see 34212; other engines and motors, see 34222; tires, see 24310; pumps for liquids, see 34310; filters, see 34999; plastics, see 24229; glass, see 313xx; lighting equipment, see 39030; ignition and starting equipment, see 35991; windshield wipers and defrosters, see 35992; and seats, see 39029)</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37240">
+<rdfs:label>Parachutes, rotochutes, aircraft-launching gear, deck-arresters, and flight simulators</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37310">
+<rdfs:label>Pleasure or sporting vessels, and rowing boats (parts except for hulls should be classified according to what the article is)</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#37320">
+<rdfs:label>Commercial ships and boats and other floating structures, including drilling or production platforms, lifeboats, inflatable rafts, buoys, and beacons (parts except for hulls should be classified according to what the article is)</rdfs:label>
+<rdf:type rdf:resource="#ConveyanceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#ElectronicEquipmentCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#commodity.xsd"/>
+<rdfs:comment>A data type for a kind of electronic equipment.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#35110">
+<rdfs:label>Electric motors, generators, generating sets, and rotary converters</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35120">
+<rdfs:label>Electric or electronic transformers, static converters including rectifiers, and inductors, and power supplies for small appliances and computers</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35210">
+<rdfs:label>Electric cooking appliances including stoves, ranges, grills, deep-fat fryers, and microwave ovens</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35220">
+<rdfs:label>Electrothermic or electromechanical domestic appliances such as vacuum cleaners, food grinders, blenders, juicers, coffee maker, can openers, electrical heating resistors (except of carbon, see 35995), and personal appliances such as shavers, and toothbrushes (Exclude: dishwashers, see 34910; refrigerators, see 34421; air conditioners, see 34410; fans, including range hoods, see 34330; or non-electric cooking or heating appliances (such as radiators or wood stoves), see 33999)</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35310">
+<rdfs:label>Line telephone and telegraph switching apparatus (except parts, see 35390)</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35390">
+<rdfs:label>Other Line telephone and telegraph communication apparatus, not elsewhere classified, including telephones, fax machines, ISDN apparatus, modems, and parts for telephone switching apparatus (excludes cellular telephones, see 35700)</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35400">
+<rdfs:label>Electronic entertainment products, including televisions, radio broadcast receivers including satellite, disc players, digital recorders and playback devices, amplifiers, speakers, and digital cameras (except parts of these goods, see 35820)</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35510">
+<rdfs:label>Computer equipment, including mainframes, laptop units, processing units, monitors, and other data input and output devices such as fax/modem, and electronic reading devices (excluding parts)</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35520">
+<rdfs:label>Office equipment, such as point-of-sale devices, and word-processing machines, calculators, shredders, banknote dispensers (excludes photocopiers, see 38220, and facsimile machines, see 35390)</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35610">
+<rdfs:label>Unrecorded media, such as blank tapes, disks, or other mediums for audio, video, computer data, or other use (does not include photographic film, see 23400)</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35621">
+<rdfs:label>Computer software</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35629">
+<rdfs:label>Other Pre-recorded media, not elsewhere classified (includes records, tapes, and compact disks, but excludes software, see 35621, and photographic film, see 23400)</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35700">
+<rdfs:label>Transmission apparatus for radio or TV broadcasting; radio transmission and reception apparatus; radar apparatus; radio navigational-aid apparatus; and radio remote-control apparatus, including cordless microphones, CB radios, cell-phones, pagers, GPS receivers, and television cameras (Does NOT include radio or television broadcast receivers, see 35400, or parts for these products, see 35820)</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35811">
+<rdfs:label>Capacitors including power, resistors except heating but including variable resistor switches, and thermionic, cold-cathode, or photo-cathode valves and tubes, including vacuum, vapor, gas-filled, mercury-arc rectifying, cathode-ray, and television-camera (excludes heating resistors, see 35220 or 35995)</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35812">
+<rdfs:label>Printed circuits</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35813">
+<rdfs:label>Diodes, transistors, and similar semiconductor devices, photosensitive semiconductor devices including photovoltaic cells, light-emitting diodes, mounted piezoelectric crystals, and chemical elements and components doped for use in electronics</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35814">
+<rdfs:label>Electronic integrated circuits and micro-assemblies including memory chips</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35820">
+<rdfs:label>Parts for goods in SCTGs 35400, 35811, 35812, 35813, and 35814 above, including cabinets</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35911">
+<rdfs:label>Primary cells and primary batteries, including alkaline, nickel-cadmium, and lithium batteries</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35912">
+<rdfs:label>Secondary cells and storage batteries including motor vehicle and nickel-cadmium batteries</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35920">
+<rdfs:label>Apparatus for switching or protecting electrical circuits or for making connections to or in electrical circuits, and boards, panels, consoles, desks, cabinets, or similar bases equipped with these apparatus</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35991">
+<rdfs:label>Ignition or starting equipment used for spark-ignition or compression-ignition internal combustion engines; generators including dynamos and alternators; cutouts used with internal combustion engines; spark plugs; and wiring sets used in vehicles, aircraft, or ships</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35992">
+<rdfs:label>Electrical lighting or signaling equipment, windshield wipers, or defrosters and demisters, used for motor vehicles or bicycles (exclude filament or discharge light bulbs, see 35993)</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35993">
+<rdfs:label>Electric filament or discharge light bulbs, ultra-violet or infra-red bulbs, and arc-lamps, sealed beam lamp units for vehicles, and photographic flashbulbs</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35994">
+<rdfs:label>Insulated electric conductors, (including wire), co-axial cables, and optical fiber cables (exclude vehicle wiring sets, see 35991)</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35995">
+<rdfs:label>Artificial graphite, colloidal or semi-colloidal graphite, preparations based on graphite or carbon, and articles of graphite or carbon including electric heating resistors of carbon, battery carbons, lamp carbons, packing rings and seals, electrodes, and brushes</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#35999">
+<rdfs:label>Other electronic and electrical equipment and components, not elsewhere classified including electric conduits and fittings (except musical instruments, see 40992)</rdfs:label>
+<rdf:type rdf:resource="#ElectronicEquipmentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#ElectronicInstrumentCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#commodity.xsd"/>
+<rdfs:comment>A data type for a kind of electronic instrument.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#38101">
+<rdfs:label>Eyewear including contact lenses and other lenses, goggles, and frames</rdfs:label>
+<rdf:type rdf:resource="#ElectronicInstrumentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38109">
+<rdfs:label>Other Optical elements, instruments, and apparatus, not elsewhere classified (except photographic, cinematographic, and photocopying equipment, see 38210 or 38220)</rdfs:label>
+<rdf:type rdf:resource="#ElectronicInstrumentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38210">
+<rdfs:label>Photographic (including cinematographic) cameras, image projectors, enlargers, reducers, and projection screens; negatoscopes, and apparatus and equipment for film developing (excludes video, and digital cameras, see 35400)</rdfs:label>
+<rdf:type rdf:resource="#ElectronicInstrumentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38220">
+<rdfs:label>Photocopying and thermo-copying machines</rdfs:label>
+<rdf:type rdf:resource="#ElectronicInstrumentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38310">
+<rdfs:label>Navigational instruments and appliances (except radar and radio navigational-aid apparatus, see 35700)</rdfs:label>
+<rdf:type rdf:resource="#ElectronicInstrumentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38320">
+<rdfs:label>Surveying, hydrographic, oceanographic, hydrological, meteorological, geophysical, drawing, mathematical calculating and length measuring hand instruments and appliances (except radar apparatus, see 35700)</rdfs:label>
+<rdf:type rdf:resource="#ElectronicInstrumentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38410">
+<rdfs:label>Apparatus based on the use of X-rays or alpha, beta, or gamma radiation</rdfs:label>
+<rdf:type rdf:resource="#ElectronicInstrumentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38420">
+<rdfs:label>Electro-medical equipment (except pacemakers, see 38491)</rdfs:label>
+<rdf:type rdf:resource="#ElectronicInstrumentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38491">
+<rdfs:label>Orthopedic appliances; fracture appliances; artificial body parts; and appliances that are worn, carried, or implanted in the body to compensate for a medical condition</rdfs:label>
+<rdf:type rdf:resource="#ElectronicInstrumentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38492">
+<rdfs:label>Surgical and medical instruments and apparatus</rdfs:label>
+<rdf:type rdf:resource="#ElectronicInstrumentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38499">
+<rdfs:label>Other Instruments, apparatus, and appliances for medical, surgical, dental, or veterinary sciences, or for similar purposes, not elsewhere classified (excludes furniture, see 39021; wheelchairs, see 40999; and wadding, bandages, etc., see 21000)</rdfs:label>
+<rdf:type rdf:resource="#ElectronicInstrumentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38510">
+<rdfs:label>Instruments and apparatus for measuring or checking electrical quantities</rdfs:label>
+<rdf:type rdf:resource="#ElectronicInstrumentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38520">
+<rdfs:label>Industrial process control instruments</rdfs:label>
+<rdf:type rdf:resource="#ElectronicInstrumentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38591">
+<rdfs:label>Instruments and appliances for testing mechanical properties of materials</rdfs:label>
+<rdf:type rdf:resource="#ElectronicInstrumentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38592">
+<rdfs:label>Instruments and appliances for measuring or detecting ionizing radiations</rdfs:label>
+<rdf:type rdf:resource="#ElectronicInstrumentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38593">
+<rdfs:label>Gas or liquid supply or production meters</rdfs:label>
+<rdf:type rdf:resource="#ElectronicInstrumentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#38599">
+<rdfs:label>Other instruments and apparatus for measuring, checking, testing, or controlling, not elsewhere classified</rdfs:label>
+<rdf:type rdf:resource="#ElectronicInstrumentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#MachineryCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#commodity.xsd"/>
+<rdfs:comment>A data type for a kind of machinery.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#34110">
+<rdfs:label>Spark-ignition reciprocating internal-combustion engines for motor vehicles, of a cylinder capacity exceeding 1000 cc</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34120">
+<rdfs:label>Other Internal-combustion piston engines (includes compression engines such as diesel and semi-diesel engines)</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34130">
+<rdfs:label>Parts of internal combustion piston engines (except pumps for liquids, see 34310; filters, see 34999; crankshafts and camshafts, see 34972; and bearings, see 3497x)</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34211">
+<rdfs:label>Steam, other vapor, or hydraulic turbines</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34212">
+<rdfs:label>Turbo-jets, turbo-propellers, and other gas turbines, including for aircraft</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34221">
+<rdfs:label>Boilers, power or heating, and nuclear reactors</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34222">
+<rdfs:label>Other Non-electric engines and motors, not elsewhere classified, including fluid power, windmills, spring- or weight-operated engines and motors, and missile and rocket reaction engines</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34310">
+<rdfs:label>Pumps for liquids and liquid elevators, including fluid power, vehicle, and service station pumps</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34320">
+<rdfs:label>Air or vacuum pumps and air or other gas compressors, (including compressors for refrigerating and air conditioning equipment)</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34330">
+<rdfs:label>Fans (including blowers) and ventilating or recycling hoods incorporating a fan</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34410">
+<rdfs:label>Air conditioning equipment (except compressors, see 34320, and evaporative air coolers, see 34999)</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34421">
+<rdfs:label>Household refrigerating or freezing equipment (except compressors, see 34320)</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34422">
+<rdfs:label>Commercial- or industrial-type refrigerating or freezing equipment (except compressors, see 34320)</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34511">
+<rdfs:label>Work trucks and tractors designed for lifting or for short distance transport of goods in factories, warehouses, docks, or airports (excludes trailers, see 36360)</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34519">
+<rdfs:label>Other Lifting, handling, loading, or unloading machinery, not elsewhere classified (excludes cranes for road use, see 36330)</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34520">
+<rdfs:label>Moving, grading, leveling, scraping, excavating, tamping, compacting, extracting, or boring machinery for earth, minerals, or ores, pile drivers and extractors, and snow ploughs and blowers (excludes motor vehicles for transporting goods, see 36220; tractors, see 36310; special purpose motor vehicles such as mobile drilling derricks, see 36330; parts for the vehicles listed above, see 3640x; powered hand tools, see 34950; and machinery for screening, mixing, etc. minerals, for drying, paving, etc., see 34999)</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34910">
+<rdfs:label>Dish-washing machines, machinery for cleaning or drying bottles or other containers, machinery for aerating beverages, and packing or wrapping machinery</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34920">
+<rdfs:label>Agricultural, horticultural, forestry, and poultry or bee-keeping machinery (excludes powered hand tools, see 34950; tractors, see 36310; trailers and wagons, see 36360; and machinery for spraying or drying, see 34999)</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34930">
+<rdfs:label>Textile manufacturing machines; laundry machines, including dryers; and sewing machines</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34940">
+<rdfs:label>Machine-tools for working hard materials, including metal-working (excludes other machines for working hard materials, such as woodworking presses; machines for working with metal wire; and machines for use in metallurgy, in foundries, or in metal rolling mills, see 34999 and in semiconductor manufacturing)</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34950">
+<rdfs:label>Powered hand-tools, pneumatic, hydraulic, or with a self-contained electric or non-electric motor, including tools for lawn or construction use</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34960">
+<rdfs:label>Machines and apparatus for soldering, brazing or welding, for surface tempering, or for hot spraying of metals; and wire, rods, electrodes, and similar products for use with such machines and apparatus</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34971">
+<rdfs:label>Ball and roller bearings including mounted</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34972">
+<rdfs:label>Transmission shafts and cranks, clutches, bearing housings and plain shaft bearings, gears and gearing, ball and roller screws, gear boxes and other speed changers, flywheels and pulleys, and shaft couplings (excludes gear motors, see 35110; and roller and similar chain, see 33999)</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34991">
+<rdfs:label>Machinery for making pulp, paper, or paperboard, including dryers and calendering machines</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34992">
+<rdfs:label>Book-binding, type-founding, type-setting, or printing machinery</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34993">
+<rdfs:label>Molding boxes for metal foundry, mold bases, molding patterns, and molds for metal carbides, glass, minerals, rubber, plastics, or metal (except ingot molds, see 34999)</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34994">
+<rdfs:label>Taps, cocks, valves, and similar appliances for pipes, boiler shells, tanks and vats, or the like, including those for use in plumbing</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34995">
+<rdfs:label>Semiconductor manufacturing machinery</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#34999">
+<rdfs:label>Other Machinery, not elsewhere classified</rdfs:label>
+<rdf:type rdf:resource="#MachineryCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+</rdf:RDF>
+

@@ -1,0 +1,368 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#have-codes.xsd">
+<rdfs:label>have-codes.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+    
+      
+      
+      
+    
+  
+  
+  <owl:Class rdf:about="#AvailabilityStatusCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#have-codes.xsd"/>
+<rdfs:comment>A data type for a code set of service availability.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Adequate">
+<rdfs:label>Meets the current needs</rdfs:label>
+<rdf:type rdf:resource="#AvailabilityStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Insufficient">
+<rdfs:label>Current needs are not being met</rdfs:label>
+<rdf:type rdf:resource="#AvailabilityStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#BedCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#have-codes.xsd"/>
+<rdfs:comment>A data type for a code set of available Bed Types.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#AdultICU">
+<rdfs:label>Capacity status for adult ICU bed type.  i. These can support critically ill or injured patients, including ventilator support.  ii. This category includes all major subtypes of ICU beds, including neuro, cardiac, trauma, or medical, with the exception that this category does not include burn ICU beds.</rdfs:label>
+<rdf:type rdf:resource="#BedCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Burn">
+<rdfs:label>Capacity status for burn beds. i. These are thought of as burn ICU beds, either approved by the American Burn Association or self-designated. ii. These beds are NOT to be included in other ICU bed counts.</rdfs:label>
+<rdf:type rdf:resource="#BedCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MedicalSurgical">
+<rdfs:label>Capacity status for medical-surgical beds. i. These are also thought of as ward beds. ii. These beds may or may not include cardiac telemetry capability</rdfs:label>
+<rdf:type rdf:resource="#BedCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NegativeFlowIsolation">
+<rdfs:label>i. Capacity status for negative airflow isolation beds. These provide respiratory isolation. NOTE: This value may represent available beds included in the counts of other types.</rdfs:label>
+<rdf:type rdf:resource="#BedCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OperatingRooms">
+<rdfs:label>i. Capacity status for operating rooms which are equipped staffed and could be made available for patient care in a short period of time.</rdfs:label>
+<rdf:type rdf:resource="#BedCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OtherIsolation">
+<rdfs:label>i. Capacity status for other isolation beds. These provide isolation where airflow is not a concern.  NOTE: This value may represent available beds included in the counts of other types.</rdfs:label>
+<rdf:type rdf:resource="#BedCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PediatricICU">
+<rdfs:label>i. Capacity status for pediatric ICU beds. This is similar to adult ICU beds, but for patients 17-years-old and younger.</rdfs:label>
+<rdf:type rdf:resource="#BedCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Pediatrics">
+<rdfs:label>i. Capacity status for pediatrics beds. These are ward medical/surgical beds for patients 17-years-old and younger.</rdfs:label>
+<rdf:type rdf:resource="#BedCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Psychiatric">
+<rdfs:label>i. Capacity status for psychiatric beds. These are ward beds on a closed/locked psychiatric unit or ward beds where a patient will be attended by a sitter.</rdfs:label>
+<rdf:type rdf:resource="#BedCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#CapacityStatusCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#have-codes.xsd"/>
+<rdfs:comment>A data type for a code set of bed kind or sub-category bed kind.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#NotAvailable">
+<rdfs:label>The type of bed is not available.</rdfs:label>
+<rdf:type rdf:resource="#CapacityStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VacantAvailable">
+<rdfs:label>The type of bed is available.</rdfs:label>
+<rdf:type rdf:resource="#CapacityStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#ClinicalStatusCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#have-codes.xsd"/>
+<rdfs:comment>A data type for a code set of the clinical status of the facility.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Full">
+<rdfs:label>Hospital clinical resources are exceeded and acceptable care cannot be provided to additional patients. Diversion or community surge response is required.</rdfs:label>
+<rdf:type rdf:resource="#ClinicalStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Level1">
+<rdfs:label>Hospital clinical resources are operating at Level-1 surge conditions.</rdfs:label>
+<rdf:type rdf:resource="#ClinicalStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Level2">
+<rdfs:label>Hospital clinical resources are operating at Level-2 surge conditions.</rdfs:label>
+<rdf:type rdf:resource="#ClinicalStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Normal">
+<rdfs:label>Hospital clinical resources are operating within normal conditions.</rdfs:label>
+<rdf:type rdf:resource="#ClinicalStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#DeconCapacityCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#have-codes.xsd"/>
+<rdfs:comment>A data type for a code set of the capacity for chemical/biological/radiological patient decontamination.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Exceeded">
+<rdfs:label>Needs exceed available capacity</rdfs:label>
+<rdf:type rdf:resource="#DeconCapacityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Full">
+<rdfs:label>In use at maximum capacity</rdfs:label>
+<rdf:type rdf:resource="#DeconCapacityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Inactive">
+<rdfs:label>Not being used, but available if needed</rdfs:label>
+<rdf:type rdf:resource="#DeconCapacityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Open">
+<rdfs:label>In use and able to accept additional patients</rdfs:label>
+<rdf:type rdf:resource="#DeconCapacityCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#EMSOffloadStatusCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#have-codes.xsd"/>
+<rdfs:comment>A data type for a code set of offload times of ambulance capabilities.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Delayed">
+<rdfs:label>The time required to offload the patient is longer than typical.</rdfs:label>
+<rdf:type rdf:resource="#EMSOffloadStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Normal">
+<rdfs:label>The time required to offload the patient is typical.</rdfs:label>
+<rdf:type rdf:resource="#EMSOffloadStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#EMSTrafficStatusCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#have-codes.xsd"/>
+<rdfs:comment>A data type for a code set of the status of EMS traffic operations.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Advisory">
+<rdfs:label>Experiencing specific resource limitations which may affect transport of some EMS traffic.</rdfs:label>
+<rdf:type rdf:resource="#EMSTrafficStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Closed">
+<rdfs:label>Requesting re-route of EMS traffic to other facilities.</rdfs:label>
+<rdf:type rdf:resource="#EMSTrafficStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Normal">
+<rdfs:label>Accepting all EMS traffic</rdfs:label>
+<rdf:type rdf:resource="#EMSTrafficStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NotApplicable">
+<rdfs:label>Not Applicable. This hospital does not have an emergency department.</rdfs:label>
+<rdf:type rdf:resource="#EMSTrafficStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#EOCPlanCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#have-codes.xsd"/>
+<rdfs:comment>A data type for a code set of whether the hospital has activated its Emergency Operations Plan (EOP)</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Active">
+<rdfs:label>Active</rdfs:label>
+<rdf:type rdf:resource="#EOCPlanCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Inactive">
+<rdfs:label>Inactive</rdfs:label>
+<rdf:type rdf:resource="#EOCPlanCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#EOCStatusCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#have-codes.xsd"/>
+<rdfs:comment>A data type for a code set of whether the Emergency Operations Center (EOC) is currently operating.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Active">
+<rdfs:label>Active</rdfs:label>
+<rdf:type rdf:resource="#EOCStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Inactive">
+<rdfs:label>Inactive</rdfs:label>
+<rdf:type rdf:resource="#EOCStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#FacilityStatusCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#have-codes.xsd"/>
+<rdfs:comment>A data type for a code set of facility status.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Closed">
+<rdfs:label>Indicates that a hospital is no longer capable of providing services and only emergency services/restoration personnel may remain in the facility.</rdfs:label>
+<rdf:type rdf:resource="#FacilityStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Compromised">
+<rdfs:label>General operations of the facility have been affected due to damage, operating on emergency backup systems, or facility contamination.</rdfs:label>
+<rdf:type rdf:resource="#FacilityStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Evacuating">
+<rdfs:label>Indicates that a hospital is in the process of a partial or full evacuation.</rdfs:label>
+<rdf:type rdf:resource="#FacilityStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Normal">
+<rdfs:label>No conditions exist that adversely affect the general operations of the facility.</rdfs:label>
+<rdf:type rdf:resource="#FacilityStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#MorgueCapacityCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#have-codes.xsd"/>
+<rdfs:comment>A data type for a code set of the status of the morgue capacity.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Exceeded">
+<rdfs:label>Storage needs exceed available space</rdfs:label>
+<rdf:type rdf:resource="#MorgueCapacityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Full">
+<rdfs:label>All normal space is in use</rdfs:label>
+<rdf:type rdf:resource="#MorgueCapacityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Open">
+<rdfs:label>Space is available</rdfs:label>
+<rdf:type rdf:resource="#MorgueCapacityCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#SecurityStatusCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#have-codes.xsd"/>
+<rdfs:comment>A data type for a code set of the status of security procedures in the hospital.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Elevated">
+<rdfs:label>The hospital has activated increased security procedures (awareness, surveillance) due to a potential threat, or specific security related event i.e. increase in local threat level, VIP, bomb threat.</rdfs:label>
+<rdf:type rdf:resource="#SecurityStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Lockdown">
+<rdfs:label>Based on security needs, the hospital has activated procedures to control entry to the facility to authorized persons only.</rdfs:label>
+<rdf:type rdf:resource="#SecurityStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Normal">
+<rdfs:label>The hospital is operating under routine security procedures.</rdfs:label>
+<rdf:type rdf:resource="#SecurityStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Quarantine">
+<rdfs:label>Based on a public health emergency, the entry and exit of the facility is controlled by public health officials</rdfs:label>
+<rdf:type rdf:resource="#SecurityStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RestrictedAccess">
+<rdfs:label>Based on security needs, the hospital has activated procedures to allow access to the facility through a reduced number of controlled entrances.</rdfs:label>
+<rdf:type rdf:resource="#SecurityStatusCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+</rdf:RDF>
+

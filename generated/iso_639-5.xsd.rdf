@@ -1,0 +1,492 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#iso_639-5.xsd">
+<rdfs:label>iso_639-5.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+  
+  
+  
+  <owl:Class rdf:about="#LanguageFamilyCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#iso_639-5.xsd"/>
+<rdfs:comment>A data type for the representation of names of living and extinct language families and groups.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#aav">
+<rdfs:label>Austro-Asiatic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#afa">
+<rdfs:label>Afro-Asiatic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#alg">
+<rdfs:label>Algonquian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#alv">
+<rdfs:label>Atlantic-Congo languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#apa">
+<rdfs:label>Apache languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#aqa">
+<rdfs:label>Alacalufan languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#aql">
+<rdfs:label>Algic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#art">
+<rdfs:label>Artificial languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ath">
+<rdfs:label>Athapascan languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#auf">
+<rdfs:label>Arauan languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#aus">
+<rdfs:label>Australian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#awd">
+<rdfs:label>Arawakan languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#azc">
+<rdfs:label>Uto-Aztecan languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#bad">
+<rdfs:label>Banda languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#bai">
+<rdfs:label>Bamileke languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#bat">
+<rdfs:label>Baltic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ber">
+<rdfs:label>Berber languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#bih">
+<rdfs:label>Bihari languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#bnt">
+<rdfs:label>Bantu languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#btk">
+<rdfs:label>Batak languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#cai">
+<rdfs:label>Central American Indian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#cau">
+<rdfs:label>Caucasian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#cba">
+<rdfs:label>Chibchan languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ccn">
+<rdfs:label>North Caucasian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ccs">
+<rdfs:label>South Caucasian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#cdc">
+<rdfs:label>Chadic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#cdd">
+<rdfs:label>Caddoan languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#cel">
+<rdfs:label>Celtic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#cmc">
+<rdfs:label>Chamic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#cpe">
+<rdfs:label>Creoles and pidgins, English&#8209;based</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#cpf">
+<rdfs:label>Creoles and pidgins, French&#8209;based</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#cpp">
+<rdfs:label>Creoles and pidgins, Portuguese-based</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#crp">
+<rdfs:label>Creoles and pidgins</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#csu">
+<rdfs:label>Central Sudanic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#cus">
+<rdfs:label>Cushitic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#day">
+<rdfs:label>Land Dayak languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#dmn">
+<rdfs:label>Mande languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#dra">
+<rdfs:label>Dravidian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#egx">
+<rdfs:label>Egyptian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#esx">
+<rdfs:label>Eskimo-Aleut languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#euq">
+<rdfs:label>Basque (family)</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#fiu">
+<rdfs:label>Finno-Ugrian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#fox">
+<rdfs:label>Formosan languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#gem">
+<rdfs:label>Germanic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#gme">
+<rdfs:label>East Germanic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#gmq">
+<rdfs:label>North Germanic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#gmw">
+<rdfs:label>West Germanic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#grk">
+<rdfs:label>Greek languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#hmx">
+<rdfs:label>Hmong-Mien languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#hok">
+<rdfs:label>Hokan languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#hyx">
+<rdfs:label>Armenian (family)</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#iir">
+<rdfs:label>Indo-Iranian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ijo">
+<rdfs:label>Ijo languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#inc">
+<rdfs:label>Indic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ine">
+<rdfs:label>Indo-European languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ira">
+<rdfs:label>Iranian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#iro">
+<rdfs:label>Iroquoian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#itc">
+<rdfs:label>Italic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#jpx">
+<rdfs:label>Japanese (family)</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#kar">
+<rdfs:label>Karen languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#kdo">
+<rdfs:label>Kordofanian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#khi">
+<rdfs:label>Khoisan languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#kro">
+<rdfs:label>Kru languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#map">
+<rdfs:label>Austronesian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#mkh">
+<rdfs:label>Mon-Khmer languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#mno">
+<rdfs:label>Manobo languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#mun">
+<rdfs:label>Munda languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#myn">
+<rdfs:label>Mayan languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#nah">
+<rdfs:label>Nahuatl languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#nai">
+<rdfs:label>North American Indian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ngf">
+<rdfs:label>Trans-New Guinea languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#nic">
+<rdfs:label>Niger-Kordofanian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#nub">
+<rdfs:label>Nubian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#omq">
+<rdfs:label>Oto-Manguean languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#omv">
+<rdfs:label>Omotic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#oto">
+<rdfs:label>Otomian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#paa">
+<rdfs:label>Papuan languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#phi">
+<rdfs:label>Philippine languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#plf">
+<rdfs:label>Central Malayo-Polynesian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#poz">
+<rdfs:label>Malayo-Polynesian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#pqe">
+<rdfs:label>Eastern Malayo-Polynesian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#pqw">
+<rdfs:label>Western Malayo-Polynesian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#pra">
+<rdfs:label>Prakrit languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#qwe">
+<rdfs:label>Quechuan (family)</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#roa">
+<rdfs:label>Romance languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#sai">
+<rdfs:label>South American Indian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#sal">
+<rdfs:label>Salishan languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#sdv">
+<rdfs:label>Eastern Sudanic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#sem">
+<rdfs:label>Semitic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#sgn">
+<rdfs:label>sign languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#sio">
+<rdfs:label>Siouan languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#sit">
+<rdfs:label>Sino-Tibetan languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#sla">
+<rdfs:label>Slavic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#smi">
+<rdfs:label>Sami languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#son">
+<rdfs:label>Songhai languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#sqj">
+<rdfs:label>Albanian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ssa">
+<rdfs:label>Nilo-Saharan languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#syd">
+<rdfs:label>Samoyedic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#tai">
+<rdfs:label>Tai languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#tbq">
+<rdfs:label>Tibeto-Burman languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#trk">
+<rdfs:label>Turkic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#tup">
+<rdfs:label>Tupi languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#tut">
+<rdfs:label>Altaic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#tuw">
+<rdfs:label>Tungus languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#urj">
+<rdfs:label>Uralic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#wak">
+<rdfs:label>Wakashan languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#wen">
+<rdfs:label>Sorbian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#xgn">
+<rdfs:label>Mongolian languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#xnd">
+<rdfs:label>Na-Dene languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ypk">
+<rdfs:label>Yupik languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#zhx">
+<rdfs:label>Chinese (family)</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#zle">
+<rdfs:label>East Slavic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#zls">
+<rdfs:label>South Slavic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#zlw">
+<rdfs:label>West Slavic languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#znd">
+<rdfs:label>Zande languages</rdfs:label>
+<rdf:type rdf:resource="#LanguageFamilyCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+  
+</rdf:RDF>
+

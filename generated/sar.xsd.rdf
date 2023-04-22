@@ -1,0 +1,378 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#sar.xsd">
+<rdfs:label>sar.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+    
+      
+    
+  
+  
+  <owl:Class rdf:about="#SuspiciousActivityCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#sar.xsd"/>
+<rdfs:comment>A data type for the broad categorization of Suspicious Activity.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#AVIATION">
+<rdfs:label>AVIATION ACTIVITY</rdfs:label>
+<rdf:type rdf:resource="#SuspiciousActivityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CYBER">
+<rdfs:label>CYBER ATTACK</rdfs:label>
+<rdf:type rdf:resource="#SuspiciousActivityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ELICIT">
+<rdfs:label>ELICITING INFORMATION</rdfs:label>
+<rdf:type rdf:resource="#SuspiciousActivityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EXPERT">
+<rdfs:label>ACQUISITION OF EXPERTISE</rdfs:label>
+<rdf:type rdf:resource="#SuspiciousActivityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INTRSN">
+<rdfs:label>BREACH/ATTEMPTED INSTRUSION</rdfs:label>
+<rdf:type rdf:resource="#SuspiciousActivityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MATRLS">
+<rdfs:label>MATERIALS/ACQUISITION/STORAGE</rdfs:label>
+<rdf:type rdf:resource="#SuspiciousActivityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MISREP">
+<rdfs:label>MISREPRESENTATION</rdfs:label>
+<rdf:type rdf:resource="#SuspiciousActivityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PHOTO">
+<rdfs:label>PHOTOGRAPHY</rdfs:label>
+<rdf:type rdf:resource="#SuspiciousActivityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RECRUT">
+<rdfs:label>RECRUITING</rdfs:label>
+<rdf:type rdf:resource="#SuspiciousActivityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SABOT">
+<rdfs:label>SABOTAGE/TAMPERING/VANDALISM</rdfs:label>
+<rdf:type rdf:resource="#SuspiciousActivityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SECTOR">
+<rdfs:label>SECTOR-SPECIFIC INCIDENT</rdfs:label>
+<rdf:type rdf:resource="#SuspiciousActivityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SURVL">
+<rdfs:label>OBSERVATION/SURVEILLANCE</rdfs:label>
+<rdf:type rdf:resource="#SuspiciousActivityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TESTSEC">
+<rdfs:label>TESTING OR PROBING OF SECURITY</rdfs:label>
+<rdf:type rdf:resource="#SuspiciousActivityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#THEFT">
+<rdfs:label>THEFT/LOSS/DIVERSION</rdfs:label>
+<rdf:type rdf:resource="#SuspiciousActivityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#THREAT">
+<rdfs:label>EXPRESSED OR IMPLIED THREAT</rdfs:label>
+<rdf:type rdf:resource="#SuspiciousActivityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WPNS">
+<rdfs:label>WEAPONS DISCOVERY</rdfs:label>
+<rdf:type rdf:resource="#SuspiciousActivityCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#TargetSectorCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#sar.xsd"/>
+<rdfs:comment>A data type for the broad categorization of infrastructure type.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#AGRI">
+<rdfs:label>Food, Agriculture, Livestock</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CHEM">
+<rdfs:label>Chemical</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COMM">
+<rdfs:label>Commercial Assets</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CORR">
+<rdfs:label>Correctional Location</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CSTL">
+<rdfs:label>Coastal Facilities</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CULTR">
+<rdfs:label>Cultural/Religious/Ethnical</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DAMS">
+<rdfs:label>Dams</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DFNSE">
+<rdfs:label>Defense Industrial Base</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EDU">
+<rdfs:label>Education</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EMRG">
+<rdfs:label>Emergency Services</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ENRG">
+<rdfs:label>Energy, Utilities</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ENTMT">
+<rdfs:label>Entertainment Venue</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FIN">
+<rdfs:label>Banking, Finance</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GVTBLDG">
+<rdfs:label>Government Facilities</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HAZMAT">
+<rdfs:label>Chemical, Hazardous Material</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HLTH">
+<rdfs:label>Healthcare, Public Health</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IT">
+<rdfs:label>Information Technology</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LIVSTK">
+<rdfs:label>Livestock</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MAIL">
+<rdfs:label>Postal, Shipping</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MASS">
+<rdfs:label>Mass Gathering Location</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MFG">
+<rdfs:label>Manufacturing</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MNMT">
+<rdfs:label>National Monument, Icon</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NATRL">
+<rdfs:label>Natural Threats</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NCLR">
+<rdfs:label>Nuclear Facilities</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OTHR">
+<rdfs:label>Other</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#POP">
+<rdfs:label>Population</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PRSN">
+<rdfs:label>Person</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RETL">
+<rdfs:label>Retail</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SPCFXN">
+<rdfs:label>Special Function</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TACTCP">
+<rdfs:label>Tactical Command Post</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TELCM">
+<rdfs:label>Telecommunications</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRANS">
+<rdfs:label>Transportation</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#UTL">
+<rdfs:label>Utilities</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WATR">
+<rdfs:label>Water</rdfs:label>
+<rdf:type rdf:resource="#TargetSectorCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#TipClassCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#sar.xsd"/>
+<rdfs:comment>A data type for a kind of threat to which the tip or lead pertains.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#BIO">
+<rdfs:label>Biological</rdfs:label>
+<rdf:type rdf:resource="#TipClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CHEM">
+<rdfs:label>Chemical</rdfs:label>
+<rdf:type rdf:resource="#TipClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CNTFTG">
+<rdfs:label>Counterfitting</rdfs:label>
+<rdf:type rdf:resource="#TipClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CTMN">
+<rdfs:label>Contaimination</rdfs:label>
+<rdf:type rdf:resource="#TipClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CYBER">
+<rdfs:label>Cyberstalking</rdfs:label>
+<rdf:type rdf:resource="#TipClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EXPL">
+<rdfs:label>Explosives</rdfs:label>
+<rdf:type rdf:resource="#TipClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FRAUD">
+<rdfs:label>Fraud</rdfs:label>
+<rdf:type rdf:resource="#TipClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FUND">
+<rdfs:label>Terrorism Funding</rdfs:label>
+<rdf:type rdf:resource="#TipClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HATE">
+<rdfs:label>Hate Crime</rdfs:label>
+<rdf:type rdf:resource="#TipClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INCEND">
+<rdfs:label>Incendiary</rdfs:label>
+<rdf:type rdf:resource="#TipClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INFRA">
+<rdfs:label>Critical Infrastructure</rdfs:label>
+<rdf:type rdf:resource="#TipClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LAUND">
+<rdfs:label>Money Laundering</rdfs:label>
+<rdf:type rdf:resource="#TipClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NCLR">
+<rdfs:label>Nuclear/Radiological</rdfs:label>
+<rdf:type rdf:resource="#TipClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SPCSA">
+<rdfs:label>Suspicious Activity</rdfs:label>
+<rdf:type rdf:resource="#TipClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SPCSP">
+<rdfs:label>Suspicious Person</rdfs:label>
+<rdf:type rdf:resource="#TipClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SPCSSBST">
+<rdfs:label>Suspicious Substance</rdfs:label>
+<rdf:type rdf:resource="#TipClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#THRTPUB">
+<rdfs:label>Threat Against Public Figure</rdfs:label>
+<rdf:type rdf:resource="#TipClassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VRUS">
+<rdfs:label>Virus/Worm</rdfs:label>
+<rdf:type rdf:resource="#TipClassCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#TipDomainCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#sar.xsd"/>
+<rdfs:comment>A data type for a broad category of threat to which the tip or lead pertains.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#A">
+<rdfs:label>Criminal Incident</rdfs:label>
+<rdf:type rdf:resource="#TipDomainCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B">
+<rdfs:label>Critical Infrastructure</rdfs:label>
+<rdf:type rdf:resource="#TipDomainCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C">
+<rdfs:label>Cyber Crime</rdfs:label>
+<rdf:type rdf:resource="#TipDomainCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D">
+<rdfs:label>Financial Incident</rdfs:label>
+<rdf:type rdf:resource="#TipDomainCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E">
+<rdfs:label>Intelligence</rdfs:label>
+<rdf:type rdf:resource="#TipDomainCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F">
+<rdfs:label>Security Issue</rdfs:label>
+<rdf:type rdf:resource="#TipDomainCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G">
+<rdfs:label>Suspicious Incident</rdfs:label>
+<rdf:type rdf:resource="#TipDomainCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H">
+<rdfs:label>Threats/Crimes Against Persons</rdfs:label>
+<rdf:type rdf:resource="#TipDomainCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+</rdf:RDF>
+

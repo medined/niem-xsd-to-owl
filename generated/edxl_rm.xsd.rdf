@@ -1,0 +1,140 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#edxl_rm.xsd">
+<rdfs:label>edxl_rm.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+    
+      
+    
+  
+  
+  <owl:Class rdf:about="#ContentCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#edxl_rm.xsd"/>
+<rdfs:comment>A data type code indicating the purpose or kind of resource content or payload being sent</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Accept">
+<rdfs:label>In response to a resource message; "I'll get back to you with an answer one way or the other (could still result in a "decline")"</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Acknowledge">
+<rdfs:label>In response to any resource message, "I have received your message but have not yet processed it"</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Cancel">
+<rdfs:label>Message used to revoke any previous resource message.  NOTE: This message may be used to "cancel" or "recall" resource: Resource requested and perhaps en route, but no longer needed.</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Commit Resource">
+<rdfs:label>Message used to agree or commit specific resource in response to a Resource Request or Requisition, or to a "Request Return"</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Decline">
+<rdfs:label>In response to a resource message; "I cannot meet your request"</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Notify Auxiliary Recipients">
+<rdfs:label>Message used to advise or notify an auxiliary recipient (e.g. a government official) about any resource message as an "FYI", where the auxiliary recipient was not included on original distribution.</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Notify Resource Request Disposition">
+<rdfs:label>Message used to report on the current "status" of any resource in relation to a Resource Requisition, Release Resource, or Request to Return Resource.</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Offer Unsolicited Resources">
+<rdfs:label>Message used to offer available resources (that have not been requested) to assist with an emergency response.</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Release Resource">
+<rdfs:label>Message used by authorities at the incident to "release" (demobilize) resource back to its original point of assignment or to another location / assignment.</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Request Extension">
+<rdfs:label>A request initiated by the requester / receiver of resource, "I want to extend how long I need to keep this resource"</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Request Information (RFI)">
+<rdfs:label>Message used to ask resource questions or provide general description of situation and general resources needs.</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Request Quote">
+<rdfs:label>Message used to request a price quote from a seller or supplier.</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Request Resource">
+<rdfs:label>Message used to request needed resources from one or many recipients, possibly spawning multiple responses.</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Request Resource Disposition">
+<rdfs:label>Message used to request current "status" of resource in relation to a previous Resource Requisition or Release Resource.</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Request Return">
+<rdfs:label>Message used to request release (demobilize) of resources back to its original point of assignment or to another location / assignment ("I want my stuff back").</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Requisition Resource">
+<rdfs:label>Message used to "order" specific resource, or to confirm specific resource to be "ordered" relating to one or more responses to a "Request Resource".</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Response to Offer Unsolicited Resources">
+<rdfs:label>Message used as the response to an offer of unsolicited resources, indicating accept or decline.</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Response to Request Information (RFI)">
+<rdfs:label>Message used as the response to an RFI message providing general information or to list resource that may meet the specified need.</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Response to Request Quote">
+<rdfs:label>Message used as the response to a "Request Quote".  Allows sender to list resource(s) which they feel represent suitable match with the request, with pricing information.</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Response to Request Resource">
+<rdfs:label>Message used as the response to a "Request Resource".  Allows sender to list resource(s) which they feel represent suitable match with a resource request.</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Response to Request Return">
+<rdfs:label>Message used as the response to a "Request Return" indicating whether the resource may be released, with relevant time-line information.</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Update">
+<rdfs:label>Message used to provide information superseding a previously sent Resource Message (change/modify one or more information elements of the message).  Example: Change requested resource quantity.</rdfs:label>
+<rdf:type rdf:resource="#ContentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#ResponseCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#edxl_rm.xsd"/>
+<rdfs:comment>A data type code indicating an accept or decline of a Request</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Accept">
+<rdfs:label>Accept</rdfs:label>
+<rdf:type rdf:resource="#ResponseCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Decline">
+<rdfs:label>Decline</rdfs:label>
+<rdf:type rdf:resource="#ResponseCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+</rdf:RDF>
+

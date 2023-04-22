@@ -1,0 +1,895 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#apco.xsd">
+<rdfs:label>apco.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+  
+  
+  <owl:Class rdf:about="#AlarmEventCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#apco.xsd"/>
+<rdfs:comment>A data type for kinds of alarm events.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#BURG">
+<rdfs:label>Burglary</rdfs:label>
+<rdf:type rdf:resource="#AlarmEventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Comm">
+<rdfs:label>Communication Fail</rdfs:label>
+<rdf:type rdf:resource="#AlarmEventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FIRE">
+<rdfs:label>Fire</rdfs:label>
+<rdf:type rdf:resource="#AlarmEventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Holdup">
+<rdfs:label>Holdup / Duress</rdfs:label>
+<rdf:type rdf:resource="#AlarmEventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Medical">
+<rdfs:label>Medical Alarm</rdfs:label>
+<rdf:type rdf:resource="#AlarmEventCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#AlarmEventLocationCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#apco.xsd"/>
+<rdfs:comment>A data type for the kinds of location at which an alarm event occurs.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#commercial">
+<rdfs:label>commercial</rdfs:label>
+<rdf:type rdf:resource="#AlarmEventLocationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#residential">
+<rdfs:label>residential</rdfs:label>
+<rdf:type rdf:resource="#AlarmEventLocationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#AlarmEventResponseActionCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#apco.xsd"/>
+<rdfs:comment>A data type for actions requested of an alarm event responder.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#notify">
+<rdfs:label>notify</rdfs:label>
+<rdf:type rdf:resource="#AlarmEventResponseActionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#respond">
+<rdfs:label>respond</rdfs:label>
+<rdf:type rdf:resource="#AlarmEventResponseActionCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#IncidentCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#apco.xsd"/>
+<rdfs:comment>A data type for incident codes.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#911H">
+<rdfs:label>911 HANG UP - 911 hang-ups</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#911OPN">
+<rdfs:label>911 OPEN LINE - 911 open line</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ABDOM">
+<rdfs:label>ABDOMINAL - Abdominal pain or problems</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ABDUCTF">
+<rdfs:label>ABDUCTION FAMILY - Abduction/kidnapping by family member</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ABDUCTNF">
+<rdfs:label>ABDUCTION NON-FAMILY - Abduction/kidnapping by non-family member</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ABUSE">
+<rdfs:label>ABUSE - Child or Elder</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ACCIND">
+<rdfs:label>INDUSTRIAL ACCIDENT - Includes entrapment in major machinery, industrial disasters</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ADMIN">
+<rdfs:label>ADMINISTRATIVE - Includes follow-ups, DNA collection, citizen complaints, law escorts, request extra patrol</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AIR">
+<rdfs:label>AIRCRAFT - Aircraft related incidents including reported hijacking</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALIEN">
+<rdfs:label>IMMIGRATION - Immigration violation, illegal aliens</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALLERGIC">
+<rdfs:label>ALLERGIC - Allergic reaction, insect stings</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRBA">
+<rdfs:label>BURGLAR ALARM- Audible - Includes audible Intrusion alarms</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRBOX">
+<rdfs:label>BOX ALARM - Pull box alarm for police, fire or EMS</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRBS">
+<rdfs:label>BURGLAR ALARM - Silent - Includes silent intrusion alarms</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRCO">
+<rdfs:label>FIRE ALARM - CO - Carbon Monoxide</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRCO2">
+<rdfs:label>FIRE ALARM - CO2 - Carbon Dioxide</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRDEFIB">
+<rdfs:label>DEFIBRILLATOR ALARM - Automated Implantable Cardiac Defibrillator (AICD) alarm or event</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRF">
+<rdfs:label>FIRE ALARM - Generic fire alarm</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRGAS">
+<rdfs:label>FIRE ALARM - GAS</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRHEAT">
+<rdfs:label>FIRE ALARM - HEAT</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRKPAD">
+<rdfs:label>FIRE ALARM - KEYPAD</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRMED">
+<rdfs:label>MEDICAL ALARM</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRNGAS">
+<rdfs:label>FIRE ALARM - NAT GAS - Natural Gas</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRPANA">
+<rdfs:label>PANIC ALARM AUDIBLE - Includes audible duress alarm</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRPANS">
+<rdfs:label>PANIC ALARM SILENT - Includes silent duress alarm</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRPROPN">
+<rdfs:label>FIRE ALARM - PROPANE</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRPULL">
+<rdfs:label>FIRE ALARM - PULL STATION</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRROBA">
+<rdfs:label>ROBBERY ALARM AUDIBLE - Includes hold up alarms</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRROBS">
+<rdfs:label>ROBBERY ALARM SILENT - Includes hold up alarms</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRU">
+<rdfs:label>ALARM UNK - Audible alarm unknown type</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRVEH">
+<rdfs:label>VEHICLE ALARM</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALRWTR">
+<rdfs:label>FIRE ALARM - WATER FLOW - includes sprinkler alarms</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALS">
+<rdfs:label>ALS - Advanced Life Support</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ANIMAL">
+<rdfs:label>ANIMAL - Animal complaints including animal rescue</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ASSAULT">
+<rdfs:label>ASSAULT - With or without injury</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ASSIST">
+<rdfs:label>ASSIST - Assist to other agency or request for manpower</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ATL">
+<rdfs:label>ATL - Attempt to Locate, BOLO</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BACK">
+<rdfs:label>BACK PAIN - Non traumatic</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BARICADE">
+<rdfs:label>BARRICADED - Barricaded person, gunman etc</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BIO">
+<rdfs:label>BIOLOGICAL - Biological threat</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BITE">
+<rdfs:label>ANIMAL BITE - Animal bites or attack by an animal</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BLDCLPSE">
+<rdfs:label>BUILDING COLLAPSE - Collapsed building includes technical rescue incidents</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BLEEDING">
+<rdfs:label>BLEEDING - Includes rectal, vaginal, non traumatic</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BLS">
+<rdfs:label>BLS - Basic Life Support incident</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BOMB">
+<rdfs:label>BOMB - Bomb threat or investigation</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BRGCLPSE">
+<rdfs:label>BRIDGE COLLAPSE</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BURGLARY">
+<rdfs:label>BURGLARY - Includes breaking and entering incidents</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BURN">
+<rdfs:label>BURNS</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CARDIAC">
+<rdfs:label>CARDIAC - Cardiac related event, heart attack, chest pain</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CARJACK">
+<rdfs:label>CARJACK</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CHEMICAL">
+<rdfs:label>CHEMICAL - Includes chemical and environmental incidents</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CHESPAIN">
+<rdfs:label>CHEST PAIN - Chest pain non cardiac</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CHOKE">
+<rdfs:label>CHOKING</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CITASST">
+<rdfs:label>CITIZEN ASSIST - Public assistance, citizen standby, public service</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CIVDIS">
+<rdfs:label>CIVIL DISOBEDIENCE - Riot, sit-in, protests, organized actions</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CIVIL">
+<rdfs:label>CIVIL - Civil matters, codes enforcement issues</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CNTRFT">
+<rdfs:label>COUNTERFEIT MONEY</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CRIMPS">
+<rdfs:label>IMPERSONATION - Criminal impersonation of officer or public official</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CRIMTRAF">
+<rdfs:label>CRIMINAL TRAFFIC - Driving with suspended license, no valid operator's license</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CURFEW">
+<rdfs:label>CURFEW VIOLATION</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DEATH">
+<rdfs:label>DEATH - Obvious death, found body</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DEATHNTF">
+<rdfs:label>DEATH NOTIFICATION</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DIABETIC">
+<rdfs:label>DIABETIC</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DISORD">
+<rdfs:label>DISORDERLY - Disorderly conduct or disturbance</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DISVEH">
+<rdfs:label>DISABLED VEHICLE</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DROWN">
+<rdfs:label>DROWNING</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DRUGPAR">
+<rdfs:label>DRUG PARAPHERNALIA - Possession of drug paraphernalia</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DRUGS">
+<rdfs:label>DRUGS</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DUI">
+<rdfs:label>DUI - Driving while intoxicated, under the influence</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DVA">
+<rdfs:label>DOMESTIC VIOLENT - Domestic dispute with violence, family fight, assault</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DVNA">
+<rdfs:label>DOMESTIC NON-VIOLENT - Domestic dispute non-violent, verbal</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EDP">
+<rdfs:label>EMOTION DIST PERSON - EDP, emotional disturbance, abnormal behavior</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ELEC">
+<rdfs:label>ELECTROCUTION - Includes struck by lightning</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ELECHZD">
+<rdfs:label>ELECTRICAL HAZARD - Includes all electrical problems</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ELUDING">
+<rdfs:label>ELUDING - Eluding law enforcement</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ENTRAP">
+<rdfs:label>ENTRAPMENT - Includes accidental entrapments, inaccessible incidents, stuck elevator</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ESCAPE">
+<rdfs:label>ESCAPE - Escaped prisoner</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EXPLOS">
+<rdfs:label>EXPLOSION</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EXPOSURE">
+<rdfs:label>EXPOSURE - Heat or cold exposure</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EXTORT">
+<rdfs:label>EXTORT - Includes blackmail</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EYE">
+<rdfs:label>EYE - Eye problems or injury</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FAIRC">
+<rdfs:label>FIRE AIRCRAFT</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FALL">
+<rdfs:label>FALL - Non traumatic fall</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FAPT">
+<rdfs:label>FIRE APARTMENT - Multi-family dwelling, apartment building</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FARSON">
+<rdfs:label>FIRE ARSON</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FBRUSH">
+<rdfs:label>FIRE BRUSH - Includes tress, brush grass controlled burns with no structural exposure, outdoor fires</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FELEC">
+<rdfs:label>FIRE ELECTRICAL - Includes arcing wires, shorted electrical equipment, light ballast, transformers.</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FFUEL">
+<rdfs:label>FIRE FUEL FACILITY - Includes gas stations, fuel refinery</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FIGHT">
+<rdfs:label>FIGHT - Includes verbal and physical disputes</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FIREWRKS">
+<rdfs:label>FIREWORKS - Illegal use of fireworks</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FMARINE">
+<rdfs:label>FIRE MARINE - Includes marine vessels &amp; boats on waterways (for boats on land use FIRE VEHICLE)</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FORCENTR">
+<rdfs:label>INACCESSIBLE INCIDENT - Includes breech, forcible entry required for structure, residential lock outs</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FOTHER">
+<rdfs:label>FIRE OTHER - Includes other types not listed</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FRAUD">
+<rdfs:label>FRAUD - Includes forgery, fraud, bad checks, identity theft</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FREPORT">
+<rdfs:label>FIRE REPORT - Response to take fire report only no active fire, incident not in progress</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FSMOKE">
+<rdfs:label>FIRE SMOKE - Includes fire investigations, smoke odors no flames seen</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FSTRU">
+<rdfs:label>FIRE STRUCTURE - Includes sheds, attached garages, house fires</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FTRAILER">
+<rdfs:label>FIRE TRAILER - Single wide mobile home fires-double wide should use FIRE STRUCTURE</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FTRAIN">
+<rdfs:label>FIRE TRAIN - Any type of railway fire, locomotive, rail car, passenger car etc</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FTRASH">
+<rdfs:label>FIRE TRASH - Refuse fires, garbage cans, dumpsters</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FTRUCK">
+<rdfs:label>FIRE TRUCK - Includes large vehicles such as RV, tractor trailers, dump trucks, buses</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FUNK">
+<rdfs:label>FIRE UNKNOWN</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FVEH">
+<rdfs:label>FIRE VEHICLE - Includes small or medium size vehicles, passenger cars, SUV, vans, pick-up trucks</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GASLEAK">
+<rdfs:label>GAS LEAK - Includes natural gas, liquid fuel or propane leaks</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HARR">
+<rdfs:label>HARASSMENT - Includes intimidation</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HAZMAT">
+<rdfs:label>HAZMAT - Hazardous materials incident can include fuel spill, chemical biological radiological or nuclear (CBRN)</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HEADACHE">
+<rdfs:label>HEADACHE</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HEMRG">
+<rdfs:label>HEMORRHAGE - Severe bleeding, lacerations</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HOMICIDE">
+<rdfs:label>HOMICIDE - Includes murder, criminally negligent homicide, manslaughter</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HOSTAGE">
+<rdfs:label>HOSTAGE</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INDECENT">
+<rdfs:label>INDECENT - Includes indecent exposure, indecent liberties</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INFO">
+<rdfs:label>INFO - Informational calls</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INTERNET">
+<rdfs:label>INTERNET CRIMES - Obscene material, pornography, cyber bullying</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INTOX">
+<rdfs:label>INTOXICATED - Intoxicated person, drunk &amp; disorderly</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INVEST">
+<rdfs:label>INVESTIGATION</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LARCENY">
+<rdfs:label>LARCENY - Includes larceny attempt, theft, pick-pocketing</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LIQUOR">
+<rdfs:label>LIQUOR VIOLATION - Includes selling to minors, underage drinking, over service</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MAJORINC">
+<rdfs:label>MAJOR INCIDENT - Includes large scale weather related event, weapons of mass destruction event - typically used as a code declared by incident command</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MAYDAY">
+<rdfs:label>MAYDAY - Immediate assistance request, emergency back-up request</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MCI">
+<rdfs:label>MASS CASUALTY INCIDENT - MCI - typically used as a code declared by incident command</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MISBOATR">
+<rdfs:label>MISSING BOATER - Missing person(s) last seen on boat out on a waterway</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MISCON">
+<rdfs:label>MISCONDUCT - Includes conspiracy, falsifying information, plotting, other misconduct</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MVA">
+<rdfs:label>MVA - Motor vehicle accident no injury can be received as automated crash notification</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MVAHR">
+<rdfs:label>HIT &amp; RUN - Vehicle accident hit &amp; run</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MVAINJY">
+<rdfs:label>MVA INJY - Motor Vehicle accident with injury can be received as automated crash notification, includes car pedestrian, ATV accidents</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MVAUNK">
+<rdfs:label>MVA UNK - Motor vehicle accident unknown injury can be received as automated crash notification crash notification</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NEGLECT">
+<rdfs:label>NEGLECT</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NOISE">
+<rdfs:label>NOISE - Loud noise or music</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OD">
+<rdfs:label>OD - Overdose accidental, poisoning, accidental ingestion</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ODOR">
+<rdfs:label>ODOR - Odor investigation any type</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OPEN">
+<rdfs:label>UNSECURE-BLDG - Includes Open door, open window</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ORDERV">
+<rdfs:label>ORDER VIOLATION - Domestic violence writ violation, order of protection, custody disputes</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PANDEMIC">
+<rdfs:label>PANDEMIC - Pandemic flu or illness outbreak, epidemic</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PARKING">
+<rdfs:label>PARKING - Parking problems/complaints, handicap parking violation</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PERFND">
+<rdfs:label>FOUND PERSON - Adults &amp; children</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PERMISS">
+<rdfs:label>MISSING PERSON</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PERSUSP">
+<rdfs:label>SUSPICIOUS PERSON - Includes prowler, peeping tom</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PERUNCON">
+<rdfs:label>UNCONSCIOUS - Unconscious person Includes fainting and near fainting</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PERWANT">
+<rdfs:label>WANTED PERSON - Arrest warrant, fugitive information</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PHANDLE">
+<rdfs:label>PANHANDLING</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PREG">
+<rdfs:label>PREGNANCY - Pregnancy problems, childbirth, miscarriage</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PROPFND">
+<rdfs:label>FOUND PROPERTY - Includes abandoned bicycles, found cell phones, purses</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PROPLOST">
+<rdfs:label>LOST PROPERTY</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PROPSTLN">
+<rdfs:label>STOLEN PROPERTY - Includes retention of, transferring or receiving stolen property</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PUBWKS">
+<rdfs:label>PUBLIC WORKS / UTILITIES - Public works, utility company requests, transportation infrastructure</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PURSUIT">
+<rdfs:label>PURSUIT - Includes vehicle or foot pursuits</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RADIAT">
+<rdfs:label>RADIATION INCIDENT - Includes nuclear incidents</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RECKDRV">
+<rdfs:label>RECKLESS DRIVER - Careless driving and other driving offenses</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#REPO">
+<rdfs:label>REPO - Vehicle repossession</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RESCUE">
+<rdfs:label>RESCUE - Includes lock-ins, high angle rescue</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RESIST">
+<rdfs:label>RESISTING ARREST</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RESP">
+<rdfs:label>RESPIRATORY - Difficulty breathing, shortness of breath, respiratory issue</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RESPARR">
+<rdfs:label>RESPIRATORY ARREST</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ROBBERY">
+<rdfs:label>ROBBERY - Includes strong arm and attempted robbery excludes car jacking</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RUNAWAY">
+<rdfs:label>RUNAWAY - Includes thrown away children</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SAR">
+<rdfs:label>SEARCH AND RESCUE</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SEIZURE">
+<rdfs:label>SEIZURE - Includes convulsions</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SEXOFFNS">
+<rdfs:label>SEX OFFENSE - Sexual offenses, assaults, rapes, sex abuse, molestation, incest</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SHOOT">
+<rdfs:label>SHOOTING</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SHOPLIFT">
+<rdfs:label>SHOPLIFTING</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SICK">
+<rdfs:label>SICK - Sick person non specific, general illness, flu</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SMOKING">
+<rdfs:label>SMOKING - Smoking violation</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STABBING">
+<rdfs:label>STABBING</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STDBY">
+<rdfs:label>AGENCY STANDBY - Police, Fire or EMS</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STROKE">
+<rdfs:label>STROKE - Stroke or cerebral vascular accident (CVA)</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SUBJSTP">
+<rdfs:label>SUBJECT STOP</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SUICIDE">
+<rdfs:label>SUICIDE</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SUICTHRT">
+<rdfs:label>SUICIDE THREATS - Attempt or threatening suicide</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SUSP">
+<rdfs:label>SUSPICIOUS - Suspicious incident, circumstances, unknown problems</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TERROR">
+<rdfs:label>TERRORIST ACTIVITY</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#THAZ">
+<rdfs:label>TRAFFIC HAZARD - Includes debris in roadway, black ice</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#THREATS">
+<rdfs:label>THREATS</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TOW">
+<rdfs:label>TOW</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRAIN">
+<rdfs:label>TRAIN - Incidents other than fires or derailments related to trains</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRAINDRL">
+<rdfs:label>TRAIN DERAIL</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRANSFER">
+<rdfs:label>TRANSFER - Inter-facility transfer, palliative care</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRAUMA">
+<rdfs:label>TRAUMA - Traumatic Injury including head injury</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRAUMAP">
+<rdfs:label>PENETRATING TRAUMA - Other than shooting or stabbing</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRESPASS">
+<rdfs:label>TRESPASS</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TROUBLE">
+<rdfs:label>TROUBLE - Unknown type trouble</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRUANT">
+<rdfs:label>TRUANT</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TSTOP">
+<rdfs:label>TRAFFIC STOP</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VANDAL">
+<rdfs:label>VANDALISM - Vehicle tampering, graffiti, criminal mischief</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VEHABND">
+<rdfs:label>ABANDONED VEH</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VEHASST">
+<rdfs:label>MOTORIST ASSIST - Assist to motorist includes vehicle lock outs</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VEHLOCK">
+<rdfs:label>VEHICLE LOCK OUT</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VEHREC">
+<rdfs:label>RECOVERED VEHICLE - Recovered stolen vehicle</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VEHSTLN">
+<rdfs:label>STOLEN VEHICLE - Includes Lo-Jack alerts</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VEHSUSP">
+<rdfs:label>SUSPICIOUS VEHICLE</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VICE">
+<rdfs:label>VICE - Prostitution, gambling, betting, wagering, embezzlement</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WARRANT">
+<rdfs:label>SEARCH WARRANT</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WATER">
+<rdfs:label>WATER RESCUE - All water incidents, diving &amp; scuba accidents, boat/jet ski accident, water evacuations</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WEAPON">
+<rdfs:label>WEAPON VIOLATION - Brandishing a weapon, CCW, illegal discharge, displaying, drive by</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WELFARE">
+<rdfs:label>WELFARE CHECK - man down check, welfare check</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WILDLIFE">
+<rdfs:label>WILDLIFE VIOLATIONS - Illegal hunting, game violations, fisheries</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WIRES">
+<rdfs:label>WIRES DOWN</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#XTRACATE">
+<rdfs:label>EXTRICATION - Confined space rescue, vehicle extrication</rdfs:label>
+<rdf:type rdf:resource="#IncidentCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+</rdf:RDF>
+

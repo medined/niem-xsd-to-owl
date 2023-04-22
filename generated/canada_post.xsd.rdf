@@ -1,0 +1,768 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#canada_post.xsd">
+<rdfs:label>canada_post.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+  
+  
+  
+  <owl:Class rdf:about="#CanadianProvinceCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#canada_post.xsd"/>
+<rdfs:comment>A data type for provinces in Canada.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#AB">
+<rdfs:label>Alberta</rdfs:label>
+<rdf:type rdf:resource="#CanadianProvinceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BC">
+<rdfs:label>British Columbia</rdfs:label>
+<rdf:type rdf:resource="#CanadianProvinceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MB">
+<rdfs:label>Manitoba</rdfs:label>
+<rdf:type rdf:resource="#CanadianProvinceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NB">
+<rdfs:label>New Brunswick</rdfs:label>
+<rdf:type rdf:resource="#CanadianProvinceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NL">
+<rdfs:label>Newfoundland and Labrador</rdfs:label>
+<rdf:type rdf:resource="#CanadianProvinceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NS">
+<rdfs:label>Nova Scotia</rdfs:label>
+<rdf:type rdf:resource="#CanadianProvinceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NT">
+<rdfs:label>Northwest Territories</rdfs:label>
+<rdf:type rdf:resource="#CanadianProvinceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NU">
+<rdfs:label>Nunavut</rdfs:label>
+<rdf:type rdf:resource="#CanadianProvinceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ON">
+<rdfs:label>Ontario</rdfs:label>
+<rdf:type rdf:resource="#CanadianProvinceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PE">
+<rdfs:label>Prince Edward Island</rdfs:label>
+<rdf:type rdf:resource="#CanadianProvinceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#QC">
+<rdfs:label>Qu&#233;bec</rdfs:label>
+<rdf:type rdf:resource="#CanadianProvinceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SK">
+<rdfs:label>Saskatchewan</rdfs:label>
+<rdf:type rdf:resource="#CanadianProvinceCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#YT">
+<rdfs:label>Yukon</rdfs:label>
+<rdf:type rdf:resource="#CanadianProvinceCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#StreetCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#canada_post.xsd"/>
+<rdfs:comment>A data type for a kind of street.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#ABBEY">
+<rdfs:label>Abbey</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ACRES">
+<rdfs:label>Acres</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALL&#201;E">
+<rdfs:label>All&#233;e</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ALLEY">
+<rdfs:label>Alley</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AUT">
+<rdfs:label>Autoroute</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AV">
+<rdfs:label>Avenue (French)</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AVE">
+<rdfs:label>Avenue (English)</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BAY">
+<rdfs:label>Bay</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BEACH">
+<rdfs:label>Beach</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BEND">
+<rdfs:label>Bend</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BLVD">
+<rdfs:label>Boulevard (English)</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BOUL">
+<rdfs:label>Boulevard (French)</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BYPASS">
+<rdfs:label>By-pass</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BYWAY">
+<rdfs:label>Byway</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C">
+<rdfs:label>Centre (French)</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CAMPUS">
+<rdfs:label>Campus</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CAPE">
+<rdfs:label>Cape</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CAR">
+<rdfs:label>Carr&#233;</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CARREF">
+<rdfs:label>Carrefour</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CDS">
+<rdfs:label>Cul-de-sac</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CERCLE">
+<rdfs:label>Cercle</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CH">
+<rdfs:label>Chemin</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CHASE">
+<rdfs:label>Chase</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CIR">
+<rdfs:label>Circle</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CIRCT">
+<rdfs:label>Circuit</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CLOSE">
+<rdfs:label>Close</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COMMON">
+<rdfs:label>Common</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CONC">
+<rdfs:label>Concession</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C&#212;TE">
+<rdfs:label>C&#244;te</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COUR">
+<rdfs:label>Cour</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COURS">
+<rdfs:label>Cours</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COVE">
+<rdfs:label>Cove</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CRES">
+<rdfs:label>Crescent</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CRNRS">
+<rdfs:label>Corners</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CROIS">
+<rdfs:label>Croissant</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CROSS">
+<rdfs:label>Crossing</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CRT">
+<rdfs:label>Court</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CTR">
+<rdfs:label>Centre (English)</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DALE">
+<rdfs:label>Dale</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DELL">
+<rdfs:label>Dell</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DIVERS">
+<rdfs:label>Diversion</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DOWNS">
+<rdfs:label>Downs</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DR">
+<rdfs:label>Drive</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#&#201;CH">
+<rdfs:label>&#201;changeur</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#END">
+<rdfs:label>End</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ESPL">
+<rdfs:label>Esplanade</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ESTATE">
+<rdfs:label>Estates</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EXPY">
+<rdfs:label>Expressway</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#EXTEN">
+<rdfs:label>Extension</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FARM">
+<rdfs:label>Farm</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FIELD">
+<rdfs:label>Field</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FOREST">
+<rdfs:label>Forest</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FRONT">
+<rdfs:label>Front</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FWY">
+<rdfs:label>Freeway</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GATE">
+<rdfs:label>Gate</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GDNS">
+<rdfs:label>Gardens</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GLADE">
+<rdfs:label>Glade</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GLEN">
+<rdfs:label>Glen</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GREEN">
+<rdfs:label>Green</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GRNDS">
+<rdfs:label>Grounds</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GROVE">
+<rdfs:label>Grove</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HARBR">
+<rdfs:label>Harbour</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HEATH">
+<rdfs:label>Heath</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HGHLDS">
+<rdfs:label>Highlands</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HILL">
+<rdfs:label>Hill</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HOLLOW">
+<rdfs:label>Hollow</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HTS">
+<rdfs:label>Heights</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HWY">
+<rdfs:label>Highway</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#&#206;LE">
+<rdfs:label>&#206;le</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IMP">
+<rdfs:label>Impasse</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INLET">
+<rdfs:label>Inlet</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ISLAND">
+<rdfs:label>Island</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KEY">
+<rdfs:label>Key</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KNOLL">
+<rdfs:label>Knoll</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LANDNG">
+<rdfs:label>Landing</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LANE">
+<rdfs:label>Lane</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LINE">
+<rdfs:label>Line</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LINK">
+<rdfs:label>Link</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LKOUT">
+<rdfs:label>Lookout</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LMTS">
+<rdfs:label>Limits</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LOOP">
+<rdfs:label>Loop</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MALL">
+<rdfs:label>Mall</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MANOR">
+<rdfs:label>Manor</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MAZE">
+<rdfs:label>Maze</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MEADOW">
+<rdfs:label>Meadow</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MEWS">
+<rdfs:label>Mews</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MONT&#201;E">
+<rdfs:label>Mont&#233;e</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MOOR">
+<rdfs:label>Moor</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MOUNT">
+<rdfs:label>Mount</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MTN">
+<rdfs:label>Mountain</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ORCH">
+<rdfs:label>Orchard</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PARADE">
+<rdfs:label>Parade</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PARC">
+<rdfs:label>Parc</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PASS">
+<rdfs:label>Passage</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PATH">
+<rdfs:label>Path</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PINES">
+<rdfs:label>Pines</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PK">
+<rdfs:label>Park</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PKY">
+<rdfs:label>Parkway</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PL">
+<rdfs:label>Place (English)</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PLACE">
+<rdfs:label>Place (French)</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PLAT">
+<rdfs:label>Plateau</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PLAZA">
+<rdfs:label>Plaza</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#POINTE">
+<rdfs:label>Pointe</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PORT">
+<rdfs:label>Port</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PROM">
+<rdfs:label>Promenade</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PT">
+<rdfs:label>Point</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PTWAY">
+<rdfs:label>Pathway</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PVT">
+<rdfs:label>Private</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#QUAI">
+<rdfs:label>Quai</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#QUAY">
+<rdfs:label>Quay</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RAMP">
+<rdfs:label>Ramp</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RANG">
+<rdfs:label>Rang</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RD">
+<rdfs:label>Road</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RDPT">
+<rdfs:label>Rond-point</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RG">
+<rdfs:label>Range</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RIDGE">
+<rdfs:label>Ridge</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RISE">
+<rdfs:label>Rise</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RLE">
+<rdfs:label>Ruelle</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ROW">
+<rdfs:label>Row</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RTE">
+<rdfs:label>Route</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RUE">
+<rdfs:label>Rue</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#RUN">
+<rdfs:label>Run</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SENT">
+<rdfs:label>Sentier</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SQ">
+<rdfs:label>Square</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ST">
+<rdfs:label>Street</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SUBDIV">
+<rdfs:label>Subdivision</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TERR">
+<rdfs:label>Terrace</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#THICK">
+<rdfs:label>Thicket</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TLINE">
+<rdfs:label>Townline</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TOWERS">
+<rdfs:label>Towers</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRAIL">
+<rdfs:label>Trail</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TRNABT">
+<rdfs:label>Turnabout</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TSSE">
+<rdfs:label>Terrasse</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VALE">
+<rdfs:label>Vale</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VIA">
+<rdfs:label>Via</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VIEW">
+<rdfs:label>View</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VILLAS">
+<rdfs:label>Villas</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VILLGE">
+<rdfs:label>Village</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VISTA">
+<rdfs:label>Vista</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#VOIE">
+<rdfs:label>Voie</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WALK">
+<rdfs:label>Walk</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WAY">
+<rdfs:label>Way</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WHARF">
+<rdfs:label>Wharf</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WOOD">
+<rdfs:label>Wood</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WYND">
+<rdfs:label>Wynd</rdfs:label>
+<rdf:type rdf:resource="#StreetCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#StreetDirectionCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#canada_post.xsd"/>
+<rdfs:comment>A data type for street directions.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#E">
+<rdfs:label>East</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E">
+<rdfs:label>Est</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N">
+<rdfs:label>Nord</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N">
+<rdfs:label>North</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NE">
+<rdfs:label>Nord-Est</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NE">
+<rdfs:label>Northeast</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NO">
+<rdfs:label>Nord-Ouest</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NW">
+<rdfs:label>Northwest</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#O">
+<rdfs:label>Ouest</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S">
+<rdfs:label>South</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#S">
+<rdfs:label>Sud</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SE">
+<rdfs:label>Southeast</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SE">
+<rdfs:label>Sud-Est</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SO">
+<rdfs:label>Sud-Ouest</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SW">
+<rdfs:label>Southwest</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#W">
+<rdfs:label>West</rdfs:label>
+<rdf:type rdf:resource="#StreetDirectionCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+</rdf:RDF>
+

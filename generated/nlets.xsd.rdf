@@ -1,0 +1,136 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#nlets.xsd">
+<rdfs:label>nlets.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+  
+  
+  <owl:Class rdf:about="#AgencyAuthorizationCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#nlets.xsd"/>
+<rdfs:comment>A data type for an agency's access category to data.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#A">
+<rdfs:label>administrative messages</rdfs:label>
+<rdf:type rdf:resource="#AgencyAuthorizationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C">
+<rdfs:label>criminal history access</rdfs:label>
+<rdf:type rdf:resource="#AgencyAuthorizationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D">
+<rdfs:label>DMV data access</rdfs:label>
+<rdf:type rdf:resource="#AgencyAuthorizationCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Z">
+<rdfs:label>other NLETS message types</rdfs:label>
+<rdf:type rdf:resource="#AgencyAuthorizationCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#AgencyServiceHoursCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#nlets.xsd"/>
+<rdfs:comment>A data type for the availability of an agency.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#A">
+<rdfs:label>24 hr service w/terminal.</rdfs:label>
+<rdf:type rdf:resource="#AgencyServiceHoursCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B">
+<rdfs:label>Not 24 hr service w/terminal.</rdfs:label>
+<rdf:type rdf:resource="#AgencyServiceHoursCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C">
+<rdfs:label>24 hr service, w/o terminal.</rdfs:label>
+<rdf:type rdf:resource="#AgencyServiceHoursCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D">
+<rdfs:label>Not 24 hr service, w/o terminal.</rdfs:label>
+<rdf:type rdf:resource="#AgencyServiceHoursCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#OrganizationCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#nlets.xsd"/>
+<rdfs:comment>A data type for the functional kinds of an organization.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#CJ">
+<rdfs:label>Will return all defined non-law enforcement criminal justice agencies and should be used as a general type for all ORIs ending in B, M, N, or Y.</rdfs:label>
+<rdf:type rdf:resource="#OrganizationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FE">
+<rdfs:label>Federal agency.</rdfs:label>
+<rdf:type rdf:resource="#OrganizationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#JA">
+<rdfs:label>Any prosecutor.</rdfs:label>
+<rdf:type rdf:resource="#OrganizationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#JC">
+<rdfs:label>Any corrections agency.</rdfs:label>
+<rdf:type rdf:resource="#OrganizationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#JF">
+<rdfs:label>Any Federal non-law enforcement criminal justice agency.</rdfs:label>
+<rdf:type rdf:resource="#OrganizationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#JG">
+<rdfs:label>Any probation agency.</rdfs:label>
+<rdf:type rdf:resource="#OrganizationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#JJ">
+<rdfs:label>Any court agency.</rdfs:label>
+<rdf:type rdf:resource="#OrganizationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LE">
+<rdfs:label>Used as a catchall for any agency not fitting the above criteria.  May be used on inquiry or record creation.</rdfs:label>
+<rdf:type rdf:resource="#OrganizationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NJ">
+<rdfs:label>Non-criminal justice agencies</rdfs:label>
+<rdf:type rdf:resource="#OrganizationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PD">
+<rdfs:label>Any agency of city government.</rdfs:label>
+<rdf:type rdf:resource="#OrganizationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SA">
+<rdfs:label>Any agency employed by a state with statewide jurisdiction.</rdfs:label>
+<rdf:type rdf:resource="#OrganizationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SO">
+<rdfs:label>Any agency of county government incl. parishes where apropos.</rdfs:label>
+<rdf:type rdf:resource="#OrganizationCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+</rdf:RDF>
+

@@ -1,0 +1,120 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#xlink-2003-12-31.xsd">
+<rdfs:label>xlink-2003-12-31.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+	
+		
+	
+	
+		<owl:Class rdf:about="#">
+<rdfs:subClassOf rdf:resource="#xlink-2003-12-31.xsd"/>
+<rdfs:comment>
+	    Enumeration of values for the type attribute
+	    </rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#simple">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#extended">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#locator">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#arc">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#resource">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#title">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+
+	
+	
+		<owl:Class rdf:about="#">
+<rdfs:subClassOf rdf:resource="#xlink-2003-12-31.xsd"/>
+<rdfs:comment>
+	      A URI with a minimum length of 1 character.
+	      </rdfs:comment>
+</owl:Class>
+
+	
+	
+		<owl:Class rdf:about="#">
+<rdfs:subClassOf rdf:resource="#xlink-2003-12-31.xsd"/>
+<rdfs:comment>
+	      A URI with a minimum length of 1 character.
+	      </rdfs:comment>
+</owl:Class>
+
+	
+	
+	
+		<owl:Class rdf:about="#">
+<rdfs:subClassOf rdf:resource="#xlink-2003-12-31.xsd"/>
+<rdfs:comment>
+	      Enumeration of values for the show attribute
+	      </rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#new">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#replace">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#embed">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#other">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#none">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+
+	
+	
+		<owl:Class rdf:about="#">
+<rdfs:subClassOf rdf:resource="#xlink-2003-12-31.xsd"/>
+<rdfs:comment>
+      Enumeration of values for the actuate attribute
+      </rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#onLoad">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#onRequest">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#other">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#none">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+
+	
+	
+	
+	
+	
+</rdf:RDF>
+

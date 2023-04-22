@@ -1,0 +1,79 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#jp2-0.xsd">
+<rdfs:label>jp2-0.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+    
+      
+    
+  
+  
+  
+  <owl:Class rdf:about="#DocumentIntelligenceCategoryCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#jp2-0.xsd"/>
+<rdfs:comment>A data type for natures or genres of a document or resource.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#CI">
+<rdfs:label>Counterintelligence</rdfs:label>
+<rdf:type rdf:resource="#DocumentIntelligenceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#COMINT">
+<rdfs:label>communications intelligence</rdfs:label>
+<rdf:type rdf:resource="#DocumentIntelligenceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ELINT">
+<rdfs:label>electronic intelligence</rdfs:label>
+<rdf:type rdf:resource="#DocumentIntelligenceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FISINT">
+<rdfs:label>foreign instrumentation signals intelligence</rdfs:label>
+<rdf:type rdf:resource="#DocumentIntelligenceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GEOINT">
+<rdfs:label>Geospatial Intelligence</rdfs:label>
+<rdf:type rdf:resource="#DocumentIntelligenceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HUMINT">
+<rdfs:label>Human Intelligence</rdfs:label>
+<rdf:type rdf:resource="#DocumentIntelligenceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IMINT">
+<rdfs:label>imagery intelligence</rdfs:label>
+<rdf:type rdf:resource="#DocumentIntelligenceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MASINT">
+<rdfs:label>Measurement and Signature Intelligence</rdfs:label>
+<rdf:type rdf:resource="#DocumentIntelligenceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OSINT">
+<rdfs:label>Open-Source Intelligence</rdfs:label>
+<rdf:type rdf:resource="#DocumentIntelligenceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SIGINT">
+<rdfs:label>Signals Intelligence</rdfs:label>
+<rdf:type rdf:resource="#DocumentIntelligenceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TECHINT">
+<rdfs:label>Technical Intelligence</rdfs:label>
+<rdf:type rdf:resource="#DocumentIntelligenceCategoryCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+  
+</rdf:RDF>
+

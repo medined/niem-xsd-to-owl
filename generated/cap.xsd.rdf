@@ -1,0 +1,337 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#cap.xsd">
+<rdfs:label>cap.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+      
+    
+    
+      
+        
+        
+        
+        
+          <owl:Class rdf:about="#">
+<rdfs:subClassOf rdf:resource="#cap.xsd"/>
+<rdfs:comment/>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Actual">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Exercise">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#System">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Test">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Draft">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+
+        
+        
+          <owl:Class rdf:about="#">
+<rdfs:subClassOf rdf:resource="#cap.xsd"/>
+<rdfs:comment/>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Alert">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Update">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Cancel">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Ack">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Error">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+
+        
+        
+        
+          <owl:Class rdf:about="#">
+<rdfs:subClassOf rdf:resource="#cap.xsd"/>
+<rdfs:comment/>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Public">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Restricted">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Private">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+
+        
+        
+        
+        
+        
+        
+        
+        
+          
+            
+              
+              
+                <owl:Class rdf:about="#">
+<rdfs:subClassOf rdf:resource="#cap.xsd"/>
+<rdfs:comment/>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Geo">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Met">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Safety">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Security">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Rescue">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Fire">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Health">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Env">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Transport">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Infra">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CBRNE">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Other">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+
+              
+              
+              
+                <owl:Class rdf:about="#">
+<rdfs:subClassOf rdf:resource="#cap.xsd"/>
+<rdfs:comment/>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Shelter">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Evacuate">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Prepare">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Execute">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Monitor">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Assess">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#None">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+
+              
+              
+                <owl:Class rdf:about="#">
+<rdfs:subClassOf rdf:resource="#cap.xsd"/>
+<rdfs:comment/>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Immediate">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Expected">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Future">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Past">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Unknown">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+
+              
+              
+                <owl:Class rdf:about="#">
+<rdfs:subClassOf rdf:resource="#cap.xsd"/>
+<rdfs:comment/>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Extreme">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Severe">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Moderate">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Minor">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Unknown">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+
+              
+              
+                <owl:Class rdf:about="#">
+<rdfs:subClassOf rdf:resource="#cap.xsd"/>
+<rdfs:comment/>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#Observed">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Likely">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Possible">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Unlikely">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Unknown">
+<rdfs:label/>
+<rdf:type rdf:resource="#"/>
+</owl:NamedIndividual>
+
+              
+              
+              
+                
+                  
+                    
+                    
+                  
+                
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+                
+                  
+                    
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                    
+                    
+                    
+                    
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                    
+                    
+                    
+                      
+                        
+                          
+                          
+                        
+                      
+                    
+                    
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+  
+  
+  
+</rdf:RDF>
+

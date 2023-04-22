@@ -1,0 +1,1056 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#unece_rec20.xsd">
+<rdfs:label>unece_rec20.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+  
+  
+  
+  <owl:Class rdf:about="#AreaCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#unece_rec20.xsd"/>
+<rdfs:comment>A data type for units of measurements for an area value.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#ACR">
+<rdfs:label>acre</rdfs:label>
+<rdf:type rdf:resource="#AreaCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ARE">
+<rdfs:label>are</rdfs:label>
+<rdf:type rdf:resource="#AreaCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CMK">
+<rdfs:label>square centimetre</rdfs:label>
+<rdf:type rdf:resource="#AreaCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DAA">
+<rdfs:label>decare</rdfs:label>
+<rdf:type rdf:resource="#AreaCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DMK">
+<rdfs:label>square decimetre</rdfs:label>
+<rdf:type rdf:resource="#AreaCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FTK">
+<rdfs:label>square foot</rdfs:label>
+<rdf:type rdf:resource="#AreaCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H16">
+<rdfs:label>square decametre</rdfs:label>
+<rdf:type rdf:resource="#AreaCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H18">
+<rdfs:label>square hectometre</rdfs:label>
+<rdf:type rdf:resource="#AreaCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H30">
+<rdfs:label>square micrometre (square micron)</rdfs:label>
+<rdf:type rdf:resource="#AreaCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H59">
+<rdfs:label>square metre per newton</rdfs:label>
+<rdf:type rdf:resource="#AreaCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HAR">
+<rdfs:label>hectare</rdfs:label>
+<rdf:type rdf:resource="#AreaCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INK">
+<rdfs:label>square inch</rdfs:label>
+<rdf:type rdf:resource="#AreaCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KMK">
+<rdfs:label>square kilometre</rdfs:label>
+<rdf:type rdf:resource="#AreaCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M47">
+<rdfs:label>circular mil</rdfs:label>
+<rdf:type rdf:resource="#AreaCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M48">
+<rdfs:label>square mile (based on U.S. survey foot)</rdfs:label>
+<rdf:type rdf:resource="#AreaCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MIK">
+<rdfs:label>square mile (statute mile)</rdfs:label>
+<rdf:type rdf:resource="#AreaCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MMK">
+<rdfs:label>square millimetre</rdfs:label>
+<rdf:type rdf:resource="#AreaCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MTK">
+<rdfs:label>square metre</rdfs:label>
+<rdf:type rdf:resource="#AreaCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#YDK">
+<rdfs:label>square yard</rdfs:label>
+<rdf:type rdf:resource="#AreaCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#LengthCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#unece_rec20.xsd"/>
+<rdfs:comment>A data type for units of measurements for a length value.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#4H">
+<rdfs:label>micrometre (micron)</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#77">
+<rdfs:label>milli-inch</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A11">
+<rdfs:label>angstrom</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A12">
+<rdfs:label>astronomical unit</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A45">
+<rdfs:label>decametre</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A71">
+<rdfs:label>femtometre</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AK">
+<rdfs:label>fathom</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#AWG">
+<rdfs:label>american wire gauge</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B57">
+<rdfs:label>light year</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C45">
+<rdfs:label>nanometre</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C52">
+<rdfs:label>picometre</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C63">
+<rdfs:label>parsec</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CMT">
+<rdfs:label>centimetre</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DMT">
+<rdfs:label>decimetre</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F49">
+<rdfs:label>rod [unit of distance]</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F50">
+<rdfs:label>micrometre per kelvin</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F51">
+<rdfs:label>centimetre per kelvin</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F52">
+<rdfs:label>metre per kelvin</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FOT">
+<rdfs:label>foot</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G04">
+<rdfs:label>centimetre per bar</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G05">
+<rdfs:label>metre per bar</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G06">
+<rdfs:label>millimetre per bar</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H79">
+<rdfs:label>French gauge</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H84">
+<rdfs:label>gram millimetre</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HMT">
+<rdfs:label>hectometre</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INH">
+<rdfs:label>inch</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#K13">
+<rdfs:label>foot per degree Fahrenheit</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#K17">
+<rdfs:label>foot per psi</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#K45">
+<rdfs:label>inch per degree Fahrenheit</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#K46">
+<rdfs:label>inch per psi</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KMT">
+<rdfs:label>kilometre</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KTM">
+<rdfs:label>kilometre</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L98">
+<rdfs:label>yard per degree Fahrenheit</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L99">
+<rdfs:label>yard per psi</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M49">
+<rdfs:label>chain (based on U.S. survey foot)</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M50">
+<rdfs:label>furlong</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M51">
+<rdfs:label>foot (U.S. survey)</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M52">
+<rdfs:label>mile (based on U.S. survey foot)</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M53">
+<rdfs:label>metre per pascal</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M7">
+<rdfs:label>micro-inch</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MAM">
+<rdfs:label>megametre</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MMT">
+<rdfs:label>millimetre</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MTR">
+<rdfs:label>metre</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NMI">
+<rdfs:label>nautical mile</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SMI">
+<rdfs:label>mile (statute mile)</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#X1">
+<rdfs:label>Gunter's chain</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#YRD">
+<rdfs:label>yard</rdfs:label>
+<rdf:type rdf:resource="#LengthCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#MassCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#unece_rec20.xsd"/>
+<rdfs:comment>A data type for units of measurement for a weight value.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#2U">
+<rdfs:label>megagram</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#APZ">
+<rdfs:label>troy ounce or apothecary ounce</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CGM">
+<rdfs:label>centigram</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CWA">
+<rdfs:label>hundred pound (cwt) / hundred weight (US)</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CWI">
+<rdfs:label>hundred weight (UK)</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DG">
+<rdfs:label>decigram</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DJ">
+<rdfs:label>decagram</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DTN">
+<rdfs:label>decitonne</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F13">
+<rdfs:label>slug</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GRM">
+<rdfs:label>gram</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GRN">
+<rdfs:label>grain</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HGM">
+<rdfs:label>hectogram</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#K64">
+<rdfs:label>pound (avoirdupois) per degree Fahrenheit</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KGM">
+<rdfs:label>kilogram</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KTN">
+<rdfs:label>kilotonne</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L69">
+<rdfs:label>tonne per kelvin</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L87">
+<rdfs:label>ton short per degree Fahrenheit</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LBR">
+<rdfs:label>pound</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LTN">
+<rdfs:label>ton (UK) or long ton (US)</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M85">
+<rdfs:label>ton, assay</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M86">
+<rdfs:label>pfund</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MC">
+<rdfs:label>microgram</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MGM">
+<rdfs:label>milligram</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ONZ">
+<rdfs:label>ounce (avoirdupois)</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STI">
+<rdfs:label>stone (UK)</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#STN">
+<rdfs:label>ton (US) or short ton (UK/US)</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#TNE">
+<rdfs:label>tonne (metric ton)</rdfs:label>
+<rdf:type rdf:resource="#MassCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#TemperatureUnitCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#unece_rec20.xsd"/>
+<rdfs:comment>A data type for temperature unit of measurement codes.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#A48">
+<rdfs:label>degree Rankine</rdfs:label>
+<rdf:type rdf:resource="#TemperatureUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CEL">
+<rdfs:label>degree Celsius</rdfs:label>
+<rdf:type rdf:resource="#TemperatureUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#E98">
+<rdfs:label>degree Celsius per kelvin</rdfs:label>
+<rdf:type rdf:resource="#TemperatureUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F02">
+<rdfs:label>kelvin per kelvin</rdfs:label>
+<rdf:type rdf:resource="#TemperatureUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F10">
+<rdfs:label>kelvin per hour</rdfs:label>
+<rdf:type rdf:resource="#TemperatureUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F11">
+<rdfs:label>kelvin per minute</rdfs:label>
+<rdf:type rdf:resource="#TemperatureUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F12">
+<rdfs:label>kelvin per second</rdfs:label>
+<rdf:type rdf:resource="#TemperatureUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F60">
+<rdfs:label>degree Celsius per bar</rdfs:label>
+<rdf:type rdf:resource="#TemperatureUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#F61">
+<rdfs:label>kelvin per bar</rdfs:label>
+<rdf:type rdf:resource="#TemperatureUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FAH">
+<rdfs:label>degree Fahrenheit</rdfs:label>
+<rdf:type rdf:resource="#TemperatureUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H12">
+<rdfs:label>degree Celsius per hour</rdfs:label>
+<rdf:type rdf:resource="#TemperatureUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H13">
+<rdfs:label>degree Celsius per minute</rdfs:label>
+<rdf:type rdf:resource="#TemperatureUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H14">
+<rdfs:label>degree Celsius per second</rdfs:label>
+<rdf:type rdf:resource="#TemperatureUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#J20">
+<rdfs:label>degree Fahrenheit per kelvin</rdfs:label>
+<rdf:type rdf:resource="#TemperatureUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#J21">
+<rdfs:label>degree Fahrenheit per bar</rdfs:label>
+<rdf:type rdf:resource="#TemperatureUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#J26">
+<rdfs:label>reciprocal degree Fahrenheit</rdfs:label>
+<rdf:type rdf:resource="#TemperatureUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#N79">
+<rdfs:label>kelvin per pascal</rdfs:label>
+<rdf:type rdf:resource="#TemperatureUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#TimeCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#unece_rec20.xsd"/>
+<rdfs:comment>A data type for units of time.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#ANN">
+<rdfs:label>year</rdfs:label>
+<rdf:type rdf:resource="#TimeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B52">
+<rdfs:label>kilosecond</rdfs:label>
+<rdf:type rdf:resource="#TimeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#B98">
+<rdfs:label>microsecond</rdfs:label>
+<rdf:type rdf:resource="#TimeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C26">
+<rdfs:label>millisecond</rdfs:label>
+<rdf:type rdf:resource="#TimeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C47">
+<rdfs:label>nanosecond</rdfs:label>
+<rdf:type rdf:resource="#TimeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#D42">
+<rdfs:label>tropical year</rdfs:label>
+<rdf:type rdf:resource="#TimeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DAY">
+<rdfs:label>day</rdfs:label>
+<rdf:type rdf:resource="#TimeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H70">
+<rdfs:label>picosecond</rdfs:label>
+<rdf:type rdf:resource="#TimeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HUR">
+<rdfs:label>hour</rdfs:label>
+<rdf:type rdf:resource="#TimeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L95">
+<rdfs:label>common year</rdfs:label>
+<rdf:type rdf:resource="#TimeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L96">
+<rdfs:label>sidereal year</rdfs:label>
+<rdf:type rdf:resource="#TimeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M56">
+<rdfs:label>shake</rdfs:label>
+<rdf:type rdf:resource="#TimeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MIN">
+<rdfs:label>minute [unit of time]</rdfs:label>
+<rdf:type rdf:resource="#TimeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MON">
+<rdfs:label>month</rdfs:label>
+<rdf:type rdf:resource="#TimeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SEC">
+<rdfs:label>second [unit of time]</rdfs:label>
+<rdf:type rdf:resource="#TimeCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#WEE">
+<rdfs:label>week</rdfs:label>
+<rdf:type rdf:resource="#TimeCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#VelocityCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#unece_rec20.xsd"/>
+<rdfs:comment>A data type for units of measurement for a speed or velocity.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#2M">
+<rdfs:label>centimetre per second</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#2X">
+<rdfs:label>metre per minute</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#C16">
+<rdfs:label>millimetre per second</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FR">
+<rdfs:label>foot per minute</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FS">
+<rdfs:label>foot per second</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H49">
+<rdfs:label>centimetre per hour</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H66">
+<rdfs:label>millimetre per year</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H67">
+<rdfs:label>millimetre per hour</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H81">
+<rdfs:label>millimetre per minute</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HM">
+<rdfs:label>mile per hour (statute mile)</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#IU">
+<rdfs:label>inch per second</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#J84">
+<rdfs:label>centimetre per second kelvin</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#J85">
+<rdfs:label>centimetre per second bar</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#K14">
+<rdfs:label>foot per hour</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#K18">
+<rdfs:label>foot per second degree Fahrenheit</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#K19">
+<rdfs:label>foot per second psi</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#K47">
+<rdfs:label>inch per second degree Fahrenheit</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#K48">
+<rdfs:label>inch per second psi</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KMH">
+<rdfs:label>kilometre per hour</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#KNT">
+<rdfs:label>knot</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L12">
+<rdfs:label>metre per second kelvin</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L13">
+<rdfs:label>metre per second bar</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M22">
+<rdfs:label>millilitre per square centimetre minute</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M57">
+<rdfs:label>mile per minute</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M58">
+<rdfs:label>mile per second</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M59">
+<rdfs:label>metre per second pascal</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M60">
+<rdfs:label>metre per hour</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M61">
+<rdfs:label>inch per year</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M62">
+<rdfs:label>kilometre per second</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M63">
+<rdfs:label>inch per minute</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M64">
+<rdfs:label>yard per second</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M65">
+<rdfs:label>yard per minute</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M66">
+<rdfs:label>yard per hour</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MTS">
+<rdfs:label>metre per second</rdfs:label>
+<rdf:type rdf:resource="#VelocityCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#VolumeUnitCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#unece_rec20.xsd"/>
+<rdfs:comment>A data type for volume unit of measurement codes.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#4G">
+<rdfs:label>microlitre</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#5I">
+<rdfs:label>standard cubic foot</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#A44">
+<rdfs:label>decalitre</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BLD">
+<rdfs:label>dry barrel (US)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BLL">
+<rdfs:label>barrel (US)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BUA">
+<rdfs:label>bushel (US)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#BUI">
+<rdfs:label>bushel (UK)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CLT">
+<rdfs:label>centilitre</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#CMQ">
+<rdfs:label>cubic centimetre</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DLT">
+<rdfs:label>decilitre</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DMA">
+<rdfs:label>cubic decametre</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#DMQ">
+<rdfs:label>cubic decimetre</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#FTQ">
+<rdfs:label>cubic foot</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G21">
+<rdfs:label>cup [unit of volume]</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G23">
+<rdfs:label>peck</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G24">
+<rdfs:label>tablespoon (US)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G25">
+<rdfs:label>teaspoon (US)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G26">
+<rdfs:label>stere</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G94">
+<rdfs:label>cubic centimetre per bar</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G95">
+<rdfs:label>litre per bar</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G96">
+<rdfs:label>cubic metre per bar</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#G97">
+<rdfs:label>millilitre per bar</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GLD">
+<rdfs:label>dry gallon (US)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GLI">
+<rdfs:label>gallon (UK)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#GLL">
+<rdfs:label>gallon (US)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H19">
+<rdfs:label>cubic hectometre</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#H20">
+<rdfs:label>cubic kilometre</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#HLT">
+<rdfs:label>hectolitre</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#INQ">
+<rdfs:label>cubic inch</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#J57">
+<rdfs:label>barrel (UK petroleum)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#K21">
+<rdfs:label>cubic foot per degree Fahrenheit</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#K23">
+<rdfs:label>cubic foot per psi</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#K6">
+<rdfs:label>kilolitre</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L43">
+<rdfs:label>peck (UK)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L61">
+<rdfs:label>pint (US dry)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L62">
+<rdfs:label>quart (US dry)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L84">
+<rdfs:label>ton (UK shipping)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#L86">
+<rdfs:label>ton (US shipping)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#LTR">
+<rdfs:label>litre</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M11">
+<rdfs:label>cubic yard per degree Fahrenheit</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M14">
+<rdfs:label>cubic yard per psi</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M67">
+<rdfs:label>acre-foot (based on U.S. survey foot)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M68">
+<rdfs:label>cord (128 ft3)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M69">
+<rdfs:label>cubic mile (UK statute)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M70">
+<rdfs:label>ton, register</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#M71">
+<rdfs:label>cubic metre per pascal</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MAL">
+<rdfs:label>megalitre</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MLT">
+<rdfs:label>millilitre</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MMQ">
+<rdfs:label>cubic millimetre</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#MTQ">
+<rdfs:label>cubic metre</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#NM3">
+<rdfs:label>Normalised cubic metre</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OZA">
+<rdfs:label>fluid ounce (US)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#OZI">
+<rdfs:label>fluid ounce (UK)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PT">
+<rdfs:label>pint (US)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PTD">
+<rdfs:label>dry pint (US)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PTI">
+<rdfs:label>pint (UK)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#PTL">
+<rdfs:label>liquid pint (US)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Q32">
+<rdfs:label>femtolitre</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Q33">
+<rdfs:label>picolitre</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Q34">
+<rdfs:label>nanolitre</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#QT">
+<rdfs:label>quart (US)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#QTD">
+<rdfs:label>dry quart (US)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#QTI">
+<rdfs:label>quart (UK)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#QTL">
+<rdfs:label>liquid quart (US)</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#SM3">
+<rdfs:label>Standard cubic metre</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#YDQ">
+<rdfs:label>cubic yard</rdfs:label>
+<rdf:type rdf:resource="#VolumeUnitCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+</rdf:RDF>
+

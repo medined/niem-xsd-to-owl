@@ -1,0 +1,247 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:appinfo="http://release.niem.gov/niem/appinfo/5.0/">
+<owl:Ontology rdf:about="http://codebits.com"/><owl:Class rdf:about="#nga.xsd">
+<rdfs:label>nga.xsd</rdfs:label>
+<rdfs:comment>Marker class to aggregate classes for this file.</rdfs:comment>
+</owl:Class>
+  
+    
+  
+  
+  
+  <owl:Class rdf:about="#DirectionDatumCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#nga.xsd"/>
+<rdfs:comment>A data type for a reference direction as determined by the means by which it is established (e.g., by the direction of a geographic or magnetic pole of the Earth).</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#geodetic">
+<rdfs:label>Referenced to the direction of the geographic North Pole.</rdfs:label>
+<rdf:type rdf:resource="#DirectionDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Magnetic">
+<rdfs:label>Referenced to the direction of the magnetic North Pole.</rdfs:label>
+<rdf:type rdf:resource="#DirectionDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#militaryGrid">
+<rdfs:label>Referenced to the direction of "north" in a military grid established by a suitable map-projection, for example Universal Transverse Mercator (UTM).</rdfs:label>
+<rdf:type rdf:resource="#DirectionDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#Relative">
+<rdfs:label>Referenced to a direction established by the context of use (for example: the heading of a vessel).</rdfs:label>
+<rdf:type rdf:resource="#DirectionDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  <owl:Class rdf:about="#VerticalDatumCodeSimpleType">
+<rdfs:subClassOf rdf:resource="#nga.xsd"/>
+<rdfs:comment>A data type for vertical datum codes.</rdfs:comment>
+</owl:Class>
+<owl:NamedIndividual rdf:about="#approxLowestAstronomTide">
+<rdfs:label>Approximate Lowest Astronomical Tide: An approximate level, usually within 0.3 metres from that of lowest astronomical tide.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#approxMeanLowerLowWater">
+<rdfs:label>Approximate Mean Lower Low Water: An approximate level, usually within 0.3 metres from that of mean lower low water.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#approxMeanLowWater">
+<rdfs:label>Approximate Mean Low Water: An approximate level, usually within 0.3 metres from that of mean low water.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#approxMeanLowWaterSprings">
+<rdfs:label>Approximate Mean Low Water Springs: An approximate level, usually within 0.3 metres from that of mean low water springs.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#approxMeanSeaLevel">
+<rdfs:label>Approximate Mean Sea Level: An approximate level, usually within 0.3 metres from that of mean sea level.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#equinoctialSpringLowWater">
+<rdfs:label>Equinoctial Spring Low Water: The level of low water springs near the time of an equinox.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#groundLevel">
+<rdfs:label>Ground Level: A continuous surface over dry land and non-tidal waters (for example: lakes). [desc] In the case of non-tidal waters it is necessary to specify hydrologic conditions in order to ensure a precise reference surface specification. Over extensive areas it is often defined by a digital elevation model (for example: a matrix of elevation values or a Triangulated Irregular Network (TIN)). Over tidal waters (for example: oceans) it is usually considered to be extended to cover the remainder of the world based on a Mean Sea Level (MSL) surface.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#higherHighWater">
+<rdfs:label>Higher High Water: The highest of the high waters (or single high water) of any specified tidal day due to the declination A1 effects of the moon and sun.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#higherHighWaterLargeTide">
+<rdfs:label>Higher High Water Large Tide: The average of the highest high waters, one from each of 19 years of observations.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#highestAstronomicalTide">
+<rdfs:label>Highest Astronomical Tide: The highest tidal level, which can be predicted to occur under average meteorological conditions and under any combination of astronomical conditions.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#highestHighWater">
+<rdfs:label>Highest High Water: The highest water level observed at a location.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#highWater">
+<rdfs:label>High Water: The highest level reached at a location by the water surface in one tidal cycle. [desc] When used on inland waters it is generally defined as a level that the daily mean water level exceeds less than 5 percent of the time.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#highWaterSprings">
+<rdfs:label>High Water Springs: An arbitrary level, approximating that of mean high water springs.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#igld1985">
+<rdfs:label>International Great Lakes Datum 1985: A vertical reference system with its zero based on the mean water level at Rimouski/Pointe-au-P&#232;re, Quebec, over the period 1970 to 1988.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#indianSpringHighWater">
+<rdfs:label>Indian Spring High Water: A tidal surface datum approximating the level of the mean of the higher high water at spring tides. [desc] This tidal datum approximates the highest water level observed at a location and is usually above that of the higher high water at spring tides.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#indianSpringLowWater">
+<rdfs:label>Indian Spring Low Water: A tidal surface datum approximating the level of the mean of the lower low water at spring tides. [desc] This tidal datum approximates the lowest water level observed at a location and is usually below that of the lower low water at spring tides.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#lowerLowWater">
+<rdfs:label>Lower Low Water: The lowest of the low waters (or single low water) of any specified tidal day due to the declination A1 effects of the moon and sun.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#lowerLowWaterLargeTide">
+<rdfs:label>Lower Low Water Large Tide: The average of the lowest low waters, one from each of 19 years of observations.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#lowestAstronomicalTide">
+<rdfs:label>Lowest Astronomical Tide: The lowest tide level that can be predicted to occur under average meteorological conditions and under any combination of astronomical conditions.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#lowestLowWater">
+<rdfs:label>Lowest Low Water: An arbitrary level conforming to the lowest tide observed at a location, or somewhat lower.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#lowestLowWaterSprings">
+<rdfs:label>Lowest Low Water Springs: An arbitrary level conforming to the lowest water level observed at a location at spring tides during a period shorter than 19 years.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#lowWater">
+<rdfs:label>Low Water: An approximation of mean low water adopted as the reference level for a limited region, irrespective of better determinations later. [desc] Used mostly in harbour and river engineering. Used in inland waters. It is generally defined as a level which the daily mean water level would fall below less than 5 percent of the time and by no more than 0.2 metres during the navigation season. A single level surface is usually chosen as the low water datum for a whole lake. On a river, low water datum is a sloping surface, which approximates the surface of the river at a low state.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#lowWaterSprings">
+<rdfs:label>Low Water Springs: A level approximating that of mean low water springs.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#meanHigherHighWater">
+<rdfs:label>Mean Higher High Water: The average height of higher high waters at a location over a 19-year period.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#meanHigherHighWaterSprings">
+<rdfs:label>Mean Higher High Water Springs: The average height of higher high water at spring tides at a location.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#meanHighWater">
+<rdfs:label>Mean High Water: The average height of all high waters at a location over a 19-year period.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#meanHighWaterNeaps">
+<rdfs:label>Mean High Water Neaps: The average height of the high waters of the neap tide.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#meanHighWaterSprings">
+<rdfs:label>Mean High Water Springs: The average height of the high waters of spring tides.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#meanLowerLowWater">
+<rdfs:label>Mean Lower Low Water: The average height of the lower low waters at a location over a 19-year period.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#meanLowerLowWaterSprings">
+<rdfs:label>Mean Lower Low Water Springs: The average height of lower low water at spring tides at a location.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#meanLowWater">
+<rdfs:label>Mean Low Water: The average height of all low waters at a location over a 19-year period.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#meanLowWaterNeaps">
+<rdfs:label>Mean Low Water Neaps: The average height of the low waters of the neap tide.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#meanLowWaterSprings">
+<rdfs:label>Mean Low Water Springs: The average height of the low waters of spring tides.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#meanSeaLevel">
+<rdfs:label>Mean Sea Level (MSL): A continuous surface over the oceans (or its hypothetical extension under the land masses) defined by the mean of sea level surfaces approximated and observed over 19 years.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#meanTideLevel">
+<rdfs:label>Mean Tide Level: The arithmetic mean of mean high water and mean low water.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#meanWaterLevel">
+<rdfs:label>Mean Water Level: The average of all hourly water levels over the available period of record.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#navd88">
+<rdfs:label>North American Vertical Datum (NAVD) 1988: A fixed reference for elevations derived from a general adjustment of the first-order terrestrial levelling nets of the United States, Canada, and Mexico. [desc] In the adjustment, only the height of the primary tidal bench mark, referenced to the International Great Lakes Datum of 1985 local mean sea level height value, at Pointe-au-Pere, Quebec, on the Gulf of St. Lawrence was held fixed, thus providing minimum constraint.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#neapTide">
+<rdfs:label>Neap Tide: A tide of decreased range (or tidal currents of decreased speed) occurring semi-monthly as the result of the moon being in quadrature. [desc] The neap range of the tide is the average range occurring at the time of neap tides and is most conveniently computed from the harmonic constants. It is smaller than the mean range where the type of tide is either semi-diurnal or mixed and is of no practical significance where the type of tide is predominantly diurnal.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#nearlyHighestHighWater">
+<rdfs:label>Nearly Highest High Water: An arbitrary level approximating the highest water level observed at a location, usually equivalent to the high water springs.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#nearlyLowestLowWater">
+<rdfs:label>Nearly Lowest Low Water: A level approximating the lowest water level observed at a location, usually equivalent to Indian spring low water.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#ngvd29">
+<rdfs:label>National Geodetic Vertical Datum (NGVD) 1929: A fixed reference for elevations derived from a general adjustment in 1929 of the first-order leveling nets of both the United States and Canada. [desc] In the adjustment, mean sea level was held fixed as observed at 21 tide stations in the United States and 5 in Canada.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#springTide">
+<rdfs:label>Spring Tide: A tide of increased range (or tidal water currents of increased speed) occurring semi-monthly as the result of the moon being new or full. [desc] The spring range of tide is the average range occurring at the time of spring tides and is most conveniently computed from the harmonic constants. It is larger than the mean range where the type of tide is either semi-diurnal or mixed, and is of no practical significance where the type of tide is predominantly diurnal.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#waterLevel">
+<rdfs:label>Water Level: A locally observed level of the water surface. [desc] In the case of non-tidal waters (for example: lakes or rivers) it is necessary to specify hydrologic conditions in order to ensure a precise reference surface specification. Over tidal waters (for example: oceans) it is necessary to specify tidal conditions in order to ensure a precise reference surface specification.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#wgs84Egm08Geoid">
+<rdfs:label>WGS 84 EGM08 Geoid: The geopotential surface defined by the World Geodetic System (WGS) 1984 EGM08 Earth Gravity Model that is closely associated with the mean ocean surface.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#wgs84Egm96Geoid">
+<rdfs:label>WGS 84 EGM96 Geoid: The geopotential surface defined by the World Geodetic System (WGS) 1984 EGM96 Earth Gravity Model that is closely associated with the mean ocean surface.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="#wgs84Ellipsoid">
+<rdfs:label>WGS 84 Ellipsoid: The oblate ellipsoidal figure of the Earth defined by the World Geodetic System (WGS) 1984.</rdfs:label>
+<rdf:type rdf:resource="#VerticalDatumCodeSimpleType"/>
+</owl:NamedIndividual>
+
+  
+    
+      
+    
+    
+      
+        
+      
+    
+  
+  
+    
+      
+    
+  
+</rdf:RDF>
+
